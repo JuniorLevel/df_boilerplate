@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Run Flow check
+flow check --quiet || exit 1
