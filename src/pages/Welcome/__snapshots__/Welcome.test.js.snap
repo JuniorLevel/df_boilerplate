@@ -3,15 +3,15 @@
 exports[`Welcome Component takes snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="Welcome__Container-sc-1bu4lih-1 jjMlgy"
+    class="Welcome__Container-sc-bupg50-1 jmeDLg"
   >
     <h1
-      class="Welcome__Title-sc-1bu4lih-0 cteDnk"
+      class="Welcome__Title-sc-bupg50-0 dMltcS"
     >
       Welcome
     </h1>
     <input
-      class="ant-input css-dev-only-do-not-override-3rel02 ant-input-outlined Welcome__EnterEmailInput-sc-1bu4lih-4 ibOCEE"
+      class="ant-input css-dev-only-do-not-override-3rel02 ant-input-outlined Welcome__EnterEmailInput-sc-bupg50-4 kkZxZa"
       placeholder="email"
       type="text"
       value=""
@@ -35,10 +35,10 @@ exports[`Welcome Component takes snapshot 1`] = `
       </span>
     </button>
     <div
-      class="Welcome__SignButtonPanel-sc-1bu4lih-2 IgafW"
+      class="Welcome__SignButtonPanel-sc-bupg50-2 khABKo"
     >
       <div
-        class="Welcome__BorderButton-sc-1bu4lih-3 bNhVyb"
+        class="Welcome__BorderButton-sc-bupg50-3 biYvMd"
       >
         <span
           aria-label="google"
@@ -62,7 +62,7 @@ exports[`Welcome Component takes snapshot 1`] = `
         </span>
       </div>
       <div
-        class="Welcome__BorderButton-sc-1bu4lih-3 bNhVyb"
+        class="Welcome__BorderButton-sc-bupg50-3 biYvMd"
       >
         <span
           style="font-size: 35px;"
