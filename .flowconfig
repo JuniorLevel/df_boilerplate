@@ -6,7 +6,9 @@ src/**/*.{js,jsx}
 [libs]
 
 [lints]
-
+all=warn
+untyped-type-import=error
+sketchy-null-bool=off
 [options]
 module.name_mapper='@/(.*)' -> 'src/$1'
 react.runtime=automatic
