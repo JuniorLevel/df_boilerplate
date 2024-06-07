@@ -3,18 +3,18 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  max-width: 1400px;
-  width: 100%;
-  margin: 0 auto;
-  font-weight: 400;
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: 400;
 `;
 
 type TLayoutProps = {
-  children: React$Node,
+	children: React$Node,
 };
 
-function Layout({ children }: TLayoutProps): React$Node {
-  return <Wrapper>{children}</Wrapper>;
-}
+const Layout = ({ children }: TLayoutProps): React$Node => (
+	<Wrapper>{children}</Wrapper>
+);
 
 export default Layout;
