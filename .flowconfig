@@ -1,6 +1,6 @@
 [ignore]
-node_modules/ 
-build/
+.*/node_modules/*
+.*/build/*
 [include]
 src/**/*.{js,jsx} 
 [libs]
@@ -8,8 +8,7 @@ src/**/*.{js,jsx}
 [lints]
 all=warn
 untyped-type-import=error
-sketchy-null-bool=off
 [options]
-module.name_mapper='@/(.*)' -> 'src/$1'
+autoimports=true
 react.runtime=automatic
 [strict]

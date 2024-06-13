@@ -1,12 +1,17 @@
 // @flow
-import React from 'react';
+import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './components/App/App';
+import { BrowserRouter } from 'react-router-dom';
+import { Reset } from 'styled-reset';
+import AppRouter from './components/AppRouter';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>
+	<StrictMode>
+		<BrowserRouter>
+			<AppRouter />
+			<Reset />
+		</BrowserRouter>
+	</StrictMode>
 );
