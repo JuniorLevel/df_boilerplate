@@ -17,7 +17,7 @@ module.exports = {
 		'plugin:import/recommended',
 		'plugin:react/recommended',
 	],
-	plugins: ['react', 'ft-flow', 'fb-flow', 'react-hooks', 'jest', 'import'],
+	plugins: ['react', 'ft-flow', 'fb-flow', 'react-hooks', 'import'],
 	rules: {
 		'react/jsx-uses-react': 'error',
 		'react/jsx-uses-vars': 'error',
@@ -26,11 +26,6 @@ module.exports = {
 		'fb-flow/use-indexed-access-type': 2,
 		'react-hooks/rules-of-hooks': 'error',
 		'react-hooks/exhaustive-deps': 'warn',
-		'jest/no-disabled-tests': 'warn',
-		'jest/no-focused-tests': 'error',
-		'jest/no-identical-title': 'error',
-		'jest/prefer-to-have-length': 'warn',
-		'jest/valid-expect': 'error',
 		'react/function-component-definition': 0,
 	},
 	env: {

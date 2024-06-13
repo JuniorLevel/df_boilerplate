@@ -30,7 +30,6 @@ module.exports = (env) => ({
 	resolve: { extensions: ['.*', '.js', '.jsx'] },
 	output: {
 		path: path.resolve(__dirname, 'build'),
-		assetModuleFilename: 'assets/[hash][ext][query]',
 		filename: '[name].[contenthash].js',
 		clean: true,
 	},
@@ -47,6 +46,7 @@ module.exports = (env) => ({
 	],
 	devtool: env.MODE === 'development' && 'inline-source-map',
 	devServer: {
+		historyApiFallback: true,
 		port: env.PORT || 3000,
 		open: true,
 		hot: true,
