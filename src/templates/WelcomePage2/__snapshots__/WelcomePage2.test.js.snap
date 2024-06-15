@@ -225,26 +225,6 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
   <div
     class="FourImagesBg__DivImage-sc-16gvw9h-0 kQilbn"
   >
-    <img
-      alt="landscape"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
-      src="[object Object]"
-    />
-    <img
-      alt="space"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
-      src="[object Object]"
-    />
-    <img
-      alt="landscape 3"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
-      src="[object Object]"
-    />
-    <img
-      alt="landscape 4"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
-      src="[object Object]"
-    />
     <div
       class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center ant-flex-justify-center"
       style="height: 100vh;"

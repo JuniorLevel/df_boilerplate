@@ -483,11 +483,6 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
   <div
     class="SingleImageBg__DivImage-sc-1v33xz2-0 bxOkaX"
   >
-    <img
-      alt="landscape"
-      class="SingleImageBg__Image-sc-1v33xz2-1 ytLEJ"
-      src="[object Object]"
-    />
     <div
       class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center ant-flex-justify-center"
       style="height: 100vh;"

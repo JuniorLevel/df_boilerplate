@@ -27,6 +27,7 @@ module.exports = {
 		'react-hooks/rules-of-hooks': 'error',
 		'react-hooks/exhaustive-deps': 'warn',
 		'react/function-component-definition': 0,
+		'import/prefer-default-export': 0,
 	},
 	env: {
 		browser: true,
