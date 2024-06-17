@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import styled from 'styled-components';
+import MediaQuery from 'react-responsive';
 import Image1 from '../../assets/Image1.jpg';
 
 const DivImage = styled.div`
@@ -23,7 +24,9 @@ interface IFourImagesBgProps {
 
 const FourImagesBg = ({ children }: IFourImagesBgProps): React$MixedElement => (
 	<DivImage>
-		<Image src={Image1} alt="landscape" />
+		<MediaQuery minWidth={361}>
+			<Image src={Image1} alt="landscape" />
+		</MediaQuery>
 		{children}
 	</DivImage>
 );

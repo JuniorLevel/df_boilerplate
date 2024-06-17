@@ -2,6 +2,7 @@
 
 import React from 'react';
 import styled from 'styled-components';
+import MediaQuery from 'react-responsive';
 import Image1 from '../../assets/Image1.jpg';
 import Image2 from '../../assets/Image2.jpg';
 import Image3 from '../../assets/Image3.jpg';
@@ -43,10 +44,12 @@ interface IFourImagesBgProps {
 
 const FourImagesBg = ({ children }: IFourImagesBgProps): React$MixedElement => (
 	<DivImage>
-		<Image src={Image1} alt="landscape" />
-		<Image src={Image2} alt="space" />
-		<Image src={Image3} alt="landscape 3" />
-		<Image src={Image4} alt="landscape 4" />
+		<MediaQuery minWidth={361}>
+			<Image src={Image1} alt="landscape" />
+			<Image src={Image2} alt="space" />
+			<Image src={Image3} alt="landscape 3" />
+			<Image src={Image4} alt="landscape 4" />
+		</MediaQuery>
 		{children}
 	</DivImage>
 );

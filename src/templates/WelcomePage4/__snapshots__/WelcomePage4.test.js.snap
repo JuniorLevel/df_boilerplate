@@ -34,7 +34,8 @@ exports[`WelcomePage2 matches the snapshot desktop 1`] = `
         style="width: 100%; max-width: 300px; padding: 20px 15px;"
       >
         <h1
-          class="Welcome__Title-sc-e8hzxi-0 dtTAXl"
+          class="ant-typography css-dev-only-do-not-override-zg0ahe"
+          style="text-align: center;"
         >
           Welcome
         </h1>
@@ -288,7 +289,8 @@ exports[`WelcomePage2 matches the snapshot laptop 1`] = `
         style="width: 100%; max-width: 300px; padding: 20px 15px;"
       >
         <h1
-          class="Welcome__Title-sc-e8hzxi-0 dtTAXl"
+          class="ant-typography css-dev-only-do-not-override-zg0ahe"
+          style="text-align: center;"
         >
           Welcome
         </h1>
@@ -513,26 +515,6 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
   <div
     class="FourImagesBg__DivImage-sc-16gvw9h-0 kQilbn"
   >
-    <img
-      alt="landscape"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
-      src="[object Object]"
-    />
-    <img
-      alt="space"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
-      src="[object Object]"
-    />
-    <img
-      alt="landscape 3"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
-      src="[object Object]"
-    />
-    <img
-      alt="landscape 4"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
-      src="[object Object]"
-    />
     <div
       class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center ant-flex-justify-center"
       style="height: 100vh;"
@@ -542,7 +524,8 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
         style="width: 100%; max-width: 300px; padding: 20px 15px;"
       >
         <h1
-          class="Welcome__Title-sc-e8hzxi-0 dtTAXl"
+          class="ant-typography css-dev-only-do-not-override-zg0ahe"
+          style="text-align: center;"
         >
           Welcome
         </h1>

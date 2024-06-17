@@ -8,10 +8,19 @@ import WelcomePage5 from '../templates/WelcomePage5/WelcomePage5';
 import WelcomePage6 from '../templates/WelcomePage6/WelcomePage6';
 import WelcomePage7 from '../templates/WelcomePage7/WelcomePage7';
 import WelcomePage8 from '../templates/WelcomePage8/WelcomePage8';
+import HomePage from '../templates/HomePage/HomePage';
+import HomeDev from './HomeDev/HomeDev';
+import FiltersOpenedPage from '../templates/FiltersOpenedPage/FiltersOpenedPage';
+import FiltersClosedPage from '../templates/FiltersClosedPage/FiltersClosedPage';
 
 const AppRouter = () => (
 	<Routes>
-		<Route exact path="/" element={<WelcomePage1 />} />
+		<Route exact path="/" element={<HomeDev />} />
+		<Route exact path="/home" element={<HomePage />} />
+		<Route exact path="/FiltersOpenedPage" element={<FiltersOpenedPage />} />
+		<Route exact path="/FiltersClosedPage" element={<FiltersClosedPage />} />
+		<Route exact path="/home" element={<HomePage />} />
+		<Route exact path="/WelcomePage1" element={<WelcomePage1 />} />
 		<Route path="/WelcomePage2" element={<WelcomePage2 />} />
 		<Route path="/WelcomePage3" element={<WelcomePage3 />} />
 		<Route path="/WelcomePage4" element={<WelcomePage4 />} />
