@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HomePage matches the snapshot desktop 1`] = `
+exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
 <div>
   <div
     class="ant-layout css-dev-only-do-not-override-zg0ahe"
@@ -211,8 +211,272 @@ exports[`HomePage matches the snapshot desktop 1`] = `
         class="ant-layout-content css-dev-only-do-not-override-zg0ahe"
         style="color: rgb(0, 0, 0);"
       >
-        <div>
-          Content
+        <div
+          class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-gap-middle"
+          style="padding: 10px; overflow-x: auto; background-color: pink;"
+        >
+          <div
+            style="display: flex; gap: 15px;"
+          >
+            <div>
+              <div
+                class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+                style="border-radius: 0; border-color: black; border-width: 3px; width: 300px; min-height: 350px;"
+              >
+                <div
+                  class="ant-card-body"
+                >
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    style="min-height: 350px;"
+                  >
+                    <div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="1"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          lorem-1
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only ant-btn-block"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-icon"
+                      >
+                        <span
+                          aria-label="plus"
+                          class="anticon anticon-plus"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="plus"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="64 64 896 896"
+                            width="1em"
+                          >
+                            <path
+                              d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                            />
+                            <path
+                              d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+                style="border-radius: 0; border-color: black; border-width: 3px; width: 300px; min-height: 350px;"
+              >
+                <div
+                  class="ant-card-body"
+                >
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    style="min-height: 350px;"
+                  >
+                    <div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="1"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          project-1
+                        </div>
+                      </div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="2"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          project-2
+                        </div>
+                      </div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="3"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          project-3
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only ant-btn-block"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-icon"
+                      >
+                        <span
+                          aria-label="plus"
+                          class="anticon anticon-plus"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="plus"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="64 64 896 896"
+                            width="1em"
+                          >
+                            <path
+                              d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                            />
+                            <path
+                              d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+                style="border-radius: 0; border-color: black; border-width: 3px; width: 300px; min-height: 350px;"
+              >
+                <div
+                  class="ant-card-body"
+                >
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    style="min-height: 350px;"
+                  >
+                    <div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="1"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          issue-1
+                        </div>
+                      </div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="2"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          issue-2
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only ant-btn-block"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-icon"
+                      >
+                        <span
+                          aria-label="plus"
+                          class="anticon anticon-plus"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="plus"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="64 64 896 896"
+                            width="1em"
+                          >
+                            <path
+                              d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                            />
+                            <path
+                              d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px; min-width: 300px; min-height: 350px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center ant-flex-justify-center"
+                style="height: 350px;"
+              >
+                <button
+                  class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only"
+                  type="button"
+                >
+                  <span
+                    class="ant-btn-icon"
+                  >
+                    <span
+                      aria-label="plus"
+                      class="anticon anticon-plus"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="plus"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                        />
+                        <path
+                          d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
@@ -220,7 +484,7 @@ exports[`HomePage matches the snapshot desktop 1`] = `
 </div>
 `;
 
-exports[`HomePage matches the snapshot laptop 1`] = `
+exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
 <div>
   <div
     class="ant-layout css-dev-only-do-not-override-zg0ahe"
@@ -431,8 +695,272 @@ exports[`HomePage matches the snapshot laptop 1`] = `
         class="ant-layout-content css-dev-only-do-not-override-zg0ahe"
         style="color: rgb(0, 0, 0);"
       >
-        <div>
-          Content
+        <div
+          class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-gap-middle"
+          style="padding: 10px; overflow-x: auto; background-color: pink;"
+        >
+          <div
+            style="display: flex; gap: 15px;"
+          >
+            <div>
+              <div
+                class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+                style="border-radius: 0; border-color: black; border-width: 3px; width: 300px; min-height: 350px;"
+              >
+                <div
+                  class="ant-card-body"
+                >
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    style="min-height: 350px;"
+                  >
+                    <div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="1"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          lorem-1
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only ant-btn-block"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-icon"
+                      >
+                        <span
+                          aria-label="plus"
+                          class="anticon anticon-plus"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="plus"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="64 64 896 896"
+                            width="1em"
+                          >
+                            <path
+                              d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                            />
+                            <path
+                              d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+                style="border-radius: 0; border-color: black; border-width: 3px; width: 300px; min-height: 350px;"
+              >
+                <div
+                  class="ant-card-body"
+                >
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    style="min-height: 350px;"
+                  >
+                    <div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="1"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          project-1
+                        </div>
+                      </div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="2"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          project-2
+                        </div>
+                      </div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="3"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          project-3
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only ant-btn-block"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-icon"
+                      >
+                        <span
+                          aria-label="plus"
+                          class="anticon anticon-plus"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="plus"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="64 64 896 896"
+                            width="1em"
+                          >
+                            <path
+                              d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                            />
+                            <path
+                              d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+                style="border-radius: 0; border-color: black; border-width: 3px; width: 300px; min-height: 350px;"
+              >
+                <div
+                  class="ant-card-body"
+                >
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    style="min-height: 350px;"
+                  >
+                    <div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="1"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          issue-1
+                        </div>
+                      </div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="2"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          issue-2
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only ant-btn-block"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-icon"
+                      >
+                        <span
+                          aria-label="plus"
+                          class="anticon anticon-plus"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="plus"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="64 64 896 896"
+                            width="1em"
+                          >
+                            <path
+                              d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                            />
+                            <path
+                              d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px; min-width: 300px; min-height: 350px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center ant-flex-justify-center"
+                style="height: 350px;"
+              >
+                <button
+                  class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only"
+                  type="button"
+                >
+                  <span
+                    class="ant-btn-icon"
+                  >
+                    <span
+                      aria-label="plus"
+                      class="anticon anticon-plus"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="plus"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                        />
+                        <path
+                          d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
@@ -440,7 +968,7 @@ exports[`HomePage matches the snapshot laptop 1`] = `
 </div>
 `;
 
-exports[`HomePage matches the snapshot mobile 1`] = `
+exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
 <div>
   <div
     class="ant-layout css-dev-only-do-not-override-zg0ahe"
@@ -651,8 +1179,272 @@ exports[`HomePage matches the snapshot mobile 1`] = `
         class="ant-layout-content css-dev-only-do-not-override-zg0ahe"
         style="color: rgb(0, 0, 0);"
       >
-        <div>
-          Content
+        <div
+          class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-gap-middle"
+          style="padding: 10px; overflow-x: auto; background-color: pink;"
+        >
+          <div
+            style="display: flex; gap: 15px;"
+          >
+            <div>
+              <div
+                class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+                style="border-radius: 0; border-color: black; border-width: 3px; width: 300px; min-height: 350px;"
+              >
+                <div
+                  class="ant-card-body"
+                >
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    style="min-height: 350px;"
+                  >
+                    <div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="1"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          lorem-1
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only ant-btn-block"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-icon"
+                      >
+                        <span
+                          aria-label="plus"
+                          class="anticon anticon-plus"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="plus"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="64 64 896 896"
+                            width="1em"
+                          >
+                            <path
+                              d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                            />
+                            <path
+                              d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+                style="border-radius: 0; border-color: black; border-width: 3px; width: 300px; min-height: 350px;"
+              >
+                <div
+                  class="ant-card-body"
+                >
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    style="min-height: 350px;"
+                  >
+                    <div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="1"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          project-1
+                        </div>
+                      </div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="2"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          project-2
+                        </div>
+                      </div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="3"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          project-3
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only ant-btn-block"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-icon"
+                      >
+                        <span
+                          aria-label="plus"
+                          class="anticon anticon-plus"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="plus"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="64 64 896 896"
+                            width="1em"
+                          >
+                            <path
+                              d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                            />
+                            <path
+                              d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div
+                class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+                style="border-radius: 0; border-color: black; border-width: 3px; width: 300px; min-height: 350px;"
+              >
+                <div
+                  class="ant-card-body"
+                >
+                  <div
+                    class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    style="min-height: 350px;"
+                  >
+                    <div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="1"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          issue-1
+                        </div>
+                      </div>
+                      <div
+                        class="FiltersCard__StyledCardItemDiv-sc-1vozut2-0 A-DsZS"
+                        data-id="2"
+                        style="margin-bottom: 20px;"
+                      >
+                        <div
+                          class="FiltersCardItem__StyledItemDiv-sc-11tvpcw-0 etCiCi"
+                        >
+                          issue-2
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only ant-btn-block"
+                      type="button"
+                    >
+                      <span
+                        class="ant-btn-icon"
+                      >
+                        <span
+                          aria-label="plus"
+                          class="anticon anticon-plus"
+                          role="img"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            data-icon="plus"
+                            fill="currentColor"
+                            focusable="false"
+                            height="1em"
+                            viewBox="64 64 896 896"
+                            width="1em"
+                          >
+                            <path
+                              d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                            />
+                            <path
+                              d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                            />
+                          </svg>
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px; min-width: 300px; min-height: 350px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center ant-flex-justify-center"
+                style="height: 350px;"
+              >
+                <button
+                  class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-icon-only"
+                  type="button"
+                >
+                  <span
+                    class="ant-btn-icon"
+                  >
+                    <span
+                      aria-label="plus"
+                      class="anticon anticon-plus"
+                      role="img"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        data-icon="plus"
+                        fill="currentColor"
+                        focusable="false"
+                        height="1em"
+                        viewBox="64 64 896 896"
+                        width="1em"
+                      >
+                        <path
+                          d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                        />
+                        <path
+                          d="M192 474h672q8 0 8 8v60q0 8-8 8H160q-8 0-8-8v-60q0-8 8-8z"
+                        />
+                      </svg>
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>

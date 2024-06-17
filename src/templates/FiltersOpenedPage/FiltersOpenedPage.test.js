@@ -2,15 +2,15 @@ import React from 'react';
 import { Context as ResponsiveContext } from 'react-responsive';
 import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import HomePage from './HomePage';
+import FiltersOpenedPage from './FiltersOpenedPage';
 import '../../../__mocks__/matchMedia.mock';
 
-describe('HomePage', () => {
+describe('FiltersOpenedPage', () => {
 	test('matches the snapshot desktop', () => {
 		const { container: desktop } = render(
 			<ResponsiveContext.Provider value={{ width: 1920 }}>
 				<BrowserRouter>
-					<HomePage />
+					<FiltersOpenedPage />
 				</BrowserRouter>
 			</ResponsiveContext.Provider>
 		);
@@ -21,7 +21,7 @@ describe('HomePage', () => {
 		const { container: laptop } = render(
 			<ResponsiveContext.Provider value={{ width: 1024 }}>
 				<BrowserRouter>
-					<HomePage />
+					<FiltersOpenedPage />
 				</BrowserRouter>
 			</ResponsiveContext.Provider>
 		);
@@ -32,7 +32,7 @@ describe('HomePage', () => {
 		const { container: mobile } = render(
 			<ResponsiveContext.Provider value={{ width: 360 }}>
 				<BrowserRouter>
-					<HomePage />
+					<FiltersOpenedPage />
 				</BrowserRouter>
 			</ResponsiveContext.Provider>
 		);

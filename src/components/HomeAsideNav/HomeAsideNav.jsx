@@ -17,7 +17,13 @@ const StyledListItem = styled.li`
 	}
 `;
 
-const HomeAsideNav = (): React$MixedElement => (
+interface IHomeAsideNavProps {
+	isCollapsedSider?: boolean;
+}
+
+const HomeAsideNav = ({
+	isCollapsedSider,
+}: IHomeAsideNavProps): React$MixedElement => (
 	<nav>
 		<ul>
 			{homeAsideRoutes.map((route) => (
@@ -29,7 +35,7 @@ const HomeAsideNav = (): React$MixedElement => (
 						>
 							<route.icon />
 							<MediaQuery minWidth={361}>
-								<span>{route.name}</span>
+								{!isCollapsedSider && <span>{route.name}</span>}
 							</MediaQuery>
 						</Button>
 					</StyledListItem>

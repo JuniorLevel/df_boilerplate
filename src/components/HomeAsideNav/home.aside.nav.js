@@ -5,14 +5,14 @@ import {
 	AppleOutlined,
 } from '@ant-design/icons';
 
-interface IHomeAsideNav {
+interface IHomeAsideRoutes {
 	id: number;
 	name: string;
 	path: string;
 	icon: React.ComponentType<any>;
 }
 
-export const homeAsideRoutes: IHomeAsideNav[] = [
+export const homeAsideRoutes: IHomeAsideRoutes[] = [
 	{
 		id: 1,
 		name: 'Orders',

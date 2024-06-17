@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HomePage matches the snapshot desktop 1`] = `
+exports[`FiltersClosedPage matches the snapshot desktop 1`] = `
 <div>
   <div
     class="ant-layout css-dev-only-do-not-override-zg0ahe"
@@ -211,8 +211,127 @@ exports[`HomePage matches the snapshot desktop 1`] = `
         class="ant-layout-content css-dev-only-do-not-override-zg0ahe"
         style="color: rgb(0, 0, 0);"
       >
-        <div>
-          Content
+        <div
+          class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-gap-middle"
+          style="padding: 10px; overflow-x: auto; background-color: pink;"
+        >
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                style="gap: 10px;"
+              >
+                <div>
+                  Flow_typed-1
+                </div>
+                <span
+                  class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                >
+                  <sup
+                    class="ant-scroll-number ant-badge-count"
+                    data-show="true"
+                    title="1"
+                  >
+                    <bdi>
+                      <span
+                        class="ant-scroll-number-only"
+                        style="transition: none;"
+                      >
+                        <span
+                          class="ant-scroll-number-only-unit current"
+                        >
+                          1
+                        </span>
+                      </span>
+                    </bdi>
+                  </sup>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                style="gap: 10px;"
+              >
+                <div>
+                  Flow_typed-2
+                </div>
+                <span
+                  class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                >
+                  <sup
+                    class="ant-scroll-number ant-badge-count"
+                    data-show="true"
+                    title="3"
+                  >
+                    <bdi>
+                      <span
+                        class="ant-scroll-number-only"
+                        style="transition: none;"
+                      >
+                        <span
+                          class="ant-scroll-number-only-unit current"
+                        >
+                          3
+                        </span>
+                      </span>
+                    </bdi>
+                  </sup>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                style="gap: 10px;"
+              >
+                <div>
+                  Flow_typed-3
+                </div>
+                <span
+                  class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                >
+                  <sup
+                    class="ant-scroll-number ant-badge-count"
+                    data-show="true"
+                    title="2"
+                  >
+                    <bdi>
+                      <span
+                        class="ant-scroll-number-only"
+                        style="transition: none;"
+                      >
+                        <span
+                          class="ant-scroll-number-only-unit current"
+                        >
+                          2
+                        </span>
+                      </span>
+                    </bdi>
+                  </sup>
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
@@ -220,7 +339,7 @@ exports[`HomePage matches the snapshot desktop 1`] = `
 </div>
 `;
 
-exports[`HomePage matches the snapshot laptop 1`] = `
+exports[`FiltersClosedPage matches the snapshot laptop 1`] = `
 <div>
   <div
     class="ant-layout css-dev-only-do-not-override-zg0ahe"
@@ -431,8 +550,127 @@ exports[`HomePage matches the snapshot laptop 1`] = `
         class="ant-layout-content css-dev-only-do-not-override-zg0ahe"
         style="color: rgb(0, 0, 0);"
       >
-        <div>
-          Content
+        <div
+          class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-gap-middle"
+          style="padding: 10px; overflow-x: auto; background-color: pink;"
+        >
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                style="gap: 10px;"
+              >
+                <div>
+                  Flow_typed-1
+                </div>
+                <span
+                  class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                >
+                  <sup
+                    class="ant-scroll-number ant-badge-count"
+                    data-show="true"
+                    title="1"
+                  >
+                    <bdi>
+                      <span
+                        class="ant-scroll-number-only"
+                        style="transition: none;"
+                      >
+                        <span
+                          class="ant-scroll-number-only-unit current"
+                        >
+                          1
+                        </span>
+                      </span>
+                    </bdi>
+                  </sup>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                style="gap: 10px;"
+              >
+                <div>
+                  Flow_typed-2
+                </div>
+                <span
+                  class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                >
+                  <sup
+                    class="ant-scroll-number ant-badge-count"
+                    data-show="true"
+                    title="3"
+                  >
+                    <bdi>
+                      <span
+                        class="ant-scroll-number-only"
+                        style="transition: none;"
+                      >
+                        <span
+                          class="ant-scroll-number-only-unit current"
+                        >
+                          3
+                        </span>
+                      </span>
+                    </bdi>
+                  </sup>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                style="gap: 10px;"
+              >
+                <div>
+                  Flow_typed-3
+                </div>
+                <span
+                  class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                >
+                  <sup
+                    class="ant-scroll-number ant-badge-count"
+                    data-show="true"
+                    title="2"
+                  >
+                    <bdi>
+                      <span
+                        class="ant-scroll-number-only"
+                        style="transition: none;"
+                      >
+                        <span
+                          class="ant-scroll-number-only-unit current"
+                        >
+                          2
+                        </span>
+                      </span>
+                    </bdi>
+                  </sup>
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
@@ -440,7 +678,7 @@ exports[`HomePage matches the snapshot laptop 1`] = `
 </div>
 `;
 
-exports[`HomePage matches the snapshot mobile 1`] = `
+exports[`FiltersClosedPage matches the snapshot mobile 1`] = `
 <div>
   <div
     class="ant-layout css-dev-only-do-not-override-zg0ahe"
@@ -651,8 +889,127 @@ exports[`HomePage matches the snapshot mobile 1`] = `
         class="ant-layout-content css-dev-only-do-not-override-zg0ahe"
         style="color: rgb(0, 0, 0);"
       >
-        <div>
-          Content
+        <div
+          class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-gap-middle"
+          style="padding: 10px; overflow-x: auto; background-color: pink;"
+        >
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                style="gap: 10px;"
+              >
+                <div>
+                  Flow_typed-1
+                </div>
+                <span
+                  class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                >
+                  <sup
+                    class="ant-scroll-number ant-badge-count"
+                    data-show="true"
+                    title="1"
+                  >
+                    <bdi>
+                      <span
+                        class="ant-scroll-number-only"
+                        style="transition: none;"
+                      >
+                        <span
+                          class="ant-scroll-number-only-unit current"
+                        >
+                          1
+                        </span>
+                      </span>
+                    </bdi>
+                  </sup>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                style="gap: 10px;"
+              >
+                <div>
+                  Flow_typed-2
+                </div>
+                <span
+                  class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                >
+                  <sup
+                    class="ant-scroll-number ant-badge-count"
+                    data-show="true"
+                    title="3"
+                  >
+                    <bdi>
+                      <span
+                        class="ant-scroll-number-only"
+                        style="transition: none;"
+                      >
+                        <span
+                          class="ant-scroll-number-only-unit current"
+                        >
+                          3
+                        </span>
+                      </span>
+                    </bdi>
+                  </sup>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card ant-card-bordered css-dev-only-do-not-override-zg0ahe"
+            style="border-radius: 0; border-color: black; border-width: 3px;"
+          >
+            <div
+              class="ant-card-body"
+            >
+              <div
+                class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                style="gap: 10px;"
+              >
+                <div>
+                  Flow_typed-3
+                </div>
+                <span
+                  class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                >
+                  <sup
+                    class="ant-scroll-number ant-badge-count"
+                    data-show="true"
+                    title="2"
+                  >
+                    <bdi>
+                      <span
+                        class="ant-scroll-number-only"
+                        style="transition: none;"
+                      >
+                        <span
+                          class="ant-scroll-number-only-unit current"
+                        >
+                          2
+                        </span>
+                      </span>
+                    </bdi>
+                  </sup>
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
