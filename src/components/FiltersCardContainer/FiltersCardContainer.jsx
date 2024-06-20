@@ -13,9 +13,9 @@ const FiltersCardContainer = ({
 	<Flex
 		gap="middle"
 		style={{
+			margin: '10px 10px 0 10px',
 			padding: '10px',
 			overflowX: 'auto',
-			backgroundColor: 'pink',
 		}}
 	>
 		{children}

@@ -1,12 +1,13 @@
 // @flow
 
 import React, { useState } from 'react';
-import { ArrowsAltOutlined, CloseSquareOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
+import CloseSquareOutlined from '@ant-design/icons/CloseSquareOutlined';
+import { ArrowsAltOutlined } from '@ant-design/icons';
 import Container from '../../components/Container/Container';
 import FiltersCardContainer from '../../components/FiltersCardContainer/FiltersCardContainer';
 import FiltersCardClosed from '../../components/FiltersCardContainer/FiltersCardClosed/FiltersCardClosed';
-import FiltersSearchList from '../../components/FiltersSearchList/FiltersSearchList';
+import FiltersSearchListWithPreviewPage from '../../components/FiltersSearchListWithPreviewPage/FiltersSearchListWithPreviewPage';
 import FiltersCard from '../../components/FiltersCardContainer/FiltersCard/FiltersCard';
 
 const filterCardsClosed = [
@@ -35,8 +36,9 @@ const filterCardsClosed = [
 	},
 ];
 
-const FiltersClosedPage = (): React$MixedElement => {
+const FiltersClosedPreviewPage = (): React$MixedElement => {
 	const [isOpenCards, setIsOpenCards] = useState(false);
+
 	return (
 		<Container>
 			<FiltersCardContainer>
@@ -63,9 +65,9 @@ const FiltersClosedPage = (): React$MixedElement => {
 					/>
 				)}
 			</FiltersCardContainer>
-			<FiltersSearchList />
+			<FiltersSearchListWithPreviewPage />
 		</Container>
 	);
 };
 
-export default FiltersClosedPage;
+export default FiltersClosedPreviewPage;

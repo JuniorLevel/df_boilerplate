@@ -14,7 +14,7 @@ const Container = ({ children }: IContainerProps): React$MixedElement => {
 	const { Content } = Layout;
 
 	return (
-		<Layout style={{ height: '100vh', overflowY: 'hidden' }}>
+		<Layout style={{ height: '100vh' }}>
 			<HeaderHome />
 			<Layout>
 				<MediaQuery maxWidth={360}>
@@ -23,7 +23,7 @@ const Container = ({ children }: IContainerProps): React$MixedElement => {
 				<MediaQuery minWidth={361}>
 					<AsideHomeDesktop />
 				</MediaQuery>
-				<Content style={{ color: '#000000' }}>{children}</Content>
+				<Content style={{ overflow: 'auto' }}>{children}</Content>
 			</Layout>
 		</Layout>
 	);
