@@ -1,44 +1,45 @@
 // @flow
 import React, { useState, useEffect, useRef } from 'react';
-import { Layout } from 'antd';
+import { ConfigProvider, Layout } from 'antd';
 import HomeAsideNav from '../HomeAsideNav/HomeAsideNav';
 
 const AsideHomeDesktop = (): React$MixedElement => {
 	const { Sider } = Layout;
-	const [isCollapsedSider, setIsCollapsedSider] = useState(true);
-	const siderRef = useRef(null);
+	const [isCollapsedSidebar, setIsCollapsedSidebar] = useState(true);
+	const sidebarRef = useRef(null);
 
 	const handleMouseOver = () => {
-		setIsCollapsedSider(false);
+		setIsCollapsedSidebar(false);
 	};
 
 	const handleMouseLeave = () => {
-		setIsCollapsedSider(true);
+		setIsCollapsedSidebar(true);
 	};
 
 	useEffect(() => {
-		const siderElement = siderRef.current;
-		if (siderElement) {
-			siderElement.addEventListener('mouseover', handleMouseOver);
-			siderElement.addEventListener('mouseleave', handleMouseLeave);
+		const sidebarElement = sidebarRef.current;
+		if (sidebarElement) {
+			sidebarElement.addEventListener('mouseover', handleMouseOver);
+			sidebarElement.addEventListener('mouseleave', handleMouseLeave);
 			return () => {
-				siderElement.removeEventListener('mouseover', handleMouseOver);
-				siderElement.removeEventListener('mouseleave', handleMouseLeave);
+				sidebarElement.removeEventListener('mouseover', handleMouseOver);
+				sidebarElement.removeEventListener('mouseleave', handleMouseLeave);
 			};
 		}
 	}, []);
 
 	return (
-		<Sider
-			width={isCollapsedSider ? 65 : 200}
-			style={{
-				overflow: 'auto',
-				backgroundColor: '#989393',
-			}}
-			ref={siderRef}
-		>
-			<HomeAsideNav isCollapsedSider={isCollapsedSider} />
-		</Sider>
+		<ConfigProvider theme={{ token: { colorTextBase: 'white' } }}>
+			<Sider
+				width={isCollapsedSidebar ? 65 : 200}
+				style={{
+					overflow: 'auto',
+				}}
+				ref={sidebarRef}
+			>
+				<HomeAsideNav isCollapsedSidebar={isCollapsedSidebar} />
+			</Sider>
+		</ConfigProvider>
 	);
 };
 
