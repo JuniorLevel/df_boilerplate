@@ -3,14 +3,27 @@ import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { Reset } from 'styled-reset';
+import { ConfigProvider } from 'antd';
 import AppRouter from './components/AppRouter';
+import { ThemeProvider, ThemeContext } from './context/theme/ThemeContext';
+import { LightTheme, DarkTheme } from './assets/global.styles';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(
 	<StrictMode>
 		<BrowserRouter>
-			<AppRouter />
+			<ThemeProvider>
+				<ThemeContext.Consumer>
+					{({ currentTheme }) => (
+						<ConfigProvider
+							theme={currentTheme === 'light' ? LightTheme : DarkTheme}
+						>
+							<AppRouter />
+						</ConfigProvider>
+					)}
+				</ThemeContext.Consumer>
+			</ThemeProvider>
 			<Reset />
 		</BrowserRouter>
 	</StrictMode>

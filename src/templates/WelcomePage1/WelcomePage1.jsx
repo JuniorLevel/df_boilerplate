@@ -4,8 +4,8 @@ import React from 'react';
 import { Button } from 'antd';
 import { GoogleOutlined } from '@ant-design/icons';
 import Welcome from '../../components/Welcome/Welcome';
-import FourImagesBg from '../../components/FourImagesBg/FourImagesBg';
-import WelcomeAuthButtons from '../../components/WelcomeAuthButtons/WelcomeAuthButtons';
+import FourImagesBg from '../../components/Welcome/FourImagesBg/FourImagesBg';
+import WelcomeAuthButtons from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
 
 const WelcomePage = (): React$MixedElement => (
 	<FourImagesBg>

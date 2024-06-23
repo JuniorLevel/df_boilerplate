@@ -26,6 +26,12 @@ const HomeDev = (): React$MixedElement => (
 					<Link to="/FiltersClosedPreviewPage">FiltersClosedPreviewPage</Link>
 				</li>
 				<li>
+					<Link to="/DiffOpenedCardsPage">DiffOpenedCardsPage</Link>
+				</li>
+				<li>
+					<Link to="/DiffClosedCardsPage">DiffClosedCardsPage</Link>
+				</li>
+				<li>
 					<Link to="/WelcomePage1">WelcomePage1</Link>
 				</li>
 				<li>

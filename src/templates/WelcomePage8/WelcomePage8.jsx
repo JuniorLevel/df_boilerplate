@@ -4,8 +4,8 @@ import React from 'react';
 import { Button } from 'antd';
 import { GoogleOutlined } from '@ant-design/icons';
 import Welcome from '../../components/Welcome/Welcome';
-import WelcomeAuthButtons from '../../components/WelcomeAuthButtons/WelcomeAuthButtons';
-import SingleImageBg from '../../components/SingleImageBg/SingleImageBg';
+import WelcomeAuthButtons from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
+import SingleImageBg from '../../components/Welcome/SingleImageBg/SingleImageBg';
 
 const WelcomePage = (): React.Node => (
 	<SingleImageBg>
