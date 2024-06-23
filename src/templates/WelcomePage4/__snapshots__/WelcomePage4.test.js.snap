@@ -3,26 +3,26 @@
 exports[`WelcomePage2 matches the snapshot desktop 1`] = `
 <div>
   <div
-    class="FourImagesBg__DivImage-sc-16gvw9h-0 kQilbn"
+    class="FourImagesBgstyles__DivImageContainer-sc-1fpm6f5-0 kZacqn"
   >
     <img
       alt="landscape"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
+      class="FourImagesBgstyles__Image-sc-1fpm6f5-1 czNnHW"
       src="[object Object]"
     />
     <img
       alt="space"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
+      class="FourImagesBgstyles__Image-sc-1fpm6f5-1 czNnHW"
       src="[object Object]"
     />
     <img
       alt="landscape 3"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
+      class="FourImagesBgstyles__Image-sc-1fpm6f5-1 czNnHW"
       src="[object Object]"
     />
     <img
       alt="landscape 4"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
+      class="FourImagesBgstyles__Image-sc-1fpm6f5-1 czNnHW"
       src="[object Object]"
     />
     <div
@@ -258,26 +258,26 @@ exports[`WelcomePage2 matches the snapshot desktop 1`] = `
 exports[`WelcomePage2 matches the snapshot laptop 1`] = `
 <div>
   <div
-    class="FourImagesBg__DivImage-sc-16gvw9h-0 kQilbn"
+    class="FourImagesBgstyles__DivImageContainer-sc-1fpm6f5-0 kZacqn"
   >
     <img
       alt="landscape"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
+      class="FourImagesBgstyles__Image-sc-1fpm6f5-1 czNnHW"
       src="[object Object]"
     />
     <img
       alt="space"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
+      class="FourImagesBgstyles__Image-sc-1fpm6f5-1 czNnHW"
       src="[object Object]"
     />
     <img
       alt="landscape 3"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
+      class="FourImagesBgstyles__Image-sc-1fpm6f5-1 czNnHW"
       src="[object Object]"
     />
     <img
       alt="landscape 4"
-      class="FourImagesBg__Image-sc-16gvw9h-1 rydLB"
+      class="FourImagesBgstyles__Image-sc-1fpm6f5-1 czNnHW"
       src="[object Object]"
     />
     <div
@@ -513,7 +513,7 @@ exports[`WelcomePage2 matches the snapshot laptop 1`] = `
 exports[`WelcomePage2 matches the snapshot mobile 1`] = `
 <div>
   <div
-    class="FourImagesBg__DivImage-sc-16gvw9h-0 kQilbn"
+    class="FourImagesBgstyles__DivImageContainer-sc-1fpm6f5-0 kZacqn"
   >
     <div
       class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center ant-flex-justify-center"
