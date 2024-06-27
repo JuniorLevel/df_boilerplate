@@ -7,15 +7,14 @@ import FiltersSearch from '../../FiltersSearch/FiltersSearch';
 
 const FiltersSearchWithPreviewDesktop = (): React$MixedElement => (
 	<MediaQuery minWidth={361}>
-		<Flex gap={10}>
+		<Flex gap={10} style={{ height: '100%' }}>
 			<Flex
 				style={{
 					maxWidth: '47%',
 					overflow: 'auto',
-					height: '85vh',
 				}}
 			>
-				<FiltersSearch itemsPerPage={1} />
+				<FiltersSearch itemsPerPage={5} />
 			</Flex>
 			<Flex
 				justify="center"

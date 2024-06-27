@@ -8,7 +8,7 @@ interface IThemeProvider {
 
 interface IThemeContext {
 	currentTheme: string;
-	setCurrentTheme: (mode: string) => void;
+	setCurrentTheme: (currentTheme: string) => void;
 }
 
 export const ThemeContext: React$Context<IThemeContext> = createContext({

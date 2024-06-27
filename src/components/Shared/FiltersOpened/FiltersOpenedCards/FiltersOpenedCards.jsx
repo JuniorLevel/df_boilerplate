@@ -4,6 +4,7 @@ import { Flex } from 'antd';
 import FiltersOpenedCardItem from './FiltersOpenedCardItem/FiltersOpenedCardItem';
 import FiltersCardAddItemButton from './FiltersCardAddItemButton/FiltersCardAddItemButton';
 import { StyledCardDiv, StyledCardItemDiv } from './FiltersOpenedCards.styles';
+import StatusContainer from '../../../StatusContainer/StatusContainer';
 
 interface IFiltersOpenedCardsProps {
 	cardItem: Array<any>;
@@ -17,7 +18,9 @@ const FiltersOpenedCards = ({
 			<div>
 				{cardItem.map((item) => (
 					<StyledCardItemDiv key={item.id}>
-						<FiltersOpenedCardItem key={item.id} item={item} />
+						<StatusContainer>
+							<FiltersOpenedCardItem key={item.id} item={item} />
+						</StatusContainer>
 					</StyledCardItemDiv>
 				))}
 			</div>

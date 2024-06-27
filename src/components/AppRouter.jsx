@@ -15,11 +15,13 @@ import FiltersClosedPage from '../templates/FiltersClosedPage/FiltersClosedPage'
 import FiltersClosedPreviewPage from '../templates/FiltersClosedPreviewPage/FiltersClosedPreviewPage';
 import DiffOpenedCardsPage from '../templates/DiffOpenedCardsPage/DiffOpenedCardsPage';
 import DiffClosedCardsPage from '../templates/DiffClosedCardsPage/DiffClosedCardsPage';
+import OrderPage from '../templates/OrderPage/OrderPage';
 
 const AppRouter = () => (
 	<Routes>
 		<Route exact path="/" element={<HomeDev />} />
 		<Route path="/home" element={<HomePage />} />
+		<Route path="/order" element={<OrderPage />} />
 		<Route path="/FiltersOpenedPage" element={<FiltersOpenedPage />} />
 		<Route path="/FiltersClosedPage" element={<FiltersClosedPage />} />
 		<Route

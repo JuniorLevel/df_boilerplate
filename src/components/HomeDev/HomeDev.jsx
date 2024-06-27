@@ -17,6 +17,9 @@ const HomeDev = (): React$MixedElement => (
 					<Link to="/home">Home</Link>
 				</li>
 				<li>
+					<Link to="/order">Order</Link>
+				</li>
+				<li>
 					<Link to="/FiltersOpenedPage">FiltersOpenedPage</Link>
 				</li>
 				<li>

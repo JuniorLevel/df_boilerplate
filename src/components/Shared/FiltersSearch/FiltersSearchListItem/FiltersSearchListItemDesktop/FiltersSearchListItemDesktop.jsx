@@ -6,6 +6,8 @@ import { StarOutlined } from '@ant-design/icons';
 import MediaQuery from 'react-responsive';
 import FiltersSearchListItemUsersInfo from '../FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfo';
 import { StyledFavoriteButton } from '../FiltersSearchListItem.styles';
+import StatusContainer from '../../../../StatusContainer/StatusContainer';
+import FiltersSearchListItemStatus from './FitersSearchListItemStatus/FiltersSearchListItemStatus';
 
 interface IFiltersSearchListItemDesktop {
 	listData: any;
@@ -27,16 +29,9 @@ const FiltersSearchListItemDesktop = ({
 		>
 			<Flex gap={20} wrap style={{ maxWidth: '95%' }}>
 				{listData.dataSearch.map((item) => (
-					<div
-						key={item.id}
-						style={{
-							border: '1px solid black',
-							padding: '5px',
-							fontSize: '1.2em',
-						}}
-					>
-						{item.text}
-					</div>
+					<StatusContainer key={item.id}>
+						<FiltersSearchListItemStatus item={item} />
+					</StatusContainer>
 				))}
 			</Flex>
 			<FiltersSearchListItemUsersInfo

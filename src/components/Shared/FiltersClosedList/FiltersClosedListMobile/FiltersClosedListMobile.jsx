@@ -4,10 +4,10 @@ import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
 import { Button } from 'antd';
 import { ArrowsAltOutlined, CloseSquareOutlined } from '@ant-design/icons';
-import FiltersCardsContainer from '../../../FiltersCardsContainer/FiltersCardsContainer';
-import { filterCardsClosed } from '../../../../../data/filters.cards.data';
-import FiltersClosedCards from '../../FiltersClosedCards/FiltersClosedCards';
-import FiltersOpenedCards from '../../../FiltersOpened/FiltersOpenedCards/FiltersOpenedCards';
+import FiltersCardsContainer from '../../FiltersCardsContainer/FiltersCardsContainer';
+import { filterCardsClosed } from '../../../../data/filters.cards.data';
+import FiltersClosedCards from '../FiltersClosedCards/FiltersClosedCards';
+import FiltersOpenedCards from '../../FiltersOpened/FiltersOpenedCards/FiltersOpenedCards';
 
 const FiltersClosedListMobile = (): React$MixedElement => {
 	const [isOpenCards, setIsOpenCards] = useState(false);

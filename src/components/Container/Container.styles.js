@@ -8,5 +8,6 @@ export const StyledLayout = styled(Layout)`
 `;
 
 export const StyledContent = styled(Content)`
+	height: calc(100vh - 64px);
 	overflow: auto;
 `;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HomePage matches the snapshot desktop 1`] = `
+exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
 <div>
   <div
     class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 ExmQa css-dev-only-do-not-override-zg0ahe"
@@ -250,8 +250,301 @@ exports[`HomePage matches the snapshot desktop 1`] = `
       <main
         class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 ckAmLF css-dev-only-do-not-override-zg0ahe"
       >
-        <div>
-          Content
+        <div
+          class="ant-tabs ant-tabs-top OrdersListstyles__StyledTabs-sc-11h9csa-1 chBqkR css-dev-only-do-not-override-zg0ahe"
+        >
+          <div
+            class="ant-tabs-nav"
+            role="tablist"
+          >
+            <div
+              class="ant-tabs-nav-wrap"
+            >
+              <div
+                class="ant-tabs-nav-list"
+                style="transform: translate(0px, 0px);"
+              >
+                <div
+                  class="ant-tabs-tab ant-tabs-tab-active"
+                  data-node-key="1"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-1"
+                    aria-selected="true"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-1"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Main info
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="2"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-2"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-2"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Chat
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="3"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-3"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-3"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Dashboard
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="4"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-4"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-4"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Documents
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="5"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-5"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-5"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        History
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+            >
+              <button
+                aria-controls="rc-tabs-test-more-popup"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-hidden="true"
+                class="ant-tabs-nav-more"
+                id="rc-tabs-test-more"
+                style="visibility: hidden; order: 1;"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  aria-label="ellipsis"
+                  class="anticon anticon-ellipsis"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="ellipsis"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="ant-tabs-content-holder"
+          >
+            <div
+              class="ant-tabs-content ant-tabs-content-top"
+            >
+              <div
+                aria-hidden="false"
+                aria-labelledby="rc-tabs-test-tab-1"
+                class="ant-tabs-tabpane ant-tabs-tabpane-active"
+                id="rc-tabs-test-panel-1"
+                role="tabpanel"
+                tabindex="0"
+              >
+                <div>
+                  Content of Tab Pane 1
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
@@ -259,7 +552,7 @@ exports[`HomePage matches the snapshot desktop 1`] = `
 </div>
 `;
 
-exports[`HomePage matches the snapshot laptop 1`] = `
+exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
 <div>
   <div
     class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 ExmQa css-dev-only-do-not-override-zg0ahe"
@@ -509,8 +802,301 @@ exports[`HomePage matches the snapshot laptop 1`] = `
       <main
         class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 ckAmLF css-dev-only-do-not-override-zg0ahe"
       >
-        <div>
-          Content
+        <div
+          class="ant-tabs ant-tabs-top OrdersListstyles__StyledTabs-sc-11h9csa-1 chBqkR css-dev-only-do-not-override-zg0ahe"
+        >
+          <div
+            class="ant-tabs-nav"
+            role="tablist"
+          >
+            <div
+              class="ant-tabs-nav-wrap"
+            >
+              <div
+                class="ant-tabs-nav-list"
+                style="transform: translate(0px, 0px);"
+              >
+                <div
+                  class="ant-tabs-tab ant-tabs-tab-active"
+                  data-node-key="1"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-1"
+                    aria-selected="true"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-1"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Main info
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="2"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-2"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-2"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Chat
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="3"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-3"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-3"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Dashboard
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="4"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-4"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-4"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Documents
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="5"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-5"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-5"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        History
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+            >
+              <button
+                aria-controls="rc-tabs-test-more-popup"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-hidden="true"
+                class="ant-tabs-nav-more"
+                id="rc-tabs-test-more"
+                style="visibility: hidden; order: 1;"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  aria-label="ellipsis"
+                  class="anticon anticon-ellipsis"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="ellipsis"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="ant-tabs-content-holder"
+          >
+            <div
+              class="ant-tabs-content ant-tabs-content-top"
+            >
+              <div
+                aria-hidden="false"
+                aria-labelledby="rc-tabs-test-tab-1"
+                class="ant-tabs-tabpane ant-tabs-tabpane-active"
+                id="rc-tabs-test-panel-1"
+                role="tabpanel"
+                tabindex="0"
+              >
+                <div>
+                  Content of Tab Pane 1
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>
@@ -518,7 +1104,7 @@ exports[`HomePage matches the snapshot laptop 1`] = `
 </div>
 `;
 
-exports[`HomePage matches the snapshot mobile 1`] = `
+exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
 <div>
   <div
     class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 ExmQa css-dev-only-do-not-override-zg0ahe"
@@ -621,8 +1207,301 @@ exports[`HomePage matches the snapshot mobile 1`] = `
       <main
         class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 ckAmLF css-dev-only-do-not-override-zg0ahe"
       >
-        <div>
-          Content
+        <div
+          class="ant-tabs ant-tabs-top OrdersListstyles__StyledTabs-sc-11h9csa-1 chBqkR css-dev-only-do-not-override-zg0ahe"
+        >
+          <div
+            class="ant-tabs-nav"
+            role="tablist"
+          >
+            <div
+              class="ant-tabs-nav-wrap"
+            >
+              <div
+                class="ant-tabs-nav-list"
+                style="transform: translate(0px, 0px);"
+              >
+                <div
+                  class="ant-tabs-tab ant-tabs-tab-active"
+                  data-node-key="1"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-1"
+                    aria-selected="true"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-1"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Main info
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="2"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-2"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-2"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Chat
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="3"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-3"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-3"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Dashboard
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="4"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-4"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-4"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        Documents
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-tab"
+                  data-node-key="5"
+                >
+                  <div
+                    aria-controls="rc-tabs-test-panel-5"
+                    aria-selected="false"
+                    class="ant-tabs-tab-btn"
+                    id="rc-tabs-test-tab-5"
+                    role="tab"
+                    tabindex="0"
+                  >
+                    <div
+                      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                      style="gap: 10px;"
+                    >
+                      <div>
+                        History
+                      </div>
+                      <span
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-zg0ahe"
+                      >
+                        <sup
+                          class="ant-scroll-number ant-badge-count"
+                          data-show="true"
+                          title="3"
+                        >
+                          <bdi>
+                            <span
+                              class="ant-scroll-number-only"
+                              style="transition: none;"
+                            >
+                              <span
+                                class="ant-scroll-number-only-unit current"
+                              >
+                                3
+                              </span>
+                            </span>
+                          </bdi>
+                        </sup>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                />
+              </div>
+            </div>
+            <div
+              class="ant-tabs-nav-operations ant-tabs-nav-operations-hidden"
+            >
+              <button
+                aria-controls="rc-tabs-test-more-popup"
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-hidden="true"
+                class="ant-tabs-nav-more"
+                id="rc-tabs-test-more"
+                style="visibility: hidden; order: 1;"
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  aria-label="ellipsis"
+                  class="anticon anticon-ellipsis"
+                  role="img"
+                >
+                  <svg
+                    aria-hidden="true"
+                    data-icon="ellipsis"
+                    fill="currentColor"
+                    focusable="false"
+                    height="1em"
+                    viewBox="64 64 896 896"
+                    width="1em"
+                  >
+                    <path
+                      d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="ant-tabs-content-holder"
+          >
+            <div
+              class="ant-tabs-content ant-tabs-content-top"
+            >
+              <div
+                aria-hidden="false"
+                aria-labelledby="rc-tabs-test-tab-1"
+                class="ant-tabs-tabpane ant-tabs-tabpane-active"
+                id="rc-tabs-test-panel-1"
+                role="tabpanel"
+                tabindex="0"
+              >
+                <div>
+                  Content of Tab Pane 1
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </main>
     </div>

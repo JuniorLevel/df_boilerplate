@@ -21,7 +21,7 @@ const FiltersSearchListMobile = (): React$MixedElement => {
 				vertical
 				justify="space-between"
 				gap="large"
-				style={{ padding: 10, height: '100%' }}
+				style={{ padding: 10 }}
 			>
 				{currentItems.map((listData) => (
 					<FiltersSearchListItem key={listData.id} listData={listData} />

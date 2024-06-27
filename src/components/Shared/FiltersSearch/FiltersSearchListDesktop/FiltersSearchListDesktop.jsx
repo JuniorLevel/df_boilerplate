@@ -27,7 +27,7 @@ const FiltersSearchListDesktop = ({
 				justify="space-between"
 				gap={10}
 				style={{
-					height: '83vh',
+					height: '100%',
 					overflow: 'auto',
 					padding: 10,
 				}}

@@ -2,27 +2,40 @@
 
 import React from 'react';
 import { Flex } from 'antd';
+import styled from 'styled-components';
 import Container from '../../components/Container/Container';
 import FiltersSearchWithPreview from '../../components/Shared/FiltersSearchWithPreview/FiltersSearchWithPreview';
-import FiltersClosedList from '../../components/Shared/FiltersClosed/FiltersClosedList/FiltersClosedList';
+import FiltersClosedList from '../../components/Shared/FiltersClosedList/FiltersClosedList';
+import { FiltersClosedListProvider } from '../../context/FiltersClosedListContext/FiltersClosedListContext';
+
+const FiltersSearchWithPreviewContainer = styled.div`
+	height: calc(100vh - 270px);
+`;
 
 const DiffClosedCardsPage = (): React$MixedElement => (
-	<Container>
-		<Flex wrap>
-			<div style={{ width: '50%' }}>
-				<FiltersClosedList />
-				<div>
-					<FiltersSearchWithPreview />
+	<FiltersClosedListProvider>
+		<Container>
+			<Flex>
+				<div style={{ maxWidth: '50%' }}>
+					<FiltersClosedList />
+					<FiltersSearchWithPreviewContainer>
+						<Flex style={{ height: '100%' }}>
+							<FiltersSearchWithPreview />
+						</Flex>
+					</FiltersSearchWithPreviewContainer>
 				</div>
-			</div>
-			<div style={{ width: '50%' }}>
-				<FiltersClosedList />
-				<FiltersSearchWithPreview />
-			</div>
+				<div style={{ maxWidth: '50%' }}>
+					<FiltersClosedList />
+					<FiltersSearchWithPreviewContainer>
+						<Flex style={{ height: '100%' }}>
+							<FiltersSearchWithPreview />
+						</Flex>
+					</FiltersSearchWithPreviewContainer>
+				</div>
+			</Flex>
 			<div
 				style={{
 					height: '100px',
-					width: '100%',
 					border: '1px solid black',
 					margin: '10px',
 				}}
@@ -31,8 +44,8 @@ const DiffClosedCardsPage = (): React$MixedElement => (
 					DIFF
 				</Flex>
 			</div>
-		</Flex>
-	</Container>
+		</Container>
+	</FiltersClosedListProvider>
 );
 
 export default DiffClosedCardsPage;

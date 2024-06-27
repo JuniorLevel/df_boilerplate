@@ -2,34 +2,46 @@
 
 import React from 'react';
 import { Flex } from 'antd';
+import styled from 'styled-components';
 import Container from '../../components/Container/Container';
 import FiltersOpened from '../../components/Shared/FiltersOpened/FiltersOpened';
 import FiltersSearchWithPreview from '../../components/Shared/FiltersSearchWithPreview/FiltersSearchWithPreview';
 
+const FiltersSearchWithPreviewContainer = styled.div`
+	height: calc(100vh - 545px);
+`;
+
 const DiffOpenedCardsPage = (): React$MixedElement => (
 	<Container>
-		<Flex wrap>
-			<div style={{ width: '50%' }}>
+		<Flex>
+			<div style={{ maxWidth: '50%' }}>
 				<FiltersOpened />
-				<FiltersSearchWithPreview />
+				<FiltersSearchWithPreviewContainer>
+					<Flex style={{ height: '100%' }}>
+						<FiltersSearchWithPreview />
+					</Flex>
+				</FiltersSearchWithPreviewContainer>
 			</div>
-			<div style={{ width: '50%' }}>
+			<div style={{ maxWidth: '50%' }}>
 				<FiltersOpened />
-				<FiltersSearchWithPreview />
-			</div>
-			<div
-				style={{
-					height: '100px',
-					width: '100%',
-					border: '1px solid black',
-					margin: '10px',
-				}}
-			>
-				<Flex justify="center" align="center" style={{ height: '100%' }}>
-					DIFF
-				</Flex>
+				<FiltersSearchWithPreviewContainer>
+					<Flex style={{ height: '100%' }}>
+						<FiltersSearchWithPreview />
+					</Flex>
+				</FiltersSearchWithPreviewContainer>
 			</div>
 		</Flex>
+		<div
+			style={{
+				height: '100px',
+				border: '1px solid black',
+				margin: '10px',
+			}}
+		>
+			<Flex justify="center" align="center" style={{ height: '100%' }}>
+				DIFF
+			</Flex>
+		</div>
 	</Container>
 );
 
