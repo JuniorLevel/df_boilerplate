@@ -11,6 +11,7 @@ const FiltersSearchWithPreviewDesktop = (): React$MixedElement => (
 			<Flex
 				style={{
 					maxWidth: '47%',
+					width: '100%',
 					overflow: 'auto',
 				}}
 			>

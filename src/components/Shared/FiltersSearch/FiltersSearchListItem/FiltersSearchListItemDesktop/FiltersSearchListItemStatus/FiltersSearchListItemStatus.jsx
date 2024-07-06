@@ -10,11 +10,12 @@ interface IFiltersSearchListItemStatus {
 const FiltersSearchListItemStatus = ({
 	item,
 }: IFiltersSearchListItemStatus): React$MixedElement => {
-	const { setStatus } = useContext(StatusContext);
+	const { setStatus, setRole } = useContext(StatusContext);
 
 	useEffect(() => {
 		setStatus(item.status);
-	}, [item.status, setStatus]);
+		setRole(item.role);
+	}, [item.status, setStatus, item.role, setRole]);
 
 	return (
 		<div

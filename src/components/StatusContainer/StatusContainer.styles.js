@@ -1,8 +1,19 @@
 import styled from 'styled-components';
 import { Button } from 'antd';
 
+export const StatusUnmodifiedDiv = styled.div`
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: grey;
+	border: 1px solid black;
+`;
+
 export const StatusChangedDiv = styled.div`
+	display: flex;
 	background-color: #a3ce00;
+	border: 1px solid black;
+	position: relative;
 `;
 
 export const StatusUpdatedDiv = styled.div`

@@ -20,6 +20,9 @@ const HomeDev = (): React$MixedElement => (
 					<Link to="/order">Order</Link>
 				</li>
 				<li>
+					<Link to="/TimeWidgetsPage">Time Widgets</Link>
+				</li>
+				<li>
 					<Link to="/FiltersOpenedPage">FiltersOpenedPage</Link>
 				</li>
 				<li>

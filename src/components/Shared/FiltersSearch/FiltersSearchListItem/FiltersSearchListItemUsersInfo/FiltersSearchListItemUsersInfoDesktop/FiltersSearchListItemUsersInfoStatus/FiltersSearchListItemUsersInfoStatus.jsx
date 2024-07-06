@@ -18,23 +18,9 @@ const FiltersSearchListItemUsersInfoStatus = ({
 	}, [user.status, setStatus]);
 
 	return (
-		<Flex
-			wrap
-			gap={5}
-			style={{
-				padding: '2px 5px',
-			}}
-		>
-			<div style={{ padding: '20px 25px' }}>{user.role}</div>
-			<Flex
-				align="center"
-				gap={10}
-				style={{
-					padding: '5px 15px',
-					border: '1px solid black',
-					width: '100%',
-				}}
-			>
+		<Flex style={{ padding: '20px 0px' }} align="center" gap={10}>
+			<div>{user.role}</div>
+			<Flex align="center" gap={10}>
 				<Avatar icon={user.username.split(' ')[0][0]} />
 				<div>{user.username}</div>
 			</Flex>

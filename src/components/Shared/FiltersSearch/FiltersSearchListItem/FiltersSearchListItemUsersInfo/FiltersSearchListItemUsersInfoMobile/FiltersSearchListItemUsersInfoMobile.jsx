@@ -1,8 +1,10 @@
 // @flow
 
 import React from 'react';
-import { Flex, Avatar } from 'antd';
+import { Row, Col } from 'antd';
 import MediaQuery from 'react-responsive';
+import StatusContainer from '../../../../../StatusContainer/StatusContainer';
+import FiltersSearchListItemUsersInfoStatus from '../FiltersSearchListItemUsersInfoDesktop/FiltersSearchListItemUsersInfoStatus/FiltersSearchListItemUsersInfoStatus';
 
 interface IFiltersSearchListItemUsersInfoMobile {
 	dataSearchUsers: Array<any>;
@@ -12,32 +14,15 @@ const FiltersSearchListItemUsersInfoMobile = ({
 	dataSearchUsers,
 }: IFiltersSearchListItemUsersInfoMobile): React$MixedElement => (
 	<MediaQuery maxWidth={360}>
-		<Flex justify="space-between" vertical gap="small">
+		<Row gutter={[12, 12]} style={{ marginBottom: '20px' }}>
 			{dataSearchUsers.map((user) => (
-				<Flex
-					vertical
-					key={user.id}
-					style={{
-						border: '1px solid black',
-					}}
-				>
-					<div style={{ border: '1px solid black', padding: '20px 25px' }}>
-						{user.role}
-					</div>
-					<Flex
-						align="center"
-						gap="small"
-						style={{
-							padding: '15px 15px',
-							border: '1px solid black',
-						}}
-					>
-						<Avatar icon={user.username.split(' ')[0][0]} />
-						<div>{user.username}</div>
-					</Flex>
-				</Flex>
+				<Col xs={24} sm={24} md={24} xl={8} key={user.id}>
+					<StatusContainer>
+						<FiltersSearchListItemUsersInfoStatus user={user} />
+					</StatusContainer>
+				</Col>
 			))}
-		</Flex>
+		</Row>
 	</MediaQuery>
 );
 

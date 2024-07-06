@@ -1,3 +1,5 @@
+// @flow
+
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import WelcomePage1 from '../templates/WelcomePage1/WelcomePage1';
@@ -16,12 +18,14 @@ import FiltersClosedPreviewPage from '../templates/FiltersClosedPreviewPage/Filt
 import DiffOpenedCardsPage from '../templates/DiffOpenedCardsPage/DiffOpenedCardsPage';
 import DiffClosedCardsPage from '../templates/DiffClosedCardsPage/DiffClosedCardsPage';
 import OrderPage from '../templates/OrderPage/OrderPage';
+import TimeWidgetsPage from '../templates/TimeWidgetsPage/TimeWidgetsPage';
 
-const AppRouter = () => (
+const AppRouter = (): React$MixedElement => (
 	<Routes>
-		<Route exact path="/" element={<HomeDev />} />
+		<Route path="/" element={<HomeDev />} />
 		<Route path="/home" element={<HomePage />} />
 		<Route path="/order" element={<OrderPage />} />
+		<Route path="/TimeWidgetsPage" element={<TimeWidgetsPage />} />
 		<Route path="/FiltersOpenedPage" element={<FiltersOpenedPage />} />
 		<Route path="/FiltersClosedPage" element={<FiltersClosedPage />} />
 		<Route

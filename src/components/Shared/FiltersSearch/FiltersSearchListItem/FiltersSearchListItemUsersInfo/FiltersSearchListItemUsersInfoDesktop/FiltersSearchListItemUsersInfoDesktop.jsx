@@ -1,8 +1,8 @@
 // @flow
 
 import React from 'react';
-import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
+import { Col, Row } from 'antd';
 import StatusContainer from '../../../../../StatusContainer/StatusContainer';
 import FiltersSearchListItemUsersInfoStatus from './FiltersSearchListItemUsersInfoStatus/FiltersSearchListItemUsersInfoStatus';
 
@@ -14,13 +14,15 @@ const FiltersSearchListItemUsersInfoDesktop = ({
 	dataSearchUsers,
 }: IFiltersSearchListItemUsersInfoDesktop): React$MixedElement => (
 	<MediaQuery minWidth={361}>
-		<Flex wrap gap={10}>
+		<Row gutter={[12, 12]} style={{ marginBottom: '20px' }}>
 			{dataSearchUsers.map((user) => (
-				<StatusContainer key={user.id}>
-					<FiltersSearchListItemUsersInfoStatus user={user} />
-				</StatusContainer>
+				<Col xs={24} sm={24} md={24} xl={8} key={user.id}>
+					<StatusContainer>
+						<FiltersSearchListItemUsersInfoStatus user={user} />
+					</StatusContainer>
+				</Col>
 			))}
-		</Flex>
+		</Row>
 	</MediaQuery>
 );
 

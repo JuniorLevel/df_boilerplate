@@ -34,20 +34,11 @@ const FiltersSearchListDesktop = ({
 			>
 				<div
 					style={{
-						overflow: 'auto',
+						overflowX: 'hidden',
 					}}
 				>
 					{currentItems.map((listData) => (
-						<Flex
-							key={listData.id}
-							gap="middle"
-							style={{
-								minHeight: '200px',
-								marginBottom: '5px',
-							}}
-						>
-							<FiltersSearchListItem listData={listData} />
-						</Flex>
+						<FiltersSearchListItem listData={listData} key={listData.id} />
 					))}
 				</div>
 				<Flex justify="start">

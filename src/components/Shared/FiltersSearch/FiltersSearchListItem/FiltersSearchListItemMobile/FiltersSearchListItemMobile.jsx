@@ -2,10 +2,12 @@
 
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import { Flex } from 'antd';
-import { StarOutlined } from '@ant-design/icons';
+import { Flex, Row, Col } from 'antd';
+// import { StarOutlined } from '@ant-design/icons';
 import FiltersSearchListItemUsersInfo from '../FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfo';
-import { StyledFavoriteButton } from '../FiltersSearchListItem.styles';
+// import { StyledFavoriteButton } from '../FiltersSearchListItem.styles';
+import FiltersSearchListItemMobileInfoStatus from './FiltersSearchListItemMobileInfoStatus/FiltersSearchListItemMobileInfoStatus';
+import StatusContainer from '../../../../StatusContainer/StatusContainer';
 
 interface IFiltersSearchListItemMobile {
 	listData: any;
@@ -23,24 +25,22 @@ const FiltersSearchListItemMobile = ({
 				position: 'relative',
 			}}
 		>
-			<Flex gap={20} wrap>
+			<Row gutter={[12, 12]}>
 				{listData.dataSearch.map((item) => (
-					<div
-						key={item.id}
-						style={{
-							border: '1px solid black',
-							padding: '5px',
-							fontSize: '1.2em',
-						}}
-					>
-						{item.text}
-					</div>
+					<Col span={24} key={item.id}>
+						<StatusContainer>
+							<FiltersSearchListItemMobileInfoStatus
+								key={item.id}
+								item={item}
+							/>
+						</StatusContainer>
+					</Col>
 				))}
-			</Flex>
+			</Row>
 			<FiltersSearchListItemUsersInfo
 				dataSearchUsers={listData.dataSearchUsers}
 			/>
-			<StyledFavoriteButton
+			{/* <StyledFavoriteButton
 				ghost
 				style={{
 					top: -5,
@@ -48,7 +48,7 @@ const FiltersSearchListItemMobile = ({
 					color: 'black',
 				}}
 				icon={<StarOutlined style={{ fontSize: '30px' }} />}
-			/>
+			/> */}
 		</Flex>
 	</MediaQuery>
 );
