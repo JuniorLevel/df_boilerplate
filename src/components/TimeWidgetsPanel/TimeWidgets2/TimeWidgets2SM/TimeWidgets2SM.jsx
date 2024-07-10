@@ -1,24 +1,28 @@
 // @flow
 
+import { Flex, Progress } from 'antd';
 import React, { useState } from 'react';
-import { Flex } from 'antd';
-import MediaQuery from 'react-responsive';
+import MediaQuery, { useMediaQuery } from 'react-responsive';
 import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import TimeWidgetsDaysPanel from '../../TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
 import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 
-const TimeWidgets2Mobile = (): React$MixedElement => {
-	const [isShowWeeksPanel] = useState(true);
+const TimeWidgets2SM = (): React$MixedElement => {
+	const [isShowWeeksPanel] = useState(false);
+	const isMobile = useMediaQuery({
+		query: '(max-width: 480px)',
+	});
 
 	return (
-		<MediaQuery maxWidth={360}>
+		<MediaQuery maxWidth={729}>
 			<Flex
 				wrap
+				align="start"
+				justify="center"
 				style={{ border: '1px solid black', marginBottom: '20px' }}
 				gap={5}
 			>
 				<Flex
-					wrap
+					vertical
 					gap={10}
 					justify="center"
 					style={{ padding: '5px', fontSize: '2em' }}
@@ -27,8 +31,8 @@ const TimeWidgets2Mobile = (): React$MixedElement => {
 						<span
 							style={{
 								border: '1px solid black',
-								padding: '15px',
-								fontSize: '2em',
+								padding: '10px',
+								fontSize: '1.5em',
 							}}
 						>
 							13
@@ -36,8 +40,8 @@ const TimeWidgets2Mobile = (): React$MixedElement => {
 						<span
 							style={{
 								border: '1px solid black',
-								padding: '15px',
-								fontSize: '2em',
+								padding: '10px',
+								fontSize: '1.5em',
 							}}
 						>
 							08
@@ -45,8 +49,8 @@ const TimeWidgets2Mobile = (): React$MixedElement => {
 						<span
 							style={{
 								border: '1px solid black',
-								padding: '15px',
-								fontSize: '2em',
+								padding: '10px',
+								fontSize: '1.5em',
 							}}
 						>
 							99
@@ -56,8 +60,8 @@ const TimeWidgets2Mobile = (): React$MixedElement => {
 						<span
 							style={{
 								border: '1px solid black',
-								padding: '15px',
-								fontSize: '2em',
+								padding: '10px',
+								fontSize: '1.5em',
 							}}
 						>
 							20
@@ -65,8 +69,8 @@ const TimeWidgets2Mobile = (): React$MixedElement => {
 						<span
 							style={{
 								border: '1px solid black',
-								padding: '15px',
-								fontSize: '2em',
+								padding: '10px',
+								fontSize: '1.5em',
 							}}
 						>
 							55
@@ -74,8 +78,8 @@ const TimeWidgets2Mobile = (): React$MixedElement => {
 						<span
 							style={{
 								border: '1px solid black',
-								padding: '15px',
-								fontSize: '2em',
+								padding: '10px',
+								fontSize: '1.5em',
 							}}
 						>
 							55
@@ -83,12 +87,17 @@ const TimeWidgets2Mobile = (): React$MixedElement => {
 					</Flex>
 				</Flex>
 				<Flex style={{ padding: '5px' }}>
-					<Flex justify="center" wrap align="center" gap={20}>
+					<Flex vertical align="center" gap={10}>
 						<div style={{ border: '1px solid black', padding: '5px' }}>
 							{isShowWeeksPanel ? (
 								<TimeWidgetsWeeksAndYearsPanel />
 							) : (
-								<TimeWidgetsDaysPanel />
+								<Progress
+									size={{ width: isMobile ? 6 : 10, height: 50 }}
+									percent={100}
+									steps={31}
+									showInfo={false}
+								/>
 							)}
 						</div>
 						<TimeWidgetsCustomClock />
@@ -99,4 +108,4 @@ const TimeWidgets2Mobile = (): React$MixedElement => {
 	);
 };
 
-export default TimeWidgets2Mobile;
+export default TimeWidgets2SM;

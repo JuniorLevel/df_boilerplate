@@ -13,19 +13,19 @@ const StyledDivYears = styled.div`
 `;
 
 const TimeWidgetsWeeksAndYearsPanel = (): React$MixedElement => (
-	<div style={{ padding: '5px' }}>
+	<div style={{ padding: '5px', border: '1px solid black' }}>
 		<Flex gap={10}>
 			<StyledDivWeeks
-				style={{ width: '65px', height: '65px', border: '1px solid black' }}
+				style={{ width: '30px', height: '30px', border: '1px solid black' }}
 			/>
 			<StyledDivWeeks
-				style={{ width: '65px', height: '65px', border: '1px solid black' }}
+				style={{ width: '30px', height: '30px', border: '1px solid black' }}
 			/>
 			<StyledDivYears
-				style={{ width: '65px', height: '65px', border: '1px solid black' }}
+				style={{ width: '30px', height: '30px', border: '1px solid black' }}
 			/>
 			<StyledDivYears
-				style={{ width: '65px', height: '65px', border: '1px solid black' }}
+				style={{ width: '30px', height: '30px', border: '1px solid black' }}
 			/>
 		</Flex>
 	</div>

@@ -23,7 +23,7 @@ const TimeWidgetsCustomClock = (): React$MixedElement => (
 		strokeWidth={10}
 		strokeColor="rgba(255, 0, 0, 0.3)"
 		percent={90}
-		size={90}
+		size={75}
 		showInfo={false}
 	/>
 );

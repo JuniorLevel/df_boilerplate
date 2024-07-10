@@ -4,16 +4,19 @@ import React from 'react';
 import { Flex, Progress } from 'antd';
 import MediaQuery from 'react-responsive';
 
-const TimeWidgets1Mobile = (): React$MixedElement => (
-	<MediaQuery maxWidth={360}>
+const TimeWidgets1XL = (): React$MixedElement => (
+	<MediaQuery minWidth={730}>
 		<Flex
 			wrap
-			style={{ border: '1px solid black', marginBottom: '20px' }}
+			style={{
+				border: '1px solid black',
+				marginBottom: '20px',
+			}}
 			gap={5}
-			justify="center"
 		>
 			<Flex
 				gap={10}
+				align="center"
 				style={{
 					border: '1px solid black',
 					padding: '15px',
@@ -25,23 +28,19 @@ const TimeWidgets1Mobile = (): React$MixedElement => (
 				<span>1999</span>
 			</Flex>
 			<Flex
-				align="center"
 				style={{
 					border: '1px solid black',
 					padding: '5px',
-					overflow: 'auto',
 				}}
 			>
 				<Flex
-					align="center"
-					gap={10}
 					style={{
 						border: '1px solid black',
 						padding: '5px',
 					}}
 				>
 					<Progress
-						size={{ width: 7, height: 50 }}
+						size={{ width: 10, height: 50 }}
 						percent={100}
 						steps={31}
 						showInfo={false}
@@ -52,4 +51,4 @@ const TimeWidgets1Mobile = (): React$MixedElement => (
 	</MediaQuery>
 );
 
-export default TimeWidgets1Mobile;
+export default TimeWidgets1XL;
