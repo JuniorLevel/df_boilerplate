@@ -6,6 +6,8 @@ import styled from 'styled-components';
 import StatusContainer from '../../../../../StatusContainer/StatusContainer';
 
 const StyledCol = styled(Col)`
+	&:first-child {
+	}
 	&:last-child {
 		flex: 1;
 		max-width: 100%;
@@ -16,14 +18,14 @@ const FiltersSearchListItemGrids = (): React$MixedElement => (
 	<>
 		<Row gutter={[36, 12]}>
 			<StyledCol xs={24} lg={12}>
-				<StatusContainer>What is a label in UX design</StatusContainer>
+				<StatusContainer>Ant Design</StatusContainer>
 			</StyledCol>
 			<StyledCol xs={24} lg={12}>
 				<StatusContainer>Ant Design</StatusContainer>
 			</StyledCol>
 		</Row>
 		<Row gutter={[36, 12]}>
-			<StyledCol xs={24} lg={16}>
+			<StyledCol xs={24} lg={{ flex: 1 }}>
 				<StatusContainer>GitHub API</StatusContainer>
 			</StyledCol>
 			<StyledCol xs={24} lg={8}>
@@ -39,7 +41,7 @@ const FiltersSearchListItemGrids = (): React$MixedElement => (
 			</StyledCol>
 		</Row>
 		<Row gutter={[36, 12]}>
-			<StyledCol xs={24} lg={8}>
+			<StyledCol xs={24} lg={{ flex: 1 }}>
 				<StatusContainer>Yandex dzen</StatusContainer>
 			</StyledCol>
 			<StyledCol xs={24} lg={8}>
@@ -48,5 +50,4 @@ const FiltersSearchListItemGrids = (): React$MixedElement => (
 		</Row>
 	</>
 );
-
 export default FiltersSearchListItemGrids;

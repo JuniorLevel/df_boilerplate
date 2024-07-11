@@ -10,6 +10,7 @@ const TimeWidget7LG = (): React$MixedElement => (
 		<Flex
 			vertical
 			gap={10}
+			align="center"
 			style={{
 				border: '1px solid black',
 				marginBottom: '20px',

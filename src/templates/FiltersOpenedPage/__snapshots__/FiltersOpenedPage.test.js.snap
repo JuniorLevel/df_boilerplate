@@ -271,13 +271,55 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                     <div
                       class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                     >
-                      <div
-                        class="StatusContainer__StatusChangedDiv-sc-18x9zpu-0 yeDuU"
-                      >
+                      <div>
                         <div
-                          class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
                         >
-                          lorem-1
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                          >
+                            <div
+                              style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                            >
+                              FIO
+                            </div>
+                            <div>
+                              <div
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                              >
+                                lorem-1
+                              </div>
+                            </div>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              style="width: 20px; position: absolute; right: 0px;"
+                              type="button"
+                            >
+                              <span
+                                class="ant-btn-icon"
+                              >
+                                <span
+                                  aria-label="more"
+                                  class="anticon anticon-more"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="more"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -330,235 +372,295 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                     <div
                       class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                     >
-                      <div
-                        class="StatusContainer__StatusUpdatedDiv-sc-18x9zpu-1 iWGMOH"
-                      >
-                        <div>
-                          <div
-                            class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
-                          >
-                            project-1
-                          </div>
-                        </div>
+                      <div>
                         <div
-                          class="ant-flex css-dev-only-do-not-override-zg0ahe"
-                          style="gap: 20px;"
+                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
                         >
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="color: red; width: 10px;"
-                            type="button"
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
                           >
-                            <span
-                              class="ant-btn-icon"
+                            <div
+                              style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                            >
+                              FIO
+                            </div>
+                            <div>
+                              <div
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                              >
+                                project-1
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe"
+                            style="gap: 20px;"
+                          >
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                              type="button"
                             >
                               <span
-                                aria-label="close-circle"
-                                class="anticon anticon-close-circle"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="close-circle"
-                                  fill="currentColor"
-                                  fill-rule="evenodd"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="close-circle"
+                                  class="anticon anticon-close-circle"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="close-circle"
+                                    fill="currentColor"
+                                    fill-rule="evenodd"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="color: green; width: 10px;"
-                            type="button"
-                          >
-                            <span
-                              class="ant-btn-icon"
+                            </button>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                              type="button"
                             >
                               <span
-                                aria-label="check-circle"
-                                class="anticon anticon-check-circle"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="check-circle"
-                                  fill="currentColor"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="check-circle"
+                                  class="anticon anticon-check-circle"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
-                                  />
-                                  <path
-                                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="check-circle"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
+                                    />
+                                    <path
+                                      d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="width: 20px;"
-                            type="button"
-                          >
-                            <span
-                              class="ant-btn-icon"
+                            </button>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              style="width: 20px;"
+                              type="button"
                             >
                               <span
-                                aria-label="more"
-                                class="anticon anticon-more"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="more"
-                                  fill="currentColor"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="more"
+                                  class="anticon anticon-more"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="more"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div
                       class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                     >
-                      <div
-                        class="StatusContainer__StatusChangedDiv-sc-18x9zpu-0 yeDuU"
-                      >
+                      <div>
                         <div
-                          class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
                         >
-                          project-2
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                          >
+                            <div
+                              style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                            >
+                              FIO
+                            </div>
+                            <div>
+                              <div
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                              >
+                                project-2
+                              </div>
+                            </div>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              style="width: 20px; position: absolute; right: 0px;"
+                              type="button"
+                            >
+                              <span
+                                class="ant-btn-icon"
+                              >
+                                <span
+                                  aria-label="more"
+                                  class="anticon anticon-more"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="more"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div
                       class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                     >
-                      <div
-                        class="StatusContainer__StatusUpdatedDiv-sc-18x9zpu-1 iWGMOH"
-                      >
-                        <div>
-                          <div
-                            class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
-                          >
-                            project-3
-                          </div>
-                        </div>
+                      <div>
                         <div
-                          class="ant-flex css-dev-only-do-not-override-zg0ahe"
-                          style="gap: 20px;"
+                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
                         >
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="color: red; width: 10px;"
-                            type="button"
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
                           >
-                            <span
-                              class="ant-btn-icon"
+                            <div
+                              style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                            >
+                              FIO
+                            </div>
+                            <div>
+                              <div
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                              >
+                                project-3
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe"
+                            style="gap: 20px;"
+                          >
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                              type="button"
                             >
                               <span
-                                aria-label="close-circle"
-                                class="anticon anticon-close-circle"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="close-circle"
-                                  fill="currentColor"
-                                  fill-rule="evenodd"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="close-circle"
+                                  class="anticon anticon-close-circle"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="close-circle"
+                                    fill="currentColor"
+                                    fill-rule="evenodd"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="color: green; width: 10px;"
-                            type="button"
-                          >
-                            <span
-                              class="ant-btn-icon"
+                            </button>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                              type="button"
                             >
                               <span
-                                aria-label="check-circle"
-                                class="anticon anticon-check-circle"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="check-circle"
-                                  fill="currentColor"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="check-circle"
+                                  class="anticon anticon-check-circle"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
-                                  />
-                                  <path
-                                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="check-circle"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
+                                    />
+                                    <path
+                                      d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="width: 20px;"
-                            type="button"
-                          >
-                            <span
-                              class="ant-btn-icon"
+                            </button>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              style="width: 20px;"
+                              type="button"
                             >
                               <span
-                                aria-label="more"
-                                class="anticon anticon-more"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="more"
-                                  fill="currentColor"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="more"
+                                  class="anticon anticon-more"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="more"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -919,13 +1021,55 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                     <div
                       class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                     >
-                      <div
-                        class="StatusContainer__StatusChangedDiv-sc-18x9zpu-0 yeDuU"
-                      >
+                      <div>
                         <div
-                          class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
                         >
-                          lorem-1
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                          >
+                            <div
+                              style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                            >
+                              FIO
+                            </div>
+                            <div>
+                              <div
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                              >
+                                lorem-1
+                              </div>
+                            </div>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              style="width: 20px; position: absolute; right: 0px;"
+                              type="button"
+                            >
+                              <span
+                                class="ant-btn-icon"
+                              >
+                                <span
+                                  aria-label="more"
+                                  class="anticon anticon-more"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="more"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -978,235 +1122,295 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                     <div
                       class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                     >
-                      <div
-                        class="StatusContainer__StatusUpdatedDiv-sc-18x9zpu-1 iWGMOH"
-                      >
-                        <div>
-                          <div
-                            class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
-                          >
-                            project-1
-                          </div>
-                        </div>
+                      <div>
                         <div
-                          class="ant-flex css-dev-only-do-not-override-zg0ahe"
-                          style="gap: 20px;"
+                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
                         >
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="color: red; width: 10px;"
-                            type="button"
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
                           >
-                            <span
-                              class="ant-btn-icon"
+                            <div
+                              style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                            >
+                              FIO
+                            </div>
+                            <div>
+                              <div
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                              >
+                                project-1
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe"
+                            style="gap: 20px;"
+                          >
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                              type="button"
                             >
                               <span
-                                aria-label="close-circle"
-                                class="anticon anticon-close-circle"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="close-circle"
-                                  fill="currentColor"
-                                  fill-rule="evenodd"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="close-circle"
+                                  class="anticon anticon-close-circle"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="close-circle"
+                                    fill="currentColor"
+                                    fill-rule="evenodd"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="color: green; width: 10px;"
-                            type="button"
-                          >
-                            <span
-                              class="ant-btn-icon"
+                            </button>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                              type="button"
                             >
                               <span
-                                aria-label="check-circle"
-                                class="anticon anticon-check-circle"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="check-circle"
-                                  fill="currentColor"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="check-circle"
+                                  class="anticon anticon-check-circle"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
-                                  />
-                                  <path
-                                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="check-circle"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
+                                    />
+                                    <path
+                                      d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="width: 20px;"
-                            type="button"
-                          >
-                            <span
-                              class="ant-btn-icon"
+                            </button>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              style="width: 20px;"
+                              type="button"
                             >
                               <span
-                                aria-label="more"
-                                class="anticon anticon-more"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="more"
-                                  fill="currentColor"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="more"
+                                  class="anticon anticon-more"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="more"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div
                       class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                     >
-                      <div
-                        class="StatusContainer__StatusChangedDiv-sc-18x9zpu-0 yeDuU"
-                      >
+                      <div>
                         <div
-                          class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
                         >
-                          project-2
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                          >
+                            <div
+                              style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                            >
+                              FIO
+                            </div>
+                            <div>
+                              <div
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                              >
+                                project-2
+                              </div>
+                            </div>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              style="width: 20px; position: absolute; right: 0px;"
+                              type="button"
+                            >
+                              <span
+                                class="ant-btn-icon"
+                              >
+                                <span
+                                  aria-label="more"
+                                  class="anticon anticon-more"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="more"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
                     <div
                       class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                     >
-                      <div
-                        class="StatusContainer__StatusUpdatedDiv-sc-18x9zpu-1 iWGMOH"
-                      >
-                        <div>
-                          <div
-                            class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
-                          >
-                            project-3
-                          </div>
-                        </div>
+                      <div>
                         <div
-                          class="ant-flex css-dev-only-do-not-override-zg0ahe"
-                          style="gap: 20px;"
+                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
                         >
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="color: red; width: 10px;"
-                            type="button"
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
                           >
-                            <span
-                              class="ant-btn-icon"
+                            <div
+                              style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                            >
+                              FIO
+                            </div>
+                            <div>
+                              <div
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                              >
+                                project-3
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="ant-flex css-dev-only-do-not-override-zg0ahe"
+                            style="gap: 20px;"
+                          >
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                              type="button"
                             >
                               <span
-                                aria-label="close-circle"
-                                class="anticon anticon-close-circle"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="close-circle"
-                                  fill="currentColor"
-                                  fill-rule="evenodd"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="close-circle"
+                                  class="anticon anticon-close-circle"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="close-circle"
+                                    fill="currentColor"
+                                    fill-rule="evenodd"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="color: green; width: 10px;"
-                            type="button"
-                          >
-                            <span
-                              class="ant-btn-icon"
+                            </button>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                              type="button"
                             >
                               <span
-                                aria-label="check-circle"
-                                class="anticon anticon-check-circle"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="check-circle"
-                                  fill="currentColor"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="check-circle"
+                                  class="anticon anticon-check-circle"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
-                                  />
-                                  <path
-                                    d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="check-circle"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
+                                    />
+                                    <path
+                                      d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
-                          <button
-                            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                            style="width: 20px;"
-                            type="button"
-                          >
-                            <span
-                              class="ant-btn-icon"
+                            </button>
+                            <button
+                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              style="width: 20px;"
+                              type="button"
                             >
                               <span
-                                aria-label="more"
-                                class="anticon anticon-more"
-                                role="img"
+                                class="ant-btn-icon"
                               >
-                                <svg
-                                  aria-hidden="true"
-                                  data-icon="more"
-                                  fill="currentColor"
-                                  focusable="false"
-                                  height="1em"
-                                  viewBox="64 64 896 896"
-                                  width="1em"
+                                <span
+                                  aria-label="more"
+                                  class="anticon anticon-more"
+                                  role="img"
                                 >
-                                  <path
-                                    d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
-                                  />
-                                </svg>
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="more"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                    />
+                                  </svg>
+                                </span>
                               </span>
-                            </span>
-                          </button>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -1424,13 +1628,55 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                       <div
                         class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                       >
-                        <div
-                          class="StatusContainer__StatusChangedDiv-sc-18x9zpu-0 yeDuU"
-                        >
+                        <div>
                           <div
-                            class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                            class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
                           >
-                            lorem-1
+                            <div
+                              class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                            >
+                              <div
+                                style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                              >
+                                FIO
+                              </div>
+                              <div>
+                                <div
+                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                >
+                                  lorem-1
+                                </div>
+                              </div>
+                              <button
+                                class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                                style="width: 20px; position: absolute; right: 0px;"
+                                type="button"
+                              >
+                                <span
+                                  class="ant-btn-icon"
+                                >
+                                  <span
+                                    aria-label="more"
+                                    class="anticon anticon-more"
+                                    role="img"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      data-icon="more"
+                                      fill="currentColor"
+                                      focusable="false"
+                                      height="1em"
+                                      viewBox="64 64 896 896"
+                                      width="1em"
+                                    >
+                                      <path
+                                        d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                      />
+                                    </svg>
+                                  </span>
+                                </span>
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -1483,235 +1729,295 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                       <div
                         class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                       >
-                        <div
-                          class="StatusContainer__StatusUpdatedDiv-sc-18x9zpu-1 iWGMOH"
-                        >
-                          <div>
-                            <div
-                              class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
-                            >
-                              project-1
-                            </div>
-                          </div>
+                        <div>
                           <div
-                            class="ant-flex css-dev-only-do-not-override-zg0ahe"
-                            style="gap: 20px;"
+                            class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
                           >
-                            <button
-                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                              style="color: red; width: 10px;"
-                              type="button"
+                            <div
+                              class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
                             >
-                              <span
-                                class="ant-btn-icon"
+                              <div
+                                style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                              >
+                                FIO
+                              </div>
+                              <div>
+                                <div
+                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                >
+                                  project-1
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="ant-flex css-dev-only-do-not-override-zg0ahe"
+                              style="gap: 20px;"
+                            >
+                              <button
+                                class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                                type="button"
                               >
                                 <span
-                                  aria-label="close-circle"
-                                  class="anticon anticon-close-circle"
-                                  role="img"
+                                  class="ant-btn-icon"
                                 >
-                                  <svg
-                                    aria-hidden="true"
-                                    data-icon="close-circle"
-                                    fill="currentColor"
-                                    fill-rule="evenodd"
-                                    focusable="false"
-                                    height="1em"
-                                    viewBox="64 64 896 896"
-                                    width="1em"
+                                  <span
+                                    aria-label="close-circle"
+                                    class="anticon anticon-close-circle"
+                                    role="img"
                                   >
-                                    <path
-                                      d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
-                                    />
-                                  </svg>
+                                    <svg
+                                      aria-hidden="true"
+                                      data-icon="close-circle"
+                                      fill="currentColor"
+                                      fill-rule="evenodd"
+                                      focusable="false"
+                                      height="1em"
+                                      viewBox="64 64 896 896"
+                                      width="1em"
+                                    >
+                                      <path
+                                        d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
+                                      />
+                                    </svg>
+                                  </span>
                                 </span>
-                              </span>
-                            </button>
-                            <button
-                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                              style="color: green; width: 10px;"
-                              type="button"
-                            >
-                              <span
-                                class="ant-btn-icon"
+                              </button>
+                              <button
+                                class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                                type="button"
                               >
                                 <span
-                                  aria-label="check-circle"
-                                  class="anticon anticon-check-circle"
-                                  role="img"
+                                  class="ant-btn-icon"
                                 >
-                                  <svg
-                                    aria-hidden="true"
-                                    data-icon="check-circle"
-                                    fill="currentColor"
-                                    focusable="false"
-                                    height="1em"
-                                    viewBox="64 64 896 896"
-                                    width="1em"
+                                  <span
+                                    aria-label="check-circle"
+                                    class="anticon anticon-check-circle"
+                                    role="img"
                                   >
-                                    <path
-                                      d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
-                                    />
-                                    <path
-                                      d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-                                    />
-                                  </svg>
+                                    <svg
+                                      aria-hidden="true"
+                                      data-icon="check-circle"
+                                      fill="currentColor"
+                                      focusable="false"
+                                      height="1em"
+                                      viewBox="64 64 896 896"
+                                      width="1em"
+                                    >
+                                      <path
+                                        d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
+                                      />
+                                      <path
+                                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                                      />
+                                    </svg>
+                                  </span>
                                 </span>
-                              </span>
-                            </button>
-                            <button
-                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                              style="width: 20px;"
-                              type="button"
-                            >
-                              <span
-                                class="ant-btn-icon"
+                              </button>
+                              <button
+                                class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                                style="width: 20px;"
+                                type="button"
                               >
                                 <span
-                                  aria-label="more"
-                                  class="anticon anticon-more"
-                                  role="img"
+                                  class="ant-btn-icon"
                                 >
-                                  <svg
-                                    aria-hidden="true"
-                                    data-icon="more"
-                                    fill="currentColor"
-                                    focusable="false"
-                                    height="1em"
-                                    viewBox="64 64 896 896"
-                                    width="1em"
+                                  <span
+                                    aria-label="more"
+                                    class="anticon anticon-more"
+                                    role="img"
                                   >
-                                    <path
-                                      d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
-                                    />
-                                  </svg>
+                                    <svg
+                                      aria-hidden="true"
+                                      data-icon="more"
+                                      fill="currentColor"
+                                      focusable="false"
+                                      height="1em"
+                                      viewBox="64 64 896 896"
+                                      width="1em"
+                                    >
+                                      <path
+                                        d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                      />
+                                    </svg>
+                                  </span>
                                 </span>
-                              </span>
-                            </button>
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>
                       <div
                         class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                       >
-                        <div
-                          class="StatusContainer__StatusChangedDiv-sc-18x9zpu-0 yeDuU"
-                        >
+                        <div>
                           <div
-                            class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                            class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
                           >
-                            project-2
+                            <div
+                              class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
+                            >
+                              <div
+                                style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                              >
+                                FIO
+                              </div>
+                              <div>
+                                <div
+                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                >
+                                  project-2
+                                </div>
+                              </div>
+                              <button
+                                class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                                style="width: 20px; position: absolute; right: 0px;"
+                                type="button"
+                              >
+                                <span
+                                  class="ant-btn-icon"
+                                >
+                                  <span
+                                    aria-label="more"
+                                    class="anticon anticon-more"
+                                    role="img"
+                                  >
+                                    <svg
+                                      aria-hidden="true"
+                                      data-icon="more"
+                                      fill="currentColor"
+                                      focusable="false"
+                                      height="1em"
+                                      viewBox="64 64 896 896"
+                                      width="1em"
+                                    >
+                                      <path
+                                        d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                      />
+                                    </svg>
+                                  </span>
+                                </span>
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>
                       <div
                         class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
                       >
-                        <div
-                          class="StatusContainer__StatusUpdatedDiv-sc-18x9zpu-1 iWGMOH"
-                        >
-                          <div>
-                            <div
-                              class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
-                            >
-                              project-3
-                            </div>
-                          </div>
+                        <div>
                           <div
-                            class="ant-flex css-dev-only-do-not-override-zg0ahe"
-                            style="gap: 20px;"
+                            class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
                           >
-                            <button
-                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                              style="color: red; width: 10px;"
-                              type="button"
+                            <div
+                              class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center"
                             >
-                              <span
-                                class="ant-btn-icon"
+                              <div
+                                style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
+                              >
+                                FIO
+                              </div>
+                              <div>
+                                <div
+                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                >
+                                  project-3
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="ant-flex css-dev-only-do-not-override-zg0ahe"
+                              style="gap: 20px;"
+                            >
+                              <button
+                                class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                                type="button"
                               >
                                 <span
-                                  aria-label="close-circle"
-                                  class="anticon anticon-close-circle"
-                                  role="img"
+                                  class="ant-btn-icon"
                                 >
-                                  <svg
-                                    aria-hidden="true"
-                                    data-icon="close-circle"
-                                    fill="currentColor"
-                                    fill-rule="evenodd"
-                                    focusable="false"
-                                    height="1em"
-                                    viewBox="64 64 896 896"
-                                    width="1em"
+                                  <span
+                                    aria-label="close-circle"
+                                    class="anticon anticon-close-circle"
+                                    role="img"
                                   >
-                                    <path
-                                      d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
-                                    />
-                                  </svg>
+                                    <svg
+                                      aria-hidden="true"
+                                      data-icon="close-circle"
+                                      fill="currentColor"
+                                      fill-rule="evenodd"
+                                      focusable="false"
+                                      height="1em"
+                                      viewBox="64 64 896 896"
+                                      width="1em"
+                                    >
+                                      <path
+                                        d="M512 64c247.4 0 448 200.6 448 448S759.4 960 512 960 64 759.4 64 512 264.6 64 512 64zm0 76c-205.4 0-372 166.6-372 372s166.6 372 372 372 372-166.6 372-372-166.6-372-372-372zm128.01 198.83c.03 0 .05.01.09.06l45.02 45.01a.2.2 0 01.05.09.12.12 0 010 .07c0 .02-.01.04-.05.08L557.25 512l127.87 127.86a.27.27 0 01.05.06v.02a.12.12 0 010 .07c0 .03-.01.05-.05.09l-45.02 45.02a.2.2 0 01-.09.05.12.12 0 01-.07 0c-.02 0-.04-.01-.08-.05L512 557.25 384.14 685.12c-.04.04-.06.05-.08.05a.12.12 0 01-.07 0c-.03 0-.05-.01-.09-.05l-45.02-45.02a.2.2 0 01-.05-.09.12.12 0 010-.07c0-.02.01-.04.06-.08L466.75 512 338.88 384.14a.27.27 0 01-.05-.06l-.01-.02a.12.12 0 010-.07c0-.03.01-.05.05-.09l45.02-45.02a.2.2 0 01.09-.05.12.12 0 01.07 0c.02 0 .04.01.08.06L512 466.75l127.86-127.86c.04-.05.06-.06.08-.06a.12.12 0 01.07 0z"
+                                      />
+                                    </svg>
+                                  </span>
                                 </span>
-                              </span>
-                            </button>
-                            <button
-                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                              style="color: green; width: 10px;"
-                              type="button"
-                            >
-                              <span
-                                class="ant-btn-icon"
+                              </button>
+                              <button
+                                class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                                type="button"
                               >
                                 <span
-                                  aria-label="check-circle"
-                                  class="anticon anticon-check-circle"
-                                  role="img"
+                                  class="ant-btn-icon"
                                 >
-                                  <svg
-                                    aria-hidden="true"
-                                    data-icon="check-circle"
-                                    fill="currentColor"
-                                    focusable="false"
-                                    height="1em"
-                                    viewBox="64 64 896 896"
-                                    width="1em"
+                                  <span
+                                    aria-label="check-circle"
+                                    class="anticon anticon-check-circle"
+                                    role="img"
                                   >
-                                    <path
-                                      d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
-                                    />
-                                    <path
-                                      d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
-                                    />
-                                  </svg>
+                                    <svg
+                                      aria-hidden="true"
+                                      data-icon="check-circle"
+                                      fill="currentColor"
+                                      focusable="false"
+                                      height="1em"
+                                      viewBox="64 64 896 896"
+                                      width="1em"
+                                    >
+                                      <path
+                                        d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0051.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z"
+                                      />
+                                      <path
+                                        d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"
+                                      />
+                                    </svg>
+                                  </span>
                                 </span>
-                              </span>
-                            </button>
-                            <button
-                              class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
-                              style="width: 20px;"
-                              type="button"
-                            >
-                              <span
-                                class="ant-btn-icon"
+                              </button>
+                              <button
+                                class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                                style="width: 20px;"
+                                type="button"
                               >
                                 <span
-                                  aria-label="more"
-                                  class="anticon anticon-more"
-                                  role="img"
+                                  class="ant-btn-icon"
                                 >
-                                  <svg
-                                    aria-hidden="true"
-                                    data-icon="more"
-                                    fill="currentColor"
-                                    focusable="false"
-                                    height="1em"
-                                    viewBox="64 64 896 896"
-                                    width="1em"
+                                  <span
+                                    aria-label="more"
+                                    class="anticon anticon-more"
+                                    role="img"
                                   >
-                                    <path
-                                      d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
-                                    />
-                                  </svg>
+                                    <svg
+                                      aria-hidden="true"
+                                      data-icon="more"
+                                      fill="currentColor"
+                                      focusable="false"
+                                      height="1em"
+                                      viewBox="64 64 896 896"
+                                      width="1em"
+                                    >
+                                      <path
+                                        d="M456 231a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0zm0 280a56 56 0 10112 0 56 56 0 10-112 0z"
+                                      />
+                                    </svg>
+                                  </span>
                                 </span>
-                              </span>
-                            </button>
+                              </button>
+                            </div>
                           </div>
                         </div>
                       </div>

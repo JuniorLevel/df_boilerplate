@@ -12,6 +12,7 @@ const TimeWidgetsWithTextField3LG = (): React$MixedElement => (
 			align="center"
 			gap={20}
 			style={{ border: '1px solid black', padding: '10px' }}
+			justify="center"
 		>
 			<div style={{ width: '50%', alignSelf: 'stretch' }}>
 				<TextFieldWidget text="Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf. Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf" />
