@@ -1,80 +1,75 @@
 // @flow
 
 import React, { useState } from 'react';
-import { Flex } from 'antd';
+import { Flex, Typography } from 'antd';
 import MediaQuery from 'react-responsive';
 import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 import TimeWidgetsDaysPanel from '../../TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
 import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 
 const TimeWidgets2MD = (): React$MixedElement => {
+	const { Text } = Typography;
 	const [isShowWeeksPanel] = useState(false);
 
 	return (
-		<MediaQuery minWidth={730} maxWidth={1053}>
+		<MediaQuery minWidth={730} maxWidth={864}>
 			<Flex
-				style={{ border: '1px solid black', marginBottom: '20px' }}
+				style={{ border: '1px solid black' }}
 				gap={5}
 				justify="space-evenly"
 			>
-				<Flex vertical gap={10} style={{ padding: '5px', fontSize: '2em' }}>
+				<Flex vertical gap={10} style={{ padding: '5px' }}>
 					<Flex gap={10}>
-						<span
+						<Text
 							style={{
 								border: '1px solid black',
 								padding: '10px',
-								fontSize: '1.5em',
 							}}
 						>
 							13
-						</span>
-						<span
+						</Text>
+						<Text
 							style={{
 								border: '1px solid black',
 								padding: '10px',
-								fontSize: '1.5em',
 							}}
 						>
 							08
-						</span>
-						<span
+						</Text>
+						<Text
 							style={{
 								border: '1px solid black',
 								padding: '10px',
-								fontSize: '1.5em',
 							}}
 						>
 							99
-						</span>
+						</Text>
 					</Flex>
 					<Flex gap={10}>
-						<span
+						<Text
 							style={{
 								border: '1px solid black',
 								padding: '10px',
-								fontSize: '1.5em',
 							}}
 						>
 							20
-						</span>
-						<span
+						</Text>
+						<Text
 							style={{
 								border: '1px solid black',
 								padding: '10px',
-								fontSize: '1.5em',
 							}}
 						>
 							55
-						</span>
-						<span
+						</Text>
+						<Text
 							style={{
 								border: '1px solid black',
 								padding: '10px',
-								fontSize: '1.5em',
 							}}
 						>
 							55
-						</span>
+						</Text>
 					</Flex>
 				</Flex>
 				<Flex justify="center" align="center" style={{ padding: '5px' }}>

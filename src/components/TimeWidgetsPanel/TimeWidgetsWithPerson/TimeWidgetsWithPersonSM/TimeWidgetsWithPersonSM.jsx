@@ -1,22 +1,35 @@
 // @flow
+
+import MediaQuery from 'react-responsive';
 import React from 'react';
 import { Flex, Typography } from 'antd';
-import MediaQuery from 'react-responsive';
+import PersonWidget from '../../PersonWidget/PersonWidget';
+import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 
-const TimeWidgets4SmToLg = (): React$MixedElement => {
+const TimeWidgetsWithPersonSM = (): React$MixedElement => {
 	const { Text } = Typography;
+
 	return (
-		<MediaQuery maxWidth={1002}>
-			<Flex justify="center" wrap style={{ border: '1px solid black' }}>
+		<MediaQuery maxWidth={569}>
+			<Flex
+				wrap
+				align="center"
+				gap={20}
+				style={{ border: '1px solid black', padding: '10px' }}
+				justify="center"
+			>
+				<div style={{ width: '100%' }}>
+					<PersonWidget />
+				</div>
 				<Flex
-					wrap
+					vertical
 					gap={10}
-					justify="center"
-					align="center"
-					style={{ padding: '5px', flex: '0 1 50%' }}
+					style={{
+						padding: '5px',
+					}}
 				>
-					<Flex wrap gap={10} justify="center">
+					<Flex vertical align="center" gap={10}>
 						<Flex gap={10}>
 							<Text
 								style={{
@@ -69,17 +82,9 @@ const TimeWidgets4SmToLg = (): React$MixedElement => {
 								55
 							</Text>
 						</Flex>
+						<TimeWidgetsCustomClock />
 					</Flex>
-					<TimeWidgetsWeeksAndYearsPanel />
-				</Flex>
-				<Flex
-					wrap
-					gap={10}
-					justify="center"
-					style={{ padding: '5px', flex: '0 1 50%' }}
-				>
-					<TimeWidgetsWeeksAndYearsPanel />
-					<Flex wrap gap={10} style={{ order: -1 }} justify="center">
+					<Flex vertical align="center" gap={10}>
 						<Flex gap={10}>
 							<Text
 								style={{
@@ -95,7 +100,7 @@ const TimeWidgets4SmToLg = (): React$MixedElement => {
 									padding: '10px',
 								}}
 							>
-								09
+								08
 							</Text>
 							<Text
 								style={{
@@ -132,6 +137,10 @@ const TimeWidgets4SmToLg = (): React$MixedElement => {
 								55
 							</Text>
 						</Flex>
+						<TimeWidgetsCustomClock />
+					</Flex>
+					<Flex justify="center">
+						<TimeWidgetsWeeksAndYearsPanel />
 					</Flex>
 				</Flex>
 			</Flex>
@@ -139,4 +148,4 @@ const TimeWidgets4SmToLg = (): React$MixedElement => {
 	);
 };
 
-export default TimeWidgets4SmToLg;
+export default TimeWidgetsWithPersonSM;

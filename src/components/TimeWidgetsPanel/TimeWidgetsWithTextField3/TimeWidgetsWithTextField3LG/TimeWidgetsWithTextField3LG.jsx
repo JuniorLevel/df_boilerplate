@@ -7,7 +7,7 @@ import TextFieldWidget from '../../TextFieldWidget/TextFieldWidget';
 import TimeWidgets8 from '../../TimeWidgets8/TimeWidgets8';
 
 const TimeWidgetsWithTextField3LG = (): React$MixedElement => (
-	<MediaQuery minWidth={968} maxWidth={1769}>
+	<MediaQuery minWidth={968} maxWidth={1423}>
 		<Flex
 			align="center"
 			gap={20}

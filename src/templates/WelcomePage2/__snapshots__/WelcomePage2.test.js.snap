@@ -26,28 +26,28 @@ exports[`WelcomePage2 matches the snapshot desktop 1`] = `
       src="[object Object]"
     />
     <div
-      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center ant-flex-justify-center"
+      class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center ant-flex-justify-center"
       style="height: 100vh;"
     >
       <div
-        class="ant-layout css-dev-only-do-not-override-zg0ahe"
+        class="ant-layout css-dev-only-do-not-override-98ntnt"
         style="width: 100%; max-width: 300px; padding: 20px 15px;"
       >
         <h1
-          class="ant-typography css-dev-only-do-not-override-zg0ahe"
+          class="ant-typography css-dev-only-do-not-override-98ntnt"
           style="text-align: center;"
         >
           Welcome
         </h1>
         <input
-          class="ant-input css-dev-only-do-not-override-zg0ahe ant-input-outlined"
+          class="ant-input css-dev-only-do-not-override-98ntnt ant-input-outlined"
           placeholder="email"
           style="margin-bottom: 20px;"
           type="text"
           value=""
         />
         <button
-          class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-block"
+          class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-block"
           style="margin-bottom: 20px;"
           type="button"
         >
@@ -56,7 +56,7 @@ exports[`WelcomePage2 matches the snapshot desktop 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-block"
+          class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-block"
           style="margin-bottom: 20px;"
           type="button"
         >
@@ -65,11 +65,11 @@ exports[`WelcomePage2 matches the snapshot desktop 1`] = `
           </span>
         </button>
         <div
-          class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-wrap-wrap ant-flex-justify-center ant-flex-gap-large"
+          class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-wrap-wrap ant-flex-justify-center ant-flex-gap-large"
           style="margin-bottom: 20px;"
         >
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary ant-btn-icon-only"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary ant-btn-icon-only"
             type="button"
           >
             <span
@@ -97,7 +97,7 @@ exports[`WelcomePage2 matches the snapshot desktop 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary"
             type="button"
           >
             <span>
@@ -137,28 +137,28 @@ exports[`WelcomePage2 matches the snapshot laptop 1`] = `
       src="[object Object]"
     />
     <div
-      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center ant-flex-justify-center"
+      class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center ant-flex-justify-center"
       style="height: 100vh;"
     >
       <div
-        class="ant-layout css-dev-only-do-not-override-zg0ahe"
+        class="ant-layout css-dev-only-do-not-override-98ntnt"
         style="width: 100%; max-width: 300px; padding: 20px 15px;"
       >
         <h1
-          class="ant-typography css-dev-only-do-not-override-zg0ahe"
+          class="ant-typography css-dev-only-do-not-override-98ntnt"
           style="text-align: center;"
         >
           Welcome
         </h1>
         <input
-          class="ant-input css-dev-only-do-not-override-zg0ahe ant-input-outlined"
+          class="ant-input css-dev-only-do-not-override-98ntnt ant-input-outlined"
           placeholder="email"
           style="margin-bottom: 20px;"
           type="text"
           value=""
         />
         <button
-          class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-block"
+          class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-block"
           style="margin-bottom: 20px;"
           type="button"
         >
@@ -167,7 +167,7 @@ exports[`WelcomePage2 matches the snapshot laptop 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-block"
+          class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-block"
           style="margin-bottom: 20px;"
           type="button"
         >
@@ -176,11 +176,11 @@ exports[`WelcomePage2 matches the snapshot laptop 1`] = `
           </span>
         </button>
         <div
-          class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-wrap-wrap ant-flex-justify-center ant-flex-gap-large"
+          class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-wrap-wrap ant-flex-justify-center ant-flex-gap-large"
           style="margin-bottom: 20px;"
         >
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary ant-btn-icon-only"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary ant-btn-icon-only"
             type="button"
           >
             <span
@@ -208,7 +208,7 @@ exports[`WelcomePage2 matches the snapshot laptop 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary"
             type="button"
           >
             <span>
@@ -228,28 +228,28 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
     class="FourImagesBgstyles__DivImageContainer-sc-1fpm6f5-0 kZacqn"
   >
     <div
-      class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-align-center ant-flex-justify-center"
+      class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center ant-flex-justify-center"
       style="height: 100vh;"
     >
       <div
-        class="ant-layout css-dev-only-do-not-override-zg0ahe"
+        class="ant-layout css-dev-only-do-not-override-98ntnt"
         style="width: 100%; max-width: 300px; padding: 20px 15px;"
       >
         <h1
-          class="ant-typography css-dev-only-do-not-override-zg0ahe"
+          class="ant-typography css-dev-only-do-not-override-98ntnt"
           style="text-align: center;"
         >
           Welcome
         </h1>
         <input
-          class="ant-input css-dev-only-do-not-override-zg0ahe ant-input-outlined"
+          class="ant-input css-dev-only-do-not-override-98ntnt ant-input-outlined"
           placeholder="email"
           style="margin-bottom: 20px;"
           type="text"
           value=""
         />
         <button
-          class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-block"
+          class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-block"
           style="margin-bottom: 20px;"
           type="button"
         >
@@ -258,7 +258,7 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-default ant-btn-block"
+          class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-block"
           style="margin-bottom: 20px;"
           type="button"
         >
@@ -267,11 +267,11 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
           </span>
         </button>
         <div
-          class="ant-flex css-dev-only-do-not-override-zg0ahe ant-flex-wrap-wrap ant-flex-justify-center ant-flex-gap-large"
+          class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-wrap-wrap ant-flex-justify-center ant-flex-gap-large"
           style="margin-bottom: 20px;"
         >
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary ant-btn-icon-only"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary ant-btn-icon-only"
             type="button"
           >
             <span
@@ -299,7 +299,7 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary"
             type="button"
           >
             <span>
@@ -307,7 +307,7 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary ant-btn-icon-only"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary ant-btn-icon-only"
             type="button"
           >
             <span
@@ -335,7 +335,7 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary"
             type="button"
           >
             <span>
@@ -343,7 +343,7 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary ant-btn-icon-only"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary ant-btn-icon-only"
             type="button"
           >
             <span
@@ -371,7 +371,7 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary"
             type="button"
           >
             <span>
@@ -379,7 +379,7 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary ant-btn-icon-only"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary ant-btn-icon-only"
             type="button"
           >
             <span
@@ -407,7 +407,7 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary"
             type="button"
           >
             <span>
@@ -415,7 +415,7 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary ant-btn-icon-only"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary ant-btn-icon-only"
             type="button"
           >
             <span
@@ -443,7 +443,7 @@ exports[`WelcomePage2 matches the snapshot mobile 1`] = `
             </span>
           </button>
           <button
-            class="ant-btn css-dev-only-do-not-override-zg0ahe ant-btn-circle ant-btn-primary"
+            class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-circle ant-btn-primary"
             type="button"
           >
             <span>

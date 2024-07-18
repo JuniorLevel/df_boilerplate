@@ -1,19 +1,27 @@
 // @flow
-import React, { useState } from 'react';
+
 import { Flex, Typography } from 'antd';
 import MediaQuery from 'react-responsive';
-import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import TimeWidgetsDaysPanel from '../../TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
+import React from 'react';
+import PersonWidget from '../../PersonWidget/PersonWidget';
 import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 
-const TimeWidgets2XL = (): React$MixedElement => {
+const TimeWidgetsWithPersonLG = (): React$MixedElement => {
 	const { Text } = Typography;
-	const [isShowWeeksPanel] = useState(false);
-
 	return (
-		<MediaQuery minWidth={865}>
-			<Flex wrap style={{ border: '1px solid black' }} gap={5}>
-				<Flex wrap gap={10} align="center" style={{ padding: '5px' }}>
+		<MediaQuery minWidth={830} maxWidth={1284}>
+			<Flex
+				wrap
+				gap={10}
+				align="center"
+				justify="center"
+				style={{ border: '1px solid black', padding: '10px' }}
+			>
+				<div style={{ width: '100%', alignSelf: 'stretch' }}>
+					<PersonWidget />
+				</div>
+				<Flex gap={10}>
 					<Flex gap={10}>
 						<Text
 							style={{
@@ -67,21 +75,13 @@ const TimeWidgets2XL = (): React$MixedElement => {
 						</Text>
 					</Flex>
 				</Flex>
-				<Flex align="center" style={{ padding: '5px' }}>
-					<Flex wrap align="center" gap={10}>
-						<div style={{ border: '1px solid black', padding: '5px' }}>
-							{isShowWeeksPanel ? (
-								<TimeWidgetsWeeksAndYearsPanel />
-							) : (
-								<TimeWidgetsDaysPanel />
-							)}
-						</div>
-						<TimeWidgetsCustomClock />
-					</Flex>
+				<Flex gap={10} align="center">
+					<TimeWidgetsWeeksAndYearsPanel />
+					<TimeWidgetsCustomClock />
 				</Flex>
 			</Flex>
 		</MediaQuery>
 	);
 };
 
-export default TimeWidgets2XL;
+export default TimeWidgetsWithPersonLG;

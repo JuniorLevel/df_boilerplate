@@ -1,12 +1,13 @@
 // @flow
 
 import React from 'react';
-import { Flex } from 'antd';
+import { Flex, Typography } from 'antd';
 import { useMediaQuery } from 'react-responsive';
 
 const TimeWidgets3 = (): React$MixedElement => {
+	const { Text } = Typography;
 	const isMobile = useMediaQuery({
-		query: '(max-width: 559px)',
+		query: '(max-width: 375px)',
 	});
 	return (
 		<Flex
@@ -16,68 +17,60 @@ const TimeWidgets3 = (): React$MixedElement => {
 			justify={isMobile ? 'center' : 'start'}
 			style={{
 				padding: '5px',
-				fontSize: '2em',
 				border: '1px solid black',
-				marginBottom: '20px',
 			}}
 		>
 			<Flex gap={10}>
-				<span
+				<Text
 					style={{
 						border: '1px solid black',
 						padding: '10px',
-						fontSize: '1.5em',
 					}}
 				>
 					13
-				</span>
-				<span
+				</Text>
+				<Text
 					style={{
 						border: '1px solid black',
 						padding: '10px',
-						fontSize: '1.5em',
 					}}
 				>
 					08
-				</span>
-				<span
+				</Text>
+				<Text
 					style={{
 						border: '1px solid black',
 						padding: '10px',
-						fontSize: '1.5em',
 					}}
 				>
 					99
-				</span>
+				</Text>
 			</Flex>
 			<Flex gap={10}>
-				<span
+				<Text
 					style={{
 						border: '1px solid black',
 						padding: '10px',
-						fontSize: '1.5em',
 					}}
 				>
 					20
-				</span>
-				<span
+				</Text>
+				<Text
 					style={{
 						border: '1px solid black',
 						padding: '10px',
-						fontSize: '1.5em',
 					}}
 				>
 					55
-				</span>
-				<span
+				</Text>
+				<Text
 					style={{
 						border: '1px solid black',
 						padding: '10px',
-						fontSize: '1.5em',
 					}}
 				>
 					55
-				</span>
+				</Text>
 			</Flex>
 		</Flex>
 	);

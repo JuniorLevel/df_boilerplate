@@ -6,7 +6,7 @@ import { Reset } from 'styled-reset';
 import { ConfigProvider } from 'antd';
 import AppRouter from './components/AppRouter';
 import { ThemeProvider, ThemeContext } from './context/theme/ThemeContext';
-import { LightTheme, DarkTheme } from './assets/global.styles';
+import { LightTheme, DarkTheme, GlobalStyle } from './assets/global.styles';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -19,6 +19,7 @@ root.render(
 						<ConfigProvider
 							theme={currentTheme === 'light' ? LightTheme : DarkTheme}
 						>
+							<GlobalStyle />
 							<AppRouter />
 						</ConfigProvider>
 					)}

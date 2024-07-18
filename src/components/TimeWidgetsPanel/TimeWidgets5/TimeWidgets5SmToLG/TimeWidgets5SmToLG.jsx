@@ -1,22 +1,23 @@
 // @flow
-import React from 'react';
+
 import { Flex, Typography } from 'antd';
+import React from 'react';
 import MediaQuery from 'react-responsive';
 import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 
-const TimeWidgets4SmToLg = (): React$MixedElement => {
+const TimeWidgets5SmToLG = (): React$MixedElement => {
 	const { Text } = Typography;
+
 	return (
-		<MediaQuery maxWidth={1002}>
-			<Flex justify="center" wrap style={{ border: '1px solid black' }}>
-				<Flex
-					wrap
-					gap={10}
-					justify="center"
-					align="center"
-					style={{ padding: '5px', flex: '0 1 50%' }}
-				>
-					<Flex wrap gap={10} justify="center">
+		<MediaQuery maxWidth={1389}>
+			<Flex
+				wrap
+				gap={10}
+				justify="space-evenly"
+				style={{ border: '1px solid black' }}
+			>
+				<Flex vertical gap={10} align="center" style={{ padding: '5px' }}>
+					<Flex vertical gap={10} wrap justify="center">
 						<Flex gap={10}>
 							<Text
 								style={{
@@ -70,16 +71,17 @@ const TimeWidgets4SmToLg = (): React$MixedElement => {
 							</Text>
 						</Flex>
 					</Flex>
-					<TimeWidgetsWeeksAndYearsPanel />
+					<Flex wrap gap={10} justify="center">
+						<TimeWidgetsWeeksAndYearsPanel />
+						<TimeWidgetsWeeksAndYearsPanel />
+					</Flex>
 				</Flex>
-				<Flex
-					wrap
-					gap={10}
-					justify="center"
-					style={{ padding: '5px', flex: '0 1 50%' }}
-				>
-					<TimeWidgetsWeeksAndYearsPanel />
-					<Flex wrap gap={10} style={{ order: -1 }} justify="center">
+				<Flex vertical gap={10} align="center" style={{ padding: '5px' }}>
+					<Flex wrap gap={10} justify="center">
+						<TimeWidgetsWeeksAndYearsPanel />
+						<TimeWidgetsWeeksAndYearsPanel />
+					</Flex>
+					<Flex vertical gap={10} style={{ order: -1 }} wrap justify="center">
 						<Flex gap={10}>
 							<Text
 								style={{
@@ -139,4 +141,4 @@ const TimeWidgets4SmToLg = (): React$MixedElement => {
 	);
 };
 
-export default TimeWidgets4SmToLg;
+export default TimeWidgets5SmToLG;

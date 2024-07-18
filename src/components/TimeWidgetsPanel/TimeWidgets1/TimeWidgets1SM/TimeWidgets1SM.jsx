@@ -2,22 +2,17 @@
 
 import React from 'react';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
-import { Flex, Progress } from 'antd';
+import { Flex, Progress, Typography } from 'antd';
 
 const TimeWidgets1SM = (): React$MixedElement => {
+	const { Text } = Typography;
 	const isMobile = useMediaQuery({
 		query: '(max-width: 480px)',
 	});
 
 	return (
-		<MediaQuery maxWidth={729}>
-			<Flex
-				vertical
-				style={{
-					marginBottom: '20px',
-				}}
-				gap={5}
-			>
+		<MediaQuery maxWidth={639}>
+			<Flex vertical gap={5}>
 				<Flex
 					gap={10}
 					justify="center"
@@ -27,9 +22,9 @@ const TimeWidgets1SM = (): React$MixedElement => {
 						fontSize: '2em',
 					}}
 				>
-					<span>13</span>
-					<span>августа</span>
-					<span>1999</span>
+					<Text>13</Text>
+					<Text>августа</Text>
+					<Text>1999</Text>
 				</Flex>
 				<Flex
 					justify="center"
