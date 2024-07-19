@@ -4,7 +4,7 @@
 [include]
 src/**/*.{js,jsx} 
 [libs]
-
+node_modules/@types
 [lints]
 all=warn
 untyped-type-import=error

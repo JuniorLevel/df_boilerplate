@@ -1,6 +1,6 @@
 import React from 'react';
 import { Badge, Flex } from 'antd';
-import OrdersDeffHistory from '../OrdersDeffHistory/OrdersDeffHistory';
+import OrdersDiffHistory from '../OrdersDiffHistory/OrdersDiffHistory';
 
 export const ordersTabsItems = [
 	{
@@ -51,6 +51,6 @@ export const ordersTabsItems = [
 				<Badge count={3} />
 			</Flex>
 		),
-		children: <OrdersDeffHistory />,
+		children: <OrdersDiffHistory />,
 	},
 ];

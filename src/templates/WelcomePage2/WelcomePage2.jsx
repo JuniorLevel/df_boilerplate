@@ -6,7 +6,7 @@ import Welcome from '../../components/Welcome/Welcome';
 import WelcomeAuthButtons from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
 import FourImagesBg from '../../components/Welcome/FourImagesBg/FourImagesBg';
 
-const WelcomePage = () => (
+const WelcomePage2 = () => (
 	<FourImagesBg>
 		<Welcome>
 			<MediaQuery minWidth={361}>
@@ -45,4 +45,4 @@ const WelcomePage = () => (
 	</FourImagesBg>
 );
 
-export default WelcomePage;
+export default WelcomePage2;

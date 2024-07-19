@@ -4,8 +4,8 @@ import React from 'react';
 import { Flex } from 'antd';
 import styled from 'styled-components';
 import Container from '../../components/Container/Container';
-import FiltersOpened from '../../components/Shared/FiltersOpened/FiltersOpened';
-import FiltersSearchWithPreview from '../../components/Shared/FiltersSearchWithPreview/FiltersSearchWithPreview';
+import FiltersOpened from '../../components/FiltersOpened/FiltersOpened';
+import FiltersSearchWithPreview from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreview';
 
 const FiltersSearchWithPreviewContainer = styled.div`
 	height: calc(100vh - 545px);

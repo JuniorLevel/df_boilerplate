@@ -3,7 +3,7 @@
 
 module.exports = {
 	title: 'Styleguidist',
-	components: './src/templates/[A-Z]**/*.jsx',
+	components: './src/components/[A-Z]**/*.jsx',
 	ignore: ['**/__snapshots__/**', '**/src/*.test.js'],
 	webpackConfig: require('./webpack.config'),
 };

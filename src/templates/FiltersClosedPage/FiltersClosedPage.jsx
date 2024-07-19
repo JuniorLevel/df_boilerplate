@@ -3,8 +3,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Container from '../../components/Container/Container';
-import FiltersClosedList from '../../components/Shared/FiltersClosedList/FiltersClosedList';
-import FiltersSearch from '../../components/Shared/FiltersSearch/FiltersSearch';
+import FiltersClosedList from '../../components/FiltersClosedList/FiltersClosedList';
+import FiltersSearch from '../../components/FiltersSearch/FiltersSearch';
 import { FiltersClosedListProvider } from '../../context/FiltersClosedListContext/FiltersClosedListContext';
 
 const FiltersSearchContainer = styled.div`

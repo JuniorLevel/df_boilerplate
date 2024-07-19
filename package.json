@@ -15,8 +15,7 @@
 		"lint-staged": "npm run flow && npm run lint && npm run format",
 		"styleguide": "styleguidist server",
 		"styleguide:build": "styleguidist build",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"deploy": "npm run styleguide:build && gh-pages -d styleguide"
 	},
 	"keywords": [],
 	"author": "",
@@ -30,6 +29,7 @@
 		"@testing-library/jest-dom": "^6.4.6",
 		"@testing-library/react": "^16.0.0",
 		"@testing-library/user-event": "^14.5.2",
+		"@types/react": "^18.3.3",
 		"babel-loader": "^9.1.3",
 		"babel-plugin-styled-components": "^2.1.4",
 		"babel-plugin-syntax-hermes-parser": "^0.23.0",
@@ -46,7 +46,7 @@
 		"gh-pages": "^6.1.1",
 		"hermes-eslint": "^0.23.0",
 		"html-webpack-plugin": "^5.6.0",
-		"husky": "^9.1.0",
+		"husky": "^9.1.1",
 		"jest": "^29.7.0",
 		"jest-environment-jsdom": "^29.7.0",
 		"prettier": "3.3.3",

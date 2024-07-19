@@ -7,7 +7,7 @@ import Welcome from '../../components/Welcome/Welcome';
 import WelcomeAuthButtons from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
 import FourImagesBg from '../../components/Welcome/FourImagesBg/FourImagesBg';
 
-const WelcomePage = (): React.Node => (
+const WelcomePage4 = (): React.Node => (
 	<FourImagesBg>
 		<Welcome>
 			<WelcomeAuthButtons>
@@ -36,4 +36,4 @@ const WelcomePage = (): React.Node => (
 	</FourImagesBg>
 );
 
-export default WelcomePage;
+export default WelcomePage4;

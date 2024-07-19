@@ -2,6 +2,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+const navigates = [
+	{ id: 1, name: 'Home', url: '/home' },
+	{ id: 2, name: 'Order', url: '/order' },
+	{ id: 3, name: 'TimeWidgets', url: '/TimeWidgetsPage' },
+	{ id: 4, name: 'FiltersOpenedPage', url: '/FiltersOpenedPage' },
+	{ id: 5, name: 'FiltersClosedPage', url: '/FiltersClosedPage' },
+	{ id: 6, name: 'FiltersClosedPreviewPage', url: '/FiltersClosedPreviewPage' },
+	{ id: 7, name: 'FiltersClosedPreviewPage', url: '/FiltersClosedPreviewPage' },
+	{ id: 8, name: 'DiffOpenedCardsPage', url: '/DiffOpenedCardsPage' },
+	{ id: 9, name: 'DiffClosedCardsPage', url: '/DiffClosedCardsPage' },
+	{ id: 10, name: 'WelcomePage1', url: '/WelcomePage1' },
+	{ id: 11, name: 'WelcomePage2', url: '/WelcomePage2' },
+	{ id: 12, name: 'WelcomePage3', url: '/WelcomePage3' },
+	{ id: 13, name: 'WelcomePage4', url: '/WelcomePage4' },
+	{ id: 14, name: 'WelcomePage5', url: '/WelcomePage5' },
+	{ id: 15, name: 'WelcomePage6', url: '/WelcomePage6' },
+	{ id: 16, name: 'WelcomePage7', url: '/WelcomePage7' },
+	{ id: 17, name: 'WelcomePage8', url: '/WelcomePage8' },
+];
+
 const HomeDev = (): React$MixedElement => (
 	<div>
 		<header>
@@ -13,54 +33,11 @@ const HomeDev = (): React$MixedElement => (
 					padding: '20px',
 				}}
 			>
-				<li>
-					<Link to="/home">Home</Link>
-				</li>
-				<li>
-					<Link to="/order">Order</Link>
-				</li>
-				<li>
-					<Link to="/TimeWidgetsPage">Time Widgets</Link>
-				</li>
-				<li>
-					<Link to="/FiltersOpenedPage">FiltersOpenedPage</Link>
-				</li>
-				<li>
-					<Link to="/FiltersClosedPage">FiltersClosedPage</Link>
-				</li>
-				<li>
-					<Link to="/FiltersClosedPreviewPage">FiltersClosedPreviewPage</Link>
-				</li>
-				<li>
-					<Link to="/DiffOpenedCardsPage">DiffOpenedCardsPage</Link>
-				</li>
-				<li>
-					<Link to="/DiffClosedCardsPage">DiffClosedCardsPage</Link>
-				</li>
-				<li>
-					<Link to="/WelcomePage1">WelcomePage1</Link>
-				</li>
-				<li>
-					<Link to="/WelcomePage2">WelcomePage2</Link>
-				</li>
-				<li>
-					<Link to="/WelcomePage3">WelcomePage3</Link>
-				</li>
-				<li>
-					<Link to="/WelcomePage4">WelcomePage4</Link>
-				</li>
-				<li>
-					<Link to="/WelcomePage5">WelcomePage5</Link>
-				</li>
-				<li>
-					<Link to="/WelcomePage6">WelcomePage6</Link>
-				</li>
-				<li>
-					<Link to="/WelcomePage7">WelcomePage7</Link>
-				</li>
-				<li>
-					<Link to="/WelcomePage8">WelcomePage8</Link>
-				</li>
+				{navigates.map((item) => (
+					<li key={item.id}>
+						<Link to={item.url}>{item.name}</Link>
+					</li>
+				))}
 			</ul>
 		</header>
 		<hr />

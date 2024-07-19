@@ -8,7 +8,7 @@ import Welcome from '../../components/Welcome/Welcome';
 import WelcomeAuthButtons from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
 import FourImagesBg from '../../components/Welcome/FourImagesBg/FourImagesBg';
 
-const WelcomePage = (): React.Node => (
+const WelcomePage3 = (): React.Node => (
 	<FourImagesBg>
 		<Welcome>
 			<MediaQuery minWidth={361}>
@@ -47,4 +47,4 @@ const WelcomePage = (): React.Node => (
 	</FourImagesBg>
 );
 
-export default WelcomePage;
+export default WelcomePage3;

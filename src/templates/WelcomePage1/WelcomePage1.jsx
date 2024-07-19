@@ -7,7 +7,7 @@ import Welcome from '../../components/Welcome/Welcome';
 import FourImagesBg from '../../components/Welcome/FourImagesBg/FourImagesBg';
 import WelcomeAuthButtons from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
 
-const WelcomePage = (): React$MixedElement => (
+const WelcomePage1 = (): React.Node => (
 	<FourImagesBg>
 		<Welcome>
 			<WelcomeAuthButtons>
@@ -20,4 +20,4 @@ const WelcomePage = (): React$MixedElement => (
 	</FourImagesBg>
 );
 
-export default WelcomePage;
+export default WelcomePage1;
