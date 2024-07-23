@@ -1,142 +1,39 @@
 // @flow
 
-import { Flex, Typography } from 'antd';
+import { Flex } from 'antd';
 import React from 'react';
 import MediaQuery from 'react-responsive';
 import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import TimeWidgetsDateWithTimeBlock from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
-const TimeWidgets7MD = (): React$MixedElement => {
-	const { Text } = Typography;
+interface ITimeWidgets7MDProps {
+	fullDate: any;
+}
 
-	return (
-		<MediaQuery minWidth={569} maxWidth={709}>
-			<Flex
-				vertical
-				align="center"
-				gap={10}
-				style={{
-					border: '1px solid black',
-					marginBottom: '20px',
-					padding: '5px',
-				}}
-			>
-				<Flex gap={10}>
-					<Flex gap={10}>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							13
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							08
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							99
-						</Text>
-					</Flex>
-					<Flex gap={10}>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							20
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							55
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							55
-						</Text>
-					</Flex>
-				</Flex>
-				<Flex gap={50} align="center">
-					<TimeWidgetsCustomClock />
-					<TimeWidgetsWeeksAndYearsPanel />
-					<TimeWidgetsCustomClock />
-				</Flex>
-				<Flex gap={10}>
-					<Flex gap={10}>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							23
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							08
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							99
-						</Text>
-					</Flex>
-					<Flex gap={10}>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							20
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							55
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							55
-						</Text>
-					</Flex>
-				</Flex>
+const TimeWidgets7MD = ({
+	fullDate,
+}: ITimeWidgets7MDProps): React$MixedElement => (
+	<MediaQuery minWidth={569} maxWidth={709}>
+		<Flex
+			vertical
+			align="center"
+			gap={10}
+			style={{
+				border: '1px solid black',
+				marginBottom: '20px',
+				padding: '5px',
+			}}
+		>
+			<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+			<Flex gap={50} align="center">
+				<TimeWidgetsCustomClock />
+				<TimeWidgetsWeeksAndYearsPanel />
+				<TimeWidgetsCustomClock />
 			</Flex>
-		</MediaQuery>
-	);
-};
+			<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+		</Flex>
+	</MediaQuery>
+);
 
 export default TimeWidgets7MD;

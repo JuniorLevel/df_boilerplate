@@ -1,16 +1,44 @@
 // @flow
 
-import React from 'react';
-import TimeWidgets2XL from './TimeWidgets2XL/TimeWidgets2XL';
-import TimeWidgets2MD from './TimeWidgets2MD/TimeWidgets2MD';
+import React, { useState } from 'react';
+import { Flex } from 'antd';
+import MediaQuery from 'react-responsive';
+import TimeWidgetsWeeksAndYearsPanel from '../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import TimeWidgetsDaysPanel from '../TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
+import TimeWidgetsCustomClock from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import TimeWidgets2SM from './TimeWidgets2SM/TimeWidgets2SM';
+import TimeWidgets2MD from './TimeWidgets2MD/TimeWidgets2MD';
+import TimeWidgetsDateWithTimeBlock from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
-const TimeWidgets2 = (): React$MixedElement => (
-	<>
-		<TimeWidgets2XL />
-		<TimeWidgets2MD />
-		<TimeWidgets2SM />
-	</>
-);
+interface ITimeWidgets2Props {
+	fullDate: any;
+}
+
+const TimeWidgets2 = ({ fullDate }: ITimeWidgets2Props): React$MixedElement => {
+	const [isShowWeeksPanel] = useState(false);
+	return (
+		<>
+			<MediaQuery minWidth={865}>
+				<Flex wrap style={{ border: '1px solid black' }} gap={5}>
+					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+					<Flex align="center" style={{ padding: '5px' }}>
+						<Flex wrap align="center" gap={10}>
+							<div style={{ border: '1px solid black', padding: '5px' }}>
+								{isShowWeeksPanel ? (
+									<TimeWidgetsWeeksAndYearsPanel />
+								) : (
+									<TimeWidgetsDaysPanel />
+								)}
+							</div>
+							<TimeWidgetsCustomClock />
+						</Flex>
+					</Flex>
+				</Flex>
+			</MediaQuery>
+			<TimeWidgets2MD fullDate={fullDate} />
+			<TimeWidgets2SM fullDate={fullDate} />
+		</>
+	);
+};
 
 export default TimeWidgets2;

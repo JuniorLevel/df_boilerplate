@@ -2,6 +2,7 @@
 
 import React from 'react';
 import styled from 'styled-components';
+import TimeWidgetsWithPerson from './TimeWidgetsWithPerson/TimeWidgetsWithPerson';
 import TextFieldWidget from './TextFieldWidget/TextFieldWidget';
 import TimeWidgets1 from './TimeWidgets1/TimeWidgets1';
 import TimeWidgets2 from './TimeWidgets2/TimeWidgets2';
@@ -14,59 +15,40 @@ import TimeWidgetsWithTextField1 from './TimeWidgetsWithTextField1/TimeWidgetsWi
 import TimeWidgetsWithTextField2 from './TimeWidgetsWithTextField2/TimeWidgetsWithTextField2';
 import TimeWidgetsWithTextField3 from './TimeWidgetsWithTextField3/TimeWidgetsWithTextField3';
 import PersonWidget from './PersonWidget/PersonWidget';
-import TimeWidgetsWithPerson from './TimeWidgetsWithPerson/TimeWidgetsWithPerson';
 
 const StyledDiv = styled.div`
-	margin-bottom: 20px;
+	padding: 10px;
+	> div {
+		margin-bottom: 20px;
+	}
 `;
 
 const TimeWidgetsPanel = (): React$MixedElement => (
-	<div style={{ padding: '10px' }}>
-		<StyledDiv>
-			<TimeWidgets1 />
-		</StyledDiv>
-		<StyledDiv>
-			<TimeWidgets2 />
-		</StyledDiv>
-		<StyledDiv>
-			<TimeWidgets3 />
-		</StyledDiv>
-		<StyledDiv>
-			<TimeWidgets4 />
-		</StyledDiv>
-		<StyledDiv>
-			<TimeWidgets5 />
-		</StyledDiv>
-		<StyledDiv>
-			<TimeWidgets6 />
-		</StyledDiv>
-		<StyledDiv>
-			<TimeWidgets7 />
-		</StyledDiv>
-		<StyledDiv
-			style={{
-				border: '1px solid black',
-				padding: '10px',
-			}}
-		>
-			<TextFieldWidget text="Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf" />
-		</StyledDiv>
-		<StyledDiv>
-			<TimeWidgetsWithTextField1 />
-		</StyledDiv>
-		<StyledDiv>
-			<TimeWidgetsWithTextField2 />
-		</StyledDiv>
-		<StyledDiv>
-			<TimeWidgetsWithTextField3 />
-		</StyledDiv>
-		<StyledDiv>
-			<PersonWidget />
-		</StyledDiv>
-		<StyledDiv>
-			<TimeWidgetsWithPerson />
-		</StyledDiv>
-	</div>
+	<StyledDiv>
+		<TimeWidgets1 date="13 августа 1999" />
+		<TimeWidgets2 fullDate={{ date: '13.08.99', time: '20:55:55' }} />
+		<TimeWidgets3 fullDate={{ date: '13.08.99', time: '20:55:55' }} />
+		<TimeWidgets4 fullDate={{ date: '13.08.99', time: '20:55:55' }} />
+		<TimeWidgets5 fullDate={{ date: '13.08.99', time: '20:55:55' }} />
+		<TimeWidgets6 fullDate={{ date: '13.08.99', time: '20:55:55' }} />
+		<TimeWidgets7 fullDate={{ date: '13.08.99', time: '20:55:55' }} />
+		<TextFieldWidget text="Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf" />
+		<TimeWidgetsWithTextField1
+			fullDate={{ date: '13.08.99', time: '20:55:55' }}
+		/>
+		<TimeWidgetsWithTextField2
+			fullDate={{ date: '13.08.99', time: '20:55:55' }}
+		/>
+		<TimeWidgetsWithTextField3
+			fullDate={{ date: '13.08.99', time: '20:55:55' }}
+		/>
+		<PersonWidget userRole="Assigned" fio="FIO FIO FIO FIO" />
+		<TimeWidgetsWithPerson
+			fullDate={{ date: '13.08.99', time: '20:55:55' }}
+			userRole="Assigned"
+			fio="FIO FIO FIO FIO"
+		/>
+	</StyledDiv>
 );
 
 export default TimeWidgetsPanel;

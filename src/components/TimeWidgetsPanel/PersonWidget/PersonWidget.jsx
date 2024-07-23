@@ -4,10 +4,18 @@ import React from 'react';
 import { Flex, Avatar, Typography } from 'antd';
 import { useMediaQuery } from 'react-responsive';
 
-const PersonWidget = (): React$MixedElement => {
+interface IPersonWidgetProps {
+	userRole: string;
+	fio: string;
+}
+
+const PersonWidget = ({
+	userRole,
+	fio,
+}: IPersonWidgetProps): React$MixedElement => {
 	const { Text } = Typography;
 	const isMobile = useMediaQuery({
-		query: '(max-width: 569px)',
+		query: '(max-width: 577px)',
 	});
 
 	return (
@@ -25,7 +33,7 @@ const PersonWidget = (): React$MixedElement => {
 					...(isMobile && { flex: '1 0 150px' }),
 				}}
 			>
-				<Text>Assigned</Text>
+				<Text>{userRole}</Text>
 				<Text
 					style={{
 						position: 'absolute',
@@ -58,7 +66,7 @@ const PersonWidget = (): React$MixedElement => {
 				>
 					FIO
 				</Avatar>
-				<Text>FIO FIO FIO FIO</Text>
+				<Text>{fio}</Text>
 			</Flex>
 		</Flex>
 	);

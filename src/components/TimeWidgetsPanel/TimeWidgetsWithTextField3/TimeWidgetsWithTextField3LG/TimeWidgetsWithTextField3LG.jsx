@@ -6,7 +6,13 @@ import MediaQuery from 'react-responsive';
 import TextFieldWidget from '../../TextFieldWidget/TextFieldWidget';
 import TimeWidgets8 from '../../TimeWidgets8/TimeWidgets8';
 
-const TimeWidgetsWithTextField3LG = (): React$MixedElement => (
+interface ITimeWidgetsWithTextField3LGProps {
+	fullDate: any;
+}
+
+const TimeWidgetsWithTextField3LG = ({
+	fullDate,
+}: ITimeWidgetsWithTextField3LGProps): React$MixedElement => (
 	<MediaQuery minWidth={968} maxWidth={1423}>
 		<Flex
 			align="center"
@@ -17,7 +23,7 @@ const TimeWidgetsWithTextField3LG = (): React$MixedElement => (
 			<div style={{ width: '50%', alignSelf: 'stretch' }}>
 				<TextFieldWidget text="Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf. Lorem asdasdas asdasdasd asdasdasd asdasdasdas sadasdasdasd asfdsdfsdfs sdfsdfsd fsdfsdahfd adfhfasdhgasdfg asfdhadffsdafs afdshadfgsadf" />
 			</div>
-			<TimeWidgets8 />
+			<TimeWidgets8 fullDate={fullDate} />
 		</Flex>
 	</MediaQuery>
 );

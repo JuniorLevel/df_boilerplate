@@ -1,18 +1,24 @@
 // @flow
 
 import React, { useState } from 'react';
-import { Flex, Typography } from 'antd';
+import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 import TimeWidgetsDaysPanel from '../../TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
 import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import TimeWidgetsDateWithTimeBlock from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
-const TimeWidgets2MD = (): React$MixedElement => {
-	const { Text } = Typography;
+interface ITimeWidgets2MDProps {
+	fullDate: any;
+}
+
+const TimeWidgets2MD = ({
+	fullDate,
+}: ITimeWidgets2MDProps): React$MixedElement => {
 	const [isShowWeeksPanel] = useState(false);
 
 	return (
-		<MediaQuery minWidth={730} maxWidth={864}>
+		<MediaQuery minWidth={782} maxWidth={864}>
 			<Flex
 				style={{ border: '1px solid black' }}
 				gap={5}
@@ -20,56 +26,7 @@ const TimeWidgets2MD = (): React$MixedElement => {
 			>
 				<Flex vertical gap={10} style={{ padding: '5px' }}>
 					<Flex gap={10}>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							13
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							08
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							99
-						</Text>
-					</Flex>
-					<Flex gap={10}>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							20
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							55
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							55
-						</Text>
+						<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 					</Flex>
 				</Flex>
 				<Flex justify="center" align="center" style={{ padding: '5px' }}>

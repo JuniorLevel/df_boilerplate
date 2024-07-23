@@ -1,13 +1,67 @@
 // @flow
 
 import React from 'react';
-import TimeWidgets6XL from './TimeWidgets6XL/TimeWidgets6XL';
+import { Flex } from 'antd';
+import MediaQuery from 'react-responsive';
+import styled from 'styled-components';
 import TimeWidgets6SmToLg from './TimeWidgets6SmToLg/TimeWidgets6SmToLg';
+import TimeWidgetsDateWithTimeBlock from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
-const TimeWidgets6 = (): React$MixedElement => (
+const StyledDivYears = styled.div`
+	background-color: blue;
+`;
+
+interface ITimeWidgets6Props {
+	fullDate: any;
+}
+
+const TimeWidgets6 = ({ fullDate }: ITimeWidgets6Props): React$MixedElement => (
 	<>
-		<TimeWidgets6XL />
-		<TimeWidgets6SmToLg />
+		<MediaQuery minWidth={854}>
+			<Flex
+				wrap
+				justify="space-between"
+				align="center"
+				style={{ border: '1px solid black', marginBottom: '20px' }}
+			>
+				<Flex wrap align="center" style={{ padding: '5px' }}>
+					<Flex wrap gap={10}>
+						<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+					</Flex>
+				</Flex>
+				<Flex style={{ padding: '5px', border: '1px solid black' }}>
+					<Flex gap={10}>
+						<StyledDivYears
+							style={{
+								width: '30px',
+								height: '30px',
+								border: '1px solid black',
+							}}
+						/>
+						<StyledDivYears
+							style={{
+								width: '30px',
+								height: '30px',
+								border: '1px solid black',
+							}}
+						/>
+						<StyledDivYears
+							style={{
+								width: '30px',
+								height: '30px',
+								border: '1px solid black',
+							}}
+						/>
+					</Flex>
+				</Flex>
+				<Flex wrap align="center" style={{ padding: '5px' }}>
+					<Flex wrap gap={10}>
+						<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+					</Flex>
+				</Flex>
+			</Flex>
+		</MediaQuery>
+		<TimeWidgets6SmToLg fullDate={fullDate} />
 	</>
 );
 

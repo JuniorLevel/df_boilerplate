@@ -2,19 +2,16 @@
 
 import { Flex, Progress, Typography } from 'antd';
 import React, { useState } from 'react';
-import MediaQuery, { useMediaQuery } from 'react-responsive';
+import MediaQuery from 'react-responsive';
 import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 
 const TimeWidgets2SM = (): React$MixedElement => {
 	const { Text } = Typography;
 	const [isShowWeeksPanel] = useState(false);
-	const isMobile = useMediaQuery({
-		query: '(max-width: 480px)',
-	});
 
 	return (
-		<MediaQuery maxWidth={729}>
+		<MediaQuery maxWidth={781}>
 			<Flex
 				wrap
 				align="start"
@@ -83,7 +80,7 @@ const TimeWidgets2SM = (): React$MixedElement => {
 								<TimeWidgetsWeeksAndYearsPanel />
 							) : (
 								<Progress
-									size={{ width: isMobile ? 6 : 10, height: 50 }}
+									size={{ width: 6, height: 50 }}
 									percent={100}
 									steps={31}
 									showInfo={false}

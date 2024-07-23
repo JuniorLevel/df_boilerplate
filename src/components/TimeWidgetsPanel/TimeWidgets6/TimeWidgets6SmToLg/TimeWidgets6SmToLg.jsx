@@ -1,165 +1,66 @@
 // @flow
 
 import React from 'react';
-import { Flex, Typography } from 'antd';
+import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import styled from 'styled-components';
+import TimeWidgetsDateWithTimeBlock from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 const StyledDivYears = styled.div`
 	background-color: blue;
 `;
 
-const TimeWidgets6SmToLg = (): React$MixedElement => {
-	const { Text } = Typography;
+interface ITimeWidgets6SmToLgProps {
+	fullDate: any;
+}
 
-	return (
-		<MediaQuery maxWidth={853}>
-			<Flex
-				vertical
-				gap={10}
-				align="center"
-				style={{ border: '1px solid black', marginBottom: '20px' }}
-			>
-				<Flex wrap align="center" style={{ padding: '5px' }}>
-					<Flex wrap gap={10} justify="center">
-						<Flex gap={10}>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								13
-							</Text>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								08
-							</Text>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								99
-							</Text>
-						</Flex>
-						<Flex gap={10}>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								20
-							</Text>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								55
-							</Text>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								55
-							</Text>
-						</Flex>
-					</Flex>
-				</Flex>
-				<Flex style={{ padding: '5px', border: '1px solid black' }}>
-					<Flex gap={10}>
-						<StyledDivYears
-							style={{
-								width: '30px',
-								height: '30px',
-								border: '1px solid black',
-							}}
-						/>
-						<StyledDivYears
-							style={{
-								width: '30px',
-								height: '30px',
-								border: '1px solid black',
-							}}
-						/>
-						<StyledDivYears
-							style={{
-								width: '30px',
-								height: '30px',
-								border: '1px solid black',
-							}}
-						/>
-					</Flex>
-				</Flex>
-				<Flex wrap align="center" style={{ padding: '5px' }}>
-					<Flex wrap gap={10} justify="center">
-						<Flex gap={10}>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								13
-							</Text>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								08
-							</Text>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								99
-							</Text>
-						</Flex>
-						<Flex gap={10}>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								20
-							</Text>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								55
-							</Text>
-							<Text
-								style={{
-									border: '1px solid black',
-									padding: '10px',
-								}}
-							>
-								55
-							</Text>
-						</Flex>
-					</Flex>
+const TimeWidgets6SmToLg = ({
+	fullDate,
+}: ITimeWidgets6SmToLgProps): React$MixedElement => (
+	<MediaQuery maxWidth={853}>
+		<Flex
+			vertical
+			gap={10}
+			align="center"
+			style={{ border: '1px solid black', marginBottom: '20px' }}
+		>
+			<Flex wrap align="center" style={{ padding: '5px' }}>
+				<Flex wrap gap={10} justify="center">
+					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 				</Flex>
 			</Flex>
-		</MediaQuery>
-	);
-};
+			<Flex style={{ padding: '5px', border: '1px solid black' }}>
+				<Flex gap={10}>
+					<StyledDivYears
+						style={{
+							width: '30px',
+							height: '30px',
+							border: '1px solid black',
+						}}
+					/>
+					<StyledDivYears
+						style={{
+							width: '30px',
+							height: '30px',
+							border: '1px solid black',
+						}}
+					/>
+					<StyledDivYears
+						style={{
+							width: '30px',
+							height: '30px',
+							border: '1px solid black',
+						}}
+					/>
+				</Flex>
+			</Flex>
+			<Flex wrap align="center" style={{ padding: '5px' }}>
+				<Flex wrap gap={10} justify="center">
+					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+				</Flex>
+			</Flex>
+		</Flex>
+	</MediaQuery>
+);
 
 export default TimeWidgets6SmToLg;

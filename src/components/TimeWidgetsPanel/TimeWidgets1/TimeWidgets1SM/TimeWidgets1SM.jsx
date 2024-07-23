@@ -1,14 +1,15 @@
 // @flow
 
 import React from 'react';
-import MediaQuery, { useMediaQuery } from 'react-responsive';
+import MediaQuery from 'react-responsive';
 import { Flex, Progress, Typography } from 'antd';
 
-const TimeWidgets1SM = (): React$MixedElement => {
+interface ITimeWidgets1SMProps {
+	date: string;
+}
+
+const TimeWidgets1SM = ({ date }: ITimeWidgets1SMProps): React$MixedElement => {
 	const { Text } = Typography;
-	const isMobile = useMediaQuery({
-		query: '(max-width: 480px)',
-	});
 
 	return (
 		<MediaQuery maxWidth={639}>
@@ -22,9 +23,10 @@ const TimeWidgets1SM = (): React$MixedElement => {
 						fontSize: '2em',
 					}}
 				>
-					<Text>13</Text>
-					<Text>августа</Text>
-					<Text>1999</Text>
+					{date.split(' ').map((item, idx) => (
+						// eslint-disable-next-line react/no-array-index-key
+						<Text key={idx}>{item}</Text>
+					))}
 				</Flex>
 				<Flex
 					justify="center"
@@ -40,7 +42,7 @@ const TimeWidgets1SM = (): React$MixedElement => {
 						}}
 					>
 						<Progress
-							size={{ width: !isMobile ? 10 : 6, height: 50 }}
+							size={{ width: 6, height: 50 }}
 							percent={100}
 							steps={31}
 							showInfo={false}
