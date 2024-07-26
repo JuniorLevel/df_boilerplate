@@ -8,13 +8,17 @@ import BurgerMenu from '../BurgerMenu/BurgerMenu';
 import Logo from '../Logo/Logo';
 import { StyledHeaderMobile } from './HomeHeaderMobile.styles';
 
-const HomeHeaderMobile = (): React.Node => (
+interface IHomeHeaderMobileProps {
+	title: string;
+}
+
+const HomeHeaderMobile = ({ title }: IHomeHeaderMobileProps): React.Node => (
 	<ConfigProvider theme={{ token: { colorTextBase: 'white' } }}>
 		<MediaQuery maxWidth={360}>
 			<StyledHeaderMobile>
 				<Flex justify="space-between" align="center">
 					<BurgerMenu />
-					<Logo />
+					<Logo title={title} />
 					<Flex align="center">
 						<Avatar shape="circle" size="large" icon={<UserOutlined />} />
 					</Flex>

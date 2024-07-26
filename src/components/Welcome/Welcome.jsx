@@ -1,6 +1,7 @@
 // @flow
 import { Button, Input, Flex, Layout, Typography } from 'antd';
 import React from 'react';
+import styled from 'styled-components';
 
 const layoutStyle = {
 	width: '100%',
@@ -8,11 +9,18 @@ const layoutStyle = {
 	padding: '20px 15px',
 };
 
+const ButtonContainer = styled.div`
+	button {
+		margin-bottom: 20px;
+	}
+`;
+
 interface IWelcomeProps {
 	children: React.Node;
+	buttons: any[];
 }
 
-const Welcome = ({ children }: IWelcomeProps): React.Node => {
+export const Welcome = ({ children, buttons }: IWelcomeProps): React.Node => {
 	const { Title } = Typography;
 
 	return (
@@ -20,16 +28,16 @@ const Welcome = ({ children }: IWelcomeProps): React.Node => {
 			<Layout style={layoutStyle}>
 				<Title style={{ textAlign: 'center' }}>Welcome</Title>
 				<Input placeholder="email" style={{ marginBottom: '20px' }} />
-				<Button block style={{ marginBottom: '20px' }}>
-					Log in
-				</Button>
-				<Button block style={{ marginBottom: '20px' }}>
-					create account
-				</Button>
+				<ButtonContainer>
+					{buttons.map((button, idx) => (
+						// eslint-disable-next-line react/no-array-index-key
+						<Button block key={idx} onClick={button.onClick}>
+							{button.title}
+						</Button>
+					))}
+				</ButtonContainer>
 				{children}
 			</Layout>
 		</Flex>
 	);
 };
-
-export default Welcome;

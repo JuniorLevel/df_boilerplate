@@ -3,13 +3,13 @@
 exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
 <div>
   <div
-    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 ExmQa css-dev-only-do-not-override-98ntnt"
+    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 hzoitp css-dev-only-do-not-override-1uq9j6g"
   >
     <header
-      class="ant-layout-header HomeHeaderDesktopstyles__StyledHeaderDesktop-sc-41qqts-0 hgSSZE css-dev-only-do-not-override-19b4p7l"
+      class="ant-layout-header HomeHeader__StyledHeaderDesktop-sc-1cpr3xn-0 DWwTu css-dev-only-do-not-override-e5njrn"
     >
       <div
-        class="ant-flex css-dev-only-do-not-override-19b4p7l ant-flex-justify-space-between"
+        class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-justify-space-between"
       >
         <div
           style="font-size: 2em;"
@@ -41,11 +41,11 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
           </span>
         </div>
         <div
-          class="ant-flex css-dev-only-do-not-override-19b4p7l ant-flex-align-center"
+          class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-align-center"
         >
           <button
             aria-checked="false"
-            class="ant-switch css-dev-only-do-not-override-19b4p7l"
+            class="ant-switch css-dev-only-do-not-override-e5njrn"
             role="switch"
             style="margin-right: 16px;"
             type="button"
@@ -107,7 +107,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
             </span>
           </button>
           <span
-            class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon css-dev-only-do-not-override-19b4p7l"
+            class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon css-dev-only-do-not-override-e5njrn"
           >
             <span
               aria-label="user"
@@ -133,10 +133,10 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
       </div>
     </header>
     <div
-      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-98ntnt"
+      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-1uq9j6g"
     >
       <aside
-        class="ant-layout-sider ant-layout-sider-dark HomeSidebarDesktopstyles__StyledHomeSidebarDesktop-sc-qott7u-0 eHBSyw"
+        class="ant-layout-sider ant-layout-sider-dark Containerstyles__StyledHomeSidebarDesktop-sc-kziwuf-2 caGmLJ"
         style="flex: 0 0 65px; max-width: 65px; min-width: 65px; width: 65px;"
       >
         <div
@@ -148,10 +148,10 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                 href="/home/orders"
               >
                 <li
-                  class="HomeSidebarNavigationstyles__StyledListItem-sc-3v71ch-0 gtJFuk"
+                  class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
                 >
                   <button
-                    class="ant-btn css-dev-only-do-not-override-19b4p7l ant-btn-ghost"
+                    class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
                     style="border-radius: 0px; font-size: 1.5em;"
                     type="button"
                   >
@@ -181,10 +181,10 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                 href="/home/compare"
               >
                 <li
-                  class="HomeSidebarNavigationstyles__StyledListItem-sc-3v71ch-0 gtJFuk"
+                  class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
                 >
                   <button
-                    class="ant-btn css-dev-only-do-not-override-19b4p7l ant-btn-ghost"
+                    class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
                     style="border-radius: 0px; font-size: 1.5em;"
                     type="button"
                   >
@@ -214,10 +214,10 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                 href="/home/admin"
               >
                 <li
-                  class="HomeSidebarNavigationstyles__StyledListItem-sc-3v71ch-0 gtJFuk"
+                  class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
                 >
                   <button
-                    class="ant-btn css-dev-only-do-not-override-19b4p7l ant-btn-ghost"
+                    class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
                     style="border-radius: 0px; font-size: 1.5em;"
                     type="button"
                   >
@@ -248,35 +248,35 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
         </div>
       </aside>
       <main
-        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 ckAmLF css-dev-only-do-not-override-98ntnt"
+        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 fPqntu css-dev-only-do-not-override-1uq9j6g"
       >
         <div
-          class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-gap-middle"
-          style="margin: 10px 10px 0px 10px; overflow-x: auto;"
+          class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-gap-middle"
+          style="margin: 10px; overflow-x: auto;"
         >
           <div
-            class="FiltersOpenedDesktopstyles__StyledReactSortable-sc-1sm8t2l-0 bABfUp"
+            class="FiltersOpened__StyledReactSortable-sc-7km5ej-0 lfKqjG"
           >
             <div
-              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-jgf1g5-1 hBhUhu css-dev-only-do-not-override-98ntnt"
+              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
             >
               <div
                 class="ant-card-body"
               >
                 <div
-                  class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                  class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
                   style="min-height: 295px;"
                 >
                   <div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                     >
                       <div>
                         <div
-                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
+                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 jtwoOx"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                           >
                             <div
                               style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -285,13 +285,13 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                             </div>
                             <div>
                               <div
-                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                               >
                                 lorem-1
                               </div>
                             </div>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                               style="width: 20px; position: absolute; right: 0px;"
                               type="button"
                             >
@@ -325,7 +325,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                     </div>
                   </div>
                   <button
-                    class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-icon-only ant-btn-block"
+                    class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-icon-only ant-btn-block"
                     type="button"
                   >
                     <span
@@ -359,25 +359,25 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
               </div>
             </div>
             <div
-              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-jgf1g5-1 hBhUhu css-dev-only-do-not-override-98ntnt"
+              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
             >
               <div
                 class="ant-card-body"
               >
                 <div
-                  class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                  class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
                   style="min-height: 295px;"
                 >
                   <div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                     >
                       <div>
                         <div
-                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
+                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 eGdOxO"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                           >
                             <div
                               style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -386,18 +386,18 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                             </div>
                             <div>
                               <div
-                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                               >
                                 project-1
                               </div>
                             </div>
                           </div>
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g"
                             style="gap: 20px;"
                           >
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 byxbGP"
                               type="button"
                             >
                               <span
@@ -426,7 +426,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                               </span>
                             </button>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 gKFHzc"
                               type="button"
                             >
                               <span
@@ -457,7 +457,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                               </span>
                             </button>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                               style="width: 20px;"
                               type="button"
                             >
@@ -490,14 +490,14 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                       </div>
                     </div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                     >
                       <div>
                         <div
-                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
+                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 jtwoOx"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                           >
                             <div
                               style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -506,13 +506,13 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                             </div>
                             <div>
                               <div
-                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                               >
                                 project-2
                               </div>
                             </div>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                               style="width: 20px; position: absolute; right: 0px;"
                               type="button"
                             >
@@ -545,14 +545,14 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                       </div>
                     </div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                     >
                       <div>
                         <div
-                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
+                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 eGdOxO"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                           >
                             <div
                               style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -561,18 +561,18 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                             </div>
                             <div>
                               <div
-                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                               >
                                 project-3
                               </div>
                             </div>
                           </div>
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g"
                             style="gap: 20px;"
                           >
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 byxbGP"
                               type="button"
                             >
                               <span
@@ -601,7 +601,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                               </span>
                             </button>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 gKFHzc"
                               type="button"
                             >
                               <span
@@ -632,7 +632,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                               </span>
                             </button>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                               style="width: 20px;"
                               type="button"
                             >
@@ -666,7 +666,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                     </div>
                   </div>
                   <button
-                    class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-icon-only ant-btn-block"
+                    class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-icon-only ant-btn-block"
                     type="button"
                   >
                     <span
@@ -701,16 +701,16 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
             </div>
           </div>
           <div
-            class="ant-card ant-card-bordered FiltersOpenedCardsAddButtonstyles__StyledCardsAddButtonDesktop-sc-wogzna-1 hKhpCd css-dev-only-do-not-override-98ntnt"
+            class="ant-card ant-card-bordered FiltersOpenedCardsAddButtonstyles__StyledCardsAddButtonDesktop-sc-126h3hj-1 bidUAE css-dev-only-do-not-override-1uq9j6g"
           >
             <div
               class="ant-card-body"
             >
               <div
-                class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center ant-flex-justify-center"
+                class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center ant-flex-justify-center"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-icon-only"
+                  class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-icon-only"
                   type="button"
                 >
                   <span
@@ -753,13 +753,13 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
 exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
 <div>
   <div
-    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 ExmQa css-dev-only-do-not-override-98ntnt"
+    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 hzoitp css-dev-only-do-not-override-1uq9j6g"
   >
     <header
-      class="ant-layout-header HomeHeaderDesktopstyles__StyledHeaderDesktop-sc-41qqts-0 hgSSZE css-dev-only-do-not-override-19b4p7l"
+      class="ant-layout-header HomeHeader__StyledHeaderDesktop-sc-1cpr3xn-0 DWwTu css-dev-only-do-not-override-e5njrn"
     >
       <div
-        class="ant-flex css-dev-only-do-not-override-19b4p7l ant-flex-justify-space-between"
+        class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-justify-space-between"
       >
         <div
           style="font-size: 2em;"
@@ -791,11 +791,11 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
           </span>
         </div>
         <div
-          class="ant-flex css-dev-only-do-not-override-19b4p7l ant-flex-align-center"
+          class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-align-center"
         >
           <button
             aria-checked="false"
-            class="ant-switch css-dev-only-do-not-override-19b4p7l"
+            class="ant-switch css-dev-only-do-not-override-e5njrn"
             role="switch"
             style="margin-right: 16px;"
             type="button"
@@ -857,7 +857,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
             </span>
           </button>
           <span
-            class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon css-dev-only-do-not-override-19b4p7l"
+            class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon css-dev-only-do-not-override-e5njrn"
           >
             <span
               aria-label="user"
@@ -883,10 +883,10 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
       </div>
     </header>
     <div
-      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-98ntnt"
+      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-1uq9j6g"
     >
       <aside
-        class="ant-layout-sider ant-layout-sider-dark HomeSidebarDesktopstyles__StyledHomeSidebarDesktop-sc-qott7u-0 eHBSyw"
+        class="ant-layout-sider ant-layout-sider-dark Containerstyles__StyledHomeSidebarDesktop-sc-kziwuf-2 caGmLJ"
         style="flex: 0 0 65px; max-width: 65px; min-width: 65px; width: 65px;"
       >
         <div
@@ -898,10 +898,10 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                 href="/home/orders"
               >
                 <li
-                  class="HomeSidebarNavigationstyles__StyledListItem-sc-3v71ch-0 gtJFuk"
+                  class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
                 >
                   <button
-                    class="ant-btn css-dev-only-do-not-override-19b4p7l ant-btn-ghost"
+                    class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
                     style="border-radius: 0px; font-size: 1.5em;"
                     type="button"
                   >
@@ -931,10 +931,10 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                 href="/home/compare"
               >
                 <li
-                  class="HomeSidebarNavigationstyles__StyledListItem-sc-3v71ch-0 gtJFuk"
+                  class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
                 >
                   <button
-                    class="ant-btn css-dev-only-do-not-override-19b4p7l ant-btn-ghost"
+                    class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
                     style="border-radius: 0px; font-size: 1.5em;"
                     type="button"
                   >
@@ -964,10 +964,10 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                 href="/home/admin"
               >
                 <li
-                  class="HomeSidebarNavigationstyles__StyledListItem-sc-3v71ch-0 gtJFuk"
+                  class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
                 >
                   <button
-                    class="ant-btn css-dev-only-do-not-override-19b4p7l ant-btn-ghost"
+                    class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
                     style="border-radius: 0px; font-size: 1.5em;"
                     type="button"
                   >
@@ -998,35 +998,35 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
         </div>
       </aside>
       <main
-        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 ckAmLF css-dev-only-do-not-override-98ntnt"
+        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 fPqntu css-dev-only-do-not-override-1uq9j6g"
       >
         <div
-          class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-gap-middle"
-          style="margin: 10px 10px 0px 10px; overflow-x: auto;"
+          class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-gap-middle"
+          style="margin: 10px; overflow-x: auto;"
         >
           <div
-            class="FiltersOpenedDesktopstyles__StyledReactSortable-sc-1sm8t2l-0 bABfUp"
+            class="FiltersOpened__StyledReactSortable-sc-7km5ej-0 lfKqjG"
           >
             <div
-              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-jgf1g5-1 hBhUhu css-dev-only-do-not-override-98ntnt"
+              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
             >
               <div
                 class="ant-card-body"
               >
                 <div
-                  class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                  class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
                   style="min-height: 295px;"
                 >
                   <div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                     >
                       <div>
                         <div
-                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
+                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 jtwoOx"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                           >
                             <div
                               style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -1035,13 +1035,13 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                             </div>
                             <div>
                               <div
-                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                               >
                                 lorem-1
                               </div>
                             </div>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                               style="width: 20px; position: absolute; right: 0px;"
                               type="button"
                             >
@@ -1075,7 +1075,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                     </div>
                   </div>
                   <button
-                    class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-icon-only ant-btn-block"
+                    class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-icon-only ant-btn-block"
                     type="button"
                   >
                     <span
@@ -1109,25 +1109,25 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
               </div>
             </div>
             <div
-              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-jgf1g5-1 hBhUhu css-dev-only-do-not-override-98ntnt"
+              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
             >
               <div
                 class="ant-card-body"
               >
                 <div
-                  class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                  class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
                   style="min-height: 295px;"
                 >
                   <div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                     >
                       <div>
                         <div
-                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
+                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 eGdOxO"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                           >
                             <div
                               style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -1136,18 +1136,18 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                             </div>
                             <div>
                               <div
-                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                               >
                                 project-1
                               </div>
                             </div>
                           </div>
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g"
                             style="gap: 20px;"
                           >
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 byxbGP"
                               type="button"
                             >
                               <span
@@ -1176,7 +1176,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                               </span>
                             </button>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 gKFHzc"
                               type="button"
                             >
                               <span
@@ -1207,7 +1207,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                               </span>
                             </button>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                               style="width: 20px;"
                               type="button"
                             >
@@ -1240,14 +1240,14 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                       </div>
                     </div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                     >
                       <div>
                         <div
-                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
+                          class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 jtwoOx"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                           >
                             <div
                               style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -1256,13 +1256,13 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                             </div>
                             <div>
                               <div
-                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                               >
                                 project-2
                               </div>
                             </div>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                               style="width: 20px; position: absolute; right: 0px;"
                               type="button"
                             >
@@ -1295,14 +1295,14 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                       </div>
                     </div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                     >
                       <div>
                         <div
-                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
+                          class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 eGdOxO"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                           >
                             <div
                               style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -1311,18 +1311,18 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                             </div>
                             <div>
                               <div
-                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                               >
                                 project-3
                               </div>
                             </div>
                           </div>
                           <div
-                            class="ant-flex css-dev-only-do-not-override-98ntnt"
+                            class="ant-flex css-dev-only-do-not-override-1uq9j6g"
                             style="gap: 20px;"
                           >
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 byxbGP"
                               type="button"
                             >
                               <span
@@ -1351,7 +1351,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                               </span>
                             </button>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 gKFHzc"
                               type="button"
                             >
                               <span
@@ -1382,7 +1382,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                               </span>
                             </button>
                             <button
-                              class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                              class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                               style="width: 20px;"
                               type="button"
                             >
@@ -1416,7 +1416,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                     </div>
                   </div>
                   <button
-                    class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-icon-only ant-btn-block"
+                    class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-icon-only ant-btn-block"
                     type="button"
                   >
                     <span
@@ -1451,16 +1451,16 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
             </div>
           </div>
           <div
-            class="ant-card ant-card-bordered FiltersOpenedCardsAddButtonstyles__StyledCardsAddButtonDesktop-sc-wogzna-1 hKhpCd css-dev-only-do-not-override-98ntnt"
+            class="ant-card ant-card-bordered FiltersOpenedCardsAddButtonstyles__StyledCardsAddButtonDesktop-sc-126h3hj-1 bidUAE css-dev-only-do-not-override-1uq9j6g"
           >
             <div
               class="ant-card-body"
             >
               <div
-                class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center ant-flex-justify-center"
+                class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center ant-flex-justify-center"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-icon-only"
+                  class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-icon-only"
                   type="button"
                 >
                   <span
@@ -1503,16 +1503,16 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
 exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
 <div>
   <div
-    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 ExmQa css-dev-only-do-not-override-98ntnt"
+    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 hzoitp css-dev-only-do-not-override-1uq9j6g"
   >
     <header
-      class="ant-layout-header HomeHeaderMobilestyles__StyledHeaderMobile-sc-1559un2-0 dUvzor css-dev-only-do-not-override-19b4p7l"
+      class="ant-layout-header HomeHeaderMobilestyles__StyledHeaderMobile-sc-1559un2-0 kwmusY css-dev-only-do-not-override-e5njrn"
     >
       <div
-        class="ant-flex css-dev-only-do-not-override-19b4p7l ant-flex-align-center ant-flex-justify-space-between"
+        class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-align-center ant-flex-justify-space-between"
       >
         <button
-          class="ant-btn css-dev-only-do-not-override-19b4p7l ant-btn-default ant-btn-icon-only ant-btn-background-ghost"
+          class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-default ant-btn-icon-only ant-btn-background-ghost"
           type="button"
         >
           <span
@@ -1569,10 +1569,10 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
           </span>
         </div>
         <div
-          class="ant-flex css-dev-only-do-not-override-19b4p7l ant-flex-align-center"
+          class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-align-center"
         >
           <span
-            class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon css-dev-only-do-not-override-19b4p7l"
+            class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon css-dev-only-do-not-override-e5njrn"
           >
             <span
               aria-label="user"
@@ -1598,42 +1598,42 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
       </div>
     </header>
     <div
-      class="ant-layout css-dev-only-do-not-override-98ntnt"
+      class="ant-layout css-dev-only-do-not-override-1uq9j6g"
     >
       <main
-        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 ckAmLF css-dev-only-do-not-override-98ntnt"
+        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 fPqntu css-dev-only-do-not-override-1uq9j6g"
       >
         <div
-          class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+          class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
           style="height: 100%;"
         >
           <div
-            class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-justify-center ant-flex-gap-middle"
+            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-justify-center ant-flex-gap-middle"
             style="padding: 10px;"
           >
             <div
               style="display: flex; flex-direction: column;"
             >
               <div
-                class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-jgf1g5-1 hBhUhu css-dev-only-do-not-override-98ntnt"
+                class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
               >
                 <div
                   class="ant-card-body"
                 >
                   <div
-                    class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
                     style="min-height: 295px;"
                   >
                     <div>
                       <div
-                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                       >
                         <div>
                           <div
-                            class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
+                            class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 jtwoOx"
                           >
                             <div
-                              class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                              class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                             >
                               <div
                                 style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -1642,13 +1642,13 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                               </div>
                               <div>
                                 <div
-                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                                 >
                                   lorem-1
                                 </div>
                               </div>
                               <button
-                                class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                                class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                                 style="width: 20px; position: absolute; right: 0px;"
                                 type="button"
                               >
@@ -1682,7 +1682,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                       </div>
                     </div>
                     <button
-                      class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-icon-only ant-btn-block"
+                      class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-icon-only ant-btn-block"
                       type="button"
                     >
                       <span
@@ -1716,25 +1716,25 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                 </div>
               </div>
               <div
-                class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-jgf1g5-1 hBhUhu css-dev-only-do-not-override-98ntnt"
+                class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
               >
                 <div
                   class="ant-card-body"
                 >
                   <div
-                    class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
+                    class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-stretch ant-flex-justify-space-between ant-flex-vertical"
                     style="min-height: 295px;"
                   >
                     <div>
                       <div
-                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                       >
                         <div>
                           <div
-                            class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
+                            class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 eGdOxO"
                           >
                             <div
-                              class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                              class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                             >
                               <div
                                 style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -1743,18 +1743,18 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                               </div>
                               <div>
                                 <div
-                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                                 >
                                   project-1
                                 </div>
                               </div>
                             </div>
                             <div
-                              class="ant-flex css-dev-only-do-not-override-98ntnt"
+                              class="ant-flex css-dev-only-do-not-override-1uq9j6g"
                               style="gap: 20px;"
                             >
                               <button
-                                class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                                class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 byxbGP"
                                 type="button"
                               >
                                 <span
@@ -1783,7 +1783,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                                 </span>
                               </button>
                               <button
-                                class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                                class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 gKFHzc"
                                 type="button"
                               >
                                 <span
@@ -1814,7 +1814,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                                 </span>
                               </button>
                               <button
-                                class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                                class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                                 style="width: 20px;"
                                 type="button"
                               >
@@ -1847,14 +1847,14 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                         </div>
                       </div>
                       <div
-                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                       >
                         <div>
                           <div
-                            class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 mcIMC"
+                            class="StatusContainerstyles__StatusChangedDiv-sc-5vabmk-1 jtwoOx"
                           >
                             <div
-                              class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                              class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                             >
                               <div
                                 style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -1863,13 +1863,13 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                               </div>
                               <div>
                                 <div
-                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                                 >
                                   project-2
                                 </div>
                               </div>
                               <button
-                                class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                                class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                                 style="width: 20px; position: absolute; right: 0px;"
                                 type="button"
                               >
@@ -1902,14 +1902,14 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                         </div>
                       </div>
                       <div
-                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-jgf1g5-0 fPGhYi"
+                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
                       >
                         <div>
                           <div
-                            class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 hyfEZB"
+                            class="StatusContainerstyles__StatusUpdatedDiv-sc-5vabmk-2 eGdOxO"
                           >
                             <div
-                              class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center"
+                              class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
                             >
                               <div
                                 style="margin: 10px; border: 1px solid black; border-radius: 50%; padding: 5px; font-size: 10px;"
@@ -1918,18 +1918,18 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                               </div>
                               <div>
                                 <div
-                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-1rgj62k-0 iUdAzu"
+                                  class="FiltersOpenedCardItemstyles__StyledItemDiv-sc-d1g4tn-0 evQust"
                                 >
                                   project-3
                                 </div>
                               </div>
                             </div>
                             <div
-                              class="ant-flex css-dev-only-do-not-override-98ntnt"
+                              class="ant-flex css-dev-only-do-not-override-1uq9j6g"
                               style="gap: 20px;"
                             >
                               <button
-                                class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 fSERUY"
+                                class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCloseCircle-sc-5vabmk-3 byxbGP"
                                 type="button"
                               >
                                 <span
@@ -1958,7 +1958,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                                 </span>
                               </button>
                               <button
-                                class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 jBSnPb"
+                                class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost StatusContainerstyles__StyledButtonCheckCircle-sc-5vabmk-4 gKFHzc"
                                 type="button"
                               >
                                 <span
@@ -1989,7 +1989,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                                 </span>
                               </button>
                               <button
-                                class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
+                                class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-lg ant-btn-icon-only ant-btn-background-ghost"
                                 style="width: 20px;"
                                 type="button"
                               >
@@ -2023,7 +2023,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                       </div>
                     </div>
                     <button
-                      class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-icon-only ant-btn-block"
+                      class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-icon-only ant-btn-block"
                       type="button"
                     >
                       <span
@@ -2059,16 +2059,16 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
             </div>
           </div>
           <div
-            class="ant-card ant-card-bordered FiltersOpenedCardsAddButtonstyles__StyledCardsAddButtonMobile-sc-wogzna-0 iFgeWf css-dev-only-do-not-override-98ntnt"
+            class="ant-card ant-card-bordered FiltersOpenedCardsAddButtonstyles__StyledCardsAddButtonMobile-sc-126h3hj-0 cDcZrC css-dev-only-do-not-override-1uq9j6g"
           >
             <div
               class="ant-card-body"
             >
               <div
-                class="ant-flex css-dev-only-do-not-override-98ntnt ant-flex-align-center ant-flex-justify-center"
+                class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center ant-flex-justify-center"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-98ntnt ant-btn-default ant-btn-icon-only"
+                  class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-default ant-btn-icon-only"
                   type="button"
                 >
                   <span

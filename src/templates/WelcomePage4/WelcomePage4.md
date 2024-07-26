@@ -1,34 +1,24 @@
 ```jsx
 import React from 'react';
-import { Button } from 'antd';
-import { GoogleOutlined } from '@ant-design/icons';
-import Welcome from '../../components/Welcome/Welcome';
-import WelcomeAuthButtons from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
-import FourImagesBg from '../../components/Welcome/FourImagesBg/FourImagesBg';
+import { WelcomeButton } from '../../components/Welcome/WelcomeAuthButtons/WelcomeButton/WelcomeButton';
+import { Welcome } from '../../components/Welcome/Welcome';
+import { WelcomeAuthButtons } from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
+import { FourImagesBg } from '../../components/Welcome/FourImagesBg/FourImagesBg';
+import { buttons } from '../../components/Welcome/buttons';
 
 <FourImagesBg>
-	<Welcome>
+	<Welcome buttons={buttons}>
 		<WelcomeAuthButtons>
-			<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-			<Button type="primary" shape="circle">
-				VK
-			</Button>
-			<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-			<Button type="primary" shape="circle">
-				VK
-			</Button>
-			<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-			<Button type="primary" shape="circle">
-				VK
-			</Button>
-			<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-			<Button type="primary" shape="circle">
-				VK
-			</Button>
-			<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-			<Button type="primary" shape="circle">
-				VK
-			</Button>
+			<WelcomeButton title="G" onClick={() => {}} />
+			<WelcomeButton title="VK" onClick={() => {}} />
+			<WelcomeButton title="G" onClick={() => {}} />
+			<WelcomeButton title="VK" onClick={() => {}} />
+			<WelcomeButton title="G" onClick={() => {}} />
+			<WelcomeButton title="VK" onClick={() => {}} />
+			<WelcomeButton title="G" onClick={() => {}} />
+			<WelcomeButton title="VK" onClick={() => {}} />
+			<WelcomeButton title="G" onClick={() => {}} />
+			<WelcomeButton title="VK" onClick={() => {}} />
 		</WelcomeAuthButtons>
 	</Welcome>
 </FourImagesBg>;

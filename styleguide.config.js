@@ -66,119 +66,14 @@ module.exports = {
 			name: 'WelcomePage8',
 			content: 'src/templates/WelcomePage8/WelcomePage8.md',
 		},
-		// {
-		// 	name: 'Container',
-		// 	content: 'src/components/Container/Container.md',
-		// },
-		// {
-		// 	name: 'FiltersCardsContainer',
-		// 	content: 'src/components/FiltersCardsContainer/FiltersCardsContainer.md',
-		// },
-		// {
-		// 	name: 'FiltersClosedList',
-		// 	content: 'src/components/FiltersClosedList/FiltersClosedList.md',
-		// },
-		// {
-		// 	name: 'FiltersOpened',
-		// 	content: 'src/components/FiltersOpened/FiltersOpened.md',
-		// },
-		// {
-		// 	name: 'FiltersSearch',
-		// 	content: 'src/components/FiltersSearch/FiltersSearch.md',
-		// },
-		// {
-		// 	name: 'FiltersSearchWithPreview',
-		// 	content:
-		// 		'src/components/FiltersSearchWithPreview/FiltersSearchWithPreview.md',
-		// },
-		// {
-		// 	name: 'HomeDev',
-		// 	content: 'src/components/HomeDev/HomeDev.md',
-		// },
-		// {
-		// 	name: 'OrdersList',
-		// 	content: 'src/components/OrdersList/OrdersList.md',
-		// },
-		// {
-		// 	name: 'StatusContainer',
-		// 	content: 'src/components/StatusContainer/StatusContainer.md',
-		// },
-		// {
-		// 	name: 'TimeWidgetsPanel',
-		// 	content: 'src/components/TimeWidgetsPanel/TimeWidgetsPanel.md',
-		// 	sections: [
-		// 		{
-		// 			name: 'TimeWidgets1',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgets1/TimeWidgets1.md',
-		// 		},
-		// 		{
-		// 			name: 'TimeWidgets2',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgets2/TimeWidgets2.md',
-		// 		},
-		// 		{
-		// 			name: 'TimeWidgets3',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgets3/TimeWidgets3.md',
-		// 		},
-		// 		{
-		// 			name: 'TimeWidgets4',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgets4/TimeWidgets4.md',
-		// 		},
-		// 		{
-		// 			name: 'TimeWidgets5',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgets5/TimeWidgets5.md',
-		// 		},
-		// 		{
-		// 			name: 'TimeWidgets6',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgets6/TimeWidgets6.md',
-		// 		},
-		// 		{
-		// 			name: 'TimeWidgets7',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgets7/TimeWidgets7.md',
-		// 		},
-		// 		{
-		// 			name: 'TimeWidgets8',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgets8/TimeWidgets8.md',
-		// 		},
-		// 		{
-		// 			name: 'TextFieldWidget',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TextFieldWidget/TextFieldWidget.md',
-		// 		},
-		// 		{
-		// 			name: 'TimeWidgetsWithTextField1',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgetsWithTextField1/TimeWidgetsWithTextField1.md',
-		// 		},
-		// 		{
-		// 			name: 'TimeWidgetsWithTextField2',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgetsWithTextField2/TimeWidgetsWithTextField2.md',
-		// 		},
-		// 		{
-		// 			name: 'PersonWidget',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/PersonWidget/PersonWidget.md',
-		// 		},
-		// 		{
-		// 			name: 'TimeWidgetsWithPerson',
-		// 			content:
-		// 				'src/components/TimeWidgetsPanel/TimeWidgetsWithPerson/TimeWidgetsWithPerson.md',
-		// 		},
-		// 	],
-		// 	sectionDepth: 14,
-		// },
-		// {
-		// 	name: 'Welcome',
-		// 	content: 'src/components/Welcome/Welcome.md',
-		// },
+		{
+			name: 'Container',
+			content: 'src/components/Container/Container.md',
+		},
+		{
+			name: 'Welcome',
+			content: 'src/components/Welcome/Welcome.md',
+		},
 	],
 	styles: {
 		StyleGuide: {

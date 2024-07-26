@@ -3,16 +3,22 @@
 import React from 'react';
 import { Flex } from 'antd';
 import styled from 'styled-components';
-import Container from '../../components/Container/Container';
+import { Container } from '../../components/Container/Container';
 import FiltersOpened from '../../components/FiltersOpened/FiltersOpened';
 import FiltersSearchWithPreview from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreview';
+import { buttons } from '../../components/Container/buttons';
 
 const FiltersSearchWithPreviewContainer = styled.div`
 	height: calc(100vh - 545px);
 `;
 
 const DiffOpenedCardsPage = (): React$MixedElement => (
-	<Container>
+	<Container
+		buttons={buttons}
+		title="Caption"
+		theme="light"
+		avatar={{ title: 'AV' }}
+	>
 		<Flex>
 			<div style={{ maxWidth: '50%' }}>
 				<FiltersOpened />

@@ -3,10 +3,11 @@
 import React from 'react';
 import { Flex } from 'antd';
 import styled from 'styled-components';
-import Container from '../../components/Container/Container';
+import { Container } from '../../components/Container/Container';
 import FiltersSearchWithPreview from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreview';
 import FiltersClosedList from '../../components/FiltersClosedList/FiltersClosedList';
 import { FiltersClosedListProvider } from '../../context/FiltersClosedListContext/FiltersClosedListContext';
+import { buttons } from '../../components/Container/buttons';
 
 const FiltersSearchWithPreviewContainer = styled.div`
 	height: calc(100vh - 270px);
@@ -14,7 +15,12 @@ const FiltersSearchWithPreviewContainer = styled.div`
 
 const DiffClosedCardsPage = (): React$MixedElement => (
 	<FiltersClosedListProvider>
-		<Container>
+		<Container
+			buttons={buttons}
+			title="Caption"
+			theme="dark"
+			avatar={{ title: 'AV' }}
+		>
 			<Flex>
 				<div style={{ maxWidth: '50%' }}>
 					<FiltersClosedList />

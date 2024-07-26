@@ -1,44 +1,34 @@
-import React from 'react';
-import { Button } from 'antd';
-import { GoogleOutlined } from '@ant-design/icons';
-import MediaQuery from 'react-responsive';
-import Welcome from '../../components/Welcome/Welcome';
-import WelcomeAuthButtons from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
-import FourImagesBg from '../../components/Welcome/FourImagesBg/FourImagesBg';
+// @flow
 
-const WelcomePage2 = () => (
+import React from 'react';
+import MediaQuery from 'react-responsive';
+import { Welcome } from '../../components/Welcome/Welcome';
+import { WelcomeAuthButtons } from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
+import { FourImagesBg } from '../../components/Welcome/FourImagesBg/FourImagesBg';
+import { buttons } from '../../components/Welcome/buttons';
+import { WelcomeButton } from '../../components/Welcome/WelcomeAuthButtons/WelcomeButton/WelcomeButton';
+
+const WelcomePage2 = (): React$MixedElement => (
 	<FourImagesBg>
-		<Welcome>
+		<Welcome buttons={buttons}>
 			<MediaQuery minWidth={361}>
 				<WelcomeAuthButtons>
-					<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-					<Button type="primary" shape="circle">
-						VK
-					</Button>
+					<WelcomeButton title="G" onClick={(): any => {}} />
+					<WelcomeButton title="VK" onClick={(): any => {}} />
 				</WelcomeAuthButtons>
 			</MediaQuery>
 			<MediaQuery maxWidth={360}>
 				<WelcomeAuthButtons>
-					<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-					<Button type="primary" shape="circle">
-						VK
-					</Button>
-					<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-					<Button type="primary" shape="circle">
-						VK
-					</Button>
-					<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-					<Button type="primary" shape="circle">
-						VK
-					</Button>
-					<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-					<Button type="primary" shape="circle">
-						VK
-					</Button>
-					<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-					<Button type="primary" shape="circle">
-						VK
-					</Button>
+					<WelcomeButton title="G" onClick={(): any => {}} />
+					<WelcomeButton title="VK" onClick={(): any => {}} />
+					<WelcomeButton title="G" onClick={(): any => {}} />
+					<WelcomeButton title="VK" onClick={(): any => {}} />
+					<WelcomeButton title="G" onClick={(): any => {}} />
+					<WelcomeButton title="VK" onClick={(): any => {}} />
+					<WelcomeButton title="G" onClick={(): any => {}} />
+					<WelcomeButton title="VK" onClick={(): any => {}} />
+					<WelcomeButton title="G" onClick={(): any => {}} />
+					<WelcomeButton title="VK" onClick={(): any => {}} />
 				</WelcomeAuthButtons>
 			</MediaQuery>
 		</Welcome>

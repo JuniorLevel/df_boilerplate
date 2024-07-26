@@ -1,36 +1,26 @@
 // @flow
 
 import React from 'react';
-import { Button } from 'antd';
-import { GoogleOutlined } from '@ant-design/icons';
-import Welcome from '../../components/Welcome/Welcome';
-import WelcomeAuthButtons from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
-import SingleImageBg from '../../components/Welcome/SingleImageBg/SingleImageBg';
+import { Welcome } from '../../components/Welcome/Welcome';
+import { WelcomeAuthButtons } from '../../components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
+import { SingleImageBg } from '../../components/Welcome/SingleImageBg/SingleImageBg';
+import { buttons } from '../../components/Welcome/buttons';
+import { WelcomeButton } from '../../components/Welcome/WelcomeAuthButtons/WelcomeButton/WelcomeButton';
 
 const WelcomePage8 = (): React.Node => (
 	<SingleImageBg>
-		<Welcome>
+		<Welcome buttons={buttons}>
 			<WelcomeAuthButtons>
-				<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-				<Button type="primary" shape="circle">
-					VK
-				</Button>
-				<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-				<Button type="primary" shape="circle">
-					VK
-				</Button>
-				<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-				<Button type="primary" shape="circle">
-					VK
-				</Button>
-				<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-				<Button type="primary" shape="circle">
-					VK
-				</Button>
-				<Button type="primary" shape="circle" icon={<GoogleOutlined />} />
-				<Button type="primary" shape="circle">
-					VK
-				</Button>
+				<WelcomeButton title="G" onClick={(): any => {}} />
+				<WelcomeButton title="VK" onClick={(): any => {}} />
+				<WelcomeButton title="G" onClick={(): any => {}} />
+				<WelcomeButton title="VK" onClick={(): any => {}} />
+				<WelcomeButton title="G" onClick={(): any => {}} />
+				<WelcomeButton title="VK" onClick={(): any => {}} />
+				<WelcomeButton title="G" onClick={(): any => {}} />
+				<WelcomeButton title="VK" onClick={(): any => {}} />
+				<WelcomeButton title="G" onClick={(): any => {}} />
+				<WelcomeButton title="VK" onClick={(): any => {}} />
 			</WelcomeAuthButtons>
 		</Welcome>
 	</SingleImageBg>

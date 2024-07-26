@@ -1,35 +1,34 @@
 // @flow
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import MediaQuery from 'react-responsive';
-import { homeSidebarRoutes } from './home.sidebar.routes';
-import { StyledListItem } from './HomeSidebarNavigation.styles';
+import { StyledHomeSidebarNavigationListItem } from '../../Container.styles';
 
 interface IHomeSidebarNavigationProps {
 	isCollapsedSidebar?: boolean;
+	buttons: any[];
 }
 
 const HomeSidebarNavigation = ({
 	isCollapsedSidebar,
+	buttons,
 }: IHomeSidebarNavigationProps): React$MixedElement => (
 	<nav>
 		<ul>
-			{homeSidebarRoutes.map((route) => (
-				<Link key={route.id} to={route.path}>
-					<StyledListItem>
-						<Button
-							type="ghost"
-							style={{ borderRadius: '0px', fontSize: '1.5em' }}
-						>
-							<route.icon />
-							<MediaQuery minWidth={361}>
-								{!isCollapsedSidebar && <span>{route.name}</span>}
-							</MediaQuery>
-						</Button>
-					</StyledListItem>
-				</Link>
+			{buttons.map((button, idx) => (
+				// eslint-disable-next-line react/no-array-index-key
+				<StyledHomeSidebarNavigationListItem key={idx}>
+					<Button
+						type="ghost"
+						style={{ borderRadius: '0px', fontSize: '1.5em' }}
+						onClick={button.onClick}
+					>
+						<MediaQuery minWidth={361}>
+							{!isCollapsedSidebar && <span>{button.title}</span>}
+						</MediaQuery>
+					</Button>
+				</StyledHomeSidebarNavigationListItem>
 			))}
 		</ul>
 	</nav>

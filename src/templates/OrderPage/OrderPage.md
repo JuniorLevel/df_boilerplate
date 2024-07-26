@@ -2,10 +2,16 @@
 
 ```jsx
 import React from 'react';
-import Container from '../../components/Container/Container';
+import { Container } from '../../components/Container/Container';
 import OrdersList from '../../components/OrdersList/OrdersList';
+import { buttons } from '../../components/Container/buttons';
 
-<Container>
+<Container
+	buttons={buttons}
+	title="Caption"
+	theme="light"
+	avatar={{ title: 'AV' }}
+>
 	<OrdersList />
 </Container>;
 ```

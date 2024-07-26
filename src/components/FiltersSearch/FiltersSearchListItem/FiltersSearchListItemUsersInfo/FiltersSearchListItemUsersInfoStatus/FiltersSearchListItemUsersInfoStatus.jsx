@@ -2,7 +2,7 @@
 
 import React, { useContext, useEffect } from 'react';
 import { Flex, Avatar } from 'antd';
-import { StatusContext } from '../../../../../../context/StatusContainerContext/StatusContainerContext';
+import { StatusContext } from '../../../../../context/StatusContainerContext/StatusContainerContext';
 
 interface IFiltersSearchListItemUsersInfoStatus {
 	user: any;

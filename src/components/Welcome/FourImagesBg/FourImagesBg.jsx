@@ -2,17 +2,19 @@
 
 import React from 'react';
 import MediaQuery from 'react-responsive';
+import { DivImageContainer, Image } from './FourImagesBg.styles';
 import Image1 from '../../../assets/Image1.jpg';
 import Image2 from '../../../assets/Image2.jpg';
 import Image3 from '../../../assets/Image3.jpg';
 import Image4 from '../../../assets/Image4.jpg';
-import { DivImageContainer, Image } from './FourImagesBg.styles';
 
 interface IFourImagesBgProps {
 	children: React$MixedElement;
 }
 
-const FourImagesBg = ({ children }: IFourImagesBgProps): React$MixedElement => (
+export const FourImagesBg = ({
+	children,
+}: IFourImagesBgProps): React$MixedElement => (
 	<DivImageContainer>
 		<MediaQuery minWidth={361}>
 			<Image src={Image1} alt="landscape" />
@@ -23,5 +25,3 @@ const FourImagesBg = ({ children }: IFourImagesBgProps): React$MixedElement => (
 		{children}
 	</DivImageContainer>
 );
-
-export default FourImagesBg;

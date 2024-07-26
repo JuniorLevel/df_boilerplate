@@ -3,12 +3,16 @@
 import React from 'react';
 import OpenAIOutlined from '@ant-design/icons/OpenAIOutlined';
 
-const Logo = (): React$MixedElement => (
+interface ILogoProps {
+	title: string;
+}
+
+const Logo = ({ title }: ILogoProps): React$MixedElement => (
 	<div style={{ fontSize: '2em' }}>
 		<span>
 			<OpenAIOutlined />
 		</span>
-		<span>Logotype</span>
+		<span>{title}</span>
 	</div>
 );
 

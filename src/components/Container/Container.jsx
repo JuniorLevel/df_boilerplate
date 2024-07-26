@@ -8,15 +8,24 @@ import HomeSidebar from './HomeSidebar/HomeSidebar';
 
 interface IContainerProps {
 	children: React.Node;
+	buttons: any[];
+	title: string;
+	theme: string;
+	avatar: any;
 }
-const Container = ({ children }: IContainerProps): React$MixedElement => (
+
+export const Container = ({
+	children,
+	buttons,
+	title,
+	theme,
+	avatar,
+}: IContainerProps): React$MixedElement => (
 	<StyledLayout>
-		<HomeHeader />
+		<HomeHeader title={title} theme={theme} avatar={avatar} />
 		<Layout>
-			<HomeSidebar />
+			<HomeSidebar buttons={buttons} />
 			<StyledContent>{children}</StyledContent>
 		</Layout>
 	</StyledLayout>
 );
-
-export default Container;

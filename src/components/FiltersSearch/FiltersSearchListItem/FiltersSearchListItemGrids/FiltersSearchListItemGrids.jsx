@@ -3,7 +3,7 @@
 import { Row, Col } from 'antd';
 import React from 'react';
 import styled from 'styled-components';
-import StatusContainer from '../../../../StatusContainer/StatusContainer';
+import StatusContainer from '../../../StatusContainer/StatusContainer';
 
 const StyledCol = styled(Col)`
 	&:first-child {

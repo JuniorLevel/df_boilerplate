@@ -3,9 +3,7 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
 import { Flex, Row, Col } from 'antd';
-// import { StarOutlined } from '@ant-design/icons';
 import FiltersSearchListItemUsersInfo from '../FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfo';
-// import { StyledFavoriteButton } from '../FiltersSearchListItem.styles';
 import FiltersSearchListItemMobileInfoStatus from './FiltersSearchListItemMobileInfoStatus/FiltersSearchListItemMobileInfoStatus';
 import StatusContainer from '../../../StatusContainer/StatusContainer';
 
@@ -40,15 +38,6 @@ const FiltersSearchListItemMobile = ({
 			<FiltersSearchListItemUsersInfo
 				dataSearchUsers={listData.dataSearchUsers}
 			/>
-			{/* <StyledFavoriteButton
-				ghost
-				style={{
-					top: -5,
-					right: -5,
-					color: 'black',
-				}}
-				icon={<StarOutlined style={{ fontSize: '30px' }} />}
-			/> */}
 		</Flex>
 	</MediaQuery>
 );
