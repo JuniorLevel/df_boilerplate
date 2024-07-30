@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">88.88% </span>
+                <span class="strong">90% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>8/9</span>
+                <span class='fraction'>9/10</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">66.66% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/2</span>
+                <span class='fraction'>2/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">88.88% </span>
+                <span class="strong">90% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>8/9</span>
+                <span class='fraction'>9/10</span>
             </div>
         
             
@@ -109,7 +109,18 @@
 <a name='L44'></a><a href='#L44'>44</a>
 <a name='L45'></a><a href='#L45'>45</a>
 <a name='L46'></a><a href='#L46'>46</a>
-<a name='L47'></a><a href='#L47'>47</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -117,6 +128,8 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-yes">10x</span>
 <span class="cline-any cline-yes">10x</span>
@@ -133,6 +146,9 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">50x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -153,16 +169,20 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// @flow
 &nbsp;
 import React, { useState } from 'react';
-import { Flex, Pagination } from 'antd';
-import { searchListData } from '../../../data/search.list.data';
+import { Row } from 'antd';
+import FiltersSearchListItemUsersInfo from '../../FiltersSearch/FiltersSearchListItem/FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfo';
 import FiltersSearchWithPreviewGrids from '../FiltersSearchWithPreviewGrids/FiltersSearchWithPreviewGrids';
+import FiltersSearchPagination from '../../FiltersSearch/FiltersSearchPagination/FiltersSearchPagination';
 &nbsp;
-const FiltersSearchWithPreviewLeft = (): React$MixedElement =&gt; {
+interface IFiltersSearchWithPreviewLeftProps {
+	searchListData: any;
+}
+const FiltersSearchWithPreviewLeft = ({
+	searchListData,
+}: IFiltersSearchWithPreviewLeftProps): React$MixedElement =&gt; {
 	const [currentPage, setCurrentPage] = useState(1);
 	const totalItems = searchListData.length;
 	const itemsPerPage = 5;
@@ -171,35 +191,36 @@ const FiltersSearchWithPreviewLeft = (): React$MixedElement =&gt; {
 	const currentItems = searchListData.slice(startIndex, endIndex);
 &nbsp;
 	return (
-		&lt;Flex
-			vertical
-			justify="space-between"
-			gap={10}
-			style={{
-				height: '100%',
-				overflow: 'auto',
-			}}
-		&gt;
+		&lt;&gt;
 			&lt;div
 				style={{
+					height: '97%',
+					overflow: 'auto',
 					overflowX: 'hidden',
+					marginBottom: '5px',
 				}}
 			&gt;
-				&lt;FiltersSearchWithPreviewGrids listData={currentItems} /&gt;
+				{currentItems.map((item) =&gt; (
+					&lt;Row gutter={[12, 12]} key={item.id}&gt;
+						&lt;FiltersSearchWithPreviewGrids listData={item} /&gt;
+						&lt;div style={{ width: '100%' }}&gt;
+							&lt;FiltersSearchListItemUsersInfo
+								dataSearchUsers={item.dataSearchUsers}
+							/&gt;
+						&lt;/div&gt;
+					&lt;/Row&gt;
+				))}
 			&lt;/div&gt;
-			&lt;Flex justify="start"&gt;
-				&lt;Pagination
-					defaultCurrent={1}
-					current={currentPage}
-					total={totalItems}
-					pageSize={itemsPerPage}
-					onChange={<span class="fstat-no" title="function not covered" >(p</span>age) =&gt; <span class="cstat-no" title="statement not covered" >setCurrentPage(page)}</span>
-				/&gt;
-			&lt;/Flex&gt;
-		&lt;/Flex&gt;
+			&lt;FiltersSearchPagination
+				defaultCurrent={1}
+				current={currentPage}
+				total={totalItems}
+				pageSize={5}
+				onChange={<span class="fstat-no" title="function not covered" >(p</span>age: number): void =&gt; <span class="cstat-no" title="statement not covered" >setCurrentPage(page)}</span>
+			/&gt;
+		&lt;/&gt;
 	);
 };
-&nbsp;
 export default FiltersSearchWithPreviewLeft;
 &nbsp;</pre></td></tr></table></pre>
 
@@ -208,7 +229,7 @@ export default FiltersSearchWithPreviewLeft;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-07-26T09:57:51.431Z
+                at 2024-07-30T11:08:52.453Z
             </div>
         <script src="../../../prettify.js"></script>
         <script>
