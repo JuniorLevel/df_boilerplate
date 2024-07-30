@@ -1,16 +1,13 @@
 // @flow
 
 import React from 'react';
-import { Flex } from 'antd';
-import styled from 'styled-components';
+import { Row, Col } from 'antd';
 import { Container } from '../../components/Container/Container';
 import FiltersOpened from '../../components/FiltersOpened/FiltersOpened';
 import FiltersSearchWithPreview from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreview';
 import { buttons } from '../../components/Container/buttons';
-
-const FiltersSearchWithPreviewContainer = styled.div`
-	height: calc(100vh - 545px);
-`;
+import Footer from '../../components/Footer/Footer';
+import FiltersSearchWithPreviewContainer from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreviewContainer/FiltersSearchWithPreviewContainer';
 
 const DiffOpenedCardsPage = (): React$MixedElement => (
 	<Container
@@ -19,35 +16,21 @@ const DiffOpenedCardsPage = (): React$MixedElement => (
 		theme="light"
 		avatar={{ title: 'AV' }}
 	>
-		<Flex>
-			<div style={{ maxWidth: '50%' }}>
+		<Row>
+			<Col span={12}>
 				<FiltersOpened />
-				<FiltersSearchWithPreviewContainer>
-					<Flex style={{ height: '100%' }}>
-						<FiltersSearchWithPreview />
-					</Flex>
+				<FiltersSearchWithPreviewContainer height={555}>
+					<FiltersSearchWithPreview />
 				</FiltersSearchWithPreviewContainer>
-			</div>
-			<div style={{ maxWidth: '50%' }}>
+			</Col>
+			<Col span={12}>
 				<FiltersOpened />
-				<FiltersSearchWithPreviewContainer>
-					<Flex style={{ height: '100%' }}>
-						<FiltersSearchWithPreview />
-					</Flex>
+				<FiltersSearchWithPreviewContainer height={555}>
+					<FiltersSearchWithPreview />
 				</FiltersSearchWithPreviewContainer>
-			</div>
-		</Flex>
-		<div
-			style={{
-				height: '100px',
-				border: '1px solid black',
-				margin: '10px',
-			}}
-		>
-			<Flex justify="center" align="center" style={{ height: '100%' }}>
-				DIFF
-			</Flex>
-		</div>
+			</Col>
+		</Row>
+		<Footer />
 	</Container>
 );
 

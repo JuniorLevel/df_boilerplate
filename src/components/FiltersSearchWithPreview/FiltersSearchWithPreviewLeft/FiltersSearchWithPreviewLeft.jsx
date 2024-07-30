@@ -1,11 +1,17 @@
 // @flow
 
 import React, { useState } from 'react';
-import { Flex, Pagination } from 'antd';
-import { searchListData } from '../../../data/search.list.data';
+import { Row } from 'antd';
+import FiltersSearchListItemUsersInfo from '../../FiltersSearch/FiltersSearchListItem/FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfo';
 import FiltersSearchWithPreviewGrids from '../FiltersSearchWithPreviewGrids/FiltersSearchWithPreviewGrids';
+import FiltersSearchPagination from '../../FiltersSearch/FiltersSearchPagination/FiltersSearchPagination';
 
-const FiltersSearchWithPreviewLeft = (): React$MixedElement => {
+interface IFiltersSearchWithPreviewLeftProps {
+	searchListData: any;
+}
+const FiltersSearchWithPreviewLeft = ({
+	searchListData,
+}: IFiltersSearchWithPreviewLeftProps): React$MixedElement => {
 	const [currentPage, setCurrentPage] = useState(1);
 	const totalItems = searchListData.length;
 	const itemsPerPage = 5;
@@ -14,33 +20,34 @@ const FiltersSearchWithPreviewLeft = (): React$MixedElement => {
 	const currentItems = searchListData.slice(startIndex, endIndex);
 
 	return (
-		<Flex
-			vertical
-			justify="space-between"
-			gap={10}
-			style={{
-				height: '100%',
-				overflow: 'auto',
-			}}
-		>
+		<>
 			<div
 				style={{
+					height: '97%',
+					overflow: 'auto',
 					overflowX: 'hidden',
+					marginBottom: '5px',
 				}}
 			>
-				<FiltersSearchWithPreviewGrids listData={currentItems} />
+				{currentItems.map((item) => (
+					<Row gutter={[12, 12]} key={item.id}>
+						<FiltersSearchWithPreviewGrids listData={item} />
+						<div style={{ width: '100%' }}>
+							<FiltersSearchListItemUsersInfo
+								dataSearchUsers={item.dataSearchUsers}
+							/>
+						</div>
+					</Row>
+				))}
 			</div>
-			<Flex justify="start">
-				<Pagination
-					defaultCurrent={1}
-					current={currentPage}
-					total={totalItems}
-					pageSize={itemsPerPage}
-					onChange={(page) => setCurrentPage(page)}
-				/>
-			</Flex>
-		</Flex>
+			<FiltersSearchPagination
+				defaultCurrent={1}
+				current={currentPage}
+				total={totalItems}
+				pageSize={5}
+				onChange={(page: number): void => setCurrentPage(page)}
+			/>
+		</>
 	);
 };
-
 export default FiltersSearchWithPreviewLeft;

@@ -2,9 +2,10 @@
 
 import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
-import { Flex, Pagination } from 'antd';
+import { Flex } from 'antd';
 import FiltersSearchListItem from '../FiltersSearchListItem/FiltersSearchListItem';
 import { searchListData } from '../../../data/search.list.data';
+import FiltersSearchPagination from '../FiltersSearchPagination/FiltersSearchPagination';
 
 const FiltersSearchListMobile = (): React$MixedElement => {
 	const [currentPage, setCurrentPage] = useState(1);
@@ -26,15 +27,13 @@ const FiltersSearchListMobile = (): React$MixedElement => {
 				{currentItems.map((listData) => (
 					<FiltersSearchListItem key={listData.id} listData={listData} />
 				))}
-				<Flex justify="center">
-					<Pagination
-						defaultCurrent={1}
-						current={currentPage}
-						total={totalItems}
-						pageSize={itemsPerPage}
-						onChange={(page) => setCurrentPage(page)}
-					/>
-				</Flex>
+				<FiltersSearchPagination
+					defaultCurrent={1}
+					current={currentPage}
+					total={totalItems}
+					pageSize={5}
+					onChange={(page: number): void => setCurrentPage(page)}
+				/>
 			</Flex>
 		</MediaQuery>
 	);

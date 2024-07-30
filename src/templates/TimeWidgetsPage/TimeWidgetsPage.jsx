@@ -9,7 +9,7 @@ const TimeWidgetsPage = (): React$MixedElement => (
 	<Container
 		buttons={buttons}
 		title="Caption"
-		theme="dark"
+		theme="light"
 		avatar={{ title: 'AV' }}
 	>
 		<TimeWidgetsPanel />

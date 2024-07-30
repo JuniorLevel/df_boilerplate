@@ -5,7 +5,7 @@ import MediaQuery from 'react-responsive';
 import { Col, Row } from 'antd';
 import FiltersSearchListItemUsersInfoMobile from './FiltersSearchListItemUsersInfoMobile/FiltersSearchListItemUsersInfoMobile';
 import StatusContainer from '../../../StatusContainer/StatusContainer';
-import FiltersSearchListItemUsersInfoStatus from "./FiltersSearchListItemUsersInfoStatus/FiltersSearchListItemUsersInfoStatus";
+import FiltersSearchListItemUsersInfoStatus from './FiltersSearchListItemUsersInfoStatus/FiltersSearchListItemUsersInfoStatus';
 
 interface IFiltersSearchListProps {
 	dataSearchUsers: Array<any>;

@@ -1,29 +1,24 @@
 // @flow
 
 import React from 'react';
-import styled from 'styled-components';
 import { Container } from '../../components/Container/Container';
 import FiltersSearchWithPreview from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreview';
-import FiltersClosedList from '../../components/FiltersClosedList/FiltersClosedList';
+import FiltersClosed from '../../components/FiltersClosed/FiltersClosed';
 import { FiltersClosedListProvider } from '../../context/FiltersClosedListContext/FiltersClosedListContext';
 import { buttons } from '../../components/Container/buttons';
+import { filtersList } from '../../data/filters.cards.data';
+import FiltersSearchWithPreviewContainer from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreviewContainer/FiltersSearchWithPreviewContainer';
 
-const FiltersSearchWithPreviewContainer = styled.div`
-	height: calc(100vh - 170px);
-	@media (min-width: 361px) {
-		overflow: hidden;
-	}
-`;
 const FiltersClosedPreviewPage = (): React$MixedElement => (
 	<FiltersClosedListProvider>
 		<Container
 			buttons={buttons}
 			title="Caption"
-			theme="dark"
+			theme="light"
 			avatar={{ title: 'AV' }}
 		>
-			<FiltersClosedList />
-			<FiltersSearchWithPreviewContainer>
+			<FiltersClosed isOpen={false} filtersList={filtersList} />
+			<FiltersSearchWithPreviewContainer height={160}>
 				<FiltersSearchWithPreview />
 			</FiltersSearchWithPreviewContainer>
 		</Container>

@@ -2,17 +2,18 @@
 
 import React from 'react';
 import { Container } from '../../components/Container/Container';
-import OrdersList from '../../components/OrdersList/OrdersList';
 import { buttons } from '../../components/Container/buttons';
+import { tabs } from '../../components/OrderTabs/OrderTabsItems/OrderTabsItems';
+import OrderTabs from '../../components/OrderTabs/OrderTabs';
 
 const OrderPage = (): React$MixedElement => (
 	<Container
 		buttons={buttons}
 		title="Caption"
-		theme="dark"
+		theme="light"
 		avatar={{ title: 'AV' }}
 	>
-		<OrdersList />
+		<OrderTabs tabs={tabs} />
 	</Container>
 );
 

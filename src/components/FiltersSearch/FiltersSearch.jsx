@@ -1,13 +1,19 @@
 // @flow
 
 import React, { useState } from 'react';
-import { Flex, Pagination } from 'antd';
+import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import FiltersSearchListMobile from './FiltersSearchListMobile/FiltersSearchListMobile';
 import FiltersSearchListItem from './FiltersSearchListItem/FiltersSearchListItem';
-import { searchListData } from '../../data/search.list.data';
+import FiltersSearchPagination from './FiltersSearchPagination/FiltersSearchPagination';
 
-const FiltersSearch = (): React$MixedElement => {
+interface IFiltersSearchProps {
+	searchListData: any;
+}
+
+const FiltersSearch = ({
+	searchListData,
+}: IFiltersSearchProps): React$MixedElement => {
 	const [currentPage, setCurrentPage] = useState(1);
 	const totalItems = searchListData.length;
 
@@ -37,15 +43,13 @@ const FiltersSearch = (): React$MixedElement => {
 							<FiltersSearchListItem listData={listData} key={listData.id} />
 						))}
 					</div>
-					<Flex justify="start">
-						<Pagination
-							defaultCurrent={1}
-							current={currentPage}
-							total={totalItems}
-							pageSize={5}
-							onChange={(page) => setCurrentPage(page)}
-						/>
-					</Flex>
+					<FiltersSearchPagination
+						defaultCurrent={1}
+						current={currentPage}
+						total={totalItems}
+						pageSize={5}
+						onChange={(page: number): void => setCurrentPage(page)}
+					/>
 				</Flex>
 			</MediaQuery>
 			<FiltersSearchListMobile />

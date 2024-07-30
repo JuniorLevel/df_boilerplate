@@ -1,28 +1,26 @@
 // @flow
 
 import React from 'react';
-import styled from 'styled-components';
 import { Container } from '../../components/Container/Container';
-import FiltersClosedList from '../../components/FiltersClosedList/FiltersClosedList';
+import FiltersClosed from '../../components/FiltersClosed/FiltersClosed';
 import FiltersSearch from '../../components/FiltersSearch/FiltersSearch';
 import { FiltersClosedListProvider } from '../../context/FiltersClosedListContext/FiltersClosedListContext';
 import { buttons } from '../../components/Container/buttons';
-
-const FiltersSearchContainer = styled.div`
-	height: calc(100vh - 150px);
-`;
+import { searchListData } from '../../data/search.list.data';
+import { filtersList } from '../../data/filters.cards.data';
+import FiltersSearchContainer from '../../components/FiltersSearch/FiltersSearchContainer/FiltersSearchContainer';
 
 const FiltersClosedPage = (): React$MixedElement => (
 	<FiltersClosedListProvider>
 		<Container
 			buttons={buttons}
 			title="Caption"
-			theme="dark"
+			theme="light"
 			avatar={{ title: 'AV' }}
 		>
-			<FiltersClosedList />
+			<FiltersClosed isOpen={false} filtersList={filtersList} />
 			<FiltersSearchContainer>
-				<FiltersSearch />
+				<FiltersSearch searchListData={searchListData} />
 			</FiltersSearchContainer>
 		</Container>
 	</FiltersClosedListProvider>

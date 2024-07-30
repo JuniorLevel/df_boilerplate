@@ -1,4 +1,4 @@
-export const filterCardsClosed = [
+export const filtersList = [
 	{
 		id: 1,
 		title: 'Flow_typed-1',

@@ -17,7 +17,7 @@
 		"styleguide": "styleguidist server",
 		"styleguide:build": "styleguidist build",
 		"deploy:gh-pages": "npm run styleguide:build && npm run test:coverage && npm run deploy:pre && gh-pages -d github-pages",
-		"deploy:pre": "mkdir -p github-pages/coverage && cp -r coverage/lcov-report github-pages/coverage && cp -r styleguide github-pages/styleguide && rm -rf styleguide && rm -rf coverage"
+		"deploy:pre": "cp -r coverage github-pages && cp -r styleguide github-pages && rm -rf styleguide && rm -rf coverage"
 	},
 	"keywords": [],
 	"author": "",

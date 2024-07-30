@@ -1,27 +1,202 @@
 ```jsx
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
-import { Container } from '../../components/Container/Container';
-import FiltersClosedList from '../../components/FiltersClosedList/FiltersClosedList';
+import { Container as Layout } from '../../components/Container/Container';
+import FiltersClosed from '../../components/FiltersClosed/FiltersClosed';
 import FiltersSearch from '../../components/FiltersSearch/FiltersSearch';
 import { FiltersClosedListProvider } from '../../context/FiltersClosedListContext/FiltersClosedListContext';
 import { buttons } from '../../components/Container/buttons';
+import FiltersSearchContainer from '../../components/FiltersSearch/FiltersSearchContainer/FiltersSearchContainer';
 
-const FiltersSearchContainer = styled.div`
-	height: calc(100vh - 150px);
-`;
+const data = [
+	{
+		id: 1,
+		dataSearch: [],
+		dataSearchUsers: [
+			{
+				id: 1,
+				role: 'Creator',
+				status: 'updated',
+				username: 'Roman Smit',
+			},
+			{
+				id: 2,
+				role: 'Assigned',
+				status: 'changed',
+				username: 'John Doe',
+			},
+			{
+				id: 3,
+				role: 'Watcher',
+				status: 'unmodified',
+				username: 'Jerrard Doe',
+			},
+		],
+	},
+	{
+		id: 2,
+		dataSearch: [],
+		dataSearchUsers: [
+			{
+				id: 1,
+				role: 'Creator',
+				status: 'updated',
+				username: 'Roman Smit',
+			},
+			{
+				id: 2,
+				role: 'Assigned',
+				status: 'changed',
+				username: 'John Doe',
+			},
+			{
+				id: 3,
+				role: 'Watcher',
+				status: 'unmodified',
+				username: 'Jerrard Doe',
+			},
+		],
+	},
+	{
+		id: 3,
+		dataSearch: [],
+		dataSearchUsers: [
+			{
+				id: 1,
+				role: 'Creator',
+				status: 'updated',
+				username: 'Roman Smit',
+			},
+			{
+				id: 2,
+				role: 'Assigned',
+				status: 'changed',
+				username: 'John Doe',
+			},
+			{
+				id: 3,
+				role: 'Watcher',
+				status: 'unmodified',
+				username: 'Jerrard Doe',
+			},
+		],
+	},
+	{
+		id: 4,
+		dataSearch: [],
+		dataSearchUsers: [
+			{
+				id: 1,
+				role: 'Creator',
+				status: 'updated',
+				username: 'Roman Smit',
+			},
+			{
+				id: 2,
+				role: 'Assigned',
+				status: 'changed',
+				username: 'John Doe',
+			},
+			{
+				id: 3,
+				role: 'Watcher',
+				status: 'unmodified',
+				username: 'Jerrard Doe',
+			},
+		],
+	},
+	{
+		id: 5,
+		dataSearch: [],
+		dataSearchUsers: [
+			{
+				id: 1,
+				role: 'Creator',
+				status: 'updated',
+				username: 'Roman Smit',
+			},
+			{
+				id: 2,
+				role: 'Assigned',
+				status: 'changed',
+				username: 'John Doe',
+			},
+			{
+				id: 3,
+				role: 'Watcher',
+				status: 'unmodified',
+				username: 'Jerrard Doe',
+			},
+		],
+	},
+	{
+		id: 6,
+		dataSearch: [],
+		dataSearchUsers: [
+			{
+				id: 1,
+				role: 'Creator',
+				status: 'updated',
+				username: 'Roman Smit',
+			},
+			{
+				id: 2,
+				role: 'Assigned',
+				status: 'changed',
+				username: 'John Doe',
+			},
+			{
+				id: 3,
+				role: 'Watcher',
+				status: 'unmodified',
+				username: 'Jerrard Doe',
+			},
+		],
+	},
+];
+
+const [filters, setFilters] = useState([
+	{
+		id: 1,
+		title: 'Flow_typed-1',
+		item: [{ id: 1, status: 'updated', text: 'lorem-1' }],
+	},
+
+	{
+		id: 2,
+		title: 'Flow_typed-2',
+		item: [
+			{ id: 1, status: 'changed', text: 'project-1' },
+			{ id: 2, status: 'changed', text: 'project-2' },
+			{ id: 3, status: 'updated', text: 'project-3' },
+		],
+	},
+	{
+		id: 3,
+		title: 'Flow_typed-3',
+		item: [
+			{ id: 1, status: 'updated', text: 'issue-1' },
+			{ id: 2, status: 'updated', text: 'issue-2' },
+		],
+	},
+]);
 
 <FiltersClosedListProvider>
-	<Container
+	<Layout
 		buttons={buttons}
 		title="Caption"
 		theme="light"
 		avatar={{ title: 'AV' }}
 	>
-		<FiltersClosedList />
+		<FiltersClosed isOpen={false} filtersList={filters} />
 		<FiltersSearchContainer>
-			<FiltersSearch />
+			<FiltersSearch searchListData={data} />
 		</FiltersSearchContainer>
-	</Container>
+	</Layout>
 </FiltersClosedListProvider>;
+```
+
+```jsx noeditor
+import Image1 from '../../assets/FiltersClosed/fIlters-closed.png';
+<img src={Image1} />;
 ```
