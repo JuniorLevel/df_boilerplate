@@ -4,6 +4,7 @@ import React from 'react';
 import { Container } from '../../components/Container/Container';
 import FiltersOpened from '../../components/FiltersOpened/FiltersOpened';
 import { buttons } from '../../components/Container/buttons';
+import { filtersCards } from '../../data/filters.cards.data';
 
 const FiltersOpenedPage = (): React.Node => (
 	<Container
@@ -12,7 +13,7 @@ const FiltersOpenedPage = (): React.Node => (
 		theme="light"
 		avatar={{ title: 'AV' }}
 	>
-		<FiltersOpened />
+		<FiltersOpened isOpen filtersCards={filtersCards} />
 	</Container>
 );
 

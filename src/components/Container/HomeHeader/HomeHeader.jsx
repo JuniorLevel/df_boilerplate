@@ -15,7 +15,7 @@ const StyledHeaderDesktop = styled(Layout.Header)`
 
 interface IHomeHeaderProps {
 	title: string;
-	theme: string;
+	theme?: string;
 	avatar: any;
 }
 
@@ -27,7 +27,9 @@ const HomeHeader = ({
 	const { currentTheme, setCurrentTheme } = useContext(ThemeContext);
 
 	useEffect(() => {
-		setCurrentTheme(theme);
+		if (theme) {
+			setCurrentTheme(theme);
+		}
 	}, [theme, setCurrentTheme]);
 
 	const onChange = (checked: boolean) => {

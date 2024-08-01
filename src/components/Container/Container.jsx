@@ -10,7 +10,7 @@ interface IContainerProps {
 	children: React.Node;
 	buttons: any[];
 	title: string;
-	theme: string;
+	theme?: string;
 	avatar: any;
 }
 

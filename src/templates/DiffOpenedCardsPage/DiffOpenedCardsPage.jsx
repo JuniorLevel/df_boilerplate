@@ -8,6 +8,7 @@ import FiltersSearchWithPreview from '../../components/FiltersSearchWithPreview/
 import { buttons } from '../../components/Container/buttons';
 import Footer from '../../components/Footer/Footer';
 import FiltersSearchWithPreviewContainer from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreviewContainer/FiltersSearchWithPreviewContainer';
+import { filtersCards } from '../../data/filters.cards.data';
 
 const DiffOpenedCardsPage = (): React$MixedElement => (
 	<Container
@@ -18,13 +19,13 @@ const DiffOpenedCardsPage = (): React$MixedElement => (
 	>
 		<Row>
 			<Col span={12}>
-				<FiltersOpened />
+				<FiltersOpened isOpen filtersCards={filtersCards} />
 				<FiltersSearchWithPreviewContainer height={555}>
 					<FiltersSearchWithPreview />
 				</FiltersSearchWithPreviewContainer>
 			</Col>
 			<Col span={12}>
-				<FiltersOpened />
+				<FiltersOpened isOpen filtersCards={filtersCards} />
 				<FiltersSearchWithPreviewContainer height={555}>
 					<FiltersSearchWithPreview />
 				</FiltersSearchWithPreviewContainer>

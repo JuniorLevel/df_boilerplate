@@ -93,12 +93,7 @@ const tabs = [
 	},
 ];
 
-<Layout
-	buttons={buttons}
-	title="Caption"
-	theme="light"
-	avatar={{ title: 'AV' }}
->
+<Layout buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 	<OrderTabs tabs={tabs} />
 </Layout>;
 ```

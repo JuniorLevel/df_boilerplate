@@ -353,12 +353,7 @@ const [filters, setFilters] = useState([
 ]);
 
 <FiltersClosedListProvider>
-	<Layout
-		buttons={buttons}
-		title="Caption"
-		theme="light"
-		avatar={{ title: 'AV' }}
-	>
+	<Layout buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 		<Row>
 			<Col span={12}>
 				<FiltersClosed isOpen={false} filtersList={filters} />

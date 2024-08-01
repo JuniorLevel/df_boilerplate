@@ -351,12 +351,7 @@ const [filters, setFilters] = useState([
 ]);
 
 <FiltersClosedListProvider>
-	<Layout
-		buttons={buttons}
-		title="Caption"
-		theme="light"
-		avatar={{ title: 'AV' }}
-	>
+	<Layout buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 		<FiltersClosed isOpen={false} filtersList={filters} />
 		<FiltersSearchWithPreviewContainer height={160}>
 			<Row gutter={[16, 16]}>

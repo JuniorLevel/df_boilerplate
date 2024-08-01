@@ -11,19 +11,19 @@ import {
 
 const FiltersOpenedCardsAddButton = (): React$MixedElement => (
 	<>
-		<MediaQuery maxWidth={360}>
-			<StyledCardsAddButtonMobile>
-				<Flex justify="center" align="center">
-					<Button icon={<PlusOutlined />} />
-				</Flex>
-			</StyledCardsAddButtonMobile>
-		</MediaQuery>
 		<MediaQuery minWidth={361}>
 			<StyledCardsAddButtonDesktop>
 				<Flex justify="center" align="center">
 					<Button icon={<PlusOutlined />} />
 				</Flex>
 			</StyledCardsAddButtonDesktop>
+		</MediaQuery>
+		<MediaQuery maxWidth={360}>
+			<StyledCardsAddButtonMobile>
+				<Flex justify="center" align="center">
+					<Button icon={<PlusOutlined />} />
+				</Flex>
+			</StyledCardsAddButtonMobile>
 		</MediaQuery>
 	</>
 );

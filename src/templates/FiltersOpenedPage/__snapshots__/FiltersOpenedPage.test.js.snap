@@ -173,7 +173,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
             class="FiltersOpened__StyledReactSortable-sc-7km5ej-0 lfKqjG"
           >
             <div
-              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
+              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 bXOdUV css-dev-only-do-not-override-1uq9j6g"
             >
               <div
                 class="ant-card-body"
@@ -184,7 +184,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                 >
                   <div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                     >
                       <div>
                         <div
@@ -274,7 +274,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
               </div>
             </div>
             <div
-              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
+              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 bXOdUV css-dev-only-do-not-override-1uq9j6g"
             >
               <div
                 class="ant-card-body"
@@ -285,7 +285,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                 >
                   <div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                     >
                       <div>
                         <div
@@ -405,7 +405,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                       </div>
                     </div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                     >
                       <div>
                         <div
@@ -460,7 +460,7 @@ exports[`FiltersOpenedPage matches the snapshot desktop 1`] = `
                       </div>
                     </div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                     >
                       <div>
                         <div
@@ -838,7 +838,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
             class="FiltersOpened__StyledReactSortable-sc-7km5ej-0 lfKqjG"
           >
             <div
-              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
+              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 bXOdUV css-dev-only-do-not-override-1uq9j6g"
             >
               <div
                 class="ant-card-body"
@@ -849,7 +849,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                 >
                   <div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                     >
                       <div>
                         <div
@@ -939,7 +939,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
               </div>
             </div>
             <div
-              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
+              class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 bXOdUV css-dev-only-do-not-override-1uq9j6g"
             >
               <div
                 class="ant-card-body"
@@ -950,7 +950,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                 >
                   <div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                     >
                       <div>
                         <div
@@ -1070,7 +1070,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                       </div>
                     </div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                     >
                       <div>
                         <div
@@ -1125,7 +1125,7 @@ exports[`FiltersOpenedPage matches the snapshot laptop 1`] = `
                       </div>
                     </div>
                     <div
-                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                      class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                     >
                       <div>
                         <div
@@ -1445,7 +1445,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
               style="display: flex; flex-direction: column;"
             >
               <div
-                class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
+                class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 bXOdUV css-dev-only-do-not-override-1uq9j6g"
               >
                 <div
                   class="ant-card-body"
@@ -1456,7 +1456,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                   >
                     <div>
                       <div
-                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                       >
                         <div>
                           <div
@@ -1546,7 +1546,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                 </div>
               </div>
               <div
-                class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 fIVIDd css-dev-only-do-not-override-1uq9j6g"
+                class="ant-card ant-card-bordered FiltersOpenedCardsstyles__StyledCardDiv-sc-1ituqim-1 bXOdUV css-dev-only-do-not-override-1uq9j6g"
               >
                 <div
                   class="ant-card-body"
@@ -1557,7 +1557,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                   >
                     <div>
                       <div
-                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                       >
                         <div>
                           <div
@@ -1677,7 +1677,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                         </div>
                       </div>
                       <div
-                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                       >
                         <div>
                           <div
@@ -1732,7 +1732,7 @@ exports[`FiltersOpenedPage matches the snapshot mobile 1`] = `
                         </div>
                       </div>
                       <div
-                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 eEhwLd"
+                        class="FiltersOpenedCardsstyles__StyledCardItemDiv-sc-1ituqim-0 kTYaVr"
                       >
                         <div>
                           <div

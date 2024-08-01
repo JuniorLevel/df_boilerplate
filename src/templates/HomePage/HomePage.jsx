@@ -8,7 +8,7 @@ const HomePage = (): React.Node => (
 	<Container
 		buttons={buttons}
 		title="Caption"
-		theme="light"
+		// theme="light"
 		avatar={{ title: 'AV' }}
 	>
 		<div>Content</div>

@@ -8,4 +8,6 @@ module.exports = {
 		'^.+\\.(jpg|jpeg|png|gif|webp|avif|svg)$':
 			'<rootDir>/__mocks__/fileMock.js',
 	},
+	coverageDirectory: 'coverage',
+	coveragePathIgnorePatterns: ['/node_modules/'],
 };

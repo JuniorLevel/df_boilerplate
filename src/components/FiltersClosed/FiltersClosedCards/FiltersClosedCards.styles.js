@@ -13,7 +13,8 @@ export const StyledCardsDivPopover = styled(Card)`
 	border-color: black;
 	border-width: 3px;
 	width: 300px;
-	min-height: 350px;
+	height: 350px;
+	overflow: auto;
 `;
 
 export const StyledCardsDiv = styled(Card)`

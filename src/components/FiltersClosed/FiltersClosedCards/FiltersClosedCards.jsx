@@ -8,6 +8,7 @@ import {
 	StyledCardItemDiv,
 	StyledCardsDiv,
 } from './FiltersClosedCards.styles';
+import StatusContainer from '../../StatusContainer/StatusContainer';
 
 interface IFiltersCardsClosedProps {
 	cardClosed: any;
@@ -22,7 +23,9 @@ const FiltersClosedCards = ({
 			<StyledCardsDivPopover>
 				{cardClosed.item.map((item) => (
 					<StyledCardItemDiv key={item.id}>
-						<FiltersOpenedCardItem key={item.id} item={item} />
+						<StatusContainer>
+							<FiltersOpenedCardItem key={item.id} item={item} />
+						</StatusContainer>
 					</StyledCardItemDiv>
 				))}
 			</StyledCardsDivPopover>

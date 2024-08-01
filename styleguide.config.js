@@ -8,6 +8,14 @@ module.exports = {
 	pagePerSection: true,
 	sections: [
 		{
+			name: 'FiltersOpenedPage',
+			content: 'src/templates/FiltersOpenedPage/FiltersOpenedPage.md',
+		},
+		{
+			name: 'FiltersClosed',
+			content: 'src/components/FiltersClosed/FiltersClosed.md',
+		},
+		{
 			name: 'DiffClosedCardsPage',
 			content: 'src/templates/DiffClosedCardsPage/DiffClosedCardsPage.md',
 		},
