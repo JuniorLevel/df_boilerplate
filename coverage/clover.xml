@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1722501146400" clover="3.2.0">
-  <project timestamp="1722501146400" name="All files">
-    <metrics statements="372" coveredstatements="362" conditionals="40" coveredconditionals="29" methods="234" coveredmethods="141" elements="646" coveredelements="532" complexity="0" loc="372" ncloc="372" packages="112" files="125" classes="125"/>
+<coverage generated="1722507765980" clover="3.2.0">
+  <project timestamp="1722507765980" name="All files">
+    <metrics statements="373" coveredstatements="363" conditionals="42" coveredconditionals="31" methods="234" coveredmethods="141" elements="649" coveredelements="535" complexity="0" loc="373" ncloc="373" packages="112" files="125" classes="125"/>
     <package name="components.Container">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
       <file name="Container.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/components/Container/Container.jsx">
@@ -23,18 +23,19 @@
       </file>
     </package>
     <package name="components.Container.HomeHeader">
-      <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <metrics statements="10" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="2"/>
       <file name="HomeHeader.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/components/Container/HomeHeader/HomeHeader.jsx">
-        <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <metrics statements="10" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="2"/>
         <line num="12" count="8" type="stmt"/>
         <line num="22" count="8" type="stmt"/>
         <line num="27" count="24" type="stmt"/>
         <line num="29" count="24" type="stmt"/>
-        <line num="30" count="24" type="stmt"/>
-        <line num="33" count="24" type="stmt"/>
-        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="38" count="24" type="stmt"/>
+        <line num="30" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="21" type="stmt"/>
+        <line num="35" count="24" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="24" type="stmt"/>
       </file>
     </package>
     <package name="components.Container.HomeHeader.BurgerMenu">
