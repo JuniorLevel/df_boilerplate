@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1722337732519" clover="3.2.0">
-  <project timestamp="1722337732519" name="All files">
-    <metrics statements="374" coveredstatements="358" conditionals="38" coveredconditionals="27" methods="235" coveredmethods="139" elements="647" coveredelements="524" complexity="0" loc="374" ncloc="374" packages="112" files="125" classes="125"/>
+<coverage generated="1722501146400" clover="3.2.0">
+  <project timestamp="1722501146400" name="All files">
+    <metrics statements="372" coveredstatements="362" conditionals="40" coveredconditionals="29" methods="234" coveredmethods="141" elements="646" coveredelements="532" complexity="0" loc="372" ncloc="372" packages="112" files="125" classes="125"/>
     <package name="components.Container">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
       <file name="Container.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/components/Container/Container.jsx">
@@ -109,7 +109,7 @@
       <metrics statements="9" coveredstatements="6" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="3"/>
       <file name="FiltersClosed.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/components/FiltersClosed/FiltersClosed.jsx">
         <metrics statements="9" coveredstatements="6" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="3"/>
-        <line num="17" count="3" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
         <line num="21" count="12" type="stmt"/>
         <line num="25" count="12" type="stmt"/>
         <line num="26" count="12" type="stmt"/>
@@ -124,26 +124,26 @@
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="FiltersClosedCards.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/components/FiltersClosed/FiltersClosedCards/FiltersClosedCards.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="19" count="24" type="stmt"/>
-        <line num="24" count="48" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="20" count="24" type="stmt"/>
+        <line num="25" count="48" type="stmt"/>
       </file>
       <file name="FiltersClosedCards.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/components/FiltersClosed/FiltersClosedCards/FiltersClosedCards.styles.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
       </file>
     </package>
     <package name="components.FiltersOpened">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="FiltersOpened.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/components/FiltersOpened/FiltersOpened.jsx">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="15" type="stmt"/>
-        <line num="21" count="15" type="stmt"/>
-        <line num="31" count="30" type="stmt"/>
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="28" count="15" type="stmt"/>
+        <line num="30" count="15" type="stmt"/>
+        <line num="41" count="30" type="stmt"/>
       </file>
     </package>
     <package name="components.FiltersOpened.FiltersOpenedCards">
@@ -157,7 +157,7 @@
       <file name="FiltersOpenedCards.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCards.styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="4" count="5" type="stmt"/>
-        <line num="11" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
       </file>
     </package>
     <package name="components.FiltersOpened.FiltersOpenedCards.FiltersCardAddItemButton">
@@ -912,8 +912,8 @@
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="FiltersClosedListContext.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/context/FiltersClosedListContext/FiltersClosedListContext.jsx">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
         <line num="23" count="9" type="stmt"/>
         <line num="25" count="9" type="stmt"/>
         <line num="26" count="9" type="stmt"/>
@@ -933,17 +933,15 @@
       </file>
     </package>
     <package name="context.theme">
-      <metrics statements="8" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
       <file name="ThemeContext.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/context/theme/ThemeContext.jsx">
-        <metrics statements="8" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
-        <line num="14" count="8" type="stmt"/>
-        <line num="19" count="8" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="30" count="0" type="stmt"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
       </file>
     </package>
     <package name="data">
@@ -971,8 +969,8 @@
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="DiffOpenedCardsPage.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/templates/DiffOpenedCardsPage/DiffOpenedCardsPage.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
       </file>
     </package>
     <package name="templates.FiltersClosedPage">
@@ -995,8 +993,8 @@
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="FiltersOpenedPage.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/templates/FiltersOpenedPage/FiltersOpenedPage.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
       </file>
     </package>
     <package name="templates.HomePage">
