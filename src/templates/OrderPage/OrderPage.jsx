@@ -7,12 +7,7 @@ import { tabs } from '../../components/OrderTabs/OrderTabsItems/OrderTabsItems';
 import OrderTabs from '../../components/OrderTabs/OrderTabs';
 
 const OrderPage = (): React$MixedElement => (
-	<Container
-		buttons={buttons}
-		title="Caption"
-		theme="light"
-		avatar={{ title: 'AV' }}
-	>
+	<Container buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 		<OrderTabs tabs={tabs} />
 	</Container>
 );

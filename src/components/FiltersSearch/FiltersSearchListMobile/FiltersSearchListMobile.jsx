@@ -2,10 +2,9 @@
 
 import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
-import { Flex } from 'antd';
+import { Flex, Pagination } from 'antd';
 import FiltersSearchListItem from '../FiltersSearchListItem/FiltersSearchListItem';
 import { searchListData } from '../../../data/search.list.data';
-import FiltersSearchPagination from '../FiltersSearchPagination/FiltersSearchPagination';
 
 const FiltersSearchListMobile = (): React$MixedElement => {
 	const [currentPage, setCurrentPage] = useState(1);
@@ -27,7 +26,7 @@ const FiltersSearchListMobile = (): React$MixedElement => {
 				{currentItems.map((listData) => (
 					<FiltersSearchListItem key={listData.id} listData={listData} />
 				))}
-				<FiltersSearchPagination
+				<Pagination
 					defaultCurrent={1}
 					current={currentPage}
 					total={totalItems}

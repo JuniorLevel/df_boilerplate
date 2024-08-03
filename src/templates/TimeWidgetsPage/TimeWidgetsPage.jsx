@@ -6,12 +6,7 @@ import TimeWidgetsPanel from '../../components/TimeWidgetsPanel/TimeWidgetsPanel
 import { buttons } from '../../components/Container/buttons';
 
 const TimeWidgetsPage = (): React$MixedElement => (
-	<Container
-		buttons={buttons}
-		title="Caption"
-		theme="light"
-		avatar={{ title: 'AV' }}
-	>
+	<Container buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 		<TimeWidgetsPanel />
 	</Container>
 );

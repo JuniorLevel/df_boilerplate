@@ -11,12 +11,7 @@ import FiltersSearchWithPreviewContainer from '../../components/FiltersSearchWit
 
 const FiltersClosedPreviewPage = (): React$MixedElement => (
 	<FiltersClosedListProvider>
-		<Container
-			buttons={buttons}
-			title="Caption"
-			theme="light"
-			avatar={{ title: 'AV' }}
-		>
+		<Container buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 			<FiltersClosed isOpen={false} filtersList={filtersList} />
 			<FiltersSearchWithPreviewContainer height={160}>
 				<FiltersSearchWithPreview />

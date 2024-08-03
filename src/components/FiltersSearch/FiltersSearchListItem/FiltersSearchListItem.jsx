@@ -8,7 +8,7 @@ import FiltersSearchListItemGrids from './FiltersSearchListItemGrids/FiltersSear
 import FiltersSearchListItemUsersInfo from './FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfo';
 
 interface IFiltersSearchListProps {
-	listData: any;
+	listData: any | null;
 }
 
 const FiltersSearchListItem = ({
@@ -17,13 +17,23 @@ const FiltersSearchListItem = ({
 	<>
 		<MediaQuery minWidth={361}>
 			<Flex vertical gap={20}>
-				<FiltersSearchListItemGrids />
-				<FiltersSearchListItemUsersInfo
-					dataSearchUsers={listData.dataSearchUsers}
-				/>
+				{listData && (
+					<>
+						<FiltersSearchListItemGrids text="Ant Design" />
+						<FiltersSearchListItemUsersInfo
+							dataSearchUsers={listData.dataSearchUsers}
+						/>
+					</>
+				)}
+				{!listData && (
+					<>
+						<FiltersSearchListItemGrids text="" />
+						<FiltersSearchListItemUsersInfo dataSearchUsers={null} />
+					</>
+				)}
 			</Flex>
 		</MediaQuery>
-		<FiltersSearchListItemMobile listData={listData} />
+		{listData && <FiltersSearchListItemMobile listData={listData} />}
 	</>
 );
 

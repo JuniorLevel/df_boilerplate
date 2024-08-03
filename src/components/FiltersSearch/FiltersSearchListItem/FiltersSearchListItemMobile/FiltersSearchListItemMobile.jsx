@@ -8,7 +8,7 @@ import FiltersSearchListItemMobileInfoStatus from './FiltersSearchListItemMobile
 import StatusContainer from '../../../StatusContainer/StatusContainer';
 
 interface IFiltersSearchListItemMobile {
-	listData: any;
+	listData: any | null;
 }
 
 const FiltersSearchListItemMobile = ({
@@ -24,20 +24,29 @@ const FiltersSearchListItemMobile = ({
 			}}
 		>
 			<Row gutter={[12, 12]}>
-				{listData.dataSearch.map((item) => (
-					<Col span={24} key={item.id}>
-						<StatusContainer>
-							<FiltersSearchListItemMobileInfoStatus
-								key={item.id}
-								item={item}
-							/>
-						</StatusContainer>
+				{listData &&
+					listData.dataSearch.map((item) => (
+						<Col span={24} key={item.id}>
+							<StatusContainer>
+								<FiltersSearchListItemMobileInfoStatus
+									key={item.id}
+									item={item}
+								/>
+							</StatusContainer>
+						</Col>
+					))}
+				{!listData && (
+					<Col span={24}>
+						<div style={{ border: '1px solid black' }}>Not found</div>
 					</Col>
-				))}
+				)}
 			</Row>
-			<FiltersSearchListItemUsersInfo
-				dataSearchUsers={listData.dataSearchUsers}
-			/>
+			{listData && (
+				<FiltersSearchListItemUsersInfo
+					dataSearchUsers={listData.dataSearchUsers}
+				/>
+			)}
+			{!listData && <FiltersSearchListItemUsersInfo dataSearchUsers={null} />}
 		</Flex>
 	</MediaQuery>
 );

@@ -8,6 +8,7 @@ import FiltersSearchWithPreviewContainer from '../../components/FiltersSearchWit
 import FiltersSearchListWithPreviewLeft from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreviewLeft/FiltersSearchWithPreviewLeft';
 import FiltersSearchListWithPreviewRight from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreviewRight/FiltersSearchWithPreviewRight';
 import { Row, Col } from 'antd';
+import FiltersSearchListWithPreviewLeftItem from '../../components/FiltersSearchWithPreview/FiltersSearchWithPreviewLeft/FiltersSearchWithPreviewLeftItem/FiltersSearchWithPreviewLeftItem';
 
 const data = [
 	{
@@ -356,7 +357,36 @@ const [filters, setFilters] = useState([
 		<FiltersSearchWithPreviewContainer height={160}>
 			<Row gutter={[16, 16]}>
 				<Col span={12}>
-					<FiltersSearchListWithPreviewLeft searchListData={data} />
+					<FiltersSearchListWithPreviewLeft>
+						<FiltersSearchListWithPreviewLeftItem
+							key={data[0].id}
+							listData={data[0]}
+						/>
+						<FiltersSearchListWithPreviewLeftItem
+							key={data[1].id}
+							listData={data[1]}
+						/>
+						<FiltersSearchListWithPreviewLeftItem
+							key={data[2].id}
+							listData={data[2]}
+						/>
+						<FiltersSearchListWithPreviewLeftItem
+							key={data[3].id}
+							listData={data[3]}
+						/>
+						<FiltersSearchListWithPreviewLeftItem
+							key={data[4].id}
+							listData={data[4]}
+						/>
+						<FiltersSearchListWithPreviewLeftItem
+							key={data[5].id}
+							listData={data[5]}
+						/>
+						<FiltersSearchListWithPreviewLeftItem
+							key={data[6].id}
+							listData={null}
+						/>
+					</FiltersSearchListWithPreviewLeft>
 				</Col>
 				<Col span={12}>
 					<FiltersSearchListWithPreviewRight />

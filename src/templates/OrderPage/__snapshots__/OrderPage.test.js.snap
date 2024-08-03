@@ -3,13 +3,13 @@
 exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
 <div>
   <div
-    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 hzoitp css-dev-only-do-not-override-1uq9j6g"
+    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 hzoitp css-dev-only-do-not-override-1pg9a38"
   >
     <header
-      class="ant-layout-header HomeHeader__StyledHeaderDesktop-sc-1cpr3xn-0 DWwTu css-dev-only-do-not-override-e5njrn"
+      class="ant-layout-header HomeHeader__StyledHeaderDesktop-sc-1cpr3xn-0 DWwTu css-dev-only-do-not-override-hcqr4b"
     >
       <div
-        class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-justify-space-between"
+        class="ant-flex css-dev-only-do-not-override-hcqr4b ant-flex-justify-space-between"
       >
         <div
           style="font-size: 2em;"
@@ -41,11 +41,11 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
           </span>
         </div>
         <div
-          class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-align-center"
+          class="ant-flex css-dev-only-do-not-override-hcqr4b ant-flex-align-center"
         >
           <button
             aria-checked="false"
-            class="ant-switch css-dev-only-do-not-override-e5njrn"
+            class="ant-switch css-dev-only-do-not-override-hcqr4b"
             role="switch"
             style="margin-right: 16px;"
             type="button"
@@ -107,7 +107,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
             </span>
           </button>
           <span
-            class="ant-avatar ant-avatar-lg ant-avatar-circle css-dev-only-do-not-override-e5njrn"
+            class="ant-avatar ant-avatar-lg ant-avatar-circle css-dev-only-do-not-override-hcqr4b"
           >
             <span
               class="ant-avatar-string"
@@ -120,7 +120,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
       </div>
     </header>
     <div
-      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-1uq9j6g"
+      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-1pg9a38"
     >
       <aside
         class="ant-layout-sider ant-layout-sider-dark Containerstyles__StyledHomeSidebarDesktop-sc-kziwuf-2 caGmLJ"
@@ -135,7 +135,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                 class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
+                  class="ant-btn css-dev-only-do-not-override-hcqr4b ant-btn-ghost"
                   style="border-radius: 0px; font-size: 1.5em;"
                   type="button"
                 />
@@ -144,7 +144,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                 class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
+                  class="ant-btn css-dev-only-do-not-override-hcqr4b ant-btn-ghost"
                   style="border-radius: 0px; font-size: 1.5em;"
                   type="button"
                 />
@@ -153,7 +153,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                 class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
+                  class="ant-btn css-dev-only-do-not-override-hcqr4b ant-btn-ghost"
                   style="border-radius: 0px; font-size: 1.5em;"
                   type="button"
                 />
@@ -163,10 +163,10 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
         </div>
       </aside>
       <main
-        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 fPqntu css-dev-only-do-not-override-1uq9j6g"
+        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 fPqntu css-dev-only-do-not-override-1pg9a38"
       >
         <div
-          class="ant-tabs ant-tabs-top OrderListstyles__StyledTabs-sc-9inn70-0 HSnqf css-dev-only-do-not-override-1uq9j6g"
+          class="ant-tabs ant-tabs-top OrderListstyles__StyledTabs-sc-9inn70-0 HSnqf css-dev-only-do-not-override-1pg9a38"
         >
           <div
             class="ant-tabs-nav"
@@ -192,14 +192,14 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Main info
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -236,14 +236,14 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Chat
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -280,14 +280,14 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Dashboard
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -324,14 +324,14 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Documents
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -368,14 +368,14 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         History
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -458,27 +458,27 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                   class="OrderContainer__StyledOrderContainer-sc-1cjx7jk-0 gavtjg"
                 >
                   <div
-                    class="ant-row css-dev-only-do-not-override-1uq9j6g"
+                    class="ant-row css-dev-only-do-not-override-1pg9a38"
                     style="margin-left: -8px; margin-right: -8px; row-gap: 16px;"
                   >
                     <div
-                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                       style="padding-left: 8px; padding-right: 8px;"
                     >
                       <div
-                        class="ant-row css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-row css-dev-only-do-not-override-1pg9a38"
                         style="margin-left: -8px; margin-right: -8px; row-gap: 16px;"
                       >
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                             style="padding-left: 8px; padding-right: 8px;"
                           >
                             <div
-                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1uq9j6g ant-steps-dot"
+                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1pg9a38 ant-steps-dot"
                               style="height: 100%;"
                             >
                               <div
@@ -701,11 +701,11 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                           </div>
                         </div>
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center ant-flex-justify-center"
+                            class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center ant-flex-justify-center"
                             style="width: 100%; height: 100%; border: 1px solid black; font-size: 2rem;"
                           >
                             <div>
@@ -716,19 +716,19 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                       </div>
                     </div>
                     <div
-                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                       style="padding-left: 8px; padding-right: 8px;"
                     >
                       <div
-                        class="ant-row css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-row css-dev-only-do-not-override-1pg9a38"
                         style="margin-left: -8px; margin-right: -8px; row-gap: 16px;"
                       >
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center ant-flex-justify-center"
+                            class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center ant-flex-justify-center"
                             style="width: 100%; height: 100%; border: 1px solid black; font-size: 2rem;"
                           >
                             <div>
@@ -737,15 +737,15 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                           </div>
                         </div>
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                             style="padding-left: 8px; padding-right: 8px;"
                           >
                             <div
-                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1uq9j6g ant-steps-dot"
+                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1pg9a38 ant-steps-dot"
                               style="height: 100%;"
                             >
                               <div
@@ -984,13 +984,13 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
 exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
 <div>
   <div
-    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 hzoitp css-dev-only-do-not-override-1uq9j6g"
+    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 hzoitp css-dev-only-do-not-override-1pg9a38"
   >
     <header
-      class="ant-layout-header HomeHeader__StyledHeaderDesktop-sc-1cpr3xn-0 DWwTu css-dev-only-do-not-override-e5njrn"
+      class="ant-layout-header HomeHeader__StyledHeaderDesktop-sc-1cpr3xn-0 DWwTu css-dev-only-do-not-override-hcqr4b"
     >
       <div
-        class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-justify-space-between"
+        class="ant-flex css-dev-only-do-not-override-hcqr4b ant-flex-justify-space-between"
       >
         <div
           style="font-size: 2em;"
@@ -1022,11 +1022,11 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
           </span>
         </div>
         <div
-          class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-align-center"
+          class="ant-flex css-dev-only-do-not-override-hcqr4b ant-flex-align-center"
         >
           <button
             aria-checked="false"
-            class="ant-switch css-dev-only-do-not-override-e5njrn"
+            class="ant-switch css-dev-only-do-not-override-hcqr4b"
             role="switch"
             style="margin-right: 16px;"
             type="button"
@@ -1088,7 +1088,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
             </span>
           </button>
           <span
-            class="ant-avatar ant-avatar-lg ant-avatar-circle css-dev-only-do-not-override-e5njrn"
+            class="ant-avatar ant-avatar-lg ant-avatar-circle css-dev-only-do-not-override-hcqr4b"
           >
             <span
               class="ant-avatar-string"
@@ -1101,7 +1101,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
       </div>
     </header>
     <div
-      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-1uq9j6g"
+      class="ant-layout ant-layout-has-sider css-dev-only-do-not-override-1pg9a38"
     >
       <aside
         class="ant-layout-sider ant-layout-sider-dark Containerstyles__StyledHomeSidebarDesktop-sc-kziwuf-2 caGmLJ"
@@ -1116,7 +1116,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                 class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
+                  class="ant-btn css-dev-only-do-not-override-hcqr4b ant-btn-ghost"
                   style="border-radius: 0px; font-size: 1.5em;"
                   type="button"
                 />
@@ -1125,7 +1125,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                 class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
+                  class="ant-btn css-dev-only-do-not-override-hcqr4b ant-btn-ghost"
                   style="border-radius: 0px; font-size: 1.5em;"
                   type="button"
                 />
@@ -1134,7 +1134,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                 class="Containerstyles__StyledHomeSidebarNavigationListItem-sc-kziwuf-3 kBsMZD"
               >
                 <button
-                  class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-ghost"
+                  class="ant-btn css-dev-only-do-not-override-hcqr4b ant-btn-ghost"
                   style="border-radius: 0px; font-size: 1.5em;"
                   type="button"
                 />
@@ -1144,10 +1144,10 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
         </div>
       </aside>
       <main
-        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 fPqntu css-dev-only-do-not-override-1uq9j6g"
+        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 fPqntu css-dev-only-do-not-override-1pg9a38"
       >
         <div
-          class="ant-tabs ant-tabs-top OrderListstyles__StyledTabs-sc-9inn70-0 HSnqf css-dev-only-do-not-override-1uq9j6g"
+          class="ant-tabs ant-tabs-top OrderListstyles__StyledTabs-sc-9inn70-0 HSnqf css-dev-only-do-not-override-1pg9a38"
         >
           <div
             class="ant-tabs-nav"
@@ -1173,14 +1173,14 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Main info
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -1217,14 +1217,14 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Chat
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -1261,14 +1261,14 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Dashboard
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -1305,14 +1305,14 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Documents
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -1349,14 +1349,14 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         History
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -1439,27 +1439,27 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                   class="OrderContainer__StyledOrderContainer-sc-1cjx7jk-0 gavtjg"
                 >
                   <div
-                    class="ant-row css-dev-only-do-not-override-1uq9j6g"
+                    class="ant-row css-dev-only-do-not-override-1pg9a38"
                     style="margin-left: -8px; margin-right: -8px; row-gap: 16px;"
                   >
                     <div
-                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                       style="padding-left: 8px; padding-right: 8px;"
                     >
                       <div
-                        class="ant-row css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-row css-dev-only-do-not-override-1pg9a38"
                         style="margin-left: -8px; margin-right: -8px; row-gap: 16px;"
                       >
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                             style="padding-left: 8px; padding-right: 8px;"
                           >
                             <div
-                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1uq9j6g ant-steps-dot"
+                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1pg9a38 ant-steps-dot"
                               style="height: 100%;"
                             >
                               <div
@@ -1682,11 +1682,11 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                           </div>
                         </div>
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center ant-flex-justify-center"
+                            class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center ant-flex-justify-center"
                             style="width: 100%; height: 100%; border: 1px solid black; font-size: 2rem;"
                           >
                             <div>
@@ -1697,19 +1697,19 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                       </div>
                     </div>
                     <div
-                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                       style="padding-left: 8px; padding-right: 8px;"
                     >
                       <div
-                        class="ant-row css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-row css-dev-only-do-not-override-1pg9a38"
                         style="margin-left: -8px; margin-right: -8px; row-gap: 16px;"
                       >
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center ant-flex-justify-center"
+                            class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center ant-flex-justify-center"
                             style="width: 100%; height: 100%; border: 1px solid black; font-size: 2rem;"
                           >
                             <div>
@@ -1718,15 +1718,15 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                           </div>
                         </div>
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                             style="padding-left: 8px; padding-right: 8px;"
                           >
                             <div
-                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1uq9j6g ant-steps-dot"
+                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1pg9a38 ant-steps-dot"
                               style="height: 100%;"
                             >
                               <div
@@ -1965,16 +1965,16 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
 exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
 <div>
   <div
-    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 hzoitp css-dev-only-do-not-override-1uq9j6g"
+    class="ant-layout Containerstyles__StyledLayout-sc-kziwuf-0 hzoitp css-dev-only-do-not-override-1pg9a38"
   >
     <header
-      class="ant-layout-header HomeHeaderMobilestyles__StyledHeaderMobile-sc-1559un2-0 kwmusY css-dev-only-do-not-override-e5njrn"
+      class="ant-layout-header HomeHeaderMobilestyles__StyledHeaderMobile-sc-1559un2-0 kwmusY css-dev-only-do-not-override-hcqr4b"
     >
       <div
-        class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-align-center ant-flex-justify-space-between"
+        class="ant-flex css-dev-only-do-not-override-hcqr4b ant-flex-align-center ant-flex-justify-space-between"
       >
         <button
-          class="ant-btn css-dev-only-do-not-override-e5njrn ant-btn-default ant-btn-icon-only ant-btn-background-ghost"
+          class="ant-btn css-dev-only-do-not-override-hcqr4b ant-btn-default ant-btn-icon-only ant-btn-background-ghost"
           type="button"
         >
           <span
@@ -2031,10 +2031,10 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
           </span>
         </div>
         <div
-          class="ant-flex css-dev-only-do-not-override-e5njrn ant-flex-align-center"
+          class="ant-flex css-dev-only-do-not-override-hcqr4b ant-flex-align-center"
         >
           <span
-            class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon css-dev-only-do-not-override-e5njrn"
+            class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon css-dev-only-do-not-override-hcqr4b"
           >
             <span
               aria-label="user"
@@ -2060,13 +2060,13 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
       </div>
     </header>
     <div
-      class="ant-layout css-dev-only-do-not-override-1uq9j6g"
+      class="ant-layout css-dev-only-do-not-override-1pg9a38"
     >
       <main
-        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 fPqntu css-dev-only-do-not-override-1uq9j6g"
+        class="ant-layout-content Containerstyles__StyledContent-sc-kziwuf-1 fPqntu css-dev-only-do-not-override-1pg9a38"
       >
         <div
-          class="ant-tabs ant-tabs-top OrderListstyles__StyledTabs-sc-9inn70-0 HSnqf css-dev-only-do-not-override-1uq9j6g"
+          class="ant-tabs ant-tabs-top OrderListstyles__StyledTabs-sc-9inn70-0 HSnqf css-dev-only-do-not-override-1pg9a38"
         >
           <div
             class="ant-tabs-nav"
@@ -2092,14 +2092,14 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Main info
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -2136,14 +2136,14 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Chat
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -2180,14 +2180,14 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Dashboard
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -2224,14 +2224,14 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         Documents
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -2268,14 +2268,14 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center"
+                      class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center"
                       style="gap: 10px;"
                     >
                       <div>
                         History
                       </div>
                       <span
-                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-badge ant-badge-not-a-wrapper css-dev-only-do-not-override-1pg9a38"
                       >
                         <sup
                           class="ant-scroll-number ant-badge-count"
@@ -2358,27 +2358,27 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
                   class="OrderContainer__StyledOrderContainer-sc-1cjx7jk-0 gavtjg"
                 >
                   <div
-                    class="ant-row css-dev-only-do-not-override-1uq9j6g"
+                    class="ant-row css-dev-only-do-not-override-1pg9a38"
                     style="margin-left: -8px; margin-right: -8px; row-gap: 16px;"
                   >
                     <div
-                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                       style="padding-left: 8px; padding-right: 8px;"
                     >
                       <div
-                        class="ant-row css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-row css-dev-only-do-not-override-1pg9a38"
                         style="margin-left: -8px; margin-right: -8px; row-gap: 16px;"
                       >
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                             style="padding-left: 8px; padding-right: 8px;"
                           >
                             <div
-                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1uq9j6g ant-steps-dot"
+                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1pg9a38 ant-steps-dot"
                               style="height: 100%;"
                             >
                               <div
@@ -2601,11 +2601,11 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
                           </div>
                         </div>
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center ant-flex-justify-center"
+                            class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center ant-flex-justify-center"
                             style="width: 100%; height: 100%; border: 1px solid black; font-size: 2rem;"
                           >
                             <div>
@@ -2616,19 +2616,19 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
                       </div>
                     </div>
                     <div
-                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                      class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                       style="padding-left: 8px; padding-right: 8px;"
                     >
                       <div
-                        class="ant-row css-dev-only-do-not-override-1uq9j6g"
+                        class="ant-row css-dev-only-do-not-override-1pg9a38"
                         style="margin-left: -8px; margin-right: -8px; row-gap: 16px;"
                       >
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-flex css-dev-only-do-not-override-1uq9j6g ant-flex-align-center ant-flex-justify-center"
+                            class="ant-flex css-dev-only-do-not-override-1pg9a38 ant-flex-align-center ant-flex-justify-center"
                             style="width: 100%; height: 100%; border: 1px solid black; font-size: 2rem;"
                           >
                             <div>
@@ -2637,15 +2637,15 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
                           </div>
                         </div>
                         <div
-                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                          class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                           style="padding-left: 8px; padding-right: 8px;"
                         >
                           <div
-                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1uq9j6g"
+                            class="ant-col ant-col-xs-12 css-dev-only-do-not-override-1pg9a38"
                             style="padding-left: 8px; padding-right: 8px;"
                           >
                             <div
-                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1uq9j6g ant-steps-dot"
+                              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-1pg9a38 ant-steps-dot"
                               style="height: 100%;"
                             >
                               <div

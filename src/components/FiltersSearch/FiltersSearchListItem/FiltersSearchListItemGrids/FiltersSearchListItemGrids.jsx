@@ -5,6 +5,10 @@ import React from 'react';
 import styled from 'styled-components';
 import StatusContainer from '../../../StatusContainer/StatusContainer';
 
+interface IFiltersSearchListItemGridsProps {
+	text: string;
+}
+
 const StyledCol = styled(Col)`
 	&:first-child {
 	}
@@ -14,38 +18,40 @@ const StyledCol = styled(Col)`
 	}
 `;
 
-const FiltersSearchListItemGrids = (): React$MixedElement => (
+const FiltersSearchListItemGrids = ({
+	text,
+}: IFiltersSearchListItemGridsProps): React$MixedElement => (
 	<>
 		<Row gutter={[36, 12]}>
 			<StyledCol xs={24} lg={12}>
-				<StatusContainer>Ant Design</StatusContainer>
+				<StatusContainer>{text}</StatusContainer>
 			</StyledCol>
 			<StyledCol xs={24} lg={12}>
-				<StatusContainer>Ant Design</StatusContainer>
+				<StatusContainer>{text}</StatusContainer>
 			</StyledCol>
 		</Row>
 		<Row gutter={[36, 12]}>
 			<StyledCol xs={24} lg={{ flex: 1 }}>
-				<StatusContainer>GitHub API</StatusContainer>
+				<StatusContainer>{text}</StatusContainer>
 			</StyledCol>
 			<StyledCol xs={24} lg={8}>
-				<StatusContainer>GitHub API</StatusContainer>
+				<StatusContainer>{text}</StatusContainer>
 			</StyledCol>
 		</Row>
 		<Row gutter={[36, 12]}>
 			<StyledCol xs={24} lg={12}>
-				<StatusContainer>Learn react</StatusContainer>
+				<StatusContainer>{text}</StatusContainer>
 			</StyledCol>
 			<StyledCol xs={24} lg={12}>
-				<StatusContainer>Learn react</StatusContainer>
+				<StatusContainer>{text}</StatusContainer>
 			</StyledCol>
 		</Row>
 		<Row gutter={[36, 12]}>
 			<StyledCol xs={24} lg={{ flex: 1 }}>
-				<StatusContainer>Yandex dzen</StatusContainer>
+				<StatusContainer>{text}</StatusContainer>
 			</StyledCol>
 			<StyledCol xs={24} lg={8}>
-				<StatusContainer>JavaScript</StatusContainer>
+				<StatusContainer>{text}</StatusContainer>
 			</StyledCol>
 		</Row>
 	</>

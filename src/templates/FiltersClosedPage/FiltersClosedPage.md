@@ -7,6 +7,7 @@ import FiltersSearch from '../../components/FiltersSearch/FiltersSearch';
 import { FiltersClosedListProvider } from '../../context/FiltersClosedListContext/FiltersClosedListContext';
 import { buttons } from '../../components/Container/buttons';
 import FiltersSearchContainer from '../../components/FiltersSearch/FiltersSearchContainer/FiltersSearchContainer';
+import FiltersSearchListItem from '../../components/FiltersSearch/FiltersSearchListItem/FiltersSearchListItem';
 
 const data = [
 	{
@@ -185,7 +186,12 @@ const [filters, setFilters] = useState([
 	<Layout buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 		<FiltersClosed isOpen={false} filtersList={filters} />
 		<FiltersSearchContainer>
-			<FiltersSearch searchListData={data} />
+			<FiltersSearchListItem key={data[0].id} listData={data[0]} />
+			<FiltersSearchListItem key={data[1].id} listData={data[1]} />
+			<FiltersSearchListItem key={data[2].id} listData={data[2]} />
+			<FiltersSearchListItem key={data[3].id} listData={data[3]} />
+			<FiltersSearchListItem key={data[4].id} listData={data[4]} />
+			<FiltersSearchListItem key={6} listData={null} />
 		</FiltersSearchContainer>
 	</Layout>
 </FiltersClosedListProvider>;

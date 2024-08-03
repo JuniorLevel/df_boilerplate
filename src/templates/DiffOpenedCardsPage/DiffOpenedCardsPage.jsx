@@ -11,12 +11,7 @@ import FiltersSearchWithPreviewContainer from '../../components/FiltersSearchWit
 import { filtersCards } from '../../data/filters.cards.data';
 
 const DiffOpenedCardsPage = (): React$MixedElement => (
-	<Container
-		buttons={buttons}
-		title="Caption"
-		theme="light"
-		avatar={{ title: 'AV' }}
-	>
+	<Container buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 		<Row>
 			<Col span={12}>
 				<FiltersOpened isOpen filtersCards={filtersCards} />

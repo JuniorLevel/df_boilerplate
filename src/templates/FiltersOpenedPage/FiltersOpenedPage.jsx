@@ -7,12 +7,7 @@ import { buttons } from '../../components/Container/buttons';
 import { filtersCards } from '../../data/filters.cards.data';
 
 const FiltersOpenedPage = (): React.Node => (
-	<Container
-		buttons={buttons}
-		title="Caption"
-		theme="light"
-		avatar={{ title: 'AV' }}
-	>
+	<Container buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 		<FiltersOpened isOpen filtersCards={filtersCards} />
 	</Container>
 );

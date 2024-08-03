@@ -13,12 +13,7 @@ import Footer from '../../components/Footer/Footer';
 
 const DiffClosedCardsPage = (): React$MixedElement => (
 	<FiltersClosedListProvider>
-		<Container
-			buttons={buttons}
-			title="Caption"
-			theme="light"
-			avatar={{ title: 'AV' }}
-		>
+		<Container buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 			<Row>
 				<Col span={12}>
 					<FiltersClosed isOpen={false} filtersList={filtersList} />
