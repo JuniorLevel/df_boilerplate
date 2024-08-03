@@ -30,9 +30,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">75% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/0</span>
+                <span class='fraction'>6/8</span>
             </div>
         
             
@@ -108,7 +108,16 @@
 <a name='L43'></a><a href='#L43'>43</a>
 <a name='L44'></a><a href='#L44'>44</a>
 <a name='L45'></a><a href='#L45'>45</a>
-<a name='L46'></a><a href='#L46'>46</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L46'></a><a href='#L46'>46</a>
+<a name='L47'></a><a href='#L47'>47</a>
+<a name='L48'></a><a href='#L48'>48</a>
+<a name='L49'></a><a href='#L49'>49</a>
+<a name='L50'></a><a href='#L50'>50</a>
+<a name='L51'></a><a href='#L51'>51</a>
+<a name='L52'></a><a href='#L52'>52</a>
+<a name='L53'></a><a href='#L53'>53</a>
+<a name='L54'></a><a href='#L54'>54</a>
+<a name='L55'></a><a href='#L55'>55</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -121,13 +130,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">40x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">17x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -135,7 +141,19 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">80x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">34x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -163,7 +181,7 @@ import FiltersSearchListItemMobileInfoStatus from './FiltersSearchListItemMobile
 import StatusContainer from '../../../StatusContainer/StatusContainer';
 &nbsp;
 interface IFiltersSearchListItemMobile {
-	listData: any;
+	listData: any | null;
 }
 &nbsp;
 const FiltersSearchListItemMobile = ({
@@ -179,20 +197,29 @@ const FiltersSearchListItemMobile = ({
 			}}
 		&gt;
 			&lt;Row gutter={[12, 12]}&gt;
-				{listData.dataSearch.map((item) =&gt; (
-					&lt;Col span={24} key={item.id}&gt;
-						&lt;StatusContainer&gt;
-							&lt;FiltersSearchListItemMobileInfoStatus
-								key={item.id}
-								item={item}
-							/&gt;
-						&lt;/StatusContainer&gt;
+				{listData &amp;&amp;
+					listData.dataSearch.map((item) =&gt; (
+						&lt;Col span={24} key={item.id}&gt;
+							&lt;StatusContainer&gt;
+								&lt;FiltersSearchListItemMobileInfoStatus
+									key={item.id}
+									item={item}
+								/&gt;
+							&lt;/StatusContainer&gt;
+						&lt;/Col&gt;
+					))}
+				{!listData &amp;&amp; (
+<span class="branch-1 cbranch-no" title="branch not covered" >					&lt;Col span={24}&gt;</span>
+						&lt;div style={{ border: '1px solid black' }}&gt;Not found&lt;/div&gt;
 					&lt;/Col&gt;
-				))}
+				)}
 			&lt;/Row&gt;
-			&lt;FiltersSearchListItemUsersInfo
-				dataSearchUsers={listData.dataSearchUsers}
-			/&gt;
+			{listData &amp;&amp; (
+				&lt;FiltersSearchListItemUsersInfo
+					dataSearchUsers={listData.dataSearchUsers}
+				/&gt;
+			)}
+			{!listData &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >&lt;FiltersSearchListItemUsersInfo dataSearchUsers={null} /&gt;}</span>
 		&lt;/Flex&gt;
 	&lt;/MediaQuery&gt;
 );
@@ -205,7 +232,7 @@ export default FiltersSearchListItemMobile;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-08-01T10:22:45.917Z
+                at 2024-08-03T14:54:15.862Z
             </div>
         <script src="../../../../prettify.js"></script>
         <script>

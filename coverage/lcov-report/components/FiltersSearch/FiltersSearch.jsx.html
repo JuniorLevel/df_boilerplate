@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">88.88% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>8/9</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">66.66% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/3</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">88.88% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>8/9</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
@@ -103,27 +103,7 @@
 <a name='L38'></a><a href='#L38'>38</a>
 <a name='L39'></a><a href='#L39'>39</a>
 <a name='L40'></a><a href='#L40'>40</a>
-<a name='L41'></a><a href='#L41'>41</a>
-<a name='L42'></a><a href='#L42'>42</a>
-<a name='L43'></a><a href='#L43'>43</a>
-<a name='L44'></a><a href='#L44'>44</a>
-<a name='L45'></a><a href='#L45'>45</a>
-<a name='L46'></a><a href='#L46'>46</a>
-<a name='L47'></a><a href='#L47'>47</a>
-<a name='L48'></a><a href='#L48'>48</a>
-<a name='L49'></a><a href='#L49'>49</a>
-<a name='L50'></a><a href='#L50'>50</a>
-<a name='L51'></a><a href='#L51'>51</a>
-<a name='L52'></a><a href='#L52'>52</a>
-<a name='L53'></a><a href='#L53'>53</a>
-<a name='L54'></a><a href='#L54'>54</a>
-<a name='L55'></a><a href='#L55'>55</a>
-<a name='L56'></a><a href='#L56'>56</a>
-<a name='L57'></a><a href='#L57'>57</a>
-<a name='L58'></a><a href='#L58'>58</a>
-<a name='L59'></a><a href='#L59'>59</a>
-<a name='L60'></a><a href='#L60'>60</a>
-<a name='L61'></a><a href='#L61'>61</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L41'></a><a href='#L41'>41</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -134,19 +114,10 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -163,17 +134,6 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">40x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -185,63 +145,43 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// @flow
 &nbsp;
-import React, { useState } from 'react';
-import { Flex } from 'antd';
+import React from 'react';
+import { Flex, Pagination } from 'antd';
 import MediaQuery from 'react-responsive';
 import FiltersSearchListMobile from './FiltersSearchListMobile/FiltersSearchListMobile';
-import FiltersSearchListItem from './FiltersSearchListItem/FiltersSearchListItem';
-import FiltersSearchPagination from './FiltersSearchPagination/FiltersSearchPagination';
 &nbsp;
 interface IFiltersSearchProps {
-	searchListData: any;
+	children: any;
 }
 &nbsp;
 const FiltersSearch = ({
-	searchListData,
-}: IFiltersSearchProps): React$MixedElement =&gt; {
-	const [currentPage, setCurrentPage] = useState(1);
-	const totalItems = searchListData.length;
-&nbsp;
-	const startIndex = (currentPage - 1) * 5;
-	const endIndex = startIndex + 5;
-	const currentItems = searchListData.slice(startIndex, endIndex);
-&nbsp;
-	return (
-		&lt;&gt;
-			&lt;MediaQuery minWidth={361}&gt;
-				&lt;Flex
-					vertical
-					justify="space-between"
-					gap={10}
+	children,
+}: IFiltersSearchProps): React$MixedElement =&gt; (
+	&lt;&gt;
+		&lt;MediaQuery minWidth={361}&gt;
+			&lt;Flex
+				vertical
+				justify="space-between"
+				gap={10}
+				style={{
+					height: '100%',
+					overflow: 'auto',
+					padding: 10,
+				}}
+			&gt;
+				&lt;div
 					style={{
-						height: '100%',
-						overflow: 'auto',
-						padding: 10,
+						overflowX: 'hidden',
 					}}
 				&gt;
-					&lt;div
-						style={{
-							overflowX: 'hidden',
-						}}
-					&gt;
-						{currentItems.map((listData) =&gt; (
-							&lt;FiltersSearchListItem listData={listData} key={listData.id} /&gt;
-						))}
-					&lt;/div&gt;
-					&lt;FiltersSearchPagination
-						defaultCurrent={1}
-						current={currentPage}
-						total={totalItems}
-						pageSize={5}
-						onChange={<span class="fstat-no" title="function not covered" >(p</span>age: number): void =&gt; <span class="cstat-no" title="statement not covered" >setCurrentPage(page)}</span>
-					/&gt;
-				&lt;/Flex&gt;
-			&lt;/MediaQuery&gt;
-			&lt;FiltersSearchListMobile /&gt;
-		&lt;/&gt;
-	);
-};
-&nbsp;
+					{children}
+				&lt;/div&gt;
+				&lt;Pagination defaultCurrent={1} total={50} /&gt;
+			&lt;/Flex&gt;
+		&lt;/MediaQuery&gt;
+		&lt;FiltersSearchListMobile /&gt;
+	&lt;/&gt;
+);
 export default FiltersSearch;
 &nbsp;</pre></td></tr></table></pre>
 
@@ -250,7 +190,7 @@ export default FiltersSearch;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2024-08-01T10:22:45.917Z
+                at 2024-08-03T14:54:15.862Z
             </div>
         <script src="../../prettify.js"></script>
         <script>
