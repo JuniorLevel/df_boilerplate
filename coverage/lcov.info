@@ -1,5 +1,5 @@
 TN:
-SF:src/components/Container/Container.jsx
+SF:src\components\Container\Container.jsx
 FN:17,(anonymous_0)
 FNF:1
 FNH:1
@@ -12,7 +12,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Container/Container.styles.js
+SF:src\components\Container\Container.styles.js
 FNF:0
 FNH:0
 DA:4,8
@@ -26,7 +26,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Container/buttons.js
+SF:src\components\Container\buttons.js
 FN:4,(anonymous_0)
 FN:8,(anonymous_1)
 FN:12,(anonymous_2)
@@ -42,7 +42,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Container/HomeHeader/HomeHeader.jsx
+SF:src\components\Container\HomeHeader\HomeHeader.jsx
 FN:22,(anonymous_0)
 FN:29,(anonymous_1)
 FN:35,(anonymous_2)
@@ -71,7 +71,7 @@ BRF:4
 BRH:2
 end_of_record
 TN:
-SF:src/components/Container/HomeHeader/BurgerMenu/BurgerMenu.jsx
+SF:src\components\Container\HomeHeader\BurgerMenu\BurgerMenu.jsx
 FN:7,(anonymous_0)
 FNF:1
 FNH:1
@@ -84,7 +84,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Container/HomeHeader/HomeHeaderMobile/HomeHeaderMobile.jsx
+SF:src\components\Container\HomeHeader\HomeHeaderMobile\HomeHeaderMobile.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -97,7 +97,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Container/HomeHeader/HomeHeaderMobile/HomeHeaderMobile.styles.js
+SF:src\components\Container\HomeHeader\HomeHeaderMobile\HomeHeaderMobile.styles.js
 FNF:0
 FNH:0
 DA:4,8
@@ -108,7 +108,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Container/HomeHeader/Logo/Logo.jsx
+SF:src\components\Container\HomeHeader\Logo\Logo.jsx
 FN:10,(anonymous_0)
 FNF:1
 FNH:1
@@ -121,7 +121,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Container/HomeSidebar/HomeSidebar.jsx
+SF:src\components\Container\HomeSidebar\HomeSidebar.jsx
 FN:13,(anonymous_0)
 FN:17,(anonymous_1)
 FN:21,(anonymous_2)
@@ -160,7 +160,7 @@ BRF:4
 BRH:3
 end_of_record
 TN:
-SF:src/components/Container/HomeSidebar/HomeSidebarNavigation/HomeSidebarNavigation.jsx
+SF:src\components\Container\HomeSidebar\HomeSidebarNavigation\HomeSidebarNavigation.jsx
 FN:13,(anonymous_0)
 FN:19,(anonymous_1)
 FNF:2
@@ -178,7 +178,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/components/FiltersCardsContainer/FiltersCardsContainer.jsx
+SF:src\components\FiltersCardsContainer\FiltersCardsContainer.jsx
 FN:11,(anonymous_0)
 FNF:1
 FNH:1
@@ -191,7 +191,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersClosed/FiltersClosed.jsx
+SF:src\components\FiltersClosed\FiltersClosed.jsx
 FN:17,(anonymous_0)
 FN:25,(anonymous_1)
 FN:34,(anonymous_2)
@@ -229,7 +229,7 @@ BRF:8
 BRH:6
 end_of_record
 TN:
-SF:src/components/FiltersClosed/FiltersClosedCards/FiltersClosedCards.jsx
+SF:src\components\FiltersClosed\FiltersClosedCards\FiltersClosedCards.jsx
 FN:17,(anonymous_0)
 FN:24,(anonymous_1)
 FNF:2
@@ -245,7 +245,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersClosed/FiltersClosedCards/FiltersClosedCards.styles.js
+SF:src\components\FiltersClosed\FiltersClosedCards\FiltersClosedCards.styles.js
 FNF:0
 FNH:0
 DA:4,5
@@ -257,7 +257,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersOpened/FiltersOpened.jsx
+SF:src\components\FiltersOpened\FiltersOpened.jsx
 FN:24,(anonymous_0)
 FN:40,(anonymous_1)
 FNF:2
@@ -277,7 +277,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCards.jsx
+SF:src\components\FiltersOpened\FiltersOpenedCards\FiltersOpenedCards.jsx
 FN:13,(anonymous_0)
 FN:19,(anonymous_1)
 FNF:2
@@ -293,7 +293,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCards.styles.js
+SF:src\components\FiltersOpened\FiltersOpenedCards\FiltersOpenedCards.styles.js
 FNF:0
 FNH:0
 DA:4,5
@@ -304,7 +304,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersOpened/FiltersOpenedCards/FiltersCardAddItemButton/FiltersCardAddItemButton.jsx
+SF:src\components\FiltersOpened\FiltersOpenedCards\FiltersCardAddItemButton\FiltersCardAddItemButton.jsx
 FN:7,(anonymous_0)
 FNF:1
 FNH:1
@@ -317,7 +317,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCardItem/FiltersOpenedCardItem.jsx
+SF:src\components\FiltersOpened\FiltersOpenedCards\FiltersOpenedCardItem\FiltersOpenedCardItem.jsx
 FN:11,(anonymous_0)
 FN:16,(anonymous_1)
 FNF:2
@@ -335,7 +335,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCardItem/FiltersOpenedCardItem.styles.js
+SF:src\components\FiltersOpened\FiltersOpenedCards\FiltersOpenedCardItem\FiltersOpenedCardItem.styles.js
 FNF:0
 FNH:0
 DA:3,5
@@ -345,7 +345,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCardsAddButton/FiltersOpenedCardsAddButton.jsx
+SF:src\components\FiltersOpened\FiltersOpenedCards\FiltersOpenedCardsAddButton\FiltersOpenedCardsAddButton.jsx
 FN:12,(anonymous_0)
 FNF:1
 FNH:1
@@ -358,7 +358,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCardsAddButton/FiltersOpenedCardsAddButton.styles.js
+SF:src\components\FiltersOpened\FiltersOpenedCards\FiltersOpenedCardsAddButton\FiltersOpenedCardsAddButton.styles.js
 FNF:0
 FNH:0
 DA:4,2
@@ -369,7 +369,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersOpened/FiltersOpenedMobile/FiltersOpenedMobile.jsx
+SF:src\components\FiltersOpened\FiltersOpenedMobile\FiltersOpenedMobile.jsx
 FN:12,(anonymous_0)
 FN:25,(anonymous_1)
 FNF:2
@@ -386,7 +386,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearch/FiltersSearch.jsx
+SF:src\components\FiltersSearch\FiltersSearch.jsx
 FN:12,(anonymous_0)
 FNF:1
 FNH:1
@@ -399,7 +399,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearch/FiltersSearchContainer/FiltersSearchContainer.jsx
+SF:src\components\FiltersSearch\FiltersSearchContainer\FiltersSearchContainer.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -413,7 +413,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearch/FiltersSearchListItem/FiltersSearchListItem.jsx
+SF:src\components\FiltersSearch\FiltersSearchListItem\FiltersSearchListItem.jsx
 FN:14,(anonymous_0)
 FNF:1
 FNH:1
@@ -432,7 +432,7 @@ BRF:6
 BRH:6
 end_of_record
 TN:
-SF:src/components/FiltersSearch/FiltersSearchListItem/FiltersSearchListItemGrids/FiltersSearchListItemGrids.jsx
+SF:src\components\FiltersSearch\FiltersSearchListItem\FiltersSearchListItemGrids\FiltersSearchListItemGrids.jsx
 FN:21,(anonymous_0)
 FNF:1
 FNH:1
@@ -446,7 +446,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearch/FiltersSearchListItem/FiltersSearchListItemMobile/FiltersSearchListItemMobile.jsx
+SF:src\components\FiltersSearch\FiltersSearchListItem\FiltersSearchListItemMobile\FiltersSearchListItemMobile.jsx
 FN:14,(anonymous_0)
 FN:28,(anonymous_1)
 FNF:2
@@ -470,7 +470,7 @@ BRF:8
 BRH:6
 end_of_record
 TN:
-SF:src/components/FiltersSearch/FiltersSearchListItem/FiltersSearchListItemMobile/FiltersSearchListItemMobileInfoStatus/FiltersSearchListItemMobileInfoStatus.jsx
+SF:src\components\FiltersSearch\FiltersSearchListItem\FiltersSearchListItemMobile\FiltersSearchListItemMobileInfoStatus\FiltersSearchListItemMobileInfoStatus.jsx
 FN:10,(anonymous_0)
 FN:15,(anonymous_1)
 FNF:2
@@ -490,7 +490,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearch/FiltersSearchListItem/FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfo.jsx
+SF:src\components\FiltersSearch\FiltersSearchListItem\FiltersSearchListItemUsersInfo\FiltersSearchListItemUsersInfo.jsx
 FN:14,(anonymous_0)
 FN:21,(anonymous_1)
 FNF:2
@@ -510,7 +510,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:src/components/FiltersSearch/FiltersSearchListItem/FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfoMobile/FiltersSearchListItemUsersInfoMobile.jsx
+SF:src\components\FiltersSearch\FiltersSearchListItem\FiltersSearchListItemUsersInfo\FiltersSearchListItemUsersInfoMobile\FiltersSearchListItemUsersInfoMobile.jsx
 FN:13,(anonymous_0)
 FN:19,(anonymous_1)
 FNF:2
@@ -530,7 +530,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:src/components/FiltersSearch/FiltersSearchListItem/FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfoStatus/FiltersSearchListItemUsersInfoStatus.jsx
+SF:src\components\FiltersSearch\FiltersSearchListItem\FiltersSearchListItemUsersInfo\FiltersSearchListItemUsersInfoStatus\FiltersSearchListItemUsersInfoStatus.jsx
 FN:11,(anonymous_0)
 FN:16,(anonymous_1)
 FNF:2
@@ -548,7 +548,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearch/FiltersSearchListMobile/FiltersSearchListMobile.jsx
+SF:src\components\FiltersSearch\FiltersSearchListMobile\FiltersSearchListMobile.jsx
 FN:9,(anonymous_0)
 FN:26,(anonymous_1)
 FN:34,(anonymous_2)
@@ -573,7 +573,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearchWithPreview/FiltersSearchWithPreview.jsx
+SF:src\components\FiltersSearchWithPreview\FiltersSearchWithPreview.jsx
 FN:12,(anonymous_0)
 FNF:1
 FNH:1
@@ -586,7 +586,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearchWithPreview/FiltersSearchListWithPreviewMobile/FiltersSearchListWithPreviewMobile.jsx
+SF:src\components\FiltersSearchWithPreview\FiltersSearchListWithPreviewMobile\FiltersSearchListWithPreviewMobile.jsx
 FN:6,(anonymous_0)
 FNF:1
 FNH:1
@@ -599,7 +599,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearchWithPreview/FiltersSearchWithPreviewContainer/FiltersSearchWithPreviewContainer.jsx
+SF:src\components\FiltersSearchWithPreview\FiltersSearchWithPreviewContainer\FiltersSearchWithPreviewContainer.jsx
 FN:13,(anonymous_0)
 FN:27,(anonymous_1)
 FNF:2
@@ -616,7 +616,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearchWithPreview/FiltersSearchWithPreviewGrids/FiltersSearchWithPreviewGrids.jsx
+SF:src\components\FiltersSearchWithPreview\FiltersSearchWithPreviewGrids\FiltersSearchWithPreviewGrids.jsx
 FN:12,(anonymous_0)
 FN:16,(anonymous_1)
 FNF:2
@@ -632,7 +632,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearchWithPreview/FiltersSearchWithPreviewLeft/FiltersSearchWithPreviewLeft.jsx
+SF:src\components\FiltersSearchWithPreview\FiltersSearchWithPreviewLeft\FiltersSearchWithPreviewLeft.jsx
 FN:9,(anonymous_0)
 FNF:1
 FNH:1
@@ -645,7 +645,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/FiltersSearchWithPreview/FiltersSearchWithPreviewLeft/FiltersSearchWithPreviewLeftItem/FiltersSearchWithPreviewLeftItem.jsx
+SF:src\components\FiltersSearchWithPreview\FiltersSearchWithPreviewLeft\FiltersSearchWithPreviewLeftItem\FiltersSearchWithPreviewLeftItem.jsx
 FN:12,(anonymous_0)
 FNF:1
 FNH:1
@@ -662,7 +662,7 @@ BRF:4
 BRH:4
 end_of_record
 TN:
-SF:src/components/FiltersSearchWithPreview/FiltersSearchWithPreviewRight/FiltersSearchWithPreviewRight.jsx
+SF:src\components\FiltersSearchWithPreview\FiltersSearchWithPreviewRight\FiltersSearchWithPreviewRight.jsx
 FN:6,(anonymous_0)
 FNF:1
 FNH:1
@@ -675,7 +675,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Footer/Footer.jsx
+SF:src\components\Footer\Footer.jsx
 FN:6,(anonymous_0)
 FNF:1
 FNH:1
@@ -688,7 +688,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/OrderTabs/OrderList.styles.js
+SF:src\components\OrderTabs\OrderList.styles.js
 FNF:0
 FNH:0
 DA:4,1
@@ -698,7 +698,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/OrderTabs/OrderTabs.jsx
+SF:src\components\OrderTabs\OrderTabs.jsx
 FN:10,(anonymous_0)
 FNF:1
 FNH:1
@@ -711,7 +711,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/OrderTabs/Order/Order.jsx
+SF:src\components\OrderTabs\Order\Order.jsx
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -724,7 +724,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/OrderTabs/OrderContainer/OrderContainer.jsx
+SF:src\components\OrderTabs\OrderContainer\OrderContainer.jsx
 FN:25,(anonymous_0)
 FNF:1
 FNH:1
@@ -738,7 +738,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/OrderTabs/OrderVersion/OrdersVersion.jsx
+SF:src\components\OrderTabs\OrderVersion\OrdersVersion.jsx
 FN:10,(anonymous_0)
 FNF:1
 FNH:1
@@ -751,7 +751,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/StatusContainer/StatusContainer.jsx
+SF:src\components\StatusContainer\StatusContainer.jsx
 FN:16,(anonymous_0)
 FN:21,(anonymous_1)
 FNF:2
@@ -773,7 +773,7 @@ BRF:6
 BRH:6
 end_of_record
 TN:
-SF:src/components/StatusContainer/StatusContainer.styles.js
+SF:src\components\StatusContainer\StatusContainer.styles.js
 FNF:0
 FNH:0
 DA:4,5
@@ -787,7 +787,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/StatusContainer/StatusChanged/StatusChanged.jsx
+SF:src\components\StatusContainer\StatusChanged\StatusChanged.jsx
 FN:13,(anonymous_0)
 FNF:1
 FNH:1
@@ -802,7 +802,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src/components/StatusContainer/StatusUnmodified/StatusUnmodified.jsx
+SF:src\components\StatusContainer\StatusUnmodified\StatusUnmodified.jsx
 FN:13,(anonymous_0)
 FNF:1
 FNH:1
@@ -817,7 +817,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src/components/StatusContainer/StatusUpdated/StatusUpdated.jsx
+SF:src\components\StatusContainer\StatusUpdated\StatusUpdated.jsx
 FN:19,(anonymous_0)
 FNF:1
 FNH:1
@@ -832,7 +832,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsPanel.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsPanel.jsx
 FN:26,(anonymous_0)
 FNF:1
 FNH:1
@@ -846,7 +846,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/PersonWidget/PersonWidget.jsx
+SF:src\components\TimeWidgetsPanel\PersonWidget\PersonWidget.jsx
 FN:12,(anonymous_0)
 FNF:1
 FNH:1
@@ -863,7 +863,7 @@ BRF:2
 BRH:2
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TextFieldWidget/TextFieldWidget.jsx
+SF:src\components\TimeWidgetsPanel\TextFieldWidget\TextFieldWidget.jsx
 FN:21,(anonymous_0)
 FNF:1
 FNH:1
@@ -878,7 +878,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets1/TimeWidgets1.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets1\TimeWidgets1.jsx
 FN:11,(anonymous_0)
 FN:32,(anonymous_1)
 FNF:2
@@ -895,7 +895,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets1/TimeWidgets1SM/TimeWidgets1SM.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets1\TimeWidgets1SM\TimeWidgets1SM.jsx
 FN:11,(anonymous_0)
 FN:26,(anonymous_1)
 FNF:2
@@ -912,7 +912,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets2/TimeWidgets2.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets2\TimeWidgets2.jsx
 FN:17,(anonymous_0)
 FNF:1
 FNH:1
@@ -928,7 +928,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets2/TimeWidgets2MD/TimeWidgets2MD.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets2\TimeWidgets2MD\TimeWidgets2MD.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -944,7 +944,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets2/TimeWidgets2SM/TimeWidgets2SM.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets2\TimeWidgets2SM\TimeWidgets2SM.jsx
 FN:9,(anonymous_0)
 FNF:1
 FNH:1
@@ -961,7 +961,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets3/TimeWidgets3.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets3\TimeWidgets3.jsx
 FN:10,(anonymous_0)
 FNF:1
 FNH:1
@@ -974,7 +974,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets4/TimeWidgets4.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets4\TimeWidgets4.jsx
 FN:14,(anonymous_0)
 FNF:1
 FNH:1
@@ -987,7 +987,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets4/TimeWidgets4SmToLg/TimeWidgets4SmToLg.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets4\TimeWidgets4SmToLg\TimeWidgets4SmToLg.jsx
 FN:12,(anonymous_0)
 FNF:1
 FNH:1
@@ -1000,7 +1000,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets5/TimeWidgets5.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets5\TimeWidgets5.jsx
 FN:14,(anonymous_0)
 FNF:1
 FNH:1
@@ -1013,7 +1013,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets5/TimeWidgets5SmToLG/TimeWidgets5SmToLG.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets5\TimeWidgets5SmToLG\TimeWidgets5SmToLG.jsx
 FN:13,(anonymous_0)
 FNF:1
 FNH:1
@@ -1026,7 +1026,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets6/TimeWidgets6.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets6\TimeWidgets6.jsx
 FN:18,(anonymous_0)
 FNF:1
 FNH:1
@@ -1040,7 +1040,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets6/TimeWidgets6SmToLg/TimeWidgets6SmToLg.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets6\TimeWidgets6SmToLg\TimeWidgets6SmToLg.jsx
 FN:17,(anonymous_0)
 FNF:1
 FNH:1
@@ -1054,7 +1054,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets7/TimeWidgets7.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets7\TimeWidgets7.jsx
 FN:17,(anonymous_0)
 FNF:1
 FNH:1
@@ -1067,7 +1067,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets7/TimeWidgets7LG/TimeWidgets7LG.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets7\TimeWidgets7LG\TimeWidgets7LG.jsx
 FN:13,(anonymous_0)
 FNF:1
 FNH:1
@@ -1080,7 +1080,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets7/TimeWidgets7MD/TimeWidgets7MD.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets7\TimeWidgets7MD\TimeWidgets7MD.jsx
 FN:14,(anonymous_0)
 FNF:1
 FNH:1
@@ -1093,7 +1093,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets7/TimeWidgets7SM/TimeWidgets7SM.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets7\TimeWidgets7SM\TimeWidgets7SM.jsx
 FN:14,(anonymous_0)
 FNF:1
 FNH:1
@@ -1106,7 +1106,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets7/TimeWidgets7XL/TimeWidgets7XL.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets7\TimeWidgets7XL\TimeWidgets7XL.jsx
 FN:12,(anonymous_0)
 FNF:1
 FNH:1
@@ -1119,7 +1119,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets8/TimeWidgets8.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets8\TimeWidgets8.jsx
 FN:16,(anonymous_0)
 FNF:1
 FNH:1
@@ -1132,7 +1132,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets8/TimeWidgets8LG/TimeWidgets8LG.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets8\TimeWidgets8LG\TimeWidgets8LG.jsx
 FN:14,(anonymous_0)
 FNF:1
 FNH:1
@@ -1145,7 +1145,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets8/TimeWidgets8MD/TimeWidgets8MD.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets8\TimeWidgets8MD\TimeWidgets8MD.jsx
 FN:14,(anonymous_0)
 FNF:1
 FNH:1
@@ -1158,7 +1158,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgets8/TimeWidgets8SM/TimeWidgets8SM.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgets8\TimeWidgets8SM\TimeWidgets8SM.jsx
 FN:14,(anonymous_0)
 FNF:1
 FNH:1
@@ -1171,7 +1171,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsCustomClock/TimeWidgetsCustomClock.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsCustomClock\TimeWidgetsCustomClock.jsx
 FN:19,(anonymous_0)
 FNF:1
 FNH:1
@@ -1185,7 +1185,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsDateWithTimeBlock\TimeWidgetsDateWithTimeBlock.jsx
 FN:10,(anonymous_0)
 FN:18,(anonymous_1)
 FN:32,(anonymous_2)
@@ -1206,7 +1206,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsDaysPanel/TimeWidgetsDaysPanel.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsDaysPanel\TimeWidgetsDaysPanel.jsx
 FN:6,(anonymous_0)
 FNF:1
 FNH:1
@@ -1219,7 +1219,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWeeksAndYearsPanel\TimeWidgetsWeeksAndYearsPanel.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -1234,7 +1234,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithPerson/TimeWidgetsWithPerson.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithPerson\TimeWidgetsWithPerson.jsx
 FN:20,(anonymous_0)
 FNF:1
 FNH:1
@@ -1247,7 +1247,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithPerson/TimeWidgetsWithPersonLG/TimeWidgetsWithPersonLG.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithPerson\TimeWidgetsWithPersonLG\TimeWidgetsWithPersonLG.jsx
 FN:17,(anonymous_0)
 FNF:1
 FNH:1
@@ -1260,7 +1260,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithPerson/TimeWidgetsWithPersonMD/TimeWidgetsWithPersonMD.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithPerson\TimeWidgetsWithPersonMD\TimeWidgetsWithPersonMD.jsx
 FN:17,(anonymous_0)
 FNF:1
 FNH:1
@@ -1273,7 +1273,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithPerson/TimeWidgetsWithPersonSM/TimeWidgetsWithPersonSM.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithPerson\TimeWidgetsWithPersonSM\TimeWidgetsWithPersonSM.jsx
 FN:17,(anonymous_0)
 FNF:1
 FNH:1
@@ -1286,7 +1286,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField1/TimeWidgetsWithTextField1.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField1\TimeWidgetsWithTextField1.jsx
 FN:18,(anonymous_0)
 FNF:1
 FNH:1
@@ -1299,7 +1299,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField1/TimeWidgetsWithTextField1LG/TimeWidgetsWithTextField1LG.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField1\TimeWidgetsWithTextField1LG\TimeWidgetsWithTextField1LG.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -1312,7 +1312,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField1/TimeWidgetsWithTextField1MD/TimeWidgetsWithTextField1MD.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField1\TimeWidgetsWithTextField1MD\TimeWidgetsWithTextField1MD.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -1325,7 +1325,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField1/TimeWidgetsWithTextField1SM/TimeWidgetsWithTextField1SM.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField1\TimeWidgetsWithTextField1SM\TimeWidgetsWithTextField1SM.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -1338,7 +1338,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField2/TimeWidgetsWithTextField2.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField2\TimeWidgetsWithTextField2.jsx
 FN:18,(anonymous_0)
 FNF:1
 FNH:1
@@ -1351,7 +1351,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField2/TimeWidgetsWithTextField2LG/TimeWidgetsWithTextField2LG.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField2\TimeWidgetsWithTextField2LG\TimeWidgetsWithTextField2LG.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -1364,7 +1364,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField2/TimeWidgetsWithTextField2MD/TimeWidgetsWithTextField2MD.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField2\TimeWidgetsWithTextField2MD\TimeWidgetsWithTextField2MD.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -1377,7 +1377,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField2/TimeWidgetsWithTextField2SM/TimeWidgetsWithTextField2SM.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField2\TimeWidgetsWithTextField2SM\TimeWidgetsWithTextField2SM.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -1390,7 +1390,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField3/TimeWidgetsWithTextField3.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField3\TimeWidgetsWithTextField3.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -1403,7 +1403,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField3/TimeWidgetsWithTextField3LG/TimeWidgetsWithTextField3LG.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField3\TimeWidgetsWithTextField3LG\TimeWidgetsWithTextField3LG.jsx
 FN:13,(anonymous_0)
 FNF:1
 FNH:1
@@ -1416,7 +1416,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/TimeWidgetsPanel/TimeWidgetsWithTextField3/TimeWidgetsWithTextField3MD/TimeWidgetsWithTextField3MD.jsx
+SF:src\components\TimeWidgetsPanel\TimeWidgetsWithTextField3\TimeWidgetsWithTextField3MD\TimeWidgetsWithTextField3MD.jsx
 FN:13,(anonymous_0)
 FNF:1
 FNH:1
@@ -1429,7 +1429,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Welcome/Welcome.jsx
+SF:src\components\Welcome\Welcome.jsx
 FN:23,(anonymous_0)
 FN:32,(anonymous_1)
 FNF:2
@@ -1448,7 +1448,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Welcome/buttons.js
+SF:src\components\Welcome\buttons.js
 FN:4,(anonymous_0)
 FN:8,(anonymous_1)
 FN:12,(anonymous_2)
@@ -1464,7 +1464,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Welcome/FourImagesBg/FourImagesBg.jsx
+SF:src\components\Welcome\FourImagesBg\FourImagesBg.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -1477,7 +1477,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Welcome/FourImagesBg/FourImagesBg.styles.js
+SF:src\components\Welcome\FourImagesBg\FourImagesBg.styles.js
 FNF:0
 FNH:0
 DA:3,4
@@ -1488,7 +1488,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Welcome/SingleImageBg/SingleImageBg.jsx
+SF:src\components\Welcome\SingleImageBg\SingleImageBg.jsx
 FN:11,(anonymous_0)
 FNF:1
 FNH:1
@@ -1501,7 +1501,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Welcome/SingleImageBg/SingleImageBg.styles.js
+SF:src\components\Welcome\SingleImageBg\SingleImageBg.styles.js
 FNF:0
 FNH:0
 DA:3,4
@@ -1512,7 +1512,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons.jsx
+SF:src\components\Welcome\WelcomeAuthButtons\WelcomeAuthButtons.jsx
 FN:9,(anonymous_0)
 FNF:1
 FNH:1
@@ -1525,7 +1525,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/components/Welcome/WelcomeAuthButtons/WelcomeButton/WelcomeButton.jsx
+SF:src\components\Welcome\WelcomeAuthButtons\WelcomeButton\WelcomeButton.jsx
 FN:11,(anonymous_0)
 FNF:1
 FNH:1
@@ -1538,7 +1538,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/context/FiltersClosedListContext/FiltersClosedListContext.jsx
+SF:src\context\FiltersClosedListContext\FiltersClosedListContext.jsx
 FN:17,(anonymous_0)
 FN:20,(anonymous_1)
 FN:26,(anonymous_2)
@@ -1559,7 +1559,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/context/StatusContainerContext/StatusContainerContext.jsx
+SF:src\context\StatusContainerContext\StatusContainerContext.jsx
 FN:20,(anonymous_0)
 FN:22,(anonymous_1)
 FN:24,(anonymous_2)
@@ -1582,7 +1582,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/context/theme/ThemeContext.jsx
+SF:src\context\theme\ThemeContext.jsx
 FN:16,(anonymous_0)
 FN:19,(anonymous_1)
 FN:26,(anonymous_2)
@@ -1605,7 +1605,7 @@ BRF:2
 BRH:1
 end_of_record
 TN:
-SF:src/data/filters.cards.data.js
+SF:src\data\filters.cards.data.js
 FNF:0
 FNH:0
 DA:1,2
@@ -1617,7 +1617,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/data/search.list.data.js
+SF:src\data\search.list.data.js
 FNF:0
 FNH:0
 DA:1,2
@@ -1627,7 +1627,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/DiffClosedCardsPage/DiffClosedCardsPage.jsx
+SF:src\templates\DiffClosedCardsPage\DiffClosedCardsPage.jsx
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -1642,7 +1642,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/DiffOpenedCardsPage/DiffOpenedCardsPage.jsx
+SF:src\templates\DiffOpenedCardsPage\DiffOpenedCardsPage.jsx
 FN:13,(anonymous_0)
 FNF:1
 FNH:1
@@ -1655,7 +1655,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/FiltersClosedPage/FiltersClosedPage.jsx
+SF:src\templates\FiltersClosedPage\FiltersClosedPage.jsx
 FN:11,(anonymous_0)
 FNF:1
 FNH:1
@@ -1670,7 +1670,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/FiltersClosedPreviewPage/FiltersClosedPreviewPage.jsx
+SF:src\templates\FiltersClosedPreviewPage\FiltersClosedPreviewPage.jsx
 FN:14,(anonymous_0)
 FNF:1
 FNH:1
@@ -1685,7 +1685,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/FiltersOpenedPage/FiltersOpenedPage.jsx
+SF:src\templates\FiltersOpenedPage\FiltersOpenedPage.jsx
 FN:9,(anonymous_0)
 FNF:1
 FNH:1
@@ -1699,7 +1699,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/HomePage/HomePage.jsx
+SF:src\templates\HomePage\HomePage.jsx
 FN:6,(anonymous_0)
 FN:10,(anonymous_1)
 FN:14,(anonymous_2)
@@ -1719,7 +1719,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/OrderPage/OrderPage.jsx
+SF:src\templates\OrderPage\OrderPage.jsx
 FN:12,(anonymous_0)
 FNF:1
 FNH:1
@@ -1734,7 +1734,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/TimeWidgetsPage/TimeWidgetsPage.jsx
+SF:src\templates\TimeWidgetsPage\TimeWidgetsPage.jsx
 FN:8,(anonymous_0)
 FNF:1
 FNH:1
@@ -1747,7 +1747,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/WelcomePages/WelcomePage1/WelcomePage1.jsx
+SF:src\templates\WelcomePages\WelcomePage1\WelcomePage1.jsx
 FN:10,(anonymous_0)
 FN:14,(anonymous_1)
 FN:15,(anonymous_2)
@@ -1764,7 +1764,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/WelcomePages/WelcomePage2/WelcomePage2.jsx
+SF:src\templates\WelcomePages\WelcomePage2\WelcomePage2.jsx
 FN:11,(anonymous_0)
 FN:16,(anonymous_1)
 FN:17,(anonymous_2)
@@ -1801,7 +1801,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/WelcomePages/WelcomePage3/WelcomePage3.jsx
+SF:src\templates\WelcomePages\WelcomePage3\WelcomePage3.jsx
 FN:11,(anonymous_0)
 FN:16,(anonymous_1)
 FN:17,(anonymous_2)
@@ -1838,7 +1838,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/WelcomePages/WelcomePage4/WelcomePage4.jsx
+SF:src\templates\WelcomePages\WelcomePage4\WelcomePage4.jsx
 FN:10,(anonymous_0)
 FN:14,(anonymous_1)
 FN:15,(anonymous_2)
@@ -1871,7 +1871,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/WelcomePages/WelcomePage5/WelcomePage5.jsx
+SF:src\templates\WelcomePages\WelcomePage5\WelcomePage5.jsx
 FN:11,(anonymous_0)
 FN:16,(anonymous_1)
 FN:17,(anonymous_2)
@@ -1892,7 +1892,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/WelcomePages/WelcomePage6/WelcomePage6.jsx
+SF:src\templates\WelcomePages\WelcomePage6\WelcomePage6.jsx
 FN:11,(anonymous_0)
 FN:16,(anonymous_1)
 FN:17,(anonymous_2)
@@ -1929,7 +1929,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/WelcomePages/WelcomePage7/WelcomePage7.jsx
+SF:src\templates\WelcomePages\WelcomePage7\WelcomePage7.jsx
 FN:11,(anonymous_0)
 FN:16,(anonymous_1)
 FN:17,(anonymous_2)
@@ -1966,7 +1966,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src/templates/WelcomePages/WelcomePage8/WelcomePage8.jsx
+SF:src\templates\WelcomePages\WelcomePage8\WelcomePage8.jsx
 FN:10,(anonymous_0)
 FN:14,(anonymous_1)
 FN:15,(anonymous_2)
