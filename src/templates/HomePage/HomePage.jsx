@@ -1,13 +1,34 @@
 // @flow
 
 import React from 'react';
-import { Container } from '../../components/Container/Container';
-import { buttons } from '../../components/Container/buttons';
+import { Container as Layout } from '../../components/Container/Container';
 
-const HomePage = (): React.Node => (
-	<Container buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
-		<div>Content</div>
-	</Container>
-);
+const HomePage = (): React.Node => {
+	const buttons = [
+		{
+			title: 'Orders',
+			onClick: () => {},
+		},
+		{
+			title: 'Compare',
+			onClick: () => {},
+		},
+		{
+			title: 'Admin',
+			onClick: () => {},
+		},
+	];
+
+	return (
+		<Layout
+			title="Caption"
+			buttons={buttons}
+			theme="light"
+			avatar={{ title: 'AV' }}
+		>
+			<div />
+		</Layout>
+	);
+};
 
 export default HomePage;

@@ -6,6 +6,10 @@ import FiltersOpenedPage from './FiltersOpenedPage';
 import '../../../__mocks__/matchMedia.mock';
 
 describe('FiltersOpenedPage', () => {
+	test('should render FiltersOpenedPage component without crashing', () => {
+		const { container } = render(<FiltersOpenedPage />);
+		expect(container).toBeInTheDocument();
+	});
 	test('matches the snapshot desktop', () => {
 		const { container: desktop } = render(
 			<ResponsiveContext.Provider value={{ width: 1920 }}>
@@ -16,7 +20,6 @@ describe('FiltersOpenedPage', () => {
 		);
 		expect(desktop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot laptop', () => {
 		const { container: laptop } = render(
 			<ResponsiveContext.Provider value={{ width: 1024 }}>
@@ -27,7 +30,6 @@ describe('FiltersOpenedPage', () => {
 		);
 		expect(laptop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot mobile', () => {
 		const { container: mobile } = render(
 			<ResponsiveContext.Provider value={{ width: 360 }}>

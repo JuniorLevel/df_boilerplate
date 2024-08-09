@@ -6,6 +6,10 @@ import TimeWidgetsPage from './TimeWidgetsPage';
 import '../../../__mocks__/matchMedia.mock';
 
 describe('TimeWidgetsPage', () => {
+	test('should render TimeWidgetsPage component without crashing', () => {
+		const { container } = render(<TimeWidgetsPage />);
+		expect(container).toBeInTheDocument();
+	});
 	test('matches the snapshot desktop', () => {
 		const { container: desktop } = render(
 			<ResponsiveContext.Provider value={{ width: 1920 }}>
@@ -16,7 +20,6 @@ describe('TimeWidgetsPage', () => {
 		);
 		expect(desktop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot laptop', () => {
 		const { container: laptop } = render(
 			<ResponsiveContext.Provider value={{ width: 1024 }}>
@@ -27,7 +30,6 @@ describe('TimeWidgetsPage', () => {
 		);
 		expect(laptop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot mobile', () => {
 		const { container: mobile } = render(
 			<ResponsiveContext.Provider value={{ width: 360 }}>

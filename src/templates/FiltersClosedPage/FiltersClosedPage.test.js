@@ -6,6 +6,10 @@ import FiltersClosedPage from './FiltersClosedPage';
 import '../../../__mocks__/matchMedia.mock';
 
 describe('FiltersClosedPage', () => {
+	test('should render FiltersClosedPage component without crashing', () => {
+		const { container } = render(<FiltersClosedPage />);
+		expect(container).toBeInTheDocument();
+	});
 	test('matches the snapshot desktop', () => {
 		const { container: desktop } = render(
 			<ResponsiveContext.Provider value={{ width: 1920 }}>
@@ -16,7 +20,6 @@ describe('FiltersClosedPage', () => {
 		);
 		expect(desktop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot laptop', () => {
 		const { container: laptop } = render(
 			<ResponsiveContext.Provider value={{ width: 1024 }}>
@@ -27,7 +30,6 @@ describe('FiltersClosedPage', () => {
 		);
 		expect(laptop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot mobile', () => {
 		const { container: mobile } = render(
 			<ResponsiveContext.Provider value={{ width: 360 }}>

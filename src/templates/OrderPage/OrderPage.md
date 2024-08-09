@@ -1,6 +1,6 @@
 ```jsx
 import { Container as Layout } from '../../components/Container/Container';
-import { Row, Col } from 'antd';
+import { Flex, Badge, Row, Col } from 'antd';
 import OrderVersion from '../../components/OrderTabs/OrderVersion/OrdersVersion';
 import Order from '../../components/OrderTabs/Order/Order';
 import OrderTabs from '../../components/OrderTabs/OrderTabs';
@@ -34,35 +34,55 @@ const filters = [
 	},
 ];
 
-const tabs = [
+const items = [
 	{
 		key: 1,
-		title: 'Main info',
-		count: 3,
+		label: (
+			<Flex gap={10} align="center">
+				<div>Main info</div>
+				<Badge count={3} />
+			</Flex>
+		),
 		children: <div>Content of Tab Pane 1</div>,
 	},
 	{
 		key: 2,
-		title: 'Chat',
-		count: 8,
+		label: (
+			<Flex gap={10} align="center">
+				<div>Chat</div>
+				<Badge count={3} />
+			</Flex>
+		),
 		children: <div>Content of Tab Pane 2</div>,
 	},
 	{
 		key: 3,
-		title: 'Dashboard',
-		count: 2,
+		label: (
+			<Flex gap={10} align="center">
+				<div>Dashboard</div>
+				<Badge count={3} />
+			</Flex>
+		),
 		children: <div>Content of Tab Pane 3</div>,
 	},
 	{
 		key: 4,
-		title: 'Documents',
-		count: 7,
+		label: (
+			<Flex gap={10} align="center">
+				<div>Documents</div>
+				<Badge count={3} />
+			</Flex>
+		),
 		children: <div>Content of Tab Pane 4</div>,
 	},
 	{
 		key: 5,
-		title: 'History',
-		count: 1,
+		label: (
+			<Flex gap={10} align="center">
+				<div>History</div>
+				<Badge count={3} />
+			</Flex>
+		),
 		children: (
 			<OrderContainer>
 				<Row gutter={[16, 16]}>
@@ -94,7 +114,7 @@ const tabs = [
 ];
 
 <Layout buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
-	<OrderTabs tabs={tabs} />
+	<OrderTabs items={items} />
 </Layout>;
 ```
 

@@ -13,11 +13,12 @@
 		"flow": "flow check --quiet",
 		"lint": "eslint src --ext .js --ext .jsx --fix --max-warnings=0 && npm run flow",
 		"format": "prettier src --write",
-		"lint-staged": "npm run flow && npm run lint && npm run format",
+		"lint-staged": "npm run test && npm run flow && npm run lint && npm run format && npm run deploy:gh-pages",
 		"styleguide": "styleguidist server",
 		"styleguide:build": "styleguidist build",
+		"deploy:pre": "cp -r coverage github-pages && cp -r styleguide github-pages && rm -rf styleguide && rm -rf coverage",
 		"deploy:gh-pages": "npm run styleguide:build && npm run test:coverage && npm run deploy:pre && gh-pages -d github-pages",
-		"deploy:pre": "cp -r coverage github-pages && cp -r styleguide github-pages && rm -rf styleguide && rm -rf coverage"
+		"prepare": "husky"
 	},
 	"keywords": [],
 	"author": "",
@@ -44,7 +45,7 @@
 		"eslint-plugin-react": "^7.35.0",
 		"eslint-plugin-react-hooks": "^4.6.2",
 		"eslint-webpack-plugin": "^4.2.0",
-		"flow-bin": "^0.242.1",
+		"flow-bin": "^0.243.0",
 		"gh-pages": "^6.1.1",
 		"hermes-eslint": "^0.23.1",
 		"html-webpack-plugin": "^5.6.0",
@@ -60,7 +61,7 @@
 	},
 	"dependencies": {
 		"@ant-design/icons": "^5.4.0",
-		"antd": "^5.19.4",
+		"antd": "^5.20.0",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"react-responsive": "^10.0.0",

@@ -21,7 +21,9 @@ const buttons = [
 	buttons={buttons}
 	theme="light"
 	avatar={{ title: 'AV' }}
-/>;
+>
+	<div />
+</Layout>;
 ```
 
 ```jsx noeditor

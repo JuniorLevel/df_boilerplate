@@ -1,9 +1,7 @@
 ```jsx
 import React, { useState } from 'react';
-import styled from 'styled-components';
 import { Container as Layout } from '../../components/Container/Container';
 import FiltersClosed from '../../components/FiltersClosed/FiltersClosed';
-import FiltersSearch from '../../components/FiltersSearch/FiltersSearch';
 import { FiltersClosedListProvider } from '../../context/FiltersClosedListContext/FiltersClosedListContext';
 import { buttons } from '../../components/Container/buttons';
 import FiltersSearchContainer from '../../components/FiltersSearch/FiltersSearchContainer/FiltersSearchContainer';

@@ -6,6 +6,10 @@ import '../../../__mocks__/matchMedia.mock';
 import DiffClosedCardsPage from './DiffClosedCardsPage';
 
 describe('DiffClosedCardsPage', () => {
+	test('should render DiffClosedCardsPage component without crashing', () => {
+		const { container } = render(<DiffClosedCardsPage />);
+		expect(container).toBeInTheDocument();
+	});
 	test('matches the snapshot desktop', () => {
 		const { container: desktop } = render(
 			<ResponsiveContext.Provider value={{ width: 1920 }}>
@@ -16,7 +20,6 @@ describe('DiffClosedCardsPage', () => {
 		);
 		expect(desktop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot laptop', () => {
 		const { container: laptop } = render(
 			<ResponsiveContext.Provider value={{ width: 1024 }}>
@@ -27,7 +30,6 @@ describe('DiffClosedCardsPage', () => {
 		);
 		expect(laptop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot mobile', () => {
 		const { container: mobile } = render(
 			<ResponsiveContext.Provider value={{ width: 360 }}>

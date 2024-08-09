@@ -5,7 +5,11 @@ import { BrowserRouter } from 'react-router-dom';
 import '../../../__mocks__/matchMedia.mock';
 import FiltersClosedPreviewPage from './FiltersClosedPreviewPage';
 
-describe('FiltersClosedPage', () => {
+describe('FiltersClosedPreviewPage', () => {
+	test('should render FiltersClosedPreviewPage component without crashing', () => {
+		const { container } = render(<FiltersClosedPreviewPage />);
+		expect(container).toBeInTheDocument();
+	});
 	test('matches the snapshot desktop', () => {
 		const { container: desktop } = render(
 			<ResponsiveContext.Provider value={{ width: 1920 }}>
@@ -16,7 +20,6 @@ describe('FiltersClosedPage', () => {
 		);
 		expect(desktop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot laptop', () => {
 		const { container: laptop } = render(
 			<ResponsiveContext.Provider value={{ width: 1024 }}>
@@ -27,7 +30,6 @@ describe('FiltersClosedPage', () => {
 		);
 		expect(laptop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot mobile', () => {
 		const { container: mobile } = render(
 			<ResponsiveContext.Provider value={{ width: 360 }}>

@@ -5,7 +5,11 @@ import { BrowserRouter } from 'react-router-dom';
 import '../../../__mocks__/matchMedia.mock';
 import OrderPage from './OrderPage';
 
-describe('DiffClosedCardsPage', () => {
+describe('OrderPage', () => {
+	test('should render OrderPage component without crashing', () => {
+		const { container } = render(<OrderPage />);
+		expect(container).toBeInTheDocument();
+	});
 	test('matches the snapshot desktop', () => {
 		const { container: desktop } = render(
 			<ResponsiveContext.Provider value={{ width: 1920 }}>
@@ -16,7 +20,6 @@ describe('DiffClosedCardsPage', () => {
 		);
 		expect(desktop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot laptop', () => {
 		const { container: laptop } = render(
 			<ResponsiveContext.Provider value={{ width: 1024 }}>
@@ -27,7 +30,6 @@ describe('DiffClosedCardsPage', () => {
 		);
 		expect(laptop).toMatchSnapshot();
 	});
-
 	test('matches the snapshot mobile', () => {
 		const { container: mobile } = render(
 			<ResponsiveContext.Provider value={{ width: 360 }}>
