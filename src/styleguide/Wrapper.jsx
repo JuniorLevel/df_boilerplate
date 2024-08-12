@@ -4,8 +4,12 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Reset } from 'styled-reset';
 import { ConfigProvider } from 'antd';
-import { ThemeProvider, ThemeContext } from '../context/theme/ThemeContext';
-import { LightTheme, DarkTheme, GlobalStyle } from '../assets/global.styles';
+import { ThemeProvider, ThemeContext } from '../lib/context/theme/ThemeContext';
+import {
+	LightTheme,
+	DarkTheme,
+	GlobalStyle,
+} from '../lib/components/global.styles';
 
 interface IWrapperProps {
 	children: React.Node;

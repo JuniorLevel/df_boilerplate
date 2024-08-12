@@ -4,8 +4,11 @@ const EslintWebpackPlugin = require('eslint-webpack-plugin');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 module.exports = (env) => ({
-	entry: path.resolve(__dirname, 'src', 'main.jsx'),
 	mode: env.MODE || 'development',
+	entry:
+		env.MODE === 'development'
+			? path.resolve(__dirname, 'src', 'main.jsx')
+			: path.resolve(__dirname, 'src/lib', 'index.js'),
 	module: {
 		rules: [
 			{
@@ -27,17 +30,26 @@ module.exports = (env) => ({
 			},
 		],
 	},
-	resolve: { extensions: ['.*', '.js', '.jsx'] },
 	output: {
-		path: path.resolve(__dirname, 'build'),
-		filename: '[name].[contenthash].js',
+		filename: 'index.js',
+		path: path.resolve(__dirname, 'dist'),
+		libraryTarget: 'umd',
 		clean: true,
 	},
+	resolve: { extensions: ['.*', '.js', '.jsx'] },
+	externals:
+		env.MODE === 'production'
+			? {
+					react: 'react',
+					'react-dom': 'react-dom',
+				}
+			: {},
 	plugins: [
-		new HTMLWebpackPlugin({
-			template: path.resolve(__dirname, 'public', 'index.html'),
-			favicon: path.resolve(__dirname, 'public', 'favicon.ico'),
-		}),
+		env.MODE === 'development' &&
+			new HTMLWebpackPlugin({
+				template: path.resolve(__dirname, 'public', 'index.html'),
+				favicon: path.resolve(__dirname, 'public', 'favicon.ico'),
+			}),
 		new EslintWebpackPlugin({
 			extensions: ['js', 'jsx'],
 			fix: true,

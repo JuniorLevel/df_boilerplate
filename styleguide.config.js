@@ -9,36 +9,36 @@ module.exports = {
 	sections: [
 		{
 			name: 'FiltersOpenedPage',
-			content: 'src/templates/FiltersOpenedPage/FiltersOpenedPage.md',
+			content: 'src/lib/templates/FiltersOpenedPage/FiltersOpenedPage.md',
 		},
 		{
 			name: 'FiltersClosed',
-			content: 'src/components/FiltersClosed/FiltersClosed.md',
+			content: 'src/lib/components/FiltersClosed/FiltersClosed.md',
 		},
 		{
 			name: 'DiffClosedCardsPage',
-			content: 'src/templates/DiffClosedCardsPage/DiffClosedCardsPage.md',
+			content: 'src/lib/templates/DiffClosedCardsPage/DiffClosedCardsPage.md',
 		},
 		{
 			name: 'FiltersClosedPreviewPage',
 			content:
-				'src/templates/FiltersClosedPreviewPage/FiltersClosedPreviewPage.md',
+				'src/lib/templates/FiltersClosedPreviewPage/FiltersClosedPreviewPage.md',
 		},
 		{
 			name: 'FiltersClosedPage',
-			content: 'src/templates/FiltersClosedPage/FiltersClosedPage.md',
+			content: 'src/lib/templates/FiltersClosedPage/FiltersClosedPage.md',
 		},
 		{
 			name: 'OrderPage',
-			content: 'src/templates/OrderPage/OrderPage.md',
+			content: 'src/lib/templates/OrderPage/OrderPage.md',
 		},
 		{
 			name: 'Layout',
-			content: 'src/templates/HomePage/Layout.md',
+			content: 'src/lib/templates/HomePage/Layout.md',
 		},
 		{
 			name: 'WelcomePage',
-			content: 'src/templates/WelcomePages/Welcome.md',
+			content: 'src/lib/templates/WelcomePages/Welcome.md',
 		},
 	],
 	styles: {

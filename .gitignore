@@ -1,6 +1,5 @@
 node_modules
 .env
 build
-__mocks__
 github-pages
 .npmrc
