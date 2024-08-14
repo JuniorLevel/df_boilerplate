@@ -10,7 +10,7 @@ interface IStatusUnmodifiedProps {
 	counter: number;
 }
 
-const StatusUnmodified = ({
+export const StatusUnmodified = ({
 	children,
 	counter,
 }: IStatusUnmodifiedProps): React$MixedElement => (
@@ -49,5 +49,3 @@ const StatusUnmodified = ({
 		</Flex>
 	</StatusUnmodifiedDiv>
 );
-
-export default StatusUnmodified;

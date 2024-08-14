@@ -3,12 +3,14 @@
 import React from 'react';
 import { Flex, Progress, Typography } from 'antd';
 import MediaQuery from 'react-responsive';
-import TimeWidgets1SM from './TimeWidgets1SM/TimeWidgets1SM';
+import { TimeWidgets1SM } from './TimeWidgets1SM/TimeWidgets1SM';
 
 interface ITimeWidgets1Props {
 	date: string;
 }
-const TimeWidgets1XL = ({ date }: ITimeWidgets1Props): React$MixedElement => {
+export const TimeWidgets1 = ({
+	date,
+}: ITimeWidgets1Props): React$MixedElement => {
 	const { Text } = Typography;
 	return (
 		<>
@@ -60,5 +62,3 @@ const TimeWidgets1XL = ({ date }: ITimeWidgets1Props): React$MixedElement => {
 		</>
 	);
 };
-
-export default TimeWidgets1XL;

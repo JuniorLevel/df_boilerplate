@@ -21,7 +21,7 @@ const navigates = [
 	{ id: 16, name: 'WelcomePage8', url: '/WelcomePage8' },
 ];
 
-const HomeDev = (): React$MixedElement => (
+export const HomeDev = (): React$MixedElement => (
 	<div>
 		<header>
 			<ul
@@ -42,5 +42,3 @@ const HomeDev = (): React$MixedElement => (
 		<hr />
 	</div>
 );
-
-export default HomeDev;

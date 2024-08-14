@@ -1,5 +1,5 @@
 // @flow
-import React, { createContext, useState } from 'react';
+import React, { createContext, useMemo, useState } from 'react';
 
 interface IStatusProvider {
 	children: React.Node;
@@ -31,12 +31,12 @@ export const StatusProvider = ({
 	const [counter, setCounter] = useState(0);
 	const [role, setRole] = useState('');
 
+	const value = useMemo(
+		() => ({ status, setStatus, counter, setCounter, role, setRole }),
+		[status, setStatus, counter, setCounter, role, setRole]
+	);
+
 	return (
-		<StatusContext.Provider
-			// eslint-disable-next-line react/jsx-no-constructed-context-values
-			value={{ status, setStatus, counter, setCounter, role, setRole }}
-		>
-			{children}
-		</StatusContext.Provider>
+		<StatusContext.Provider value={value}>{children}</StatusContext.Provider>
 	);
 };

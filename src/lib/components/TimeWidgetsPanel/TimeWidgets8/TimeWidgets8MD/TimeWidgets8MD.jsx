@@ -3,15 +3,15 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
 import { Flex } from 'antd';
-import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import TimeWidgetsDateWithTimeBlock from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets8MDProps {
 	fullDate: any;
 }
 
-const TimeWidgets8MD = ({
+export const TimeWidgets8MD = ({
 	fullDate,
 }: ITimeWidgets8MDProps): React$MixedElement => (
 	<MediaQuery minWidth={968} maxWidth={1423}>
@@ -34,5 +34,3 @@ const TimeWidgets8MD = ({
 		</Flex>
 	</MediaQuery>
 );
-
-export default TimeWidgets8MD;

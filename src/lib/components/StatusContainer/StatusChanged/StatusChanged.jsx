@@ -10,7 +10,7 @@ interface IStatusChanged {
 	role: string;
 }
 
-const StatusChanged = ({
+export const StatusChanged = ({
 	children,
 	role,
 }: IStatusChanged): React$MixedElement => (
@@ -63,5 +63,3 @@ const StatusChanged = ({
 		</Flex>
 	</StatusChangedDiv>
 );
-
-export default StatusChanged;

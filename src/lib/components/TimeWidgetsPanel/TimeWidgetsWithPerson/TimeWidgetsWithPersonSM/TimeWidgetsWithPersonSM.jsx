@@ -3,10 +3,10 @@
 import MediaQuery from 'react-responsive';
 import React from 'react';
 import { Flex } from 'antd';
-import PersonWidget from '../../PersonWidget/PersonWidget';
-import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import TimeWidgetsDateWithTimeBlock from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { PersonWidget } from '../../PersonWidget/PersonWidget';
+import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgetsWithPersonSMProps {
 	fullDate: string;
@@ -14,7 +14,7 @@ interface ITimeWidgetsWithPersonSMProps {
 	fio: string;
 }
 
-const TimeWidgetsWithPersonSM = ({
+export const TimeWidgetsWithPersonSM = ({
 	fullDate,
 	userRole,
 	fio,
@@ -52,5 +52,3 @@ const TimeWidgetsWithPersonSM = ({
 		</Flex>
 	</MediaQuery>
 );
-
-export default TimeWidgetsWithPersonSM;

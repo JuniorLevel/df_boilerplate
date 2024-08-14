@@ -2,15 +2,15 @@
 
 import React from 'react';
 import { Row, Col } from 'antd';
-import OrderVersion from '../OrderVersion/OrdersVersion';
-import Order from '../Order/Order';
-import OrderContainer from '../OrderContainer/OrderContainer';
+import { OrderVersion } from '../OrderVersion/OrdersVersion';
+import { Order } from '../Order/Order';
+import { OrderContainer } from '../OrderContainer/OrderContainer';
 
 interface IOrderDiffHistoryProps {
 	filters: any;
 }
 
-const OrderDiffHistory = ({
+export const OrderDiffHistory = ({
 	filters,
 }: IOrderDiffHistoryProps): React$MixedElement => (
 	<OrderContainer>
@@ -39,5 +39,3 @@ const OrderDiffHistory = ({
 		</Row>
 	</OrderContainer>
 );
-
-export default OrderDiffHistory;

@@ -7,7 +7,9 @@ interface IOrderVersionProps {
 	filters: any;
 }
 
-const OrderVersion = ({ filters }: IOrderVersionProps): React$MixedElement => (
+export const OrderVersion = ({
+	filters,
+}: IOrderVersionProps): React$MixedElement => (
 	<Col xs={12}>
 		<Steps
 			style={{ height: '100%' }}
@@ -18,5 +20,3 @@ const OrderVersion = ({ filters }: IOrderVersionProps): React$MixedElement => (
 		/>
 	</Col>
 );
-
-export default OrderVersion;

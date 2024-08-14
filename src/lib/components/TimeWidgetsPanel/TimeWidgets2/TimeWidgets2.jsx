@@ -3,18 +3,20 @@
 import React, { useState } from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
-import TimeWidgetsWeeksAndYearsPanel from '../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import TimeWidgetsDaysPanel from '../TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
-import TimeWidgetsCustomClock from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import TimeWidgets2SM from './TimeWidgets2SM/TimeWidgets2SM';
-import TimeWidgets2MD from './TimeWidgets2MD/TimeWidgets2MD';
-import TimeWidgetsDateWithTimeBlock from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { TimeWidgetsWeeksAndYearsPanel } from '../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import { TimeWidgetsDaysPanel } from '../TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
+import { TimeWidgetsCustomClock } from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { TimeWidgets2SM } from './TimeWidgets2SM/TimeWidgets2SM';
+import { TimeWidgets2MD } from './TimeWidgets2MD/TimeWidgets2MD';
+import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets2Props {
 	fullDate: any;
 }
 
-const TimeWidgets2 = ({ fullDate }: ITimeWidgets2Props): React$MixedElement => {
+export const TimeWidgets2 = ({
+	fullDate,
+}: ITimeWidgets2Props): React$MixedElement => {
 	const [isShowWeeksPanel] = useState(false);
 	return (
 		<>
@@ -40,5 +42,3 @@ const TimeWidgets2 = ({ fullDate }: ITimeWidgets2Props): React$MixedElement => {
 		</>
 	);
 };
-
-export default TimeWidgets2;

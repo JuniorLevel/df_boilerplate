@@ -178,7 +178,7 @@ declare module 'react-dom/client' {
 	};
 
 	declare export function createRoot(
-		container: Element | DocumentFragment,
+		container: HTMLElement | null,
 		options?: CreateRootOptions
 	): RootType;
 

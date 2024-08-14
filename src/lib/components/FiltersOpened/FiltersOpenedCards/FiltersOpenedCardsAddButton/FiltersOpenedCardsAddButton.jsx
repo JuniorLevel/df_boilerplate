@@ -9,7 +9,7 @@ import {
 	StyledCardsAddButtonDesktop,
 } from './FiltersOpenedCardsAddButton.styles';
 
-const FiltersOpenedCardsAddButton = (): React$MixedElement => (
+export const FiltersOpenedCardsAddButton = (): React$MixedElement => (
 	<>
 		<MediaQuery minWidth={361}>
 			<StyledCardsAddButtonDesktop>
@@ -27,5 +27,3 @@ const FiltersOpenedCardsAddButton = (): React$MixedElement => (
 		</MediaQuery>
 	</>
 );
-
-export default FiltersOpenedCardsAddButton;

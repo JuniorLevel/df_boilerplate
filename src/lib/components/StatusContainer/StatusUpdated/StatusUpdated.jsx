@@ -16,7 +16,7 @@ interface IStatusUpdatedProps {
 	counter: number;
 }
 
-const StatusUpdated = ({
+export const StatusUpdated = ({
 	children,
 	counter,
 }: IStatusUpdatedProps): React$MixedElement => (
@@ -65,5 +65,3 @@ const StatusUpdated = ({
 		</Flex>
 	</StatusUpdatedDiv>
 );
-
-export default StatusUpdated;

@@ -8,7 +8,7 @@ interface IFiltersCardsContainerProps {
 	children: React.Node;
 }
 
-const FiltersCardsContainer = ({
+export const FiltersCardsContainer = ({
 	children,
 }: IFiltersCardsContainerProps): React$MixedElement => (
 	<>
@@ -36,5 +36,3 @@ const FiltersCardsContainer = ({
 		</MediaQuery>
 	</>
 );
-
-export default FiltersCardsContainer;

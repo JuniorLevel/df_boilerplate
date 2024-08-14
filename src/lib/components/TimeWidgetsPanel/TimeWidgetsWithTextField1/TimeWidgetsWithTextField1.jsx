@@ -3,19 +3,19 @@
 import React from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
-import TimeWidgetsWithTextField1LG from './TimeWidgetsWithTextField1LG/TimeWidgetsWithTextField1LG';
-import TimeWidgetsWithTextField1MD from './TimeWidgetsWithTextField1MD/TimeWidgetsWithTextField1MD';
-import TimeWidgetsWithTextField1SM from './TimeWidgetsWithTextField1SM/TimeWidgetsWithTextField1SM';
-import TimeWidgetsWeeksAndYearsPanel from '../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import TimeWidgetsCustomClock from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import TextFieldWidget from '../TextFieldWidget/TextFieldWidget';
-import TimeWidgetsDateWithTimeBlock from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { TimeWidgetsWithTextField1LG } from './TimeWidgetsWithTextField1LG/TimeWidgetsWithTextField1LG';
+import { TimeWidgetsWithTextField1MD } from './TimeWidgetsWithTextField1MD/TimeWidgetsWithTextField1MD';
+import { TimeWidgetsWithTextField1SM } from './TimeWidgetsWithTextField1SM/TimeWidgetsWithTextField1SM';
+import { TimeWidgetsWeeksAndYearsPanel } from '../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import { TimeWidgetsCustomClock } from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { TextFieldWidget } from '../TextFieldWidget/TextFieldWidget';
+import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgetsWithTextField1Props {
 	fullDate: any;
 }
 
-const TimeWidgetsWithTextField1 = ({
+export const TimeWidgetsWithTextField1 = ({
 	fullDate,
 }: ITimeWidgetsWithTextField1Props): React$MixedElement => (
 	<>
@@ -40,5 +40,3 @@ const TimeWidgetsWithTextField1 = ({
 		<TimeWidgetsWithTextField1SM fullDate={fullDate} />
 	</>
 );
-
-export default TimeWidgetsWithTextField1;

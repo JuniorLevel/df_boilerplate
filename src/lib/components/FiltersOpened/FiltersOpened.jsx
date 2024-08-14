@@ -4,11 +4,11 @@ import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
 import { ReactSortable } from 'react-sortablejs';
 import styled from 'styled-components';
-import FiltersOpenedMobile from './FiltersOpenedMobile/FiltersOpenedMobile';
-import FiltersOpenedCards from './FiltersOpenedCards/FiltersOpenedCards';
-import FiltersCardsContainer from '../FiltersCardsContainer/FiltersCardsContainer';
-import FiltersOpenedCardsAddButton from './FiltersOpenedCards/FiltersOpenedCardsAddButton/FiltersOpenedCardsAddButton';
-import FiltersClosed from '../FiltersClosed/FiltersClosed';
+import { FiltersOpenedMobile } from './FiltersOpenedMobile/FiltersOpenedMobile';
+import { FiltersOpenedCards } from './FiltersOpenedCards/FiltersOpenedCards';
+import { FiltersCardsContainer } from '../FiltersCardsContainer/FiltersCardsContainer';
+import { FiltersOpenedCardsAddButton } from './FiltersOpenedCards/FiltersOpenedCardsAddButton/FiltersOpenedCardsAddButton';
+import { FiltersClosed } from '../FiltersClosed/FiltersClosed';
 import { filtersList } from '../../data/filters.cards.data';
 
 const StyledReactSortable = styled(ReactSortable)`
@@ -21,7 +21,7 @@ interface IFiltersOpenedProps {
 	filtersCards: any[];
 }
 
-const FiltersOpened = ({
+export const FiltersOpened = ({
 	isOpen,
 	filtersCards,
 }: IFiltersOpenedProps): React$MixedElement => {
@@ -51,5 +51,3 @@ const FiltersOpened = ({
 		</>
 	);
 };
-
-export default FiltersOpened;

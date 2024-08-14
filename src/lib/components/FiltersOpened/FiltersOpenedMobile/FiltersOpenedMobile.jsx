@@ -5,11 +5,11 @@ import MediaQuery from 'react-responsive';
 import { ReactSortable } from 'react-sortablejs';
 import { Flex } from 'antd';
 import { filtersCards } from '../../../data/filters.cards.data';
-import FiltersOpenedCards from '../FiltersOpenedCards/FiltersOpenedCards';
-import FiltersCardsContainer from '../../FiltersCardsContainer/FiltersCardsContainer';
-import FiltersOpenedCardAddButton from '../FiltersOpenedCards/FiltersOpenedCardsAddButton/FiltersOpenedCardsAddButton';
+import { FiltersOpenedCards } from '../FiltersOpenedCards/FiltersOpenedCards';
+import { FiltersCardsContainer } from '../../FiltersCardsContainer/FiltersCardsContainer';
+import { FiltersOpenedCardsAddButton } from '../FiltersOpenedCards/FiltersOpenedCardsAddButton/FiltersOpenedCardsAddButton';
 
-const FiltersOpenedMobile = (): React$MixedElement => {
+export const FiltersOpenedMobile = (): React$MixedElement => {
 	const [cardsSortable, setCardsSortable] = useState(filtersCards);
 
 	return (
@@ -27,10 +27,8 @@ const FiltersOpenedMobile = (): React$MixedElement => {
 						))}
 					</ReactSortable>
 				</FiltersCardsContainer>
-				<FiltersOpenedCardAddButton />
+				<FiltersOpenedCardsAddButton />
 			</Flex>
 		</MediaQuery>
 	);
 };
-
-export default FiltersOpenedMobile;

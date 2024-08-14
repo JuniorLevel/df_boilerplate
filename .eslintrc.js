@@ -16,6 +16,8 @@ module.exports = {
 		'plugin:react-hooks/recommended',
 		'plugin:import/recommended',
 		'plugin:react/recommended',
+		'plugin:import/errors',
+		'plugin:import/warnings',
 	],
 	plugins: ['react', 'ft-flow', 'fb-flow', 'react-hooks', 'import'],
 	rules: {
@@ -27,7 +29,8 @@ module.exports = {
 		'react-hooks/rules-of-hooks': 'error',
 		'react-hooks/exhaustive-deps': 'warn',
 		'react/function-component-definition': 0,
-		'import/prefer-default-export': 0,
+		'import/prefer-default-export': 'off',
+		'import/no-default-export': 'error',
 		'consistent-return': 0,
 	},
 	env: {

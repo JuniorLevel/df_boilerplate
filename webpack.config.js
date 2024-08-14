@@ -36,7 +36,9 @@ module.exports = (env) => ({
 		libraryTarget: 'umd',
 		clean: true,
 	},
-	resolve: { extensions: ['.*', '.js', '.jsx'] },
+	resolve: {
+		extensions: ['.*', '.js', '.jsx'],
+	},
 	externals:
 		env.MODE === 'production'
 			? {

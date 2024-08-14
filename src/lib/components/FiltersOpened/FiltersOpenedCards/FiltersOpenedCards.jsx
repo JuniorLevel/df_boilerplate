@@ -1,16 +1,16 @@
 // @flow
 import React from 'react';
 import { Flex } from 'antd';
-import FiltersOpenedCardItem from './FiltersOpenedCardItem/FiltersOpenedCardItem';
-import FiltersCardAddItemButton from './FiltersCardAddItemButton/FiltersCardAddItemButton';
+import { FiltersOpenedCardItem } from './FiltersOpenedCardItem/FiltersOpenedCardItem';
+import { FiltersCardAddItemButton } from './FiltersCardAddItemButton/FiltersCardAddItemButton';
 import { StyledCardDiv, StyledCardItemDiv } from './FiltersOpenedCards.styles';
-import StatusContainer from '../../StatusContainer/StatusContainer';
+import { StatusContainer } from '../../StatusContainer/StatusContainer';
 
 interface IFiltersOpenedCardsProps {
 	cardItem: Array<any>;
 }
 
-const FiltersOpenedCards = ({
+export const FiltersOpenedCards = ({
 	cardItem,
 }: IFiltersOpenedCardsProps): React.Node => (
 	<StyledCardDiv>
@@ -28,5 +28,3 @@ const FiltersOpenedCards = ({
 		</Flex>
 	</StyledCardDiv>
 );
-
-export default FiltersOpenedCards;

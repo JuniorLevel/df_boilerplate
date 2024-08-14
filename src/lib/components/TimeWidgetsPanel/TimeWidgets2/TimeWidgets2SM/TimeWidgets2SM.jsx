@@ -3,10 +3,10 @@
 import { Flex, Progress, Typography } from 'antd';
 import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
-import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 
-const TimeWidgets2SM = (): React$MixedElement => {
+export const TimeWidgets2SM = (): React$MixedElement => {
 	const { Text } = Typography;
 	const [isShowWeeksPanel] = useState(false);
 
@@ -94,5 +94,3 @@ const TimeWidgets2SM = (): React$MixedElement => {
 		</MediaQuery>
 	);
 };
-
-export default TimeWidgets2SM;

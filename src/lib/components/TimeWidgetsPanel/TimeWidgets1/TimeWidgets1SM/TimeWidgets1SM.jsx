@@ -8,7 +8,9 @@ interface ITimeWidgets1SMProps {
 	date: string;
 }
 
-const TimeWidgets1SM = ({ date }: ITimeWidgets1SMProps): React$MixedElement => {
+export const TimeWidgets1SM = ({
+	date,
+}: ITimeWidgets1SMProps): React$MixedElement => {
 	const { Text } = Typography;
 
 	return (
@@ -53,5 +55,3 @@ const TimeWidgets1SM = ({ date }: ITimeWidgets1SMProps): React$MixedElement => {
 		</MediaQuery>
 	);
 };
-
-export default TimeWidgets1SM;

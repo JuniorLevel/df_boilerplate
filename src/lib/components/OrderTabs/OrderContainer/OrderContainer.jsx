@@ -22,10 +22,8 @@ interface IOrderContainerProps {
 	children: React.Node;
 }
 
-const OrderContainer = ({
+export const OrderContainer = ({
 	children,
 }: IOrderContainerProps): React$MixedElement => (
 	<StyledOrderContainer>{children}</StyledOrderContainer>
 );
-
-export default OrderContainer;

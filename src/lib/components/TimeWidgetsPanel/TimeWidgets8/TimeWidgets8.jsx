@@ -3,17 +3,19 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
 import { Flex, Progress } from 'antd';
-import TimeWidgets8LG from './TimeWidgets8LG/TimeWidgets8LG';
-import TimeWidgets8MD from './TimeWidgets8MD/TimeWidgets8MD';
-import TimeWidgets8SM from './TimeWidgets8SM/TimeWidgets8SM';
-import TimeWidgetsDateWithTimeBlock from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
-import TimeWidgetsCustomClock from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { TimeWidgets8LG } from './TimeWidgets8LG/TimeWidgets8LG';
+import { TimeWidgets8MD } from './TimeWidgets8MD/TimeWidgets8MD';
+import { TimeWidgets8SM } from './TimeWidgets8SM/TimeWidgets8SM';
+import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { TimeWidgetsCustomClock } from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 
 interface ITimeWidgets8Props {
 	fullDate: any;
 }
 
-const TimeWidgets8 = ({ fullDate }: ITimeWidgets8Props): React$MixedElement => (
+export const TimeWidgets8 = ({
+	fullDate,
+}: ITimeWidgets8Props): React$MixedElement => (
 	<>
 		<MediaQuery minWidth={1425}>
 			<Flex justify="space-between" align="center">
@@ -52,5 +54,3 @@ const TimeWidgets8 = ({ fullDate }: ITimeWidgets8Props): React$MixedElement => (
 		<TimeWidgets8SM fullDate={fullDate} />
 	</>
 );
-
-export default TimeWidgets8;

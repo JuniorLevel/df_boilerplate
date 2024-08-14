@@ -1,3 +1,4 @@
+/* eslint-disable import/no-default-export */
 // @flow
 
 import React from 'react';

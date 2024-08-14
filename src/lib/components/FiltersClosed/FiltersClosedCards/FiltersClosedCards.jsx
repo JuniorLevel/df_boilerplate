@@ -2,19 +2,19 @@
 
 import React from 'react';
 import { Flex, Badge, Popover } from 'antd';
-import FiltersOpenedCardItem from '../../FiltersOpened/FiltersOpenedCards/FiltersOpenedCardItem/FiltersOpenedCardItem';
+import { FiltersOpenedCardItem } from '../../FiltersOpened/FiltersOpenedCards/FiltersOpenedCardItem/FiltersOpenedCardItem';
 import {
 	StyledCardsDivPopover,
 	StyledCardItemDiv,
 	StyledCardsDiv,
 } from './FiltersClosedCards.styles';
-import StatusContainer from '../../StatusContainer/StatusContainer';
+import { StatusContainer } from '../../StatusContainer/StatusContainer';
 
 interface IFiltersCardsClosedProps {
 	cardClosed: any;
 }
 
-const FiltersClosedCards = ({
+export const FiltersClosedCards = ({
 	cardClosed,
 }: IFiltersCardsClosedProps): React$MixedElement => (
 	<Popover
@@ -39,5 +39,3 @@ const FiltersClosedCards = ({
 		</StyledCardsDiv>
 	</Popover>
 );
-
-export default FiltersClosedCards;

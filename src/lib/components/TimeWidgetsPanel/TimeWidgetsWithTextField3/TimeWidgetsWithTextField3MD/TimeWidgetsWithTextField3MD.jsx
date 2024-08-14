@@ -3,14 +3,14 @@
 import React from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
-import TextFieldWidget from '../../TextFieldWidget/TextFieldWidget';
-import TimeWidgets8 from '../../TimeWidgets8/TimeWidgets8';
+import { TextFieldWidget } from '../../TextFieldWidget/TextFieldWidget';
+import { TimeWidgets8 } from '../../TimeWidgets8/TimeWidgets8';
 
 interface ITimeWidgetsWithTextField3MDProps {
 	fullDate: any;
 }
 
-const TimeWidgetsWithTextField3MD = ({
+export const TimeWidgetsWithTextField3MD = ({
 	fullDate,
 }: ITimeWidgetsWithTextField3MDProps): React$MixedElement => (
 	<MediaQuery maxWidth={967}>
@@ -26,5 +26,3 @@ const TimeWidgetsWithTextField3MD = ({
 		</Flex>
 	</MediaQuery>
 );
-
-export default TimeWidgetsWithTextField3MD;

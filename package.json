@@ -1,12 +1,11 @@
 {
 	"name": "@juniorlevel/df_boilerplate-library",
 	"description": "df_boilerplate-ui-library",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"files": [
-		"dist",
-		"Installation.md"
+		"dist"
 	],
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/"
@@ -21,7 +20,7 @@
 		"flow": "flow check --quiet",
 		"lint": "eslint src --ext .js --ext .jsx --fix --max-warnings=0 && npm run flow",
 		"format": "prettier src --write",
-		"lint-staged": "npm run test && npm run flow && npm run lint && npm run format && npm run deploy:gh-pages && npm publish",
+		"lint-staged": "npm run test && npm run flow && npm run lint && npm run format && npm run deploy:gh-pages && npm version patch && npm publish",
 		"styleguide": "styleguidist server",
 		"styleguide:build": "styleguidist build",
 		"deploy:pre": "cp -r coverage github-pages && cp -r styleguide github-pages && rm -rf styleguide && rm -rf coverage",
@@ -72,12 +71,14 @@
 	"dependencies": {
 		"@ant-design/icons": "^5.4.0",
 		"antd": "^5.20.1",
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1",
 		"react-responsive": "^10.0.0",
 		"react-router-dom": "^6.26.0",
 		"react-sortablejs": "^6.1.4",
 		"styled-components": "^6.1.12",
 		"styled-reset": "^4.5.2"
+	},
+	"peerDependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
 	}
 }

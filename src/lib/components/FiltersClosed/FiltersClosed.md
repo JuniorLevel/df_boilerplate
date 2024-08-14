@@ -1,9 +1,9 @@
 ```jsx
 import React, { useState } from 'react';
-import { Container as Layout } from '../../components/Container/Container';
-import FiltersClosed from '../../components/FiltersClosed/FiltersClosed';
+import { Layout } from '../../components/Layout/Layout';
+import { FiltersClosed } from '../../components/FiltersClosed/FiltersClosed';
 import { FiltersClosedListProvider } from '../../context/FiltersClosedListContext/FiltersClosedListContext';
-import { buttons } from '../../components/Container/buttons';
+import { buttons } from '../../components/Layout/buttons';
 
 const [filters, setFilters] = useState([
 	{
@@ -39,7 +39,7 @@ const [filters, setFilters] = useState([
 ```
 
 ```jsx noeditor
-import Image1 from '../../assets/FiltersOpened/image.png';
+import Image1 from '../../../styleguide/assets//FiltersOpened/image.png';
 <div>
 	<img src={Image1} />
 </div>;

@@ -9,7 +9,8 @@ module.exports = {
 	sections: [
 		{
 			name: 'FiltersOpenedPage',
-			content: 'src/lib/templates/FiltersOpenedPage/FiltersOpenedPage.md',
+			content:
+				'src/styleguide/templates/FiltersOpenedPage/FiltersOpenedPage.md',
 		},
 		{
 			name: 'FiltersClosed',
@@ -17,28 +18,30 @@ module.exports = {
 		},
 		{
 			name: 'DiffClosedCardsPage',
-			content: 'src/lib/templates/DiffClosedCardsPage/DiffClosedCardsPage.md',
+			content:
+				'src/styleguide/templates/DiffClosedCardsPage/DiffClosedCardsPage.md',
 		},
 		{
 			name: 'FiltersClosedPreviewPage',
 			content:
-				'src/lib/templates/FiltersClosedPreviewPage/FiltersClosedPreviewPage.md',
+				'src/styleguide/templates/FiltersClosedPreviewPage/FiltersClosedPreviewPage.md',
 		},
 		{
 			name: 'FiltersClosedPage',
-			content: 'src/lib/templates/FiltersClosedPage/FiltersClosedPage.md',
+			content:
+				'src/styleguide/templates/FiltersClosedPage/FiltersClosedPage.md',
 		},
 		{
 			name: 'OrderPage',
-			content: 'src/lib/templates/OrderPage/OrderPage.md',
+			content: 'src/styleguide/templates/OrderPage/OrderPage.md',
 		},
 		{
 			name: 'Layout',
-			content: 'src/lib/templates/HomePage/Layout.md',
+			content: 'src/styleguide/templates/HomePage/Layout.md',
 		},
 		{
 			name: 'WelcomePage',
-			content: 'src/lib/templates/WelcomePages/Welcome.md',
+			content: 'src/styleguide/templates/WelcomePages/Welcome.md',
 		},
 	],
 	styles: {

@@ -3,18 +3,20 @@
 import React from 'react';
 import { Flex, Progress } from 'antd';
 import MediaQuery from 'react-responsive';
-import TimeWidgets7XL from './TimeWidgets7XL/TimeWidgets7XL';
-import TimeWidgets7LG from './TimeWidgets7LG/TimeWidgets7LG';
-import TimeWidgets7MD from './TimeWidgets7MD/TimeWidgets7MD';
-import TimeWidgets7SM from './TimeWidgets7SM/TimeWidgets7SM';
-import TimeWidgetsCustomClock from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import TimeWidgetsDateWithTimeBlock from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { TimeWidgets7XL } from './TimeWidgets7XL/TimeWidgets7XL';
+import { TimeWidgets7LG } from './TimeWidgets7LG/TimeWidgets7LG';
+import { TimeWidgets7MD } from './TimeWidgets7MD/TimeWidgets7MD';
+import { TimeWidgets7SM } from './TimeWidgets7SM/TimeWidgets7SM';
+import { TimeWidgetsCustomClock } from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets7Props {
 	fullDate: any;
 }
 
-const TimeWidgets7 = ({ fullDate }: ITimeWidgets7Props): React$MixedElement => (
+export const TimeWidgets7 = ({
+	fullDate,
+}: ITimeWidgets7Props): React$MixedElement => (
 	<>
 		<MediaQuery minWidth={1400}>
 			<Flex
@@ -60,5 +62,3 @@ const TimeWidgets7 = ({ fullDate }: ITimeWidgets7Props): React$MixedElement => (
 		<TimeWidgets7SM fullDate={fullDate} />
 	</>
 );
-
-export default TimeWidgets7;

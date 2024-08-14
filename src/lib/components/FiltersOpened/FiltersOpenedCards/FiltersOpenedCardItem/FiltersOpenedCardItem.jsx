@@ -8,7 +8,7 @@ interface IFiltersOpenedCardItemProps {
 	item: any;
 }
 
-const FiltersOpenedCardItem = ({
+export const FiltersOpenedCardItem = ({
 	item,
 }: IFiltersOpenedCardItemProps): React.Node => {
 	const { setStatus } = useContext(StatusContext);
@@ -19,5 +19,3 @@ const FiltersOpenedCardItem = ({
 
 	return <StyledItemDiv>{item.text}</StyledItemDiv>;
 };
-
-export default FiltersOpenedCardItem;

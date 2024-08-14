@@ -4,9 +4,9 @@ import React, { useContext, useEffect } from 'react';
 import MediaQuery from 'react-responsive';
 import { Button, Flex } from 'antd';
 import { ArrowsAltOutlined, CloseSquareOutlined } from '@ant-design/icons';
-import FiltersCardsContainer from '../FiltersCardsContainer/FiltersCardsContainer';
-import FiltersClosedCards from './FiltersClosedCards/FiltersClosedCards';
-import FiltersOpenedCards from '../FiltersOpened/FiltersOpenedCards/FiltersOpenedCards';
+import { FiltersCardsContainer } from '../FiltersCardsContainer/FiltersCardsContainer';
+import { FiltersClosedCards } from './FiltersClosedCards/FiltersClosedCards';
+import { FiltersOpenedCards } from '../FiltersOpened/FiltersOpenedCards/FiltersOpenedCards';
 import { FiltersClosedListContext } from '../../context/FiltersClosedListContext/FiltersClosedListContext';
 
 interface IFiltersClosedProps {
@@ -14,7 +14,7 @@ interface IFiltersClosedProps {
 	filtersList: any;
 }
 
-const FiltersClosed = ({
+export const FiltersClosed = ({
 	isOpen,
 	filtersList,
 }: IFiltersClosedProps): React$MixedElement => {
@@ -59,5 +59,3 @@ const FiltersClosed = ({
 		</MediaQuery>
 	);
 };
-
-export default FiltersClosed;

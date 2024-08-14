@@ -18,7 +18,7 @@ const StyledParagraph = styled(Paragraph)`
 	margin: 0 !important;
 `;
 
-const TextFieldWidget = ({
+export const TextFieldWidget = ({
 	text,
 }: ITextFieldWidgetProps): React$MixedElement => (
 	<div
@@ -31,5 +31,3 @@ const TextFieldWidget = ({
 		<StyledParagraph>{text}</StyledParagraph>
 	</div>
 );
-
-export default TextFieldWidget;

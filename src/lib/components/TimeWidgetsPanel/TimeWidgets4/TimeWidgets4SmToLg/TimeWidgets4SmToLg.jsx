@@ -2,14 +2,14 @@
 import React from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
-import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import TimeWidgetsDateWithTimeBlock from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets4SmToLgProps {
 	fullDate: any;
 }
 
-const TimeWidgets4SmToLg = ({
+export const TimeWidgets4SmToLg = ({
 	fullDate,
 }: ITimeWidgets4SmToLgProps): React$MixedElement => (
 	<MediaQuery maxWidth={1099}>
@@ -43,5 +43,3 @@ const TimeWidgets4SmToLg = ({
 		</Flex>
 	</MediaQuery>
 );
-
-export default TimeWidgets4SmToLg;

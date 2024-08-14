@@ -2,7 +2,7 @@
 import React from 'react';
 import { Flex } from 'antd';
 
-const Order = (): React$MixedElement => (
+export const Order = (): React$MixedElement => (
 	<Flex
 		justify="center"
 		align="center"
@@ -16,5 +16,3 @@ const Order = (): React$MixedElement => (
 		<div>Preview Order Page</div>
 	</Flex>
 );
-
-export default Order;

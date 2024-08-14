@@ -7,8 +7,6 @@ interface IOrderTabsProps {
 	items: any;
 }
 
-const OrderTabs = ({ items }: IOrderTabsProps): React$MixedElement => (
+export const OrderTabs = ({ items }: IOrderTabsProps): React$MixedElement => (
 	<StyledTabs defaultActiveKey={items.length} items={items} />
 );
-
-export default OrderTabs;

@@ -2,14 +2,14 @@
 import { Flex, Progress } from 'antd';
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import TimeWidgetsDateWithTimeBlock from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets7XLProps {
 	fullDate: any;
 }
 
-const TimeWidgets7XL = ({
+export const TimeWidgets7XL = ({
 	fullDate,
 }: ITimeWidgets7XLProps): React$MixedElement => (
 	<MediaQuery minWidth={1165} maxWidth={1399}>
@@ -51,5 +51,3 @@ const TimeWidgets7XL = ({
 		</Flex>
 	</MediaQuery>
 );
-
-export default TimeWidgets7XL;

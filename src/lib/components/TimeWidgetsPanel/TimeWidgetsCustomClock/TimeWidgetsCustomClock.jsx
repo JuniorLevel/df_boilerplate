@@ -16,7 +16,7 @@ const StyledProgress = styled(Progress)`
 	}
 `;
 
-const TimeWidgetsCustomClock = (): React$MixedElement => (
+export const TimeWidgetsCustomClock = (): React$MixedElement => (
 	<StyledProgress
 		type="circle"
 		strokeWidth={10}
@@ -26,5 +26,3 @@ const TimeWidgetsCustomClock = (): React$MixedElement => (
 		showInfo={false}
 	/>
 );
-
-export default TimeWidgetsCustomClock;

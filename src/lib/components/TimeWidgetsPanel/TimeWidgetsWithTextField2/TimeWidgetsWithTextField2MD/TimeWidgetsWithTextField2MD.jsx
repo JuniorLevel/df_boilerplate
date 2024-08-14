@@ -3,16 +3,16 @@
 import MediaQuery from 'react-responsive';
 import React from 'react';
 import { Flex } from 'antd';
-import TimeWidgetsCustomClock from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import TimeWidgetsWeeksAndYearsPanel from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import TextFieldWidget from '../../TextFieldWidget/TextFieldWidget';
-import TimeWidgetsDateWithTimeBlock from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import { TextFieldWidget } from '../../TextFieldWidget/TextFieldWidget';
+import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgetsWithTextField2MDProps {
 	fullDate: any;
 }
 
-const TimeWidgetsWithTextField2MD = ({
+export const TimeWidgetsWithTextField2MD = ({
 	fullDate,
 }: ITimeWidgetsWithTextField2MDProps): React$MixedElement => (
 	<MediaQuery minWidth={658} maxWidth={834}>
@@ -36,5 +36,3 @@ const TimeWidgetsWithTextField2MD = ({
 		</Flex>
 	</MediaQuery>
 );
-
-export default TimeWidgetsWithTextField2MD;

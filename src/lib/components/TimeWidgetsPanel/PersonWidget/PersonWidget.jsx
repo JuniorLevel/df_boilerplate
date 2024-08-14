@@ -9,7 +9,7 @@ interface IPersonWidgetProps {
 	fio: string;
 }
 
-const PersonWidget = ({
+export const PersonWidget = ({
 	userRole,
 	fio,
 }: IPersonWidgetProps): React$MixedElement => {
@@ -71,5 +71,3 @@ const PersonWidget = ({
 		</Flex>
 	);
 };
-
-export default PersonWidget;

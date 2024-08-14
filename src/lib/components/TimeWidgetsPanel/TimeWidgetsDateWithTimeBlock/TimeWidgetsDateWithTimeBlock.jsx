@@ -7,7 +7,7 @@ interface ITimeWidgetsDateWithTimeBlockProps {
 	fullDate: any;
 }
 
-const TimeWidgetsDateWithTimeBlock = ({
+export const TimeWidgetsDateWithTimeBlock = ({
 	fullDate,
 }: ITimeWidgetsDateWithTimeBlockProps): React$MixedElement => {
 	const { Text } = Typography;
@@ -45,5 +45,3 @@ const TimeWidgetsDateWithTimeBlock = ({
 		</Flex>
 	);
 };
-
-export default TimeWidgetsDateWithTimeBlock;

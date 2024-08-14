@@ -10,7 +10,9 @@ interface IThemeWrapperProps {
 	children: React.Node;
 }
 
-const ThemeWrapper = ({ children }: IThemeWrapperProps): React$MixedElement => (
+export const ThemeWrapper = ({
+	children,
+}: IThemeWrapperProps): React$MixedElement => (
 	<ThemeProvider>
 		<ThemeContext.Consumer>
 			{({ currentTheme }) => (
@@ -25,5 +27,3 @@ const ThemeWrapper = ({ children }: IThemeWrapperProps): React$MixedElement => (
 		</ThemeContext.Consumer>
 	</ThemeProvider>
 );
-
-export default ThemeWrapper;

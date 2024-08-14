@@ -3,7 +3,7 @@
 import React from 'react';
 import { Flex } from 'antd';
 
-const Footer = (): React$MixedElement => (
+export const Footer = (): React$MixedElement => (
 	<div
 		style={{
 			height: '100px',
@@ -16,5 +16,3 @@ const Footer = (): React$MixedElement => (
 		</Flex>
 	</div>
 );
-
-export default Footer;

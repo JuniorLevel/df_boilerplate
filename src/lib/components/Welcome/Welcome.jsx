@@ -29,9 +29,8 @@ export const Welcome = ({ children, buttons }: IWelcomeProps): React.Node => {
 				<Title style={{ textAlign: 'center' }}>Welcome</Title>
 				<Input placeholder="email" style={{ marginBottom: '20px' }} />
 				<ButtonContainer>
-					{buttons.map((button, idx) => (
-						// eslint-disable-next-line react/no-array-index-key
-						<Button block key={idx} onClick={button.onClick}>
+					{buttons.map((button) => (
+						<Button block key={button.id} onClick={button.onClick}>
 							{button.title}
 						</Button>
 					))}

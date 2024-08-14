@@ -4,8 +4,8 @@ import React from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import styled from 'styled-components';
-import TimeWidgets6SmToLg from './TimeWidgets6SmToLg/TimeWidgets6SmToLg';
-import TimeWidgetsDateWithTimeBlock from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { TimeWidgets6SmToLg } from './TimeWidgets6SmToLg/TimeWidgets6SmToLg';
+import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 const StyledDivYears = styled.div`
 	background-color: blue;
@@ -15,7 +15,9 @@ interface ITimeWidgets6Props {
 	fullDate: any;
 }
 
-const TimeWidgets6 = ({ fullDate }: ITimeWidgets6Props): React$MixedElement => (
+export const TimeWidgets6 = ({
+	fullDate,
+}: ITimeWidgets6Props): React$MixedElement => (
 	<>
 		<MediaQuery minWidth={854}>
 			<Flex
@@ -64,5 +66,3 @@ const TimeWidgets6 = ({ fullDate }: ITimeWidgets6Props): React$MixedElement => (
 		<TimeWidgets6SmToLg fullDate={fullDate} />
 	</>
 );
-
-export default TimeWidgets6;

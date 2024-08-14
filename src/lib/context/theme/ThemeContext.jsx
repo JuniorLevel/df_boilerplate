@@ -1,6 +1,6 @@
 // @flow
 
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useEffect, useMemo, useState } from 'react';
 
 interface IThemeProvider {
 	children: React.Node;
@@ -27,10 +27,12 @@ export const ThemeProvider = ({
 		localStorage.setItem('theme', currentTheme);
 	}, [currentTheme]);
 
+	const value = useMemo(
+		() => ({ currentTheme, setCurrentTheme }),
+		[currentTheme, setCurrentTheme]
+	);
+
 	return (
-		// eslint-disable-next-line react/jsx-no-constructed-context-values
-		<ThemeContext.Provider value={{ currentTheme, setCurrentTheme }}>
-			{children}
-		</ThemeContext.Provider>
+		<ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
 	);
 };

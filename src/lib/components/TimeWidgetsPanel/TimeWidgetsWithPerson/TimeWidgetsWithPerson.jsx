@@ -3,13 +3,13 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
 import { Flex } from 'antd';
-import TimeWidgetsWithPersonLG from './TimeWidgetsWithPersonLG/TimeWidgetsWithPersonLG';
-import TimeWidgetsWithPersonMD from './TimeWidgetsWithPersonMD/TimeWidgetsWithPersonMD';
-import TimeWidgetsWithPersonSM from './TimeWidgetsWithPersonSM/TimeWidgetsWithPersonSM';
-import PersonWidget from '../PersonWidget/PersonWidget';
-import TimeWidgetsCustomClock from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
-import TimeWidgetsWeeksAndYearsPanel from '../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import TimeWidgetsDateWithTimeBlock from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import { TimeWidgetsWithPersonLG } from './TimeWidgetsWithPersonLG/TimeWidgetsWithPersonLG';
+import { TimeWidgetsWithPersonMD } from './TimeWidgetsWithPersonMD/TimeWidgetsWithPersonMD';
+import { TimeWidgetsWithPersonSM } from './TimeWidgetsWithPersonSM/TimeWidgetsWithPersonSM';
+import { PersonWidget } from '../PersonWidget/PersonWidget';
+import { TimeWidgetsCustomClock } from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import { TimeWidgetsWeeksAndYearsPanel } from '../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgetsWithPersonProps {
 	fullDate: any;
@@ -17,7 +17,7 @@ interface ITimeWidgetsWithPersonProps {
 	fio: string;
 }
 
-const TimeWidgetsWithPerson = ({
+export const TimeWidgetsWithPerson = ({
 	fullDate,
 	userRole,
 	fio,
@@ -56,5 +56,3 @@ const TimeWidgetsWithPerson = ({
 		/>
 	</>
 );
-
-export default TimeWidgetsWithPerson;
