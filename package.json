@@ -1,7 +1,7 @@
 {
 	"name": "@juniorlevel/df_boilerplate-library",
 	"description": "df_boilerplate-ui-library",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"files": [
