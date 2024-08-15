@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1723620545730" clover="3.2.0">
-  <project timestamp="1723620545730" name="All files">
+<coverage generated="1723714778761" clover="3.2.0">
+  <project timestamp="1723714778761" name="All files">
     <metrics statements="372" coveredstatements="364" conditionals="62" coveredconditionals="49" methods="234" coveredmethods="140" elements="668" coveredelements="553" complexity="0" loc="372" ncloc="372" packages="110" files="123" classes="123"/>
     <package name="lib.components.FiltersCardsContainer">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
