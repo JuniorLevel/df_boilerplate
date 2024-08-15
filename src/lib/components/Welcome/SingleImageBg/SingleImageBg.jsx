@@ -5,7 +5,7 @@ import { DivImageContainer, Image } from './SingleImageBg.styles';
 
 interface IFourImagesBgProps {
 	imageUrl: string;
-	children: React$MixedElement;
+	children: React.Node;
 }
 
 export const SingleImageBg = ({

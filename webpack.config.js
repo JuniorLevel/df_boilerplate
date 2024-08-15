@@ -2,6 +2,7 @@ const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const EslintWebpackPlugin = require('eslint-webpack-plugin');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = (env) => ({
 	mode: env.MODE || 'development',
@@ -55,6 +56,9 @@ module.exports = (env) => ({
 		new EslintWebpackPlugin({
 			extensions: ['js', 'jsx'],
 			fix: true,
+		}),
+		new CopyPlugin({
+			patterns: [{ from: 'src/lib/index.d.ts', to: '' }],
 		}),
 		env.MODE === 'development' && new ReactRefreshWebpackPlugin(),
 	],

@@ -6,7 +6,7 @@ import { DivImageContainer, Image } from './FourImagesBg.styles';
 
 interface IFourImagesBgProps {
 	imagesUrls: any[];
-	children: React$MixedElement;
+	children: React.Node;
 }
 
 export const FourImagesBg = ({
