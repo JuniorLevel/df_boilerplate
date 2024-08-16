@@ -1,4 +1,5 @@
 import { Flex, Row, Col, Badge } from 'antd';
+import MediaQuery from 'react-responsive';
 import { OrderPage } from '../styleguide/templates/OrderPage/OrderPage';
 import { Layout } from './components/Layout/Layout';
 import { OrderVersion } from './components/OrderTabs/OrderVersion/OrdersVersion';
@@ -55,8 +56,11 @@ import { FiltersClosedPage } from '../styleguide/templates/FiltersClosedPage/Fil
 import { DiffOpenedCardsPage } from '../styleguide/templates/DiffOpenedCardsPage/DiffOpenedCardsPage';
 import { DiffClosedCardsPage } from '../styleguide/templates/DiffClosedCardsPage/DiffClosedCardsPage';
 import { Welcome } from './components/Welcome/Welcome';
+import { FiltersSearchListWithPreview } from './components/FiltersSearchListWithPreview/FiltersSearchListWithPreview';
 
 export {
+	FiltersSearchListWithPreview,
+	MediaQuery,
 	DiffClosedCardsPage,
 	DiffOpenedCardsPage,
 	FiltersClosedPage,
