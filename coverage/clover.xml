@@ -1,116 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1723793818289" clover="3.2.0">
-  <project timestamp="1723793818289" name="All files">
-    <metrics statements="372" coveredstatements="364" conditionals="62" coveredconditionals="49" methods="234" coveredmethods="140" elements="668" coveredelements="553" complexity="0" loc="372" ncloc="372" packages="110" files="123" classes="123"/>
-    <package name="lib.components.FiltersCardsContainer">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="FiltersCardsContainer.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersCardsContainer/FiltersCardsContainer.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="5" type="stmt"/>
-        <line num="14" count="26" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersClosed">
-      <metrics statements="9" coveredstatements="6" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="3"/>
-      <file name="FiltersClosed.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersClosed/FiltersClosed.jsx">
-        <metrics statements="9" coveredstatements="6" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="3"/>
-        <line num="17" count="5" type="stmt"/>
-        <line num="21" count="16" type="stmt"/>
-        <line num="25" count="16" type="stmt"/>
-        <line num="26" count="16" type="stmt"/>
-        <line num="29" count="16" type="stmt"/>
-        <line num="35" count="48" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersClosed.FiltersClosedCards">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="FiltersClosedCards.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersClosed/FiltersClosedCards/FiltersClosedCards.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="17" count="5" type="stmt"/>
-        <line num="20" count="24" type="stmt"/>
-        <line num="25" count="48" type="stmt"/>
-      </file>
-      <file name="FiltersClosedCards.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersClosed/FiltersClosedCards/FiltersClosedCards.styles.js">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="11" count="5" type="stmt"/>
-        <line num="20" count="5" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersOpened">
-      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
-      <file name="FiltersOpened.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersOpened/FiltersOpened.jsx">
-        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="28" count="18" type="stmt"/>
-        <line num="30" count="18" type="stmt"/>
-        <line num="41" count="36" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersOpened.FiltersOpenedCards">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="FiltersOpenedCards.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCards.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="13" count="5" type="stmt"/>
-        <line num="16" count="36" type="stmt"/>
-        <line num="20" count="72" type="stmt"/>
-      </file>
-      <file name="FiltersOpenedCards.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCards.styles.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersOpened.FiltersOpenedCards.FiltersCardAddItemButton">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="FiltersCardAddItemButton.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersOpened/FiltersOpenedCards/FiltersCardAddItemButton/FiltersCardAddItemButton.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="5" type="stmt"/>
-        <line num="8" count="36" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersOpened.FiltersOpenedCards.FiltersOpenedCardItem">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="FiltersOpenedCardItem.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCardItem/FiltersOpenedCardItem.jsx">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="11" count="5" type="stmt"/>
-        <line num="14" count="72" type="stmt"/>
-        <line num="16" count="72" type="stmt"/>
-        <line num="17" count="54" type="stmt"/>
-        <line num="20" count="72" type="stmt"/>
-      </file>
-      <file name="FiltersOpenedCardItem.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCardItem/FiltersOpenedCardItem.styles.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="5" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersOpened.FiltersOpenedCards.FiltersOpenedCardsAddButton">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="FiltersOpenedCardsAddButton.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCardsAddButton/FiltersOpenedCardsAddButton.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="18" type="stmt"/>
-      </file>
-      <file name="FiltersOpenedCardsAddButton.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersOpened/FiltersOpenedCards/FiltersOpenedCardsAddButton/FiltersOpenedCardsAddButton.styles.js">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersOpened.FiltersOpenedMobile">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="FiltersOpenedMobile.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersOpened/FiltersOpenedMobile/FiltersOpenedMobile.jsx">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="21" type="stmt"/>
-        <line num="15" count="21" type="stmt"/>
-        <line num="26" count="42" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1724152417433" clover="3.2.0">
+  <project timestamp="1724152417433" name="All files">
+    <metrics statements="366" coveredstatements="357" conditionals="62" coveredconditionals="49" methods="232" coveredmethods="137" elements="660" coveredelements="543" complexity="0" loc="366" ncloc="366" packages="108" files="121" classes="121"/>
     <package name="lib.components.FiltersSearchList">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="FiltersSearchList.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchList/FiltersSearchList.jsx">
@@ -159,12 +50,12 @@
       <file name="FiltersSearchListItemMobileInfoStatus.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchList/FiltersSearchListItem/FiltersSearchListItemMobile/FiltersSearchListItemMobileInfoStatus/FiltersSearchListItemMobileInfoStatus.jsx">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="10" count="4" type="stmt"/>
-        <line num="13" count="404" type="stmt"/>
-        <line num="15" count="404" type="stmt"/>
-        <line num="16" count="354" type="stmt"/>
-        <line num="17" count="354" type="stmt"/>
-        <line num="18" count="354" type="stmt"/>
-        <line num="20" count="404" type="stmt"/>
+        <line num="13" count="484" type="stmt"/>
+        <line num="15" count="484" type="stmt"/>
+        <line num="16" count="426" type="stmt"/>
+        <line num="17" count="426" type="stmt"/>
+        <line num="18" count="426" type="stmt"/>
+        <line num="20" count="484" type="stmt"/>
       </file>
     </package>
     <package name="lib.components.FiltersSearchList.FiltersSearchListItem.FiltersSearchListItemUsersInfo">
@@ -172,8 +63,8 @@
       <file name="FiltersSearchListItemUsersInfo.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchList/FiltersSearchListItem/FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfo.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="14" count="4" type="stmt"/>
-        <line num="17" count="129" type="stmt"/>
-        <line num="21" count="333" type="stmt"/>
+        <line num="17" count="157" type="stmt"/>
+        <line num="21" count="393" type="stmt"/>
       </file>
     </package>
     <package name="lib.components.FiltersSearchList.FiltersSearchListItem.FiltersSearchListItemUsersInfo.FiltersSearchListItemUsersInfoMobile">
@@ -181,8 +72,8 @@
       <file name="FiltersSearchListItemUsersInfoMobile.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchList/FiltersSearchListItem/FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfoMobile/FiltersSearchListItemUsersInfoMobile.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="13" count="4" type="stmt"/>
-        <line num="16" count="129" type="stmt"/>
-        <line num="19" count="333" type="stmt"/>
+        <line num="16" count="157" type="stmt"/>
+        <line num="19" count="393" type="stmt"/>
       </file>
     </package>
     <package name="lib.components.FiltersSearchList.FiltersSearchListItem.FiltersSearchListItemUsersInfo.FiltersSearchListItemUsersInfoStatus">
@@ -190,10 +81,10 @@
       <file name="FiltersSearchListItemUsersInfoStatus.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchList/FiltersSearchListItem/FiltersSearchListItemUsersInfo/FiltersSearchListItemUsersInfoStatus/FiltersSearchListItemUsersInfoStatus.jsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="11" count="4" type="stmt"/>
-        <line num="14" count="465" type="stmt"/>
-        <line num="16" count="465" type="stmt"/>
-        <line num="17" count="465" type="stmt"/>
-        <line num="20" count="465" type="stmt"/>
+        <line num="14" count="510" type="stmt"/>
+        <line num="16" count="510" type="stmt"/>
+        <line num="17" count="510" type="stmt"/>
+        <line num="20" count="510" type="stmt"/>
       </file>
     </package>
     <package name="lib.components.FiltersSearchList.FiltersSearchListMobile">
@@ -210,65 +101,6 @@
         <line num="18" count="4" type="stmt"/>
         <line num="27" count="20" type="stmt"/>
         <line num="34" count="0" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersSearchListWithPreview">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="FiltersSearchListWithPreview.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreview.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="8" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersSearchListWithPreview.FiltersSearchListWithPreviewContainer">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="FiltersSearchListWithPreviewContainer.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewContainer/FiltersSearchListWithPreviewContainer.jsx">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="13" count="20" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="31" count="20" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersSearchListWithPreview.FiltersSearchListWithPreviewGrids">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="FiltersSearchListWithPreviewGrids.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewGrids/FiltersSearchListWithPreviewGrids.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="15" count="96" type="stmt"/>
-        <line num="17" count="192" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersSearchListWithPreview.FiltersSearchListWithPreviewLeft">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="FiltersSearchListWithPreviewLeft.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewLeft/FiltersSearchListWithPreviewLeft.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="12" count="16" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersSearchListWithPreview.FiltersSearchListWithPreviewLeft.FiltersSearchListWithPreviewLeftItem">
-      <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-      <file name="FiltersSearchListWithPreviewLeftItem.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewLeft/FiltersSearchListWithPreviewLeftItem/FiltersSearchListWithPreviewLeftItem.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="15" count="112" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersSearchListWithPreview.FiltersSearchListWithPreviewMobile">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="FiltersSearchListWithPreviewMobile.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewMobile/FiltersSearchListWithPreviewMobile.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="8" type="stmt"/>
-      </file>
-    </package>
-    <package name="lib.components.FiltersSearchListWithPreview.FiltersSearchListWithPreviewRight">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="FiltersSearchListWithPreviewRight.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewRight/FiltersSearchListWithPreviewRight.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="16" type="stmt"/>
       </file>
     </package>
     <package name="lib.components.Footer">
@@ -375,6 +207,49 @@
         <line num="20" count="48" type="stmt"/>
       </file>
     </package>
+    <package name="lib.components.OrderListPreview.Order">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Order.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrderListPreview/Order/Order.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrderListPreview.OrderListContainer">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrderListContainer.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrderListPreview/OrderListContainer/OrderListContainer.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrderListPreview.OrderListContainer.OrderListItem">
+      <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="OrderListItem.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrderListPreview/OrderListContainer/OrderListItem/OrderListItem.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="140" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrderListPreview.OrderListPreviewContainer">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="OrderListPreviewContainer.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrderListPreview/OrderListPreviewContainer/OrderListPreviewContainer.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="31" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrderListPreview.OrderListPreviewGrids">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="OrderListPreviewGrids.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrderListPreview/OrderListPreviewGrids/OrderListPreviewGrids.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="116" type="stmt"/>
+        <line num="17" count="232" type="stmt"/>
+      </file>
+    </package>
     <package name="lib.components.OrderTabs">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="OrderList.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrderTabs/OrderList.styles.js">
@@ -387,14 +262,6 @@
         <line num="11" count="4" type="stmt"/>
       </file>
     </package>
-    <package name="lib.components.OrderTabs.Order">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="Order.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrderTabs/Order/Order.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="8" type="stmt"/>
-      </file>
-    </package>
     <package name="lib.components.OrderTabs.OrderContainer">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="OrderContainer.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrderTabs/OrderContainer/OrderContainer.jsx">
@@ -402,6 +269,14 @@
         <line num="6" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
         <line num="28" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrderTabs.OrderPreview">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrderPreview.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrderTabs/OrderPreview/OrderPreview.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
       </file>
     </package>
     <package name="lib.components.OrderTabs.OrderVersion">
@@ -412,13 +287,122 @@
         <line num="13" count="8" type="stmt"/>
       </file>
     </package>
+    <package name="lib.components.OrdersFilter.OrdersFilterCardsContainer">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrdersFilterCardsContainer.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterCardsContainer/OrdersFilterCardsContainer.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="14" count="26" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrdersFilter.OrdersFilterClosed">
+      <metrics statements="9" coveredstatements="6" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="3"/>
+      <file name="OrdersFilterClosed.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterClosed/OrdersFilterClosed.jsx">
+        <metrics statements="9" coveredstatements="6" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="3"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="21" count="16" type="stmt"/>
+        <line num="23" count="16" type="stmt"/>
+        <line num="24" count="16" type="stmt"/>
+        <line num="27" count="16" type="stmt"/>
+        <line num="33" count="48" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrdersFilter.OrdersFilterClosed.OrdersFilterClosedCards">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="OrdersFilterClosedCards.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterClosed/OrdersFilterClosedCards/OrdersFilterClosedCards.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="20" count="24" type="stmt"/>
+        <line num="25" count="48" type="stmt"/>
+      </file>
+      <file name="OrdersFilterClosedCards.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterClosed/OrdersFilterClosedCards/OrdersFilterClosedCards.styles.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrdersFilter.OrdersFilterOpened">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="OrdersFilterOpened.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterOpened/OrdersFilterOpened.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="28" count="18" type="stmt"/>
+        <line num="30" count="18" type="stmt"/>
+        <line num="41" count="36" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrdersFilter.OrdersFilterOpened.OrdersFilterOpenedCards">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="OrdersFilterOpenedCards.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterOpenedCards.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="19" count="36" type="stmt"/>
+        <line num="23" count="72" type="stmt"/>
+      </file>
+      <file name="OrdersFilterOpenedCards.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterOpenedCards.styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrdersFilter.OrdersFilterOpened.OrdersFilterOpenedCards.OrdersFilterCardAddItemButton">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrdersFilterCardAddItemButton.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterCardAddItemButton/OrdersFilterCardAddItemButton.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="36" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrdersFilter.OrdersFilterOpened.OrdersFilterOpenedCards.OrdersFilterOpenedCardItem">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="OrdersFilterOpenedCardItem.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterOpenedCardItem/OrdersFilterOpenedCardItem.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="14" count="72" type="stmt"/>
+        <line num="16" count="72" type="stmt"/>
+        <line num="17" count="54" type="stmt"/>
+        <line num="20" count="72" type="stmt"/>
+      </file>
+      <file name="OrdersFilterOpenedCardItem.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterOpenedCardItem/OrdersFilterOpenedCardItem.styles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrdersFilter.OrdersFilterOpened.OrdersFilterOpenedCards.OrdersFilterOpenedCardsAddButton">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrdersFilterOpenedCardsAddButton.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterOpenedCardsAddButton/OrdersFilterOpenedCardsAddButton.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="18" type="stmt"/>
+      </file>
+      <file name="OrdersFilterOpenedCardsAddButton.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterOpenedCardsAddButton/OrdersFilterOpenedCardsAddButton.styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.components.OrdersFilter.OrdersFilterOpened.OrdersFilterOpenedMobile">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="OrdersFilterOpenedMobile.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/OrdersFilter/OrdersFilterOpened/OrdersFilterOpenedMobile/OrdersFilterOpenedMobile.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="21" type="stmt"/>
+        <line num="15" count="21" type="stmt"/>
+        <line num="26" count="42" type="stmt"/>
+      </file>
+    </package>
     <package name="lib.components.StatusContainer">
       <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
       <file name="StatusContainer.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/StatusContainer/StatusContainer.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="16" count="5" type="stmt"/>
-        <line num="19" count="649" type="stmt"/>
-        <line num="22" count="1037" type="stmt"/>
+        <line num="19" count="716" type="stmt"/>
+        <line num="22" count="1162" type="stmt"/>
       </file>
       <file name="StatusContainer.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/StatusContainer/StatusContainer.styles.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -434,7 +418,7 @@
       <file name="StatusChanged.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/StatusContainer/StatusChanged/StatusChanged.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="13" count="5" type="stmt"/>
-        <line num="17" count="162" type="stmt"/>
+        <line num="17" count="183" type="stmt"/>
       </file>
     </package>
     <package name="lib.components.StatusContainer.StatusUnmodified">
@@ -442,7 +426,7 @@
       <file name="StatusUnmodified.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/StatusContainer/StatusUnmodified/StatusUnmodified.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="13" count="5" type="stmt"/>
-        <line num="17" count="194" type="stmt"/>
+        <line num="17" count="223" type="stmt"/>
       </file>
     </package>
     <package name="lib.components.StatusContainer.StatusUpdated">
@@ -450,7 +434,7 @@
       <file name="StatusUpdated.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/StatusContainer/StatusUpdated/StatusUpdated.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="19" count="5" type="stmt"/>
-        <line num="23" count="681" type="stmt"/>
+        <line num="23" count="756" type="stmt"/>
       </file>
     </package>
     <package name="lib.components.TimeWidgetsPanel">
@@ -836,12 +820,12 @@
       </file>
     </package>
     <package name="lib.components.Welcome.FourImagesBg">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="FourImagesBg.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/Welcome/FourImagesBg/FourImagesBg.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="12" count="4" type="stmt"/>
         <line num="16" count="16" type="stmt"/>
-        <line num="19" count="64" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
       </file>
       <file name="FourImagesBg.styles.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/components/Welcome/FourImagesBg/FourImagesBg.styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -878,16 +862,16 @@
         <line num="15" count="166" type="stmt"/>
       </file>
     </package>
-    <package name="lib.context.FiltersClosedListContext">
+    <package name="lib.context.OrderListContext">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-      <file name="FiltersClosedListContext.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/context/FiltersClosedListContext/FiltersClosedListContext.jsx">
+      <file name="OrderListContext.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/context/OrderListContext/OrderListContext.jsx">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
-        <line num="15" count="5" type="stmt"/>
-        <line num="20" count="5" type="stmt"/>
-        <line num="23" count="16" type="stmt"/>
-        <line num="25" count="16" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="24" count="16" type="stmt"/>
         <line num="26" count="16" type="stmt"/>
-        <line num="30" count="16" type="stmt"/>
+        <line num="27" count="16" type="stmt"/>
+        <line num="31" count="16" type="stmt"/>
       </file>
     </package>
     <package name="lib.context.StatusContainerContext">
@@ -896,12 +880,12 @@
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
         <line num="18" count="5" type="stmt"/>
         <line num="27" count="5" type="stmt"/>
-        <line num="30" count="1393" type="stmt"/>
-        <line num="31" count="1393" type="stmt"/>
-        <line num="32" count="1393" type="stmt"/>
-        <line num="34" count="1393" type="stmt"/>
-        <line num="35" count="1019" type="stmt"/>
-        <line num="39" count="1393" type="stmt"/>
+        <line num="30" count="1568" type="stmt"/>
+        <line num="31" count="1568" type="stmt"/>
+        <line num="32" count="1568" type="stmt"/>
+        <line num="34" count="1568" type="stmt"/>
+        <line num="35" count="1144" type="stmt"/>
+        <line num="39" count="1568" type="stmt"/>
       </file>
     </package>
     <package name="lib.context.theme">
@@ -928,7 +912,7 @@
       </file>
       <file name="search.list.data.js" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/lib/data/search.list.data.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="1" type="stmt"/>
       </file>
     </package>
     <package name="styleguide.templates.DiffClosedCardsPage">
@@ -942,40 +926,13 @@
       </file>
     </package>
     <package name="styleguide.templates.DiffOpenedCardsPage">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="DiffOpenedCardsPage.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/DiffOpenedCardsPage/DiffOpenedCardsPage.jsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="4" type="stmt"/>
-      </file>
-    </package>
-    <package name="styleguide.templates.FiltersClosedPage">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="FiltersClosedPage.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/FiltersClosedPage/FiltersClosedPage.jsx">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="159" count="4" type="stmt"/>
-        <line num="185" count="4" type="stmt"/>
-      </file>
-    </package>
-    <package name="styleguide.templates.FiltersClosedPreviewPage">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="FiltersClosedPreviewPage.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/FiltersClosedPreviewPage/FiltersClosedPreviewPage.jsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="4" type="stmt"/>
         <line num="330" count="4" type="stmt"/>
-        <line num="356" count="4" type="stmt"/>
-      </file>
-    </package>
-    <package name="styleguide.templates.FiltersOpenedPage">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="FiltersOpenedPage.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/FiltersOpenedPage/FiltersOpenedPage.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
-        <line num="26" count="4" type="stmt"/>
+        <line num="346" count="4" type="stmt"/>
       </file>
     </package>
     <package name="styleguide.templates.HomePage">
@@ -985,6 +942,16 @@
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="4" type="stmt"/>
         <line num="25" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="styleguide.templates.OrderListPreviewPage">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrderListPreviewPage.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/OrderListPreviewPage/OrderListPreviewPage.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="330" count="4" type="stmt"/>
+        <line num="356" count="4" type="stmt"/>
       </file>
     </package>
     <package name="styleguide.templates.OrderPage">
@@ -997,6 +964,25 @@
         <line num="119" count="4" type="stmt"/>
       </file>
     </package>
+    <package name="styleguide.templates.OrdersFilterClosedPage">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrdersFilterClosedPage.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/OrdersFilterClosedPage/OrdersFilterClosedPage.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="159" count="4" type="stmt"/>
+        <line num="185" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="styleguide.templates.OrdersFilterOpenedPage">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="OrdersFilterOpenedPage.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/OrdersFilterOpenedPage/OrdersFilterOpenedPage.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+      </file>
+    </package>
     <package name="styleguide.templates.TimeWidgetsPage">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="TimeWidgetsPage.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/TimeWidgetsPage/TimeWidgetsPage.jsx">
@@ -1006,71 +992,67 @@
       </file>
     </package>
     <package name="styleguide.templates.WelcomePages.WelcomePage1">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
       <file name="WelcomePage1.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/WelcomePages/WelcomePage1/WelcomePage1.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
       </file>
     </package>
     <package name="styleguide.templates.WelcomePages.WelcomePage2">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
       <file name="WelcomePage2.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/WelcomePages/WelcomePage2/WelcomePage2.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
       </file>
     </package>
     <package name="styleguide.templates.WelcomePages.WelcomePage3">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
       <file name="WelcomePage3.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/WelcomePages/WelcomePage3/WelcomePage3.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
         <line num="15" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
       </file>
     </package>
     <package name="styleguide.templates.WelcomePages.WelcomePage4">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="1"/>
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="1"/>
       <file name="WelcomePage4.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/WelcomePages/WelcomePage4/WelcomePage4.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="1"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="22" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
       </file>
     </package>
     <package name="styleguide.templates.WelcomePages.WelcomePage5">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
       <file name="WelcomePage5.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/WelcomePages/WelcomePage5/WelcomePage5.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
       </file>
     </package>
     <package name="styleguide.templates.WelcomePages.WelcomePage6">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
       <file name="WelcomePage6.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/WelcomePages/WelcomePage6/WelcomePage6.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
       </file>
     </package>
     <package name="styleguide.templates.WelcomePages.WelcomePage7">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
       <file name="WelcomePage7.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/WelcomePages/WelcomePage7/WelcomePage7.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="1"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
       </file>
     </package>
     <package name="styleguide.templates.WelcomePages.WelcomePage8">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="1"/>
       <file name="WelcomePage8.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/styleguide/templates/WelcomePages/WelcomePage8/WelcomePage8.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="1"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
       </file>
     </package>
   </project>
