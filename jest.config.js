@@ -1,5 +1,5 @@
 module.exports = {
-	setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
+	setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
 	testEnvironment: 'jest-environment-jsdom',
 	transformIgnorePatterns: [
 		'node_modules/(?!(react-native|react-navigation)/.*)',

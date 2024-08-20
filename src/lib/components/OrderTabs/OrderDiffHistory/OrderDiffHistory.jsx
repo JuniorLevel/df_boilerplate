@@ -3,7 +3,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import { OrderVersion } from '../OrderVersion/OrdersVersion';
-import { Order } from '../Order/Order';
+import { OrderPreview } from '../OrderPreview/OrderPreview';
 import { OrderContainer } from '../OrderContainer/OrderContainer';
 
 interface IOrderDiffHistoryProps {
@@ -21,7 +21,7 @@ export const OrderDiffHistory = ({
 						<OrderVersion filters={filters} />
 					</Col>
 					<Col xs={12}>
-						<Order />
+						<OrderPreview />
 					</Col>
 				</Row>
 			</Col>
@@ -29,7 +29,7 @@ export const OrderDiffHistory = ({
 			<Col xs={12}>
 				<Row gutter={[16, 16]}>
 					<Col xs={12}>
-						<Order />
+						<OrderPreview />
 					</Col>
 					<Col xs={12}>
 						<OrderVersion filters={filters} />

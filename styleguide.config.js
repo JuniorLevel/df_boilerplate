@@ -8,13 +8,9 @@ module.exports = {
 	pagePerSection: true,
 	sections: [
 		{
-			name: 'FiltersOpenedPage',
+			name: 'OrderListPreviewPage',
 			content:
-				'src/styleguide/templates/FiltersOpenedPage/FiltersOpenedPage.md',
-		},
-		{
-			name: 'FiltersClosed',
-			content: 'src/lib/components/FiltersClosed/FiltersClosed.md',
+				'src/styleguide/templates/OrderListPreviewPage/OrderListPreviewPage.md',
 		},
 		{
 			name: 'DiffClosedCardsPage',
@@ -22,14 +18,19 @@ module.exports = {
 				'src/styleguide/templates/DiffClosedCardsPage/DiffClosedCardsPage.md',
 		},
 		{
-			name: 'FiltersClosedPreviewPage',
+			name: 'OrdersFilterClosedPage',
 			content:
-				'src/styleguide/templates/FiltersClosedPreviewPage/FiltersClosedPreviewPage.md',
+				'src/styleguide/templates/OrdersFilterClosedPage/OrdersFilterClosedPage.md',
 		},
 		{
-			name: 'FiltersClosedPage',
+			name: 'OrdersFilterClosed',
 			content:
-				'src/styleguide/templates/FiltersClosedPage/FiltersClosedPage.md',
+				'src/lib/components/OrdersFilter/OrdersFilterClosed/OrdersFilterClosed.md',
+		},
+		{
+			name: 'OrdersFilterOpenedPage',
+			content:
+				'src/styleguide/templates/OrdersFilterOpenedPage/OrdersFilterOpenedPage.md',
 		},
 		{
 			name: 'OrderPage',

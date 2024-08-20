@@ -1,15 +1,32 @@
 ```jsx
 import React, { useState } from 'react';
-import { Row, Col } from 'antd';
+import { Row, Col, Pagination as OrdersPagination } from 'antd';
 import { Layout } from '../../../lib/components/Layout/Layout';
+import { OrdersFilterClosed } from '../../../lib/components/OrdersFilter/OrdersFilterClosed/OrdersFilterClosed';
+import { OrderListProvider } from '../../../lib/context/OrderListContext/OrderListContext';
+import { OrderListPreviewContainer } from '../../../lib/components/OrderListPreview/OrderListPreviewContainer/OrderListPreviewContainer';
 import { Footer } from '../../../lib/components/Footer/Footer';
-import { FiltersClosed } from '../../../lib/components/FiltersClosed/FiltersClosed';
-import { FiltersClosedListProvider } from '../../../lib/context/FiltersClosedListContext/FiltersClosedListContext';
-import { buttons } from '../../../lib/components/Layout/buttons';
-import { FiltersSearchListWithPreviewContainer } from '../../../lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewContainer/FiltersSearchListWithPreviewContainer';
-import { FiltersSearchListWithPreviewLeft } from '../../../lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewLeft/FiltersSearchListWithPreviewLeft';
-import { FiltersSearchListWithPreviewLeftItem } from '../../../lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewLeft/FiltersSearchListWithPreviewLeftItem/FiltersSearchListWithPreviewLeftItem';
-import { FiltersSearchListWithPreviewRight } from '../../../lib/components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewRight/FiltersSearchListWithPreviewRight';
+import { Order } from '../../../lib/components/OrderListPreview/Order/Order';
+import { OrderListContainer } from '../../../lib/components/OrderListPreview/OrderListContainer/OrderListContainer';
+import { OrderListItem } from '../../../lib/components/OrderListPreview/OrderListContainer/OrderListItem/OrderListItem';
+
+const buttons = [
+	{
+		id: 1,
+		title: 'Orders',
+		onClick: () => {},
+	},
+	{
+		id: 2,
+		title: 'Compare',
+		onClick: () => {},
+	},
+	{
+		id: 3,
+		title: 'Admin',
+		onClick: () => {},
+	},
+];
 
 const data = [
 	{
@@ -326,7 +343,7 @@ const data = [
 	},
 ];
 
-const [filters, setFilters] = useState([
+const [filters] = useState([
 	{
 		id: 1,
 		title: 'Flow_typed-1',
@@ -352,97 +369,53 @@ const [filters, setFilters] = useState([
 	},
 ]);
 
-<FiltersClosedListProvider>
+<OrderListProvider>
 	<Layout buttons={buttons} title="Caption" avatar={{ title: 'AV' }}>
 		<Row>
 			<Col span={12}>
-				<FiltersClosed isOpen={false} filtersList={filters} />
-				<FiltersSearchListWithPreviewContainer height={280}>
-					<Row gutter={[16, 16]}>
-						<Col span={12}>
-							<FiltersSearchListWithPreviewLeft>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[0].id}
-									listData={data[0]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[1].id}
-									listData={data[1]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[2].id}
-									listData={data[2]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[3].id}
-									listData={data[3]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[4].id}
-									listData={data[4]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[5].id}
-									listData={data[5]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[6].id}
-									listData={null}
-								/>
-							</FiltersSearchListWithPreviewLeft>
-						</Col>
-						<Col span={12}>
-							<FiltersSearchListWithPreviewRight />
-						</Col>
-					</Row>
-				</FiltersSearchListWithPreviewContainer>
+				<OrdersFilterClosed open={false} filters={filters} />
+				<OrderListPreviewContainer height={280}>
+					<Col span={12}>
+						<OrderListContainer>
+							<OrderListItem key={data[0].id} data={data[0]} />
+							<OrderListItem key={data[1].id} data={data[1]} />
+							<OrderListItem key={data[2].id} data={data[2]} />
+							<OrderListItem key={data[3].id} data={data[3]} />
+							<OrderListItem key={data[4].id} data={data[4]} />
+							<OrderListItem key={data[5].id} data={data[5]} />
+							<OrderListItem key={data[6].id} data={null} />
+						</OrderListContainer>
+						<OrdersPagination defaultCurrent={1} total={50} />
+					</Col>
+					<Col span={12}>
+						<Order />
+					</Col>
+				</OrderListPreviewContainer>
 			</Col>
 			<Col span={12}>
-				<FiltersClosed isOpen={false} filtersList={filters} />
-				<FiltersSearchListWithPreviewContainer height={280}>
-					<Row gutter={[16, 16]}>
-						<Col span={12}>
-							<FiltersSearchListWithPreviewLeft>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[0].id}
-									listData={data[0]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[1].id}
-									listData={data[1]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[2].id}
-									listData={data[2]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[3].id}
-									listData={data[3]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[4].id}
-									listData={data[4]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[5].id}
-									listData={data[5]}
-								/>
-								<FiltersSearchListWithPreviewLeftItem
-									key={data[6].id}
-									listData={null}
-								/>
-							</FiltersSearchListWithPreviewLeft>
-						</Col>
-						<Col span={12}>
-							<FiltersSearchListWithPreviewRight />
-						</Col>
-					</Row>
-				</FiltersSearchListWithPreviewContainer>
+				<OrdersFilterClosed open={false} filters={filters} />
+				<OrderListPreviewContainer height={280}>
+					<Col span={12}>
+						<OrderListContainer>
+							<OrderListItem key={data[0].id} data={data[0]} />
+							<OrderListItem key={data[1].id} data={data[1]} />
+							<OrderListItem key={data[2].id} data={data[2]} />
+							<OrderListItem key={data[3].id} data={data[3]} />
+							<OrderListItem key={data[4].id} data={data[4]} />
+							<OrderListItem key={data[5].id} data={data[5]} />
+							<OrderListItem key={data[6].id} data={null} />
+						</OrderListContainer>
+						<OrdersPagination defaultCurrent={1} total={50} />
+					</Col>
+					<Col span={12}>
+						<Order />
+					</Col>
+				</OrderListPreviewContainer>
 			</Col>
 		</Row>
 		<Footer />
 	</Layout>
-</FiltersClosedListProvider>;
+</OrderListProvider>;
 ```
 
 ```jsx noeditor

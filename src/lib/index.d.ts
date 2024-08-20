@@ -1,42 +1,59 @@
 import React from 'react';
 
 declare module 'df_boilerplate-library' {
-	export const FiltersSearchListWithPreview: React.ComponentType<{}>;
+	export const OrdersFilterOpened: React.ComponentType<{
+		open: boolean;
+		filters: any[];
+	}>;
+	export const OrdersFilterOpenedPage: React.ComponentType<{}>;
+	export const OrderListPreviewPage: React.ComponentType<{}>;
+	export const HomeDev: React.ComponentType<{}>;
 	export const MediaQuery: React.ComponentType<{}>;
-	export const Flex: React.ComponentType<{}>;
-	export const Badge: React.ComponentType<{}>;
-	export const Row: React.ComponentType<{}>;
-	export const Col: React.ComponentType<{}>;
+	export const Flex: React.ComponentType<{
+		children: React.ReactNode;
+	}>;
+	export const Badge: React.ComponentType<{
+		count: number;
+	}>;
+	export const Row: React.ComponentType<{
+		children: React.ReactNode;
+	}>;
+	export const Col: React.ComponentType<{
+		children: React.ReactNode;
+	}>;
 	export const Layout: React.ComponentType<{
 		children: React.ReactNode;
-		buttons: any[];
-		title: string;
+		buttons?: any[];
+		title?: string;
 		theme?: string;
-		avatar: any;
+		avatar?: any;
 	}>;
-	export const FiltersClosed: React.ComponentType<{
-		isOpen: boolean;
-		filtersList: any;
+	export const OrdersFilterClosed: React.ComponentType<{
+		open: boolean;
+		filters: any;
+	}>;
+	export const Pagination: React.ComponentType<{
+		total: number;
 	}>;
 	export const Footer: React.ComponentType<{}>;
 	export const OrderVersion: React.ComponentType<{
 		filters: any;
 	}>;
 	export const Order: React.ComponentType<{}>;
+	export const OrderPreview: React.ComponentType<{}>;
 	export const OrderTabs: React.ComponentType<{
 		items: any;
 	}>;
 	export const OrderContainer: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
+	export const OrderListItem: React.ComponentType<{
+		data?: any | null;
+	}>;
 	export const ThemeWrapper: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
-	export const FiltersOpened: React.ComponentType<{
-		isOpen: boolean;
-		filtersCards: any[];
-	}>;
-	export const FiltersClosedListProvider: React.ComponentType<{
+	export const OrderListProvider: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
 	export const FiltersSearchListContainer: React.ComponentType<{
@@ -45,16 +62,12 @@ declare module 'df_boilerplate-library' {
 	export const FiltersSearchListItem: React.ComponentType<{
 		listData: any | null;
 	}>;
-	export const FiltersSearchListWithPreviewContainer: React.ComponentType<{
+	export const OrderListPreviewContainer: React.ComponentType<{
 		children: React.ReactNode;
 		height: number;
 	}>;
-	export const FiltersSearchListWithPreviewLeft: React.ComponentType<{
+	export const OrderListContainer: React.ComponentType<{
 		children: React.ReactNode;
-	}>;
-	export const FiltersSearchListWithPreviewRight: React.ComponentType<{}>;
-	export const FiltersSearchListWithPreviewLeftItem: React.ComponentType<{
-		listData: any | null;
 	}>;
 	export const TimeWidgetsPanel: React.ComponentType<{}>;
 	export const PersonWidget: React.ComponentType<{
@@ -120,7 +133,7 @@ declare module 'df_boilerplate-library' {
 		onClick: () => {};
 	}>;
 	export const FourImagesBg: React.ComponentType<{
-		imagesUrls: any[];
+		imagesUrls: { id: number; url: string }[];
 		children: React.ReactNode;
 	}>;
 	export const SingleImageBg: React.ComponentType<{
@@ -129,58 +142,89 @@ declare module 'df_boilerplate-library' {
 	}>;
 	export const DiffClosedCardsPage: React.ComponentType<{}>;
 	export const DiffOpenedCardsPage: React.ComponentType<{}>;
-	export const FiltersClosedPage: React.ComponentType<{}>;
-	export const FiltersClosedPreviewPage: React.ComponentType<{}>;
-	export const FiltersOpenedPage: React.ComponentType<{}>;
+	export const OrdersFilterClosedPage: React.ComponentType<{}>;
 	export const OrderPage: React.ComponentType<{}>;
 	export const TimeWidgetsPage: React.ComponentType<{}>;
-	export const WelcomePage1: React.ComponentType<{}>;
-	export const WelcomePage2: React.ComponentType<{}>;
-	export const WelcomePage3: React.ComponentType<{}>;
-	export const WelcomePage4: React.ComponentType<{}>;
-	export const WelcomePage5: React.ComponentType<{}>;
-	export const WelcomePage6: React.ComponentType<{}>;
-	export const WelcomePage7: React.ComponentType<{}>;
-	export const WelcomePage8: React.ComponentType<{}>;
+	export const WelcomePage1: React.ComponentType<{
+		imagesUrls: { id: number; url: string }[];
+	}>;
+	export const WelcomePage2: React.ComponentType<{
+		imagesUrls: { id: number; url: string }[];
+	}>;
+	export const WelcomePage3: React.ComponentType<{
+		imagesUrls: { id: number; url: string }[];
+	}>;
+	export const WelcomePage4: React.ComponentType<{
+		imagesUrls: { id: number; url: string }[];
+	}>;
+	export const WelcomePage5: React.ComponentType<{
+		imageUrl: string;
+	}>;
+	export const WelcomePage6: React.ComponentType<{
+		imageUrl: string;
+	}>;
+	export const WelcomePage7: React.ComponentType<{
+		imageUrl: string;
+	}>;
+	export const WelcomePage8: React.ComponentType<{
+		imageUrl: string;
+	}>;
 }
 
 declare module '@juniorlevel/df_boilerplate-library' {
-	export const FiltersSearchListWithPreview: React.ComponentType<{}>;
+	export const OrdersFilterOpened: React.ComponentType<{
+		open: boolean;
+		filters: any[];
+	}>;
+	export const OrdersFilterOpenedPage: React.ComponentType<{}>;
+	export const OrderListPreviewPage: React.ComponentType<{}>;
+	export const HomeDev: React.ComponentType<{}>;
 	export const MediaQuery: React.ComponentType<{}>;
-	export const Flex: React.ComponentType<{}>;
-	export const Badge: React.ComponentType<{}>;
-	export const Row: React.ComponentType<{}>;
-	export const Col: React.ComponentType<{}>;
+	export const Flex: React.ComponentType<{
+		children: React.ReactNode;
+	}>;
+	export const Badge: React.ComponentType<{
+		count: number;
+	}>;
+	export const Row: React.ComponentType<{
+		children: React.ReactNode;
+	}>;
+	export const Col: React.ComponentType<{
+		children: React.ReactNode;
+	}>;
 	export const Layout: React.ComponentType<{
 		children: React.ReactNode;
-		buttons: any[];
-		title: string;
+		buttons?: any[];
+		title?: string;
 		theme?: string;
-		avatar: any;
+		avatar?: any;
 	}>;
-	export const FiltersClosed: React.ComponentType<{
-		isOpen: boolean;
-		filtersList: any;
+	export const OrdersFilterClosed: React.ComponentType<{
+		open: boolean;
+		filters: any;
+	}>;
+	export const Pagination: React.ComponentType<{
+		total: number;
 	}>;
 	export const Footer: React.ComponentType<{}>;
 	export const OrderVersion: React.ComponentType<{
 		filters: any;
 	}>;
 	export const Order: React.ComponentType<{}>;
+	export const OrderPreview: React.ComponentType<{}>;
 	export const OrderTabs: React.ComponentType<{
 		items: any;
 	}>;
 	export const OrderContainer: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
+	export const OrderListItem: React.ComponentType<{
+		data?: any | null;
+	}>;
 	export const ThemeWrapper: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
-	export const FiltersOpened: React.ComponentType<{
-		isOpen: boolean;
-		filtersCards: any[];
-	}>;
-	export const FiltersClosedListProvider: React.ComponentType<{
+	export const OrderListProvider: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
 	export const FiltersSearchListContainer: React.ComponentType<{
@@ -189,16 +233,12 @@ declare module '@juniorlevel/df_boilerplate-library' {
 	export const FiltersSearchListItem: React.ComponentType<{
 		listData: any | null;
 	}>;
-	export const FiltersSearchListWithPreviewContainer: React.ComponentType<{
+	export const OrderListPreviewContainer: React.ComponentType<{
 		children: React.ReactNode;
 		height: number;
 	}>;
-	export const FiltersSearchListWithPreviewLeft: React.ComponentType<{
+	export const OrderListContainer: React.ComponentType<{
 		children: React.ReactNode;
-	}>;
-	export const FiltersSearchListWithPreviewRight: React.ComponentType<{}>;
-	export const FiltersSearchListWithPreviewLeftItem: React.ComponentType<{
-		listData: any | null;
 	}>;
 	export const TimeWidgetsPanel: React.ComponentType<{}>;
 	export const PersonWidget: React.ComponentType<{
@@ -264,7 +304,7 @@ declare module '@juniorlevel/df_boilerplate-library' {
 		onClick: () => {};
 	}>;
 	export const FourImagesBg: React.ComponentType<{
-		imagesUrls: any[];
+		imagesUrls: { id: number; url: string }[];
 		children: React.ReactNode;
 	}>;
 	export const SingleImageBg: React.ComponentType<{
@@ -273,17 +313,31 @@ declare module '@juniorlevel/df_boilerplate-library' {
 	}>;
 	export const DiffClosedCardsPage: React.ComponentType<{}>;
 	export const DiffOpenedCardsPage: React.ComponentType<{}>;
-	export const FiltersClosedPage: React.ComponentType<{}>;
-	export const FiltersClosedPreviewPage: React.ComponentType<{}>;
-	export const FiltersOpenedPage: React.ComponentType<{}>;
+	export const OrdersFilterClosedPage: React.ComponentType<{}>;
 	export const OrderPage: React.ComponentType<{}>;
 	export const TimeWidgetsPage: React.ComponentType<{}>;
-	export const WelcomePage1: React.ComponentType<{}>;
-	export const WelcomePage2: React.ComponentType<{}>;
-	export const WelcomePage3: React.ComponentType<{}>;
-	export const WelcomePage4: React.ComponentType<{}>;
-	export const WelcomePage5: React.ComponentType<{}>;
-	export const WelcomePage6: React.ComponentType<{}>;
-	export const WelcomePage7: React.ComponentType<{}>;
-	export const WelcomePage8: React.ComponentType<{}>;
+	export const WelcomePage1: React.ComponentType<{
+		imagesUrls: { id: number; url: string }[];
+	}>;
+	export const WelcomePage2: React.ComponentType<{
+		imagesUrls: { id: number; url: string }[];
+	}>;
+	export const WelcomePage3: React.ComponentType<{
+		imagesUrls: { id: number; url: string }[];
+	}>;
+	export const WelcomePage4: React.ComponentType<{
+		imagesUrls: { id: number; url: string }[];
+	}>;
+	export const WelcomePage5: React.ComponentType<{
+		imageUrl: string;
+	}>;
+	export const WelcomePage6: React.ComponentType<{
+		imageUrl: string;
+	}>;
+	export const WelcomePage7: React.ComponentType<{
+		imageUrl: string;
+	}>;
+	export const WelcomePage8: React.ComponentType<{
+		imageUrl: string;
+	}>;
 }

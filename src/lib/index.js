@@ -1,23 +1,22 @@
-import { Flex, Row, Col, Badge } from 'antd';
+import { Flex, Row, Col, Badge, Pagination } from 'antd';
 import MediaQuery from 'react-responsive';
 import { OrderPage } from '../styleguide/templates/OrderPage/OrderPage';
 import { Layout } from './components/Layout/Layout';
 import { OrderVersion } from './components/OrderTabs/OrderVersion/OrdersVersion';
-import { Order } from './components/OrderTabs/Order/Order';
+import { OrderPreview } from './components/OrderTabs/OrderPreview/OrderPreview';
 import { OrderTabs } from './components/OrderTabs/OrderTabs';
 import { OrderContainer } from './components/OrderTabs/OrderContainer/OrderContainer';
 import { ThemeWrapper } from './components/ThemeWrapper/ThemeWrapper';
 import { GlobalStyle } from './components/global.styles';
 import { Footer } from './components/Footer/Footer';
-import { FiltersClosed } from './components/FiltersClosed/FiltersClosed';
-import { FiltersClosedListProvider } from './context/FiltersClosedListContext/FiltersClosedListContext';
+import { OrdersFilterClosed } from './components/OrdersFilter/OrdersFilterClosed/OrdersFilterClosed';
+import { OrderListProvider } from './context/OrderListContext/OrderListContext';
 import { FiltersSearchListContainer } from './components/FiltersSearchList/FiltersSearchListContainer/FiltersSearchListContainer';
 import { FiltersSearchListItem } from './components/FiltersSearchList/FiltersSearchListItem/FiltersSearchListItem';
-import { FiltersSearchListWithPreviewContainer } from './components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewContainer/FiltersSearchListWithPreviewContainer';
-import { FiltersSearchListWithPreviewLeft } from './components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewLeft/FiltersSearchListWithPreviewLeft';
-import { FiltersSearchListWithPreviewRight } from './components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewRight/FiltersSearchListWithPreviewRight';
-import { FiltersSearchListWithPreviewLeftItem } from './components/FiltersSearchListWithPreview/FiltersSearchListWithPreviewLeft/FiltersSearchListWithPreviewLeftItem/FiltersSearchListWithPreviewLeftItem';
-import { FiltersOpened } from './components/FiltersOpened/FiltersOpened';
+import { OrderListPreviewContainer } from './components/OrderListPreview/OrderListPreviewContainer/OrderListPreviewContainer';
+import { OrderListContainer } from './components/OrderListPreview/OrderListContainer/OrderListContainer';
+import { Order } from './components/OrderListPreview/Order/Order';
+import { OrdersFilterOpened } from './components/OrdersFilter/OrdersFilterOpened/OrdersFilterOpened';
 import { TimeWidgetsPanel } from './components/TimeWidgetsPanel/TimeWidgetsPanel';
 import { PersonWidget } from './components/TimeWidgetsPanel/PersonWidget/PersonWidget';
 import { TextFieldWidget } from './components/TimeWidgetsPanel/TextFieldWidget/TextFieldWidget';
@@ -50,53 +49,40 @@ import { WelcomePage5 } from '../styleguide/templates/WelcomePages/WelcomePage5/
 import { WelcomePage6 } from '../styleguide/templates/WelcomePages/WelcomePage6/WelcomePage6';
 import { WelcomePage7 } from '../styleguide/templates/WelcomePages/WelcomePage7/WelcomePage7';
 import { WelcomePage8 } from '../styleguide/templates/WelcomePages/WelcomePage8/WelcomePage8';
-import { FiltersOpenedPage } from '../styleguide/templates/FiltersOpenedPage/FiltersOpenedPage';
-import { FiltersClosedPreviewPage } from '../styleguide/templates/FiltersClosedPreviewPage/FiltersClosedPreviewPage';
-import { FiltersClosedPage } from '../styleguide/templates/FiltersClosedPage/FiltersClosedPage';
 import { DiffOpenedCardsPage } from '../styleguide/templates/DiffOpenedCardsPage/DiffOpenedCardsPage';
 import { DiffClosedCardsPage } from '../styleguide/templates/DiffClosedCardsPage/DiffClosedCardsPage';
 import { Welcome } from './components/Welcome/Welcome';
-import { FiltersSearchListWithPreview } from './components/FiltersSearchListWithPreview/FiltersSearchListWithPreview';
+import { HomeDev } from './components/HomeDev/HomeDev';
+import { OrdersFilterOpenedPage } from '../styleguide/templates/OrdersFilterOpenedPage/OrdersFilterOpenedPage';
+import { OrderListPreviewPage } from '../styleguide/templates/OrderListPreviewPage/OrderListPreviewPage';
+import { OrdersFilterClosedPage } from '../styleguide/templates/OrdersFilterClosedPage/OrdersFilterClosedPage';
+import { OrderListItem } from './components/OrderListPreview/OrderListContainer/OrderListItem/OrderListItem';
 
 export {
-	FiltersSearchListWithPreview,
-	MediaQuery,
-	DiffClosedCardsPage,
-	DiffOpenedCardsPage,
-	FiltersClosedPage,
-	FiltersClosedPreviewPage,
-	FiltersOpenedPage,
-	OrderPage,
-	TimeWidgetsPage,
-	WelcomePage1,
-	WelcomePage2,
-	WelcomePage3,
-	WelcomePage4,
-	WelcomePage5,
-	WelcomePage6,
-	WelcomePage7,
-	WelcomePage8,
-	Layout,
-	Footer,
 	Flex,
 	Row,
 	Col,
 	Badge,
+	Pagination,
+	MediaQuery,
+	OrderPage,
+	Layout,
 	OrderVersion,
-	Order,
+	OrderPreview,
 	OrderTabs,
 	OrderContainer,
+	OrderListItem,
 	ThemeWrapper,
 	GlobalStyle,
-	FiltersOpened,
-	FiltersClosed,
-	FiltersClosedListProvider,
+	Footer,
+	OrdersFilterClosed,
+	OrderListProvider,
 	FiltersSearchListContainer,
 	FiltersSearchListItem,
-	FiltersSearchListWithPreviewContainer,
-	FiltersSearchListWithPreviewLeft,
-	FiltersSearchListWithPreviewRight,
-	FiltersSearchListWithPreviewLeftItem,
+	OrderListPreviewContainer,
+	OrderListContainer,
+	Order,
+	OrdersFilterOpened,
 	TimeWidgetsPanel,
 	PersonWidget,
 	TextFieldWidget,
@@ -116,9 +102,24 @@ export {
 	TimeWidgetsWithTextField1,
 	TimeWidgetsWithTextField2,
 	TimeWidgetsWithTextField3,
-	Welcome,
 	WelcomeAuthButtons,
 	WelcomeButton,
 	FourImagesBg,
 	SingleImageBg,
+	TimeWidgetsPage,
+	WelcomePage1,
+	WelcomePage2,
+	WelcomePage3,
+	WelcomePage4,
+	WelcomePage5,
+	WelcomePage6,
+	WelcomePage7,
+	WelcomePage8,
+	DiffOpenedCardsPage,
+	DiffClosedCardsPage,
+	Welcome,
+	HomeDev,
+	OrdersFilterOpenedPage,
+	OrderListPreviewPage,
+	OrdersFilterClosedPage,
 };

@@ -5,26 +5,6 @@ exports[`WelcomePage1 matches the snapshot desktop 1`] = `
   <div
     class="FourImagesBgstyles__DivImageContainer-sc-1q6880g-0 dxcnEG"
   >
-    <img
-      alt="background-1"
-      class="FourImagesBgstyles__Image-sc-1q6880g-1 gzczUr"
-      src="test-file-stub"
-    />
-    <img
-      alt="background-2"
-      class="FourImagesBgstyles__Image-sc-1q6880g-1 gzczUr"
-      src="test-file-stub"
-    />
-    <img
-      alt="background-3"
-      class="FourImagesBgstyles__Image-sc-1q6880g-1 gzczUr"
-      src="test-file-stub"
-    />
-    <img
-      alt="background-4"
-      class="FourImagesBgstyles__Image-sc-1q6880g-1 gzczUr"
-      src="test-file-stub"
-    />
     <div
       class="ant-flex css-dev-only-do-not-override-1c0na6j ant-flex-align-center ant-flex-justify-center"
       style="height: 100vh;"
@@ -106,26 +86,6 @@ exports[`WelcomePage1 matches the snapshot laptop 1`] = `
   <div
     class="FourImagesBgstyles__DivImageContainer-sc-1q6880g-0 dxcnEG"
   >
-    <img
-      alt="background-1"
-      class="FourImagesBgstyles__Image-sc-1q6880g-1 gzczUr"
-      src="test-file-stub"
-    />
-    <img
-      alt="background-2"
-      class="FourImagesBgstyles__Image-sc-1q6880g-1 gzczUr"
-      src="test-file-stub"
-    />
-    <img
-      alt="background-3"
-      class="FourImagesBgstyles__Image-sc-1q6880g-1 gzczUr"
-      src="test-file-stub"
-    />
-    <img
-      alt="background-4"
-      class="FourImagesBgstyles__Image-sc-1q6880g-1 gzczUr"
-      src="test-file-stub"
-    />
     <div
       class="ant-flex css-dev-only-do-not-override-1c0na6j ant-flex-align-center ant-flex-justify-center"
       style="height: 100vh;"

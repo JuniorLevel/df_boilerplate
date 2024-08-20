@@ -6,10 +6,13 @@ import { WelcomeAuthButtons } from '../../../../lib/components/Welcome/WelcomeAu
 import { SingleImageBg } from '../../../../lib/components/Welcome/SingleImageBg/SingleImageBg';
 import { buttons } from '../../../../lib/components/Welcome/buttons';
 import { WelcomeButton } from '../../../../lib/components/Welcome/WelcomeAuthButtons/WelcomeButton/WelcomeButton';
-import Image4 from '../../../../lib/components/Welcome/pictures/Image4.jpg';
 
-export const WelcomePage8 = (): React.Node => (
-	<SingleImageBg imageUrl={Image4}>
+interface IWelcomePage8Props {
+	imageUrl: string;
+}
+
+export const WelcomePage8 = ({ imageUrl }: IWelcomePage8Props): React.Node => (
+	<SingleImageBg imageUrl={imageUrl}>
 		<Welcome buttons={buttons}>
 			<WelcomeAuthButtons>
 				<WelcomeButton title="G" onClick={(): any => {}} />

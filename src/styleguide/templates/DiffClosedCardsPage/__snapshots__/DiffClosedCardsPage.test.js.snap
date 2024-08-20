@@ -180,7 +180,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                 style="position: relative;"
               >
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -218,7 +218,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                   </div>
                 </div>
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -256,7 +256,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                   </div>
                 </div>
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -325,7 +325,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
               </div>
             </div>
             <div
-              class="FiltersSearchListWithPreviewContainer__StyledFiltersSearchListWithPreviewContainer-sc-n5bqgv-0 kbTRNN"
+              class="OrderListPreviewContainer__StyledOrderListPreviewContainer-sc-11ovhv5-0 dgkHcO"
               height="280"
             >
               <div
@@ -3472,7 +3472,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                 style="position: relative;"
               >
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -3510,7 +3510,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                   </div>
                 </div>
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -3548,7 +3548,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
                   </div>
                 </div>
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -3617,7 +3617,7 @@ exports[`DiffClosedCardsPage matches the snapshot desktop 1`] = `
               </div>
             </div>
             <div
-              class="FiltersSearchListWithPreviewContainer__StyledFiltersSearchListWithPreviewContainer-sc-n5bqgv-0 kbTRNN"
+              class="OrderListPreviewContainer__StyledOrderListPreviewContainer-sc-11ovhv5-0 dgkHcO"
               height="280"
             >
               <div
@@ -6949,7 +6949,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                 style="position: relative;"
               >
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -6987,7 +6987,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                   </div>
                 </div>
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -7025,7 +7025,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                   </div>
                 </div>
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -7094,7 +7094,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
               </div>
             </div>
             <div
-              class="FiltersSearchListWithPreviewContainer__StyledFiltersSearchListWithPreviewContainer-sc-n5bqgv-0 kbTRNN"
+              class="OrderListPreviewContainer__StyledOrderListPreviewContainer-sc-11ovhv5-0 dgkHcO"
               height="280"
             >
               <div
@@ -10241,7 +10241,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                 style="position: relative;"
               >
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -10279,7 +10279,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                   </div>
                 </div>
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -10317,7 +10317,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
                   </div>
                 </div>
                 <div
-                  class="ant-card ant-card-bordered FiltersClosedCardsstyles__StyledCardsDiv-sc-10m8uro-2 hwfofm css-dev-only-do-not-override-1c0na6j"
+                  class="ant-card ant-card-bordered OrdersFilterClosedCardsstyles__StyledCardsDiv-sc-x8xeb3-2 dYMEkM css-dev-only-do-not-override-1c0na6j"
                 >
                   <div
                     class="ant-card-body"
@@ -10386,7 +10386,7 @@ exports[`DiffClosedCardsPage matches the snapshot laptop 1`] = `
               </div>
             </div>
             <div
-              class="FiltersSearchListWithPreviewContainer__StyledFiltersSearchListWithPreviewContainer-sc-n5bqgv-0 kbTRNN"
+              class="OrderListPreviewContainer__StyledOrderListPreviewContainer-sc-11ovhv5-0 dgkHcO"
               height="280"
             >
               <div
@@ -13648,7 +13648,7 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
             class="ant-col ant-col-12 css-dev-only-do-not-override-1c0na6j"
           >
             <div
-              class="FiltersSearchListWithPreviewContainer__StyledFiltersSearchListWithPreviewContainer-sc-n5bqgv-0 kbTRNN"
+              class="OrderListPreviewContainer__StyledOrderListPreviewContainer-sc-11ovhv5-0 dgkHcO"
               height="280"
             >
               <div
@@ -16766,7 +16766,7 @@ exports[`DiffClosedCardsPage matches the snapshot mobile 1`] = `
             class="ant-col ant-col-12 css-dev-only-do-not-override-1c0na6j"
           >
             <div
-              class="FiltersSearchListWithPreviewContainer__StyledFiltersSearchListWithPreviewContainer-sc-n5bqgv-0 kbTRNN"
+              class="OrderListPreviewContainer__StyledOrderListPreviewContainer-sc-11ovhv5-0 dgkHcO"
               height="280"
             >
               <div

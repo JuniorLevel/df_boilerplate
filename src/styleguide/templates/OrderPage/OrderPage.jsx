@@ -4,7 +4,7 @@ import React from 'react';
 import { Flex, Badge, Row, Col } from 'antd';
 import { Layout } from '../../../lib/components/Layout/Layout';
 import { OrderVersion } from '../../../lib/components/OrderTabs/OrderVersion/OrdersVersion';
-import { Order } from '../../../lib/components/OrderTabs/Order/Order';
+import { OrderPreview } from '../../../lib/components/OrderTabs/OrderPreview/OrderPreview';
 import { OrderTabs } from '../../../lib/components/OrderTabs/OrderTabs';
 import { OrderContainer } from '../../../lib/components/OrderTabs/OrderContainer/OrderContainer';
 import { buttons } from '../../../lib/components/Layout/buttons';
@@ -95,7 +95,7 @@ export const OrderPage = (): React$MixedElement => {
 									<OrderVersion filters={filters} />
 								</Col>
 								<Col xs={12}>
-									<Order />
+									<OrderPreview />
 								</Col>
 							</Row>
 						</Col>
@@ -103,7 +103,7 @@ export const OrderPage = (): React$MixedElement => {
 						<Col xs={12}>
 							<Row gutter={[16, 16]}>
 								<Col xs={12}>
-									<Order />
+									<OrderPreview />
 								</Col>
 								<Col xs={12}>
 									<OrderVersion filters={filters} />

@@ -7,10 +7,13 @@ import { WelcomeAuthButtons } from '../../../../lib/components/Welcome/WelcomeAu
 import { SingleImageBg } from '../../../../lib/components/Welcome/SingleImageBg/SingleImageBg';
 import { buttons } from '../../../../lib/components/Welcome/buttons';
 import { WelcomeButton } from '../../../../lib/components/Welcome/WelcomeAuthButtons/WelcomeButton/WelcomeButton';
-import Image2 from '../../../../lib/components/Welcome/pictures/Image2.jpg';
 
-export const WelcomePage6 = (): React.Node => (
-	<SingleImageBg imageUrl={Image2}>
+interface IWelcomePage6Props {
+	imageUrl: string;
+}
+
+export const WelcomePage6 = ({ imageUrl }: IWelcomePage6Props): React.Node => (
+	<SingleImageBg imageUrl={imageUrl}>
 		<Welcome buttons={buttons}>
 			<MediaQuery minWidth={361}>
 				<WelcomeAuthButtons>

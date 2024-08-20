@@ -6,20 +6,15 @@ import { WelcomeAuthButtons } from '../../../../lib/components/Welcome/WelcomeAu
 import { FourImagesBg } from '../../../../lib/components/Welcome/FourImagesBg/FourImagesBg';
 import { buttons } from '../../../../lib/components/Welcome/buttons';
 import { WelcomeButton } from '../../../../lib/components/Welcome/WelcomeAuthButtons/WelcomeButton/WelcomeButton';
-import Image1 from '../../../../lib/components/Welcome/pictures/Image1.jpg';
-import Image2 from '../../../../lib/components/Welcome/pictures/Image2.jpg';
-import Image3 from '../../../../lib/components/Welcome/pictures/Image3.jpg';
-import Image4 from '../../../../lib/components/Welcome/pictures/Image4.jpg';
 
-const images = [
-	{ id: 1, url: Image1 },
-	{ id: 2, url: Image2 },
-	{ id: 3, url: Image3 },
-	{ id: 4, url: Image4 },
-];
+interface IWelcomePage4Props {
+	imagesUrls: { id: number, url: string }[];
+}
 
-export const WelcomePage4 = (): React.Node => (
-	<FourImagesBg imagesUrls={images}>
+export const WelcomePage4 = ({
+	imagesUrls,
+}: IWelcomePage4Props): React.Node => (
+	<FourImagesBg imagesUrls={imagesUrls}>
 		<Welcome buttons={buttons}>
 			<WelcomeAuthButtons>
 				<WelcomeButton title="G" onClick={(): any => {}} />
