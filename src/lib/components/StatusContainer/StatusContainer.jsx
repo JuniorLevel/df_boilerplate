@@ -4,7 +4,7 @@ import React from 'react';
 import {
 	StatusProvider,
 	StatusContext,
-} from '../../context/StatusContainerContext/StatusContainerContext';
+} from '../context/StatusContainerContext/StatusContainerContext';
 import { StatusUnmodified } from './StatusUnmodified/StatusUnmodified';
 import { StatusChanged } from './StatusChanged/StatusChanged';
 import { StatusUpdated } from './StatusUpdated/StatusUpdated';

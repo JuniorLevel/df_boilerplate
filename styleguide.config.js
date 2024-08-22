@@ -9,18 +9,15 @@ module.exports = {
 	sections: [
 		{
 			name: 'OrderListPreviewPage',
-			content:
-				'src/styleguide/templates/OrderListPreviewPage/OrderListPreviewPage.md',
+			content: 'src/OrderListPreviewPage/OrderListPreviewPage.md',
 		},
 		{
 			name: 'DiffClosedCardsPage',
-			content:
-				'src/styleguide/templates/DiffClosedCardsPage/DiffClosedCardsPage.md',
+			content: 'src/DiffClosedCardsPage/DiffClosedCardsPage.md',
 		},
 		{
 			name: 'OrdersFilterClosedPage',
-			content:
-				'src/styleguide/templates/OrdersFilterClosedPage/OrdersFilterClosedPage.md',
+			content: 'src/OrdersFilterClosedPage/OrdersFilterClosedPage.md',
 		},
 		{
 			name: 'OrdersFilterClosed',
@@ -29,20 +26,19 @@ module.exports = {
 		},
 		{
 			name: 'OrdersFilterOpenedPage',
-			content:
-				'src/styleguide/templates/OrdersFilterOpenedPage/OrdersFilterOpenedPage.md',
+			content: 'src/OrdersFilterOpenedPage/OrdersFilterOpenedPage.md',
 		},
 		{
 			name: 'OrderPage',
-			content: 'src/styleguide/templates/OrderPage/OrderPage.md',
+			content: 'src/OrderPage/OrderPage.md',
 		},
 		{
 			name: 'Layout',
-			content: 'src/styleguide/templates/HomePage/Layout.md',
+			content: 'src/HomePage/Layout.md',
 		},
 		{
 			name: 'WelcomePage',
-			content: 'src/styleguide/templates/WelcomePages/Welcome.md',
+			content: 'src/WelcomePages/Welcome.md',
 		},
 	],
 	styles: {
@@ -54,7 +50,7 @@ module.exports = {
 		},
 	},
 	styleguideComponents: {
-		Wrapper: path.join(__dirname, 'src/styleguide/Wrapper.jsx'),
+		Wrapper: path.join(__dirname, 'src/Wrapper.jsx'),
 	},
 	ignore: ['**/__snapshots__/**', '**/src/*.test.js'],
 	webpackConfig: require('./webpack.config'),

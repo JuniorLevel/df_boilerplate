@@ -6,7 +6,7 @@ import { Col, Pagination as OrdersPagination } from 'antd';
 import { OrderListPreviewMobile } from './OrderListPreviewMobile/OrderListPreviewMobile';
 import { OrderListContainer } from './OrderListContainer/OrderListContainer';
 import { Order } from './Order/Order';
-import { searchListData as data } from '../../data/search.list.data';
+import { data } from './data';
 import { OrderListItem } from './OrderListContainer/OrderListItem/OrderListItem';
 import { OrderListPreviewContainer } from './OrderListPreviewContainer/OrderListPreviewContainer';
 

@@ -1,7 +1,7 @@
 // @flow
 
 import React, { useContext, useEffect } from 'react';
-import { StatusContext } from '../../../../context/StatusContainerContext/StatusContainerContext';
+import { StatusContext } from '../../../context/StatusContainerContext/StatusContainerContext';
 
 interface IFiltersSearchListItemStatus {
 	item: any;

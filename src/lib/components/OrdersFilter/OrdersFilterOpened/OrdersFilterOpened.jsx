@@ -9,7 +9,7 @@ import { OrdersFilterOpenedCards } from './OrdersFilterOpenedCards/OrdersFilterO
 import { OrdersFilterCardsContainer } from '../OrdersFilterCardsContainer/OrdersFilterCardsContainer';
 import { OrdersFilterOpenedCardsAddButton } from './OrdersFilterOpenedCards/OrdersFilterOpenedCardsAddButton/OrdersFilterOpenedCardsAddButton';
 import { OrdersFilterClosed } from '../OrdersFilterClosed/OrdersFilterClosed';
-import { filtersList } from '../../../data/filters.cards.data';
+import { filtersList } from './data';
 
 const StyledReactSortable = styled(ReactSortable)`
 	display: flex;

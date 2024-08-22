@@ -2,7 +2,7 @@
 
 import React, { useContext, useEffect } from 'react';
 import { StyledItemDiv } from './OrdersFilterOpenedCardItem.styles';
-import { StatusContext } from '../../../../../context/StatusContainerContext/StatusContainerContext';
+import { StatusContext } from '../../../../context/StatusContainerContext/StatusContainerContext';
 
 interface IOrdersFilterOpenedCardItemProps {
 	item: any;

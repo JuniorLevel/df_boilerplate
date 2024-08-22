@@ -6,7 +6,7 @@ import { MoonOutlined, SunOutlined } from '@ant-design/icons';
 import MediaQuery from 'react-responsive';
 import styled from 'styled-components';
 import { HomeHeaderMobile } from './HomeHeaderMobile/HomeHeaderMobile';
-import { ThemeContext } from '../../../context/theme/ThemeContext';
+import { ThemeContext } from '../../context/theme/ThemeContext';
 import { Logo } from './Logo/Logo';
 
 const StyledHeaderDesktop = styled(Layout.Header)`

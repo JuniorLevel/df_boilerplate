@@ -7,7 +7,7 @@ import { ArrowsAltOutlined, CloseSquareOutlined } from '@ant-design/icons';
 import { OrdersFilterCardsContainer } from '../OrdersFilterCardsContainer/OrdersFilterCardsContainer';
 import { OrdersFilterClosedCards } from './OrdersFilterClosedCards/OrdersFilterClosedCards';
 import { OrdersFilterOpenedCards } from '../OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterOpenedCards';
-import { OrderListContext } from '../../../context/OrderListContext/OrderListContext';
+import { OrderListContext } from '../../context/OrderListContext/OrderListContext';
 
 interface IOrdersFilterClosedProps {
 	open: boolean;

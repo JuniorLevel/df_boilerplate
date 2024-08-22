@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
 import { Flex, Pagination } from 'antd';
 import { FiltersSearchListItem } from '../FiltersSearchListItem/FiltersSearchListItem';
-import { searchListData } from '../../../data/search.list.data';
+import { searchListData } from './data';
 
 export const FiltersSearchListMobile = (): React$MixedElement => {
 	const [currentPage, setCurrentPage] = useState(1);

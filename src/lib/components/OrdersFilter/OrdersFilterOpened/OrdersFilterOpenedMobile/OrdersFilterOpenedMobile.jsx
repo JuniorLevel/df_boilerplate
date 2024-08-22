@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
 import { ReactSortable } from 'react-sortablejs';
 import { Flex } from 'antd';
-import { filtersCards } from '../../../../data/filters.cards.data';
+import { filtersCards } from '../data';
 import { OrdersFilterOpenedCards } from '../OrdersFilterOpenedCards/OrdersFilterOpenedCards';
 import { OrdersFilterCardsContainer } from '../../OrdersFilterCardsContainer/OrdersFilterCardsContainer';
 import { OrdersFilterOpenedCardsAddButton } from '../OrdersFilterOpenedCards/OrdersFilterOpenedCardsAddButton/OrdersFilterOpenedCardsAddButton';
