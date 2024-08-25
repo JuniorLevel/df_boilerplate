@@ -1,16 +1,5 @@
-```jsx
-import React from 'react';
-import { Layout } from '../lib/components/Layout/Layout';
-import { sidebarButtons } from './data';
+```jsx { "file": "./HomePage.jsx" }
 
-<Layout
-	title="Caption"
-	buttons={sidebarButtons}
-	theme="light"
-	avatar={{ title: 'AV' }}
->
-	<div />
-</Layout>;
 ```
 
 ```jsx noeditor

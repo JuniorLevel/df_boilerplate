@@ -38,7 +38,7 @@ module.exports = (env) => ({
 		clean: true,
 	},
 	resolve: {
-		extensions: ['.*', '.js', '.jsx'],
+		extensions: ['.js', '.jsx'],
 	},
 	externals:
 		env.MODE === 'production'

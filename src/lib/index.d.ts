@@ -145,30 +145,14 @@ declare module 'df_boilerplate-library' {
 	export const OrdersFilterClosedPage: React.ComponentType<{}>;
 	export const OrderPage: React.ComponentType<{}>;
 	export const TimeWidgetsPage: React.ComponentType<{}>;
-	export const WelcomePage1: React.ComponentType<{
-		imagesUrls: { id: number; url: string }[];
-	}>;
-	export const WelcomePage2: React.ComponentType<{
-		imagesUrls: { id: number; url: string }[];
-	}>;
-	export const WelcomePage3: React.ComponentType<{
-		imagesUrls: { id: number; url: string }[];
-	}>;
-	export const WelcomePage4: React.ComponentType<{
-		imagesUrls: { id: number; url: string }[];
-	}>;
-	export const WelcomePage5: React.ComponentType<{
-		imageUrl: string;
-	}>;
-	export const WelcomePage6: React.ComponentType<{
-		imageUrl: string;
-	}>;
-	export const WelcomePage7: React.ComponentType<{
-		imageUrl: string;
-	}>;
-	export const WelcomePage8: React.ComponentType<{
-		imageUrl: string;
-	}>;
+	export const WelcomePage1: React.ComponentType<{}>;
+	export const WelcomePage2: React.ComponentType<{}>;
+	export const WelcomePage3: React.ComponentType<{}>;
+	export const WelcomePage4: React.ComponentType<{}>;
+	export const WelcomePage5: React.ComponentType<{}>;
+	export const WelcomePage6: React.ComponentType<{}>;
+	export const WelcomePage7: React.ComponentType<{}>;
+	export const WelcomePage8: React.ComponentType<{}>;
 }
 
 declare module '@juniorlevel/df_boilerplate-library' {
@@ -316,28 +300,12 @@ declare module '@juniorlevel/df_boilerplate-library' {
 	export const OrdersFilterClosedPage: React.ComponentType<{}>;
 	export const OrderPage: React.ComponentType<{}>;
 	export const TimeWidgetsPage: React.ComponentType<{}>;
-	export const WelcomePage1: React.ComponentType<{
-		imagesUrls: { id: number; url: string }[];
-	}>;
-	export const WelcomePage2: React.ComponentType<{
-		imagesUrls: { id: number; url: string }[];
-	}>;
-	export const WelcomePage3: React.ComponentType<{
-		imagesUrls: { id: number; url: string }[];
-	}>;
-	export const WelcomePage4: React.ComponentType<{
-		imagesUrls: { id: number; url: string }[];
-	}>;
-	export const WelcomePage5: React.ComponentType<{
-		imageUrl: string;
-	}>;
-	export const WelcomePage6: React.ComponentType<{
-		imageUrl: string;
-	}>;
-	export const WelcomePage7: React.ComponentType<{
-		imageUrl: string;
-	}>;
-	export const WelcomePage8: React.ComponentType<{
-		imageUrl: string;
-	}>;
+	export const WelcomePage1: React.ComponentType<{}>;
+	export const WelcomePage2: React.ComponentType<{}>;
+	export const WelcomePage3: React.ComponentType<{}>;
+	export const WelcomePage4: React.ComponentType<{}>;
+	export const WelcomePage5: React.ComponentType<{}>;
+	export const WelcomePage6: React.ComponentType<{}>;
+	export const WelcomePage7: React.ComponentType<{}>;
+	export const WelcomePage8: React.ComponentType<{}>;
 }

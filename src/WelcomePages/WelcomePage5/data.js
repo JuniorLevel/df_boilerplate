@@ -17,3 +17,8 @@ export const welcomeButtons = [
 		onClick: () => alert('CreateAccount'),
 	},
 ];
+
+export const authButtons = [
+	{ id: 1, title: 'G', onClick: () => alert('click1') },
+	{ id: 2, title: 'VK', onClick: () => alert('click2') },
+];

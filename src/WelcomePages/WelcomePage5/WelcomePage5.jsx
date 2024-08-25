@@ -6,25 +6,34 @@ import { Welcome } from '../../lib/components/Welcome/Welcome';
 import { WelcomeAuthButtons } from '../../lib/components/Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
 import { SingleImageBg } from '../../lib/components/Welcome/SingleImageBg/SingleImageBg';
 import { WelcomeButton } from '../../lib/components/Welcome/WelcomeAuthButtons/WelcomeButton/WelcomeButton';
-import { welcomeButtons } from './data';
+import { welcomeButtons, authButtons } from './data';
+import image from '../../lib/components/Welcome/pictures/Image1.jpg';
 
-interface IWelcomePage5Props {
-	imageUrl: string;
-}
-
-export const WelcomePage5 = ({ imageUrl }: IWelcomePage5Props): React.Node => (
-	<SingleImageBg imageUrl={imageUrl}>
+export const WelcomePage5 = (): React$MixedElement => (
+	<SingleImageBg imageUrl={image}>
 		<Welcome buttons={welcomeButtons}>
 			<MediaQuery minWidth={361}>
 				<WelcomeAuthButtons>
-					<WelcomeButton title="G" onClick={(): any => {}} />
-					<WelcomeButton title="VK" onClick={(): any => {}} />
+					<WelcomeButton
+						title={authButtons[0].title}
+						onClick={authButtons[0].onClick}
+					/>
+					<WelcomeButton
+						title={authButtons[1].title}
+						onClick={authButtons[1].onClick}
+					/>
 				</WelcomeAuthButtons>
 			</MediaQuery>
 			<MediaQuery maxWidth={360}>
 				<WelcomeAuthButtons>
-					<WelcomeButton title="G" onClick={(): any => {}} />
-					<WelcomeButton title="VK" onClick={(): any => {}} />
+					<WelcomeButton
+						title={authButtons[0].title}
+						onClick={authButtons[0].onClick}
+					/>
+					<WelcomeButton
+						title={authButtons[1].title}
+						onClick={authButtons[1].onClick}
+					/>
 				</WelcomeAuthButtons>
 			</MediaQuery>
 		</Welcome>

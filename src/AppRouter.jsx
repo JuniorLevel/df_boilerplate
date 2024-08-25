@@ -19,17 +19,6 @@ import { DiffOpenedCardsPage } from './DiffOpenedCardsPage/DiffOpenedCardsPage';
 import { DiffClosedCardsPage } from './DiffClosedCardsPage/DiffClosedCardsPage';
 import { OrderPage } from './OrderPage/OrderPage';
 import { TimeWidgetsPage } from './TimeWidgetsPage/TimeWidgetsPage';
-import Image1 from './lib/components/Welcome/pictures/Image1.jpg';
-import Image2 from './lib/components/Welcome/pictures/Image2.jpg';
-import Image3 from './lib/components/Welcome/pictures/Image3.jpg';
-import Image4 from './lib/components/Welcome/pictures/Image4.jpg';
-
-const imagesUrls = [
-	{ id: 1, url: Image1 },
-	{ id: 2, url: Image2 },
-	{ id: 3, url: Image3 },
-	{ id: 4, url: Image4 },
-];
 
 export const AppRouter = (): React$MixedElement => (
 	<Routes>
@@ -48,25 +37,13 @@ export const AppRouter = (): React$MixedElement => (
 		<Route path="/OrderListPreviewPage" element={<OrderListPreviewPage />} />
 		<Route path="/DiffOpenedCardsPage" element={<DiffOpenedCardsPage />} />
 		<Route path="/DiffClosedCardsPage" element={<DiffClosedCardsPage />} />
-		<Route
-			path="/WelcomePage1"
-			element={<WelcomePage1 imagesUrls={imagesUrls} />}
-		/>
-		<Route
-			path="/WelcomePage2"
-			element={<WelcomePage2 imagesUrls={imagesUrls} />}
-		/>
-		<Route
-			path="/WelcomePage3"
-			element={<WelcomePage3 imagesUrls={imagesUrls} />}
-		/>
-		<Route
-			path="/WelcomePage4"
-			element={<WelcomePage4 imagesUrls={imagesUrls} />}
-		/>
-		<Route path="/WelcomePage5" element={<WelcomePage5 imageUrl={Image1} />} />
-		<Route path="/WelcomePage6" element={<WelcomePage6 imageUrl={Image2} />} />
-		<Route path="/WelcomePage7" element={<WelcomePage7 imageUrl={Image3} />} />
-		<Route path="/WelcomePage8" element={<WelcomePage8 imageUrl={Image4} />} />
+		<Route path="/WelcomePage1" element={<WelcomePage1 />} />
+		<Route path="/WelcomePage2" element={<WelcomePage2 />} />
+		<Route path="/WelcomePage3" element={<WelcomePage3 />} />
+		<Route path="/WelcomePage4" element={<WelcomePage4 />} />
+		<Route path="/WelcomePage5" element={<WelcomePage5 />} />
+		<Route path="/WelcomePage6" element={<WelcomePage6 />} />
+		<Route path="/WelcomePage7" element={<WelcomePage7 />} />
+		<Route path="/WelcomePage8" element={<WelcomePage8 />} />
 	</Routes>
 );

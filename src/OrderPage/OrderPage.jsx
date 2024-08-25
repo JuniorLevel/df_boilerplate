@@ -9,50 +9,48 @@ import { OrderTabs } from '../lib/components/OrderTabs/OrderTabs';
 import { OrderContainer } from '../lib/components/OrderTabs/OrderContainer/OrderContainer';
 import { filters, items, sidebarButtons } from './data';
 
-export const OrderPage = (): React$MixedElement => {
-	const tabs = [
-		...items,
-		{
-			key: 5,
-			label: (
-				<Flex gap={10} align="center">
-					<div>History</div>
-					<Badge count={3} />
-				</Flex>
-			),
-			children: (
-				<OrderContainer>
-					<Row gutter={[16, 16]}>
-						<Col xs={12}>
+export const OrderPage = (): React$MixedElement => (
+	<Layout buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
+		<OrderTabs
+			items={[
+				...items,
+				{
+					key: 5,
+					label: (
+						<Flex gap={10} align="center">
+							<div>History</div>
+							<Badge count={3} />
+						</Flex>
+					),
+					children: (
+						<OrderContainer>
 							<Row gutter={[16, 16]}>
 								<Col xs={12}>
-									<OrderVersion filters={filters} />
+									<Row gutter={[16, 16]}>
+										<Col xs={12}>
+											<OrderVersion filters={filters} />
+										</Col>
+										<Col xs={12}>
+											<OrderPreview />
+										</Col>
+									</Row>
 								</Col>
+
 								<Col xs={12}>
-									<OrderPreview />
+									<Row gutter={[16, 16]}>
+										<Col xs={12}>
+											<OrderPreview />
+										</Col>
+										<Col xs={12}>
+											<OrderVersion filters={filters} />
+										</Col>
+									</Row>
 								</Col>
 							</Row>
-						</Col>
-
-						<Col xs={12}>
-							<Row gutter={[16, 16]}>
-								<Col xs={12}>
-									<OrderPreview />
-								</Col>
-								<Col xs={12}>
-									<OrderVersion filters={filters} />
-								</Col>
-							</Row>
-						</Col>
-					</Row>
-				</OrderContainer>
-			),
-		},
-	];
-
-	return (
-		<Layout buttons={sidebarButtons} title="Caption" avatar={{ title: 'AV' }}>
-			<OrderTabs items={tabs} />
-		</Layout>
-	);
-};
+						</OrderContainer>
+					),
+				},
+			]}
+		/>
+	</Layout>
+);

@@ -8,6 +8,7 @@ exports[`WelcomePage8 matches the snapshot desktop 1`] = `
     <img
       alt="background"
       class="SingleImageBgstyles__Image-sc-gojepk-1 fzWEyN"
+      src="test-file-stub"
     />
     <div
       class="ant-flex css-dev-only-do-not-override-1gwfwyx ant-flex-align-center ant-flex-justify-center"
@@ -157,6 +158,7 @@ exports[`WelcomePage8 matches the snapshot laptop 1`] = `
     <img
       alt="background"
       class="SingleImageBgstyles__Image-sc-gojepk-1 fzWEyN"
+      src="test-file-stub"
     />
     <div
       class="ant-flex css-dev-only-do-not-override-1gwfwyx ant-flex-align-center ant-flex-justify-center"
