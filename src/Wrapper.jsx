@@ -2,13 +2,9 @@
 // @flow
 
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
 import { Reset } from 'styled-reset';
 import { ConfigProvider } from 'antd';
-import {
-	ThemeProvider,
-	ThemeContext,
-} from './lib/components/context/theme/ThemeContext';
+import { ThemeProvider, ThemeContext } from './context/theme/ThemeContext';
 import { LightTheme, DarkTheme, GlobalStyle } from './global.styles';
 
 interface IWrapperProps {
@@ -16,7 +12,7 @@ interface IWrapperProps {
 }
 
 const Wrapper = ({ children }: IWrapperProps): React$MixedElement => (
-	<BrowserRouter>
+	<>
 		<ThemeProvider>
 			<ThemeContext.Consumer>
 				{({ currentTheme }) => (
@@ -30,7 +26,7 @@ const Wrapper = ({ children }: IWrapperProps): React$MixedElement => (
 			</ThemeContext.Consumer>
 		</ThemeProvider>
 		<Reset />
-	</BrowserRouter>
+	</>
 );
 
 export default Wrapper;

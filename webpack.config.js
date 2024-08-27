@@ -9,7 +9,7 @@ module.exports = (env) => ({
 	entry:
 		env.MODE === 'development'
 			? path.resolve(__dirname, 'src', 'main.jsx')
-			: path.resolve(__dirname, 'src/lib', 'index.js'),
+			: path.resolve(__dirname, 'src', 'index.js'),
 	module: {
 		rules: [
 			{
@@ -58,7 +58,7 @@ module.exports = (env) => ({
 			fix: true,
 		}),
 		new CopyPlugin({
-			patterns: [{ from: 'src/lib/index.d.ts', to: '' }],
+			patterns: [{ from: 'src/index.d.ts', to: '' }],
 		}),
 		env.MODE === 'development' && new ReactRefreshWebpackPlugin(),
 	],

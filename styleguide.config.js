@@ -38,36 +38,20 @@ module.exports = {
 	},
 	sections: [
 		{
-			name: 'OrderListPreviewPage',
-			content: 'src/OrderListPreviewPage/OrderListPreviewPage.md',
+			name: '',
+			content: '',
 		},
 		{
-			name: 'DiffClosedCardsPage',
-			content: 'src/DiffClosedCardsPage/DiffClosedCardsPage.md',
+			name: '',
+			content: '',
 		},
 		{
-			name: 'OrdersFilterClosedPage',
-			content: 'src/OrdersFilterClosedPage/OrdersFilterClosedPage.md',
+			name: '',
+			content: '',
 		},
 		{
-			name: 'OrdersFilterOpenedPage',
-			content: 'src/OrdersFilterOpenedPage/OrdersFilterOpenedPage.md',
-		},
-		{
-			name: 'OrderPage',
-			content: 'src/OrderPage/OrderPage.md',
-		},
-		{
-			name: 'Layout',
-			content: 'src/HomePage/Layout.md',
-		},
-		{
-			name: 'WelcomePage1',
-			content: 'src/WelcomePages/WelcomePage1/WelcomePage1.md',
-		},
-		{
-			name: 'WelcomePage5',
-			content: 'src/WelcomePages/WelcomePage5/WelcomePage5.md',
+			name: '',
+			content: '',
 		},
 	],
 	styles: {
