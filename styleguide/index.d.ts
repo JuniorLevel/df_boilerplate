@@ -5,9 +5,6 @@ declare module 'df_boilerplate-library' {
 		open: boolean;
 		filters: any[];
 	}>;
-	export const OrdersFilterOpenedPage: React.ComponentType<{}>;
-	export const OrderListPreviewPage: React.ComponentType<{}>;
-	export const HomeDev: React.ComponentType<{}>;
 	export const MediaQuery: React.ComponentType<{}>;
 	export const Flex: React.ComponentType<{
 		children: React.ReactNode;
@@ -26,7 +23,7 @@ declare module 'df_boilerplate-library' {
 		buttons?: any[];
 		title?: string;
 		theme?: string;
-		avatar?: any;
+		avatar?: { title: string };
 	}>;
 	export const OrdersFilterClosed: React.ComponentType<{
 		open: boolean;
@@ -140,19 +137,6 @@ declare module 'df_boilerplate-library' {
 		imageUrl: string;
 		children: React.ReactNode;
 	}>;
-	export const DiffClosedCardsPage: React.ComponentType<{}>;
-	export const DiffOpenedCardsPage: React.ComponentType<{}>;
-	export const OrdersFilterClosedPage: React.ComponentType<{}>;
-	export const OrderPage: React.ComponentType<{}>;
-	export const TimeWidgetsPage: React.ComponentType<{}>;
-	export const WelcomePage1: React.ComponentType<{}>;
-	export const WelcomePage2: React.ComponentType<{}>;
-	export const WelcomePage3: React.ComponentType<{}>;
-	export const WelcomePage4: React.ComponentType<{}>;
-	export const WelcomePage5: React.ComponentType<{}>;
-	export const WelcomePage6: React.ComponentType<{}>;
-	export const WelcomePage7: React.ComponentType<{}>;
-	export const WelcomePage8: React.ComponentType<{}>;
 }
 
 declare module '@juniorlevel/df_boilerplate-library' {
@@ -160,9 +144,6 @@ declare module '@juniorlevel/df_boilerplate-library' {
 		open: boolean;
 		filters: any[];
 	}>;
-	export const OrdersFilterOpenedPage: React.ComponentType<{}>;
-	export const OrderListPreviewPage: React.ComponentType<{}>;
-	export const HomeDev: React.ComponentType<{}>;
 	export const MediaQuery: React.ComponentType<{}>;
 	export const Flex: React.ComponentType<{
 		children: React.ReactNode;
@@ -181,7 +162,7 @@ declare module '@juniorlevel/df_boilerplate-library' {
 		buttons?: any[];
 		title?: string;
 		theme?: string;
-		avatar?: any;
+		avatar?: { title: string };
 	}>;
 	export const OrdersFilterClosed: React.ComponentType<{
 		open: boolean;
@@ -295,17 +276,4 @@ declare module '@juniorlevel/df_boilerplate-library' {
 		imageUrl: string;
 		children: React.ReactNode;
 	}>;
-	export const DiffClosedCardsPage: React.ComponentType<{}>;
-	export const DiffOpenedCardsPage: React.ComponentType<{}>;
-	export const OrdersFilterClosedPage: React.ComponentType<{}>;
-	export const OrderPage: React.ComponentType<{}>;
-	export const TimeWidgetsPage: React.ComponentType<{}>;
-	export const WelcomePage1: React.ComponentType<{}>;
-	export const WelcomePage2: React.ComponentType<{}>;
-	export const WelcomePage3: React.ComponentType<{}>;
-	export const WelcomePage4: React.ComponentType<{}>;
-	export const WelcomePage5: React.ComponentType<{}>;
-	export const WelcomePage6: React.ComponentType<{}>;
-	export const WelcomePage7: React.ComponentType<{}>;
-	export const WelcomePage8: React.ComponentType<{}>;
 }
