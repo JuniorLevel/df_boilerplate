@@ -9,19 +9,25 @@ import {
 	StyledCardsAddButtonDesktop,
 } from './OrdersFilterOpenedCardsAddButton.styles';
 
-export const OrdersFilterOpenedCardsAddButton = (): React$MixedElement => (
+interface IOrdersFilterOpenedCardsAddButtonProps {
+	onClick: () => any;
+}
+
+export const OrdersFilterOpenedCardsAddButton = ({
+	onClick,
+}: IOrdersFilterOpenedCardsAddButtonProps): React$MixedElement => (
 	<>
 		<MediaQuery minWidth={361}>
 			<StyledCardsAddButtonDesktop>
 				<Flex justify="center" align="center">
-					<Button icon={<PlusOutlined />} />
+					<Button icon={<PlusOutlined />} onClick={onClick} />
 				</Flex>
 			</StyledCardsAddButtonDesktop>
 		</MediaQuery>
 		<MediaQuery maxWidth={360}>
 			<StyledCardsAddButtonMobile>
 				<Flex justify="center" align="center">
-					<Button icon={<PlusOutlined />} />
+					<Button icon={<PlusOutlined />} onClick={onClick} />
 				</Flex>
 			</StyledCardsAddButtonMobile>
 		</MediaQuery>

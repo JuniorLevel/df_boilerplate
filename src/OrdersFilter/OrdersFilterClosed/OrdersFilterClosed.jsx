@@ -7,18 +7,20 @@ import { ArrowsAltOutlined, CloseSquareOutlined } from '@ant-design/icons';
 import { OrdersFilterCardsContainer } from '../OrdersFilterCardsContainer/OrdersFilterCardsContainer';
 import { OrdersFilterClosedCards } from './OrdersFilterClosedCards/OrdersFilterClosedCards';
 import { OrdersFilterOpenedCards } from '../OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterOpenedCards';
-import { OrderListContext } from '../../context/OrderListContext/OrderListContext';
+import { OrdersFilterContext } from '../../context/OrdersFilterContext/OrdersFilterContext';
 
 interface IOrdersFilterClosedProps {
 	open: boolean;
 	filters: any;
+	dialog: boolean;
 }
 
 export const OrdersFilterClosed = ({
 	open,
 	filters,
+	dialog,
 }: IOrdersFilterClosedProps): React$MixedElement => {
-	const { isOpenedCards, setIsOpenedCards } = useContext(OrderListContext);
+	const { isOpenedCards, setIsOpenedCards } = useContext(OrdersFilterContext);
 
 	useEffect(() => {
 		setIsOpenedCards(open);
@@ -34,7 +36,11 @@ export const OrdersFilterClosed = ({
 						))}
 					{isOpenedCards &&
 						filters.map((card) => (
-							<OrdersFilterOpenedCards key={card.id} cardItem={card.item} />
+							<OrdersFilterOpenedCards
+								dialog={dialog}
+								key={card.id}
+								cardItem={card.item}
+							/>
 						))}
 					{isOpenedCards && (
 						<Button

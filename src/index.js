@@ -10,7 +10,7 @@ import { Layout } from './Layout/Layout';
 import { GlobalStyle } from './global.styles';
 import { Footer } from './Footer/Footer';
 import { OrdersFilterClosed } from './OrdersFilter/OrdersFilterClosed/OrdersFilterClosed';
-import { OrderListProvider } from './context/OrderListContext/OrderListContext';
+import { OrdersFilterProvider } from './context/OrdersFilterContext/OrdersFilterContext';
 import { FiltersSearchListContainer } from './FiltersSearchList/FiltersSearchListContainer/FiltersSearchListContainer';
 import { FiltersSearchListItem } from './FiltersSearchList/FiltersSearchListItem/FiltersSearchListItem';
 import { OrderListPreviewContainer } from './OrderListPreview/OrderListPreviewContainer/OrderListPreviewContainer';
@@ -41,6 +41,8 @@ import { FourImagesBg } from './Welcome/FourImagesBg/FourImagesBg';
 import { SingleImageBg } from './Welcome/SingleImageBg/SingleImageBg';
 import { Welcome } from './Welcome/Welcome';
 import { OrderListItem } from './OrderListPreview/OrderListContainer/OrderListItem/OrderListItem';
+import { OrdersFilterDesktopDialog } from './OrdersFilter/OrdersFilterDialogs/OrdersFilterDesktopDialog';
+import { OrdersFilterMobileDialog } from './OrdersFilter/OrdersFilterDialogs/OrdersFilterMobileDialog';
 
 export {
 	Flex,
@@ -59,7 +61,7 @@ export {
 	GlobalStyle,
 	Footer,
 	OrdersFilterClosed,
-	OrderListProvider,
+	OrdersFilterProvider,
 	FiltersSearchListContainer,
 	FiltersSearchListItem,
 	OrderListPreviewContainer,
@@ -90,4 +92,6 @@ export {
 	FourImagesBg,
 	SingleImageBg,
 	Welcome,
+	OrdersFilterDesktopDialog,
+	OrdersFilterMobileDialog,
 };

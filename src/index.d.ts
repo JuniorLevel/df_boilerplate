@@ -3,6 +3,7 @@ import React from 'react';
 declare module 'df_boilerplate-library' {
 	export const OrdersFilterOpened: React.ComponentType<{
 		open: boolean;
+		dialog: boolean;
 		filters: any[];
 	}>;
 	export const MediaQuery: React.ComponentType<{}>;
@@ -28,6 +29,7 @@ declare module 'df_boilerplate-library' {
 	export const OrdersFilterClosed: React.ComponentType<{
 		open: boolean;
 		filters: any;
+		dialog: boolean;
 	}>;
 	export const Pagination: React.ComponentType<{
 		total: number;
@@ -50,7 +52,7 @@ declare module 'df_boilerplate-library' {
 	export const ThemeWrapper: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
-	export const OrderListProvider: React.ComponentType<{
+	export const OrdersFilterProvider: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
 	export const FiltersSearchListContainer: React.ComponentType<{
@@ -142,6 +144,7 @@ declare module 'df_boilerplate-library' {
 declare module '@juniorlevel/df_boilerplate-library' {
 	export const OrdersFilterOpened: React.ComponentType<{
 		open: boolean;
+		dialog: boolean;
 		filters: any[];
 	}>;
 	export const MediaQuery: React.ComponentType<{}>;
@@ -167,6 +170,7 @@ declare module '@juniorlevel/df_boilerplate-library' {
 	export const OrdersFilterClosed: React.ComponentType<{
 		open: boolean;
 		filters: any;
+		dialog: boolean;
 	}>;
 	export const Pagination: React.ComponentType<{
 		total: number;
@@ -189,7 +193,7 @@ declare module '@juniorlevel/df_boilerplate-library' {
 	export const ThemeWrapper: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
-	export const OrderListProvider: React.ComponentType<{
+	export const OrdersFilterProvider: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
 	export const FiltersSearchListContainer: React.ComponentType<{

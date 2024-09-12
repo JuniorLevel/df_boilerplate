@@ -9,7 +9,7 @@ import { OrdersFilterOpenedCards } from './OrdersFilterOpenedCards/OrdersFilterO
 import { OrdersFilterCardsContainer } from '../OrdersFilterCardsContainer/OrdersFilterCardsContainer';
 import { OrdersFilterOpenedCardsAddButton } from './OrdersFilterOpenedCards/OrdersFilterOpenedCardsAddButton/OrdersFilterOpenedCardsAddButton';
 import { OrdersFilterClosed } from '../OrdersFilterClosed/OrdersFilterClosed';
-import { filtersList } from './data';
+import { filtersClosedCards } from '../data';
 
 const StyledReactSortable = styled(ReactSortable)`
 	display: flex;
@@ -18,14 +18,24 @@ const StyledReactSortable = styled(ReactSortable)`
 
 interface IOrdersFilterOpenedProps {
 	open: boolean;
+	dialog: boolean;
 	filters: any[];
 }
 
 export const OrdersFilterOpened = ({
 	open,
+	dialog,
 	filters,
 }: IOrdersFilterOpenedProps): React$MixedElement => {
 	const [cardsSortable, setCardsSortable] = useState(filters);
+
+	const exampleClick = () => {
+		const newItem = {
+			id: Date.now(),
+			cardItem: [],
+		};
+		setCardsSortable([...cardsSortable, newItem]);
+	};
 
 	return (
 		<>
@@ -39,18 +49,23 @@ export const OrdersFilterOpened = ({
 						>
 							{cardsSortable.map((card) => (
 								<OrdersFilterOpenedCards
+									dialog={dialog}
 									key={card.id}
 									cardItem={card.cardItem}
 								/>
 							))}
 						</StyledReactSortable>
-						<OrdersFilterOpenedCardsAddButton />
+						<OrdersFilterOpenedCardsAddButton onClick={exampleClick} />
 					</OrdersFilterCardsContainer>
 				) : (
-					<OrdersFilterClosed open={open} filters={filtersList} />
+					<OrdersFilterClosed
+						open={open}
+						dialog={dialog}
+						filters={filtersClosedCards}
+					/>
 				)}
 			</MediaQuery>
-			<OrdersFilterOpenedMobile />
+			<OrdersFilterOpenedMobile dialog={dialog} />
 		</>
 	);
 };

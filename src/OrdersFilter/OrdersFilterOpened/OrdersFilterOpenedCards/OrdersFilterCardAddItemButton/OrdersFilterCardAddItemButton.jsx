@@ -4,6 +4,12 @@ import React from 'react';
 import { Button } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
 
-export const OrdersFilterCardAddItemButton = (): React$MixedElement => (
-	<Button block icon={<PlusOutlined />} />
+interface IOrdersFilterCardAddItemButtonProps {
+	onClick: () => any;
+}
+
+export const OrdersFilterCardAddItemButton = ({
+	onClick,
+}: IOrdersFilterCardAddItemButtonProps): React$MixedElement => (
+	<Button block icon={<PlusOutlined />} onClick={onClick} />
 );

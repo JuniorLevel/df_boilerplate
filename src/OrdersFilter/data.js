@@ -1,4 +1,4 @@
-export const filtersList = [
+export const filtersClosedCards = [
 	{
 		id: 1,
 		title: 'Flow_typed-1',
@@ -24,7 +24,7 @@ export const filtersList = [
 	},
 ];
 
-export const filtersCards = [
+export const filtersOpenedCards = [
 	{
 		id: 1,
 		cardItem: [{ id: 1, status: 'changed', text: 'lorem-1' }],
