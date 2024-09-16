@@ -11,6 +11,9 @@ export const StyledFlexDesktopDialog = styled(Flex)`
 `;
 
 export const StyledDivDesktopDialog = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 100%;
 	height: 100%;
 	max-width: 360px;
@@ -22,8 +25,12 @@ export const StyledDivDesktopDialog = styled.div`
 `;
 
 export const StyledDivMobileDialog = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 100%;
-	min-height: 100%;
+	height: 100%;
 	background-color: #80808063;
 	padding: 20px;
+	overflow: auto;
 `;

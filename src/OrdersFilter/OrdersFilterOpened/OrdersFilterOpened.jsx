@@ -26,10 +26,10 @@ export const OrdersFilterOpened = ({
 	open,
 	dialog,
 	filters,
-}: IOrdersFilterOpenedProps): React$MixedElement => {
+}: IOrdersFilterOpenedProps): React.Node => {
 	const [cardsSortable, setCardsSortable] = useState(filters);
 
-	const exampleClick = () => {
+	const createFilter = () => {
 		const newItem = {
 			id: Date.now(),
 			cardItem: [],
@@ -55,7 +55,7 @@ export const OrdersFilterOpened = ({
 								/>
 							))}
 						</StyledReactSortable>
-						<OrdersFilterOpenedCardsAddButton onClick={exampleClick} />
+						<OrdersFilterOpenedCardsAddButton onClick={createFilter} />
 					</OrdersFilterCardsContainer>
 				) : (
 					<OrdersFilterClosed

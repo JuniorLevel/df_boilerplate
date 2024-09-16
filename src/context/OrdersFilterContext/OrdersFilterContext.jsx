@@ -11,8 +11,6 @@ interface IOrdersFilterContext {
 	setIsOpenedCards: (isOpenedCards: boolean) => void;
 	ordersFilterItems: any[];
 	setOrdersFilterItems: (ordersFilterItems: any[]) => void;
-	isOpenedDialog: boolean;
-	setIsOpenedDialog: (isOpenedDialog: boolean) => void;
 }
 
 export const OrdersFilterContext: React.Context<IOrdersFilterContext> =
@@ -21,8 +19,6 @@ export const OrdersFilterContext: React.Context<IOrdersFilterContext> =
 		setIsOpenedCards: () => {},
 		ordersFilterItems: [],
 		setOrdersFilterItems: () => {},
-		isOpenedDialog: false,
-		setIsOpenedDialog: () => {},
 	});
 
 export const OrdersFilterProvider = ({
@@ -30,7 +26,6 @@ export const OrdersFilterProvider = ({
 }: IOrdersFilterProvider): React.Node => {
 	const [isOpenedCards, setIsOpenedCards] = useState(false);
 	const [ordersFilterItems, setOrdersFilterItems] = useState<any[]>([]);
-	const [isOpenedDialog, setIsOpenedDialog] = useState(false);
 
 	const value = useMemo(
 		() => ({
@@ -38,17 +33,8 @@ export const OrdersFilterProvider = ({
 			setIsOpenedCards,
 			ordersFilterItems,
 			setOrdersFilterItems,
-			isOpenedDialog,
-			setIsOpenedDialog,
 		}),
-		[
-			isOpenedCards,
-			setIsOpenedCards,
-			ordersFilterItems,
-			setOrdersFilterItems,
-			isOpenedDialog,
-			setIsOpenedDialog,
-		]
+		[isOpenedCards, setIsOpenedCards, ordersFilterItems, setOrdersFilterItems]
 	);
 
 	return (

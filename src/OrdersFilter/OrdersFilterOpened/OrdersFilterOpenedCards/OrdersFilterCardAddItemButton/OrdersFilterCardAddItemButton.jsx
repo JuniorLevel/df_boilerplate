@@ -10,6 +10,6 @@ interface IOrdersFilterCardAddItemButtonProps {
 
 export const OrdersFilterCardAddItemButton = ({
 	onClick,
-}: IOrdersFilterCardAddItemButtonProps): React$MixedElement => (
+}: IOrdersFilterCardAddItemButtonProps): React.Node => (
 	<Button block icon={<PlusOutlined />} onClick={onClick} />
 );

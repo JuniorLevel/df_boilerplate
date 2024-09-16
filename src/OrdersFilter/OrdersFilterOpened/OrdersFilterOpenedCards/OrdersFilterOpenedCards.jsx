@@ -1,7 +1,7 @@
 // @flow
-import React, { useContext, useState } from 'react';
+
+import React, { useState } from 'react';
 import { Flex } from 'antd';
-import { useNavigate } from '@tanstack/react-router';
 import { OrdersFilterOpenedCardItem } from './OrdersFilterOpenedCardItem/OrdersFilterOpenedCardItem';
 import { OrdersFilterCardAddItemButton } from './OrdersFilterCardAddItemButton/OrdersFilterCardAddItemButton';
 import {
@@ -9,7 +9,7 @@ import {
 	StyledCardItemDiv,
 } from './OrdersFilterOpenedCards.styles';
 import { StatusContainer } from '../../../StatusContainer/StatusContainer';
-import { OrdersFilterContext } from '../../../context/OrdersFilterContext/OrdersFilterContext';
+import { OrdersFilterCardAddItemDialogButton } from './OrdersFilterCardAddItemDialogButton/OrdersFilterCardAddItemDialogButton';
 
 interface IOrdersFilterOpenedCardsProps {
 	cardItem: Array<any>;
@@ -21,21 +21,14 @@ export const OrdersFilterOpenedCards = ({
 	dialog,
 }: IOrdersFilterOpenedCardsProps): React.Node => {
 	const [filterItems, setFilterItems] = useState(cardItem);
-	const { setIsOpenedDialog, setOrdersFilterItems } =
-		useContext(OrdersFilterContext);
 
-	const navigate = useNavigate();
-
-	const exampleClick = () => {
-		if (dialog) navigate({ to: '/dialog' });
+	const addFilterItem = () => {
 		const newItem = {
 			id: Date.now(),
 			status: 'updated',
 			text: `project-${Date.now().toString().slice(-2)}`,
 		};
 		setFilterItems([...filterItems, newItem]);
-		setOrdersFilterItems([...filterItems, newItem]);
-		setIsOpenedDialog(true);
 	};
 
 	return (
@@ -50,7 +43,10 @@ export const OrdersFilterOpenedCards = ({
 						</StyledCardItemDiv>
 					))}
 				</div>
-				<OrdersFilterCardAddItemButton onClick={exampleClick} />
+				{!dialog && <OrdersFilterCardAddItemButton onClick={addFilterItem} />}
+				{dialog && (
+					<OrdersFilterCardAddItemDialogButton cardItem={filterItems} />
+				)}
 			</Flex>
 		</StyledCardDiv>
 	);
