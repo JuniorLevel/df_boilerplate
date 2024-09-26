@@ -6,7 +6,6 @@ declare module 'df_boilerplate-library' {
 		dialog: boolean;
 		filters: any[];
 	}>;
-	export const MediaQuery: React.ComponentType<{}>;
 	export const Flex: React.ComponentType<{
 		children: React.ReactNode;
 	}>;
@@ -147,7 +146,6 @@ declare module '@juniorlevel/df_boilerplate-library' {
 		dialog: boolean;
 		filters: any[];
 	}>;
-	export const MediaQuery: React.ComponentType<{}>;
 	export const Flex: React.ComponentType<{
 		children: React.ReactNode;
 	}>;

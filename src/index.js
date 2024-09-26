@@ -1,5 +1,4 @@
 import { Flex, Row, Col, Badge, Pagination } from 'antd';
-import MediaQuery from 'react-responsive';
 import { OrderListContainer } from './OrderListPreview/OrderListContainer/OrderListContainer';
 import { OrderVersion } from './OrderTabs/OrderVersion/OrdersVersion';
 import { OrderPreview } from './OrderTabs/OrderPreview/OrderPreview';
@@ -50,7 +49,6 @@ export {
 	Col,
 	Badge,
 	Pagination,
-	MediaQuery,
 	Layout,
 	OrderVersion,
 	OrderPreview,
