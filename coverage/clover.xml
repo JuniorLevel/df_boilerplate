@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1727314505133" clover="3.2.0">
-  <project timestamp="1727314505133" name="All files">
+<coverage generated="1727316427225" clover="3.2.0">
+  <project timestamp="1727316427225" name="All files">
     <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3" elements="14" coveredelements="12" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="ThemeContext.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/context/theme/ThemeContext.jsx">
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
