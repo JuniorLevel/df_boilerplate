@@ -6,18 +6,6 @@ declare module 'df_boilerplate-library' {
 		dialog: boolean;
 		filters: any[];
 	}>;
-	export const Flex: React.ComponentType<{
-		children: React.ReactNode;
-	}>;
-	export const Badge: React.ComponentType<{
-		count: number;
-	}>;
-	export const Row: React.ComponentType<{
-		children: React.ReactNode;
-	}>;
-	export const Col: React.ComponentType<{
-		children: React.ReactNode;
-	}>;
 	export const Layout: React.ComponentType<{
 		children: React.ReactNode;
 		buttons?: any[];
@@ -29,9 +17,6 @@ declare module 'df_boilerplate-library' {
 		open: boolean;
 		filters: any;
 		dialog: boolean;
-	}>;
-	export const Pagination: React.ComponentType<{
-		total: number;
 	}>;
 	export const Footer: React.ComponentType<{}>;
 	export const OrderVersion: React.ComponentType<{
@@ -138,6 +123,8 @@ declare module 'df_boilerplate-library' {
 		imageUrl: string;
 		children: React.ReactNode;
 	}>;
+	export const OrdersFilterDesktopDialog: React.ComponentType<{}>;
+	export const OrdersFilterMobileDialog: React.ComponentType<{}>;
 }
 
 declare module '@/components' {
@@ -146,18 +133,6 @@ declare module '@/components' {
 		dialog: boolean;
 		filters: any[];
 	}>;
-	export const Flex: React.ComponentType<{
-		children: React.ReactNode;
-	}>;
-	export const Badge: React.ComponentType<{
-		count: number;
-	}>;
-	export const Row: React.ComponentType<{
-		children: React.ReactNode;
-	}>;
-	export const Col: React.ComponentType<{
-		children: React.ReactNode;
-	}>;
 	export const Layout: React.ComponentType<{
 		children: React.ReactNode;
 		buttons?: any[];
@@ -169,9 +144,6 @@ declare module '@/components' {
 		open: boolean;
 		filters: any;
 		dialog: boolean;
-	}>;
-	export const Pagination: React.ComponentType<{
-		total: number;
 	}>;
 	export const Footer: React.ComponentType<{}>;
 	export const OrderVersion: React.ComponentType<{
@@ -278,6 +250,8 @@ declare module '@/components' {
 		imageUrl: string;
 		children: React.ReactNode;
 	}>;
+	export const OrdersFilterDesktopDialog: React.ComponentType<{}>;
+	export const OrdersFilterMobileDialog: React.ComponentType<{}>;
 }
 
 declare module '@juniorlevel/df_boilerplate-library' {
@@ -286,18 +260,6 @@ declare module '@juniorlevel/df_boilerplate-library' {
 		dialog: boolean;
 		filters: any[];
 	}>;
-	export const Flex: React.ComponentType<{
-		children: React.ReactNode;
-	}>;
-	export const Badge: React.ComponentType<{
-		count: number;
-	}>;
-	export const Row: React.ComponentType<{
-		children: React.ReactNode;
-	}>;
-	export const Col: React.ComponentType<{
-		children: React.ReactNode;
-	}>;
 	export const Layout: React.ComponentType<{
 		children: React.ReactNode;
 		buttons?: any[];
@@ -309,9 +271,6 @@ declare module '@juniorlevel/df_boilerplate-library' {
 		open: boolean;
 		filters: any;
 		dialog: boolean;
-	}>;
-	export const Pagination: React.ComponentType<{
-		total: number;
 	}>;
 	export const Footer: React.ComponentType<{}>;
 	export const OrderVersion: React.ComponentType<{
@@ -418,4 +377,6 @@ declare module '@juniorlevel/df_boilerplate-library' {
 		imageUrl: string;
 		children: React.ReactNode;
 	}>;
+	export const OrdersFilterDesktopDialog: React.ComponentType<{}>;
+	export const OrdersFilterMobileDialog: React.ComponentType<{}>;
 }
