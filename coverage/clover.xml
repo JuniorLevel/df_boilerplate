@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1727772602895" clover="3.2.0">
-  <project timestamp="1727772602895" name="All files">
+<coverage generated="1728376394836" clover="3.2.0">
+  <project timestamp="1728376394837" name="All files">
     <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3" elements="14" coveredelements="12" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="ThemeContext.jsx" path="/home/whoami/frontend/commerce-projects/df_boilerplate/src/context/theme/ThemeContext.jsx">
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
       <line num="14" count="1" type="stmt"/>
       <line num="19" count="1" type="stmt"/>
-      <line num="22" count="6" type="stmt"/>
-      <line num="26" count="6" type="stmt"/>
-      <line num="27" count="6" type="stmt"/>
-      <line num="30" count="6" type="stmt"/>
-      <line num="31" count="6" type="stmt"/>
-      <line num="35" count="6" type="stmt"/>
+      <line num="20" count="6" type="stmt"/>
+      <line num="24" count="6" type="stmt"/>
+      <line num="25" count="6" type="stmt"/>
+      <line num="28" count="6" type="stmt"/>
+      <line num="29" count="6" type="stmt"/>
+      <line num="33" count="6" type="stmt"/>
     </file>
   </project>
 </coverage>
