@@ -11,14 +11,12 @@ interface IThemeContext {
 	setCurrentTheme: (currentTheme: string) => void;
 }
 
-export const ThemeContext: React$Context<IThemeContext> = createContext({
+export const ThemeContext: React.Context<IThemeContext> = createContext({
 	currentTheme: 'light',
 	setCurrentTheme: () => {},
 });
 
-export const ThemeProvider = ({
-	children,
-}: IThemeProvider): React$MixedElement => {
+export const ThemeProvider = ({ children }: IThemeProvider): React.Node => {
 	const [currentTheme, setCurrentTheme] = useState(
 		localStorage.getItem('theme') || 'light'
 	);

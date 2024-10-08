@@ -6,12 +6,12 @@ import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgets
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets7XLProps {
-	fullDate: any;
+	fullDate: { date: string, time: string };
 }
 
 export const TimeWidgets7XL = ({
 	fullDate,
-}: ITimeWidgets7XLProps): React$MixedElement => (
+}: ITimeWidgets7XLProps): React.Node => (
 	<MediaQuery minWidth={1165} maxWidth={1399}>
 		<Flex
 			justify="space-between"

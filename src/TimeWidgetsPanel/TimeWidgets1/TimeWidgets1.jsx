@@ -8,9 +8,7 @@ import { TimeWidgets1SM } from './TimeWidgets1SM/TimeWidgets1SM';
 interface ITimeWidgets1Props {
 	date: string;
 }
-export const TimeWidgets1 = ({
-	date,
-}: ITimeWidgets1Props): React$MixedElement => {
+export const TimeWidgets1 = ({ date }: ITimeWidgets1Props): React.Node => {
 	const { Text } = Typography;
 	return (
 		<>

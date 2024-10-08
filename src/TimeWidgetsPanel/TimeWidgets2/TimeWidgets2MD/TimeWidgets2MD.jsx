@@ -9,12 +9,12 @@ import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgets
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets2MDProps {
-	fullDate: any;
+	fullDate: { date: string, time: string };
 }
 
 export const TimeWidgets2MD = ({
 	fullDate,
-}: ITimeWidgets2MDProps): React$MixedElement => {
+}: ITimeWidgets2MDProps): React.Node => {
 	const [isShowWeeksPanel] = useState(false);
 
 	return (
@@ -24,11 +24,9 @@ export const TimeWidgets2MD = ({
 				gap={5}
 				justify="space-evenly"
 			>
-				<Flex vertical gap={10} style={{ padding: '5px' }}>
-					<Flex gap={10}>
-						<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
-					</Flex>
-				</Flex>
+				<div style={{ padding: '5px' }}>
+					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+				</div>
 				<Flex justify="center" align="center" style={{ padding: '5px' }}>
 					<Flex vertical align="center" gap={10}>
 						<div style={{ border: '1px solid black', padding: '5px' }}>

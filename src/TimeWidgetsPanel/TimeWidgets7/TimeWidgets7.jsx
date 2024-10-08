@@ -11,12 +11,10 @@ import { TimeWidgetsCustomClock } from '../TimeWidgetsCustomClock/TimeWidgetsCus
 import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets7Props {
-	fullDate: any;
+	fullDate: { date: string, time: string };
 }
 
-export const TimeWidgets7 = ({
-	fullDate,
-}: ITimeWidgets7Props): React$MixedElement => (
+export const TimeWidgets7 = ({ fullDate }: ITimeWidgets7Props): React.Node => (
 	<>
 		<MediaQuery minWidth={1400}>
 			<Flex

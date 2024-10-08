@@ -11,17 +11,19 @@ import { TimeWidgets2MD } from './TimeWidgets2MD/TimeWidgets2MD';
 import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets2Props {
-	fullDate: any;
+	fullDate: { date: string, time: string };
 }
 
-export const TimeWidgets2 = ({
-	fullDate,
-}: ITimeWidgets2Props): React$MixedElement => {
+export const TimeWidgets2 = ({ fullDate }: ITimeWidgets2Props): React.Node => {
 	const [isShowWeeksPanel] = useState(false);
 	return (
 		<>
 			<MediaQuery minWidth={865}>
-				<Flex wrap style={{ border: '1px solid black' }} gap={5}>
+				<Flex
+					wrap
+					style={{ border: '1px solid black', padding: '10px' }}
+					gap={5}
+				>
 					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 					<Flex align="center" style={{ padding: '5px' }}>
 						<Flex wrap align="center" gap={10}>

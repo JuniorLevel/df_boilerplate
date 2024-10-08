@@ -6,12 +6,12 @@ import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPan
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets4SmToLgProps {
-	fullDate: any;
+	fullDate: { date: string, time: string };
 }
 
 export const TimeWidgets4SmToLg = ({
 	fullDate,
-}: ITimeWidgets4SmToLgProps): React$MixedElement => (
+}: ITimeWidgets4SmToLgProps): React.Node => (
 	<MediaQuery maxWidth={1099}>
 		<Flex justify="center" wrap style={{ border: '1px solid black' }}>
 			<Flex

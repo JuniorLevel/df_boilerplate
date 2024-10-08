@@ -10,14 +10,12 @@ import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/Ti
 import { TimeWidgetsCustomClock } from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 
 interface ITimeWidgets8Props {
-	fullDate: any;
+	fullDate: { date: string, time: string };
 }
 
-export const TimeWidgets8 = ({
-	fullDate,
-}: ITimeWidgets8Props): React$MixedElement => (
+export const TimeWidgets8 = ({ fullDate }: ITimeWidgets8Props): React.Node => (
 	<>
-		<MediaQuery minWidth={1425}>
+		<MediaQuery minWidth={1490}>
 			<Flex justify="space-between" align="center">
 				<Flex align="center" gap={50} style={{ padding: '5px' }}>
 					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
@@ -29,7 +27,7 @@ export const TimeWidgets8 = ({
 					style={{
 						border: '1px solid black',
 						padding: '5px',
-						margin: '0 50px',
+						margin: '0 20px',
 					}}
 				>
 					<Progress

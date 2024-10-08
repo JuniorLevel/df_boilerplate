@@ -11,7 +11,7 @@ interface IFourImagesBgProps {
 export const SingleImageBg = ({
 	children,
 	imageUrl,
-}: IFourImagesBgProps): React$MixedElement => (
+}: IFourImagesBgProps): React.Node => (
 	<DivImageContainer>
 		<MediaQuery minWidth={361}>
 			<Image src={imageUrl} alt="background" />

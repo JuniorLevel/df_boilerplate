@@ -3,7 +3,7 @@
 import React from 'react';
 import { Flex } from 'antd';
 
-export const Footer = (): React$MixedElement => (
+export const Footer = (): React.Node => (
 	<div
 		style={{
 			height: '100px',

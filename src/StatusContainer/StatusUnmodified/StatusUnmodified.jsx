@@ -13,7 +13,7 @@ interface IStatusUnmodifiedProps {
 export const StatusUnmodified = ({
 	children,
 	counter,
-}: IStatusUnmodifiedProps): React$MixedElement => (
+}: IStatusUnmodifiedProps): React.Node => (
 	<StatusUnmodifiedDiv>
 		<Flex align="center">
 			<div

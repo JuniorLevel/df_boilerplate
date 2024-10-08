@@ -8,19 +8,18 @@ import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPan
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
 interface ITimeWidgets8MDProps {
-	fullDate: any;
+	fullDate: { date: string, time: string };
 }
 
 export const TimeWidgets8MD = ({
 	fullDate,
-}: ITimeWidgets8MDProps): React$MixedElement => (
-	<MediaQuery minWidth={968} maxWidth={1423}>
+}: ITimeWidgets8MDProps): React.Node => (
+	<MediaQuery minWidth={968} maxWidth={1223}>
 		<Flex
 			vertical
 			align="center"
 			gap={10}
 			style={{
-				border: '1px solid black',
 				padding: '5px',
 			}}
 		>

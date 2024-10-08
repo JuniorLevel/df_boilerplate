@@ -8,7 +8,7 @@ interface IWelcomeAuthButtonsProps {
 
 export const WelcomeAuthButtons = ({
 	children,
-}: IWelcomeAuthButtonsProps): React$MixedElement => (
+}: IWelcomeAuthButtonsProps): React.Node => (
 	<Flex wrap gap="large" justify="center" style={{ marginBottom: '20px' }}>
 		{children}
 	</Flex>

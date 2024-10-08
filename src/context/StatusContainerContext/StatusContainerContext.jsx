@@ -24,9 +24,7 @@ export const StatusContext: React.Context<IStatusContext> =
 		setRole: () => {},
 	});
 
-export const StatusProvider = ({
-	children,
-}: IStatusProvider): React$MixedElement => {
+export const StatusProvider = ({ children }: IStatusProvider): React.Node => {
 	const [status, setStatus] = useState('updated');
 	const [counter, setCounter] = useState(0);
 	const [role, setRole] = useState('');

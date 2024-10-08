@@ -6,12 +6,12 @@ import MediaQuery from 'react-responsive';
 import { FiltersSearchListMobile } from './FiltersSearchListMobile/FiltersSearchListMobile';
 
 interface IFiltersSearchListProps {
-	children: any;
+	children: React.Node;
 }
 
 export const FiltersSearchList = ({
 	children,
-}: IFiltersSearchListProps): React$MixedElement => (
+}: IFiltersSearchListProps): React.Node => (
 	<>
 		<MediaQuery minWidth={361}>
 			<Flex

@@ -1,4 +1,3 @@
-import { Flex, Row, Col, Badge, Pagination } from 'antd';
 import { OrderListContainer } from './OrderListPreview/OrderListContainer/OrderListContainer';
 import { OrderVersion } from './OrderTabs/OrderVersion/OrdersVersion';
 import { OrderPreview } from './OrderTabs/OrderPreview/OrderPreview';
@@ -16,8 +15,8 @@ import { OrderListPreviewContainer } from './OrderListPreview/OrderListPreviewCo
 import { Order } from './OrderListPreview/Order/Order';
 import { OrdersFilterOpened } from './OrdersFilter/OrdersFilterOpened/OrdersFilterOpened';
 import { TimeWidgetsPanel } from './TimeWidgetsPanel/TimeWidgetsPanel';
-import { PersonWidget } from './TimeWidgetsPanel/PersonWidget/PersonWidget';
-import { TextFieldWidget } from './TimeWidgetsPanel/TextFieldWidget/TextFieldWidget';
+import { SelectAndPerson } from './TimeWidgetsPanel/SelectAndPerson/SelectAndPerson';
+import { TextWidget } from './TimeWidgetsPanel/TextWidget/TextWidget';
 import { TimeWidgets1 } from './TimeWidgetsPanel/TimeWidgets1/TimeWidgets1';
 import { TimeWidgets2 } from './TimeWidgetsPanel/TimeWidgets2/TimeWidgets2';
 import { TimeWidgets3 } from './TimeWidgetsPanel/TimeWidgets3/TimeWidgets3';
@@ -30,10 +29,10 @@ import { TimeWidgetsCustomClock } from './TimeWidgetsPanel/TimeWidgetsCustomCloc
 import { TimeWidgetsDateWithTimeBlock } from './TimeWidgetsPanel/TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 import { TimeWidgetsDaysPanel } from './TimeWidgetsPanel/TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
 import { TimeWidgetsWeeksAndYearsPanel } from './TimeWidgetsPanel/TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
-import { TimeWidgetsWithPerson } from './TimeWidgetsPanel/TimeWidgetsWithPerson/TimeWidgetsWithPerson';
-import { TimeWidgetsWithTextField1 } from './TimeWidgetsPanel/TimeWidgetsWithTextField1/TimeWidgetsWithTextField1';
-import { TimeWidgetsWithTextField2 } from './TimeWidgetsPanel/TimeWidgetsWithTextField2/TimeWidgetsWithTextField2';
-import { TimeWidgetsWithTextField3 } from './TimeWidgetsPanel/TimeWidgetsWithTextField3/TimeWidgetsWithTextField3';
+import { SelectPersonRange } from './TimeWidgetsPanel/SelectPersonRange/SelectPersonRange';
+import { TextTimeRange1 } from './TimeWidgetsPanel/TextTimeRange1/TextTimeRange1';
+import { TextTimeRange2 } from './TimeWidgetsPanel/TextTimeRange2/TextTimeRange2';
+import { TextTimeRange3 } from './TimeWidgetsPanel/TextTimeRange3/TextTimeRange3';
 import { WelcomeAuthButtons } from './Welcome/WelcomeAuthButtons/WelcomeAuthButtons';
 import { WelcomeButton } from './Welcome/WelcomeAuthButtons/WelcomeButton/WelcomeButton';
 import { FourImagesBg } from './Welcome/FourImagesBg/FourImagesBg';
@@ -44,11 +43,6 @@ import { OrdersFilterDesktopDialog } from './OrdersFilter/OrdersFilterDialogs/Or
 import { OrdersFilterMobileDialog } from './OrdersFilter/OrdersFilterDialogs/OrdersFilterMobileDialog';
 
 export {
-	Flex,
-	Row,
-	Col,
-	Badge,
-	Pagination,
 	Layout,
 	OrderVersion,
 	OrderPreview,
@@ -67,8 +61,8 @@ export {
 	Order,
 	OrdersFilterOpened,
 	TimeWidgetsPanel,
-	PersonWidget,
-	TextFieldWidget,
+	SelectAndPerson,
+	TextWidget,
 	TimeWidgets1,
 	TimeWidgets2,
 	TimeWidgets3,
@@ -81,10 +75,10 @@ export {
 	TimeWidgetsDateWithTimeBlock,
 	TimeWidgetsDaysPanel,
 	TimeWidgetsWeeksAndYearsPanel,
-	TimeWidgetsWithPerson,
-	TimeWidgetsWithTextField1,
-	TimeWidgetsWithTextField2,
-	TimeWidgetsWithTextField3,
+	SelectPersonRange,
+	TextTimeRange1,
+	TextTimeRange2,
+	TextTimeRange3,
 	WelcomeAuthButtons,
 	WelcomeButton,
 	FourImagesBg,

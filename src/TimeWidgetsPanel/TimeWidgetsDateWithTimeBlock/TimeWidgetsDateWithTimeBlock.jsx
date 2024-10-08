@@ -4,12 +4,12 @@ import React from 'react';
 import { Flex, Typography } from 'antd';
 
 interface ITimeWidgetsDateWithTimeBlockProps {
-	fullDate: any;
+	fullDate: { date: string, time: string };
 }
 
 export const TimeWidgetsDateWithTimeBlock = ({
 	fullDate,
-}: ITimeWidgetsDateWithTimeBlockProps): React$MixedElement => {
+}: ITimeWidgetsDateWithTimeBlockProps): React.Node => {
 	const { Text } = Typography;
 	const { date, time } = fullDate;
 	return (

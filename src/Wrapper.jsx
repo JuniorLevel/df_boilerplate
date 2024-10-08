@@ -11,7 +11,7 @@ interface IWrapperProps {
 	children: React.Node;
 }
 
-const Wrapper = ({ children }: IWrapperProps): React$MixedElement => (
+const Wrapper = ({ children }: IWrapperProps): React.Node => (
 	<>
 		<ThemeProvider>
 			<ThemeContext.Consumer>

@@ -12,7 +12,7 @@ const StyledDivYears = styled.div`
 	background-color: blue;
 `;
 
-export const TimeWidgetsWeeksAndYearsPanel = (): React$MixedElement => (
+export const TimeWidgetsWeeksAndYearsPanel = (): React.Node => (
 	<div style={{ padding: '5px', border: '1px solid black' }}>
 		<Flex gap={10}>
 			<StyledDivWeeks

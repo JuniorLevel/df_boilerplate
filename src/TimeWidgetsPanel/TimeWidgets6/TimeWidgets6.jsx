@@ -12,12 +12,10 @@ const StyledDivYears = styled.div`
 `;
 
 interface ITimeWidgets6Props {
-	fullDate: any;
+	fullDate: { date: string, time: string };
 }
 
-export const TimeWidgets6 = ({
-	fullDate,
-}: ITimeWidgets6Props): React$MixedElement => (
+export const TimeWidgets6 = ({ fullDate }: ITimeWidgets6Props): React.Node => (
 	<>
 		<MediaQuery minWidth={854}>
 			<Flex

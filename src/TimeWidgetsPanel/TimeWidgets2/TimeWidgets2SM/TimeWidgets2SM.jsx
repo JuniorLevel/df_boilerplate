@@ -1,13 +1,19 @@
 // @flow
 
-import { Flex, Progress, Typography } from 'antd';
+import { Flex, Progress } from 'antd';
 import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
 import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
+import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 
-export const TimeWidgets2SM = (): React$MixedElement => {
-	const { Text } = Typography;
+interface ITimeWidgets2SMProps {
+	fullDate: { date: string, time: string };
+}
+
+export const TimeWidgets2SM = ({
+	fullDate,
+}: ITimeWidgets2SMProps): React.Node => {
 	const [isShowWeeksPanel] = useState(false);
 
 	return (
@@ -19,60 +25,9 @@ export const TimeWidgets2SM = (): React$MixedElement => {
 				style={{ border: '1px solid black' }}
 				gap={5}
 			>
-				<Flex vertical gap={10} justify="center" style={{ padding: '5px' }}>
-					<Flex gap={10}>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							13
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							08
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							99
-						</Text>
-					</Flex>
-					<Flex gap={10}>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							20
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							55
-						</Text>
-						<Text
-							style={{
-								border: '1px solid black',
-								padding: '10px',
-							}}
-						>
-							55
-						</Text>
-					</Flex>
-				</Flex>
+				<div style={{ padding: '5px' }}>
+					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
+				</div>
 				<Flex style={{ padding: '5px' }}>
 					<Flex vertical align="center" gap={10}>
 						<div style={{ border: '1px solid black', padding: '5px' }}>

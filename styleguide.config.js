@@ -37,13 +37,73 @@ module.exports = {
 		return props;
 	},
 	sections: [
+		{ name: 'CardElement', content: 'src/CardElement/CardElement.md' },
+		{ name: 'CardTitle', content: 'src/CardElement/CardTitle/CardTitle.md' },
 		{
-			name: '',
-			content: '',
+			name: 'FiltersSearchList',
+			content: 'src/FiltersSearchList/FiltersSearchList.md',
 		},
+		{ name: 'Footer', content: 'src/Footer/Footer.md' },
+		{ name: 'Layout', content: 'src/Layout/Layout.md' },
 		{
-			name: '',
-			content: '',
+			name: 'TimeWidgetsPanel',
+			content: 'src/TimeWidgetsPanel/TimeWidgetsPanel.md',
+			sections: [
+				{
+					name: 'TimeWidgets1',
+					content: 'src/TimeWidgetsPanel/TimeWidgets1/TimeWidgets1.md',
+				},
+				{
+					name: 'TimeWidgets2',
+					content: 'src/TimeWidgetsPanel/TimeWidgets2/TimeWidgets2.md',
+				},
+				{
+					name: 'TimeWidgets3',
+					content: 'src/TimeWidgetsPanel/TimeWidgets3/TimeWidgets3.md',
+				},
+				{
+					name: 'TimeWidgets4',
+					content: 'src/TimeWidgetsPanel/TimeWidgets4/TimeWidgets4.md',
+				},
+				{
+					name: 'TimeWidgets5',
+					content: 'src/TimeWidgetsPanel/TimeWidgets5/TimeWidgets5.md',
+				},
+				{
+					name: 'TimeWidgets6',
+					content: 'src/TimeWidgetsPanel/TimeWidgets6/TimeWidgets6.md',
+				},
+				{
+					name: 'TimeWidgets7',
+					content: 'src/TimeWidgetsPanel/TimeWidgets7/TimeWidgets7.md',
+				},
+				{
+					name: 'TextWidget',
+					content: 'src/TimeWidgetsPanel/TextWidget/TextWidget.md',
+				},
+				{
+					name: 'TextTimeRange1',
+					content: 'src/TimeWidgetsPanel/TextTimeRange1/TextTimeRange1.md',
+				},
+				{
+					name: 'TextTimeRange2',
+					content: 'src/TimeWidgetsPanel/TextTimeRange2/TextTimeRange2.md',
+				},
+				{
+					name: 'TextTimeRange3',
+					content: 'src/TimeWidgetsPanel/TextTimeRange3/TextTimeRange3.md',
+				},
+				{
+					name: 'SelectAndPerson',
+					content: 'src/TimeWidgetsPanel/SelectAndPerson/SelectAndPerson.md',
+				},
+				{
+					name: 'SelectPersonRange',
+					content:
+						'src/TimeWidgetsPanel/SelectPersonRange/SelectPersonRange.md',
+				},
+			],
+			sectionDepth: 18,
 		},
 		{
 			name: '',
