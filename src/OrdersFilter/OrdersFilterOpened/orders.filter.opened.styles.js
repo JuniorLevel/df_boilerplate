@@ -2,6 +2,7 @@ import { createStyles } from 'antd-style';
 
 export const useStyles = createStyles(({ token, css }) => ({
 	ordersFilterCardsContainer: css`
+		overflow: auto;
 		margin-bottom: ${token.margin}px;
 	`,
 	sortable: css`

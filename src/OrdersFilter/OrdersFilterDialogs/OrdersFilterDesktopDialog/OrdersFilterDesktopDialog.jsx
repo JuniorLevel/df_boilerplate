@@ -15,15 +15,17 @@ export const OrdersFilterDesktopDialog = (): React.Node => {
 	const { ordersFilterItems, setOrdersFilterItems } =
 		useContext(OrdersFilterContext);
 
+	const { styles } = useStyles();
+
 	useEffect(() => {
 		const handleClick = (e: any) => {
-			if (e.target.classList.contains('dialog')) history.go(-1);
+			if (e.target.classList.contains(styles.dialog)) history.go(-1);
 		};
 		document.addEventListener('mousedown', handleClick);
 		return () => {
 			document.removeEventListener('mousedown', handleClick);
 		};
-	}, [history]);
+	}, [history, styles.dialog]);
 
 	const addFilterItem = () => {
 		const newItem = {
@@ -34,18 +36,18 @@ export const OrdersFilterDesktopDialog = (): React.Node => {
 		setOrdersFilterItems([...ordersFilterItems, newItem]);
 	};
 
-	const { styles } = useStyles();
-
 	return (
 		<Flex className={styles.dialog} ref={modalRef}>
 			<Flex vertical justify="space-between" className={styles.container}>
-				{ordersFilterItems.map((item) => (
-					<div className={styles.cardItem} key={item.id}>
-						<StatusContainer>
-							<OrdersFilterOpenedCardItem key={item.id} item={item} />
-						</StatusContainer>
-					</div>
-				))}
+				<div>
+					{ordersFilterItems.map((item) => (
+						<div className={styles.cardItem} key={item.id}>
+							<StatusContainer>
+								<OrdersFilterOpenedCardItem key={item.id} item={item} />
+							</StatusContainer>
+						</div>
+					))}
+				</div>
 				<OrdersFilterCardAddItemButton onClick={addFilterItem} />
 			</Flex>
 		</Flex>

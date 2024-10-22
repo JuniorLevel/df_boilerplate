@@ -3,7 +3,6 @@ import { createStyles } from 'antd-style';
 export const useStyles = createStyles(({ token, css }) => ({
 	cards: css`
 		position: relative;
-		margin-bottom: ${token.margin}px;
 	`,
 	closeBtn: css`
 		position: absolute;

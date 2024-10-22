@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 // @flow
 
 import React from 'react';

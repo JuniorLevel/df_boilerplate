@@ -48,7 +48,6 @@ declare module 'df_boilerplate-library' {
 	}>;
 	export const OrderListPreviewContainer: React.ComponentType<{
 		children: React.ReactNode;
-		height: number;
 	}>;
 	export const OrderListContainer: React.ComponentType<{
 		children: React.ReactNode;
@@ -182,7 +181,6 @@ declare module '@juniorlevel/df_boilerplate-library' {
 	}>;
 	export const OrderListPreviewContainer: React.ComponentType<{
 		children: React.ReactNode;
-		height: number;
 	}>;
 	export const OrderListContainer: React.ComponentType<{
 		children: React.ReactNode;

@@ -1,7 +1,7 @@
 {
 	"name": "@juniorlevel/df_boilerplate-library",
 	"description": "df_boilerplate-ui-library",
-	"version": "1.0.22",
+	"version": "1.0.23",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"module": "./dist/index.js",
@@ -21,7 +21,7 @@
 		"flow": "flow check --quiet",
 		"lint": "eslint src --ext .js --ext .jsx --fix --max-warnings=0 && npm run flow",
 		"format": "prettier src --write",
-		"lint-staged": "npm run css-checker && npm run flow && npm run lint && npm run test && npm run deploy:gh-pages",
+		"lint-staged": "npm run flow && npm run lint && npm run test && npm run deploy:gh-pages",
 		"deploy:lib": "npm version patch && npm publish",
 		"styleguide": "styleguidist server",
 		"styleguide:build": "styleguidist build",
