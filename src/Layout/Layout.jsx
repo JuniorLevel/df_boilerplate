@@ -31,6 +31,7 @@ export const Layout = ({
 
 	useEffect(() => {
 		if (footer) setIsFooter(true);
+		return () => setIsFooter(false);
 	}, [isFooter, footer, setIsFooter]);
 
 	return (

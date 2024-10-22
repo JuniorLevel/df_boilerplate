@@ -24,6 +24,7 @@ export const useStyles = createStyles(({ token, css }) => ({
 		min-height: 312px;
 	`,
 	cardItem: css`
+		color: ${token.colorTextBase};
 		margin-bottom: ${token.margin}px;
 	`,
 	cardBtnDesktop: css`

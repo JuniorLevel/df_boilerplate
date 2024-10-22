@@ -9,9 +9,10 @@ export const useStyles = createStyles(({ token, css }) => ({
 	container: css`
 		border: 1px solid ${token.colorBgMask};
 		padding: ${token.paddingXS}px;
+		margin-right: ${token.marginXS}px;
 	`,
 	fio: css`
-		margin: 0 ${token.marginXS}px;
+		margin-right: ${token.marginXS}px;
 		border: 1px solid ${token.colorBgMask};
 		border-radius: 50%;
 		padding: ${token.paddingXXS}px;

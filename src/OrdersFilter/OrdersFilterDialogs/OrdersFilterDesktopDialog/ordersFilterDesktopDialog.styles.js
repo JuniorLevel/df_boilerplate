@@ -20,6 +20,7 @@ export const useStyles = createStyles(({ token, css }) => ({
 		overflow: auto;
 	`,
 	cardItem: css`
+		color: ${token.colorTextBase};
 		margin-bottom: ${token.margin}px;
 	`,
 }));

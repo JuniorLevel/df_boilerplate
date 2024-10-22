@@ -7,9 +7,9 @@ import { data, filters, sidebarButtons } from './data';
 import { Layout } from './Layout/Layout';
 import { OrdersFilterProvider } from './context/OrdersFilterContext/OrdersFilterContext';
 import { OrdersFilterClosed } from './OrdersFilter/OrdersFilterClosed/OrdersFilterClosed';
+import { OrderListItem } from './OrderListPreview/OrderListContainer/OrderListItem/OrderListItem';
 import { OrderListPreviewContainer } from './OrderListPreview/OrderListPreviewContainer/OrderListPreviewContainer';
 import { OrderListContainer } from './OrderListPreview/OrderListContainer/OrderListContainer';
-import { OrderListItem } from './OrderListPreview/OrderListContainer/OrderListItem/OrderListItem';
 import { Order } from './OrderListPreview/Order/Order';
 
 const container = document.getElementById('root');
@@ -36,6 +36,7 @@ if (container) {
 									<OrderListItem key={data[3].id} data={data[3]} />
 									<OrderListItem key={data[4].id} data={data[4]} />
 									<OrderListItem key={data[5].id} data={null} />
+									<OrderListItem key={data[6].id} />
 								</OrderListContainer>
 								<OrdersPagination total={50} />
 							</Col>
