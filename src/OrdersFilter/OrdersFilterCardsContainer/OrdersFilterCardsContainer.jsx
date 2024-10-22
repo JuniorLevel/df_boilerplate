@@ -1,8 +1,11 @@
+/* eslint-disable no-inline-styles/no-inline-styles */
 // @flow
 
 import React from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
+import { OrdersFilterCardsContainerMobile } from './OrdersFilterCardsContainerMobile/OrdersFilterCardsContainerMobile';
+import { useStyles } from '../OrdersFilterOpened/orders.filter.opened.styles';
 
 interface IOrdersFilterCardsContainerProps {
 	children: React.Node;
@@ -10,29 +13,17 @@ interface IOrdersFilterCardsContainerProps {
 
 export const OrdersFilterCardsContainer = ({
 	children,
-}: IOrdersFilterCardsContainerProps): React$MixedElement => (
-	<>
-		<MediaQuery minWidth={361}>
-			<Flex
-				gap="middle"
-				style={{
-					margin: '10px',
-					overflowX: 'auto',
-				}}
-			>
+}: IOrdersFilterCardsContainerProps): React.Node => {
+	const { styles } = useStyles();
+
+	return (
+		<>
+			<MediaQuery minWidth={361}>
+				<Flex className={styles.ordersFilterCardsContainer}>{children}</Flex>
+			</MediaQuery>
+			<OrdersFilterCardsContainerMobile>
 				{children}
-			</Flex>
-		</MediaQuery>
-		<MediaQuery maxWidth={360}>
-			<Flex
-				justify="center"
-				gap="middle"
-				style={{
-					padding: '10px',
-				}}
-			>
-				{children}
-			</Flex>
-		</MediaQuery>
-	</>
-);
+			</OrdersFilterCardsContainerMobile>
+		</>
+	);
+};

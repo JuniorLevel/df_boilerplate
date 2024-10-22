@@ -11,7 +11,7 @@ interface IOrderListPreviewGridsProps {
 
 export const OrderListPreviewGrids = ({
 	data,
-}: IOrderListPreviewGridsProps): React$MixedElement => (
+}: IOrderListPreviewGridsProps): React.Node => (
 	<>
 		{data.dataSearch.map((item) => (
 			<Col span={24} key={item.id}>

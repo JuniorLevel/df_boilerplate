@@ -7,6 +7,7 @@ import { TextWidget } from '../../TextWidget/TextWidget';
 import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import styles from './TextTimeRange1LG.module.scss';
 
 interface ITextTimeRange1LGProps {
 	text: string;
@@ -18,12 +19,8 @@ export const TextTimeRange1LG = ({
 	fullDate,
 }: ITextTimeRange1LGProps): React.Node => (
 	<MediaQuery minWidth={835} maxWidth={1223}>
-		<Flex
-			gap={10}
-			align="center"
-			style={{ border: '1px solid black', padding: '10px' }}
-		>
-			<div style={{ width: '100%', alignSelf: 'stretch' }}>
+		<Flex gap={10} align="center" className={styles.container}>
+			<div className={styles.content}>
 				<TextWidget text={text} />
 			</div>
 			<Flex gap={10} vertical wrap justify="center">

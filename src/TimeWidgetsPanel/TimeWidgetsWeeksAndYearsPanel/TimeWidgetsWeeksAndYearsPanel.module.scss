@@ -1,0 +1,24 @@
+.panel {
+	padding: 5px;
+	border: 1px solid black;
+	.weeks {
+		width: 30px;
+		height: 30px;
+		border: 1px solid black;
+		background-color: aqua;
+	}
+	.years {
+		width: 30px;
+		height: 30px;
+		border: 1px solid black;
+		background-color: blue;
+	}
+}
+
+// const StyledDivWeeks = styled.div`
+// 	background-color: aqua;
+// `;
+
+// const StyledDivYears = styled.div`
+// 	background-color: blue;
+// `;

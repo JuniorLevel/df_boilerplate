@@ -7,6 +7,7 @@ import { SelectAndPerson } from '../../SelectAndPerson/SelectAndPerson';
 import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import styles from './SelectPersonRangeMD.module.scss';
 
 interface ISelectPersonRangeMDProps {
 	fullDate: { date: string, time: string };
@@ -18,26 +19,19 @@ export const SelectPersonRangeMD = ({
 	fullDate,
 	userRole,
 	fio,
-}: ISelectPersonRangeMDProps): React$MixedElement => (
+}: ISelectPersonRangeMDProps): React.Node => (
 	<MediaQuery minWidth={640} maxWidth={829}>
 		<Flex
 			wrap
 			align="center"
 			gap={20}
-			style={{ border: '1px solid black', padding: '10px' }}
+			className={styles.container}
 			justify="center"
 		>
-			<div style={{ flex: '1 0 50%' }}>
+			<div className={styles.selectAndPerson}>
 				<SelectAndPerson userRole={userRole} fio={fio} />
 			</div>
-			<Flex
-				vertical
-				align="center"
-				gap={10}
-				style={{
-					padding: '5px',
-				}}
-			>
+			<Flex vertical align="center" gap={10}>
 				<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 				<Flex gap={50} align="center">
 					<TimeWidgetsCustomClock />

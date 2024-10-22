@@ -1,12 +1,12 @@
 // @flow
 
 import React from 'react';
-import { Avatar, Flex, ConfigProvider } from 'antd';
+import { Avatar, Flex, Layout } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import MediaQuery from 'react-responsive';
 import { BurgerMenu } from '../BurgerMenu/BurgerMenu';
 import { Logo } from '../Logo/Logo';
-import { StyledHeaderMobile } from './HomeHeaderMobile.styles';
+import { useStyles } from '../../layout.styles';
 
 interface IHomeHeaderMobileProps {
 	title: string;
@@ -14,10 +14,13 @@ interface IHomeHeaderMobileProps {
 
 export const HomeHeaderMobile = ({
 	title,
-}: IHomeHeaderMobileProps): React.Node => (
-	<ConfigProvider theme={{ token: { colorTextBase: 'white' } }}>
+}: IHomeHeaderMobileProps): React.Node => {
+	const { Header } = Layout;
+	const { styles } = useStyles();
+
+	return (
 		<MediaQuery maxWidth={360}>
-			<StyledHeaderMobile>
+			<Header className={styles.headerMobile}>
 				<Flex justify="space-between" align="center">
 					<BurgerMenu />
 					<Logo title={title} />
@@ -25,7 +28,7 @@ export const HomeHeaderMobile = ({
 						<Avatar shape="circle" size="large" icon={<UserOutlined />} />
 					</Flex>
 				</Flex>
-			</StyledHeaderMobile>
+			</Header>
 		</MediaQuery>
-	</ConfigProvider>
-);
+	);
+};

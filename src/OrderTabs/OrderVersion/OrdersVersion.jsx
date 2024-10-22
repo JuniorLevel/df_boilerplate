@@ -7,12 +7,9 @@ interface IOrderVersionProps {
 	filters: any;
 }
 
-export const OrderVersion = ({
-	filters,
-}: IOrderVersionProps): React$MixedElement => (
+export const OrderVersion = ({ filters }: IOrderVersionProps): React.Node => (
 	<Col xs={12}>
 		<Steps
-			style={{ height: '100%' }}
 			progressDot
 			current={filters.length}
 			direction="vertical"

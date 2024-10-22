@@ -1,7 +1,6 @@
 // @flow
 
 import React, { useContext, useEffect } from 'react';
-import { StyledItemDiv } from './OrdersFilterOpenedCardItem.styles';
 import { StatusContext } from '../../../../context/StatusContainerContext/StatusContainerContext';
 
 interface IOrdersFilterOpenedCardItemProps {
@@ -17,5 +16,5 @@ export const OrdersFilterOpenedCardItem = ({
 		setStatus(item.status);
 	}, [item.status, setStatus]);
 
-	return <StyledItemDiv>{item.text}</StyledItemDiv>;
+	return <div>{item.text}</div>;
 };

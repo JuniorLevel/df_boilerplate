@@ -3,18 +3,13 @@
 import React, { useState } from 'react';
 import MediaQuery from 'react-responsive';
 import { ReactSortable } from 'react-sortablejs';
-import styled from 'styled-components';
 import { OrdersFilterOpenedMobile } from './OrdersFilterOpenedMobile/OrdersFilterOpenedMobile';
 import { OrdersFilterOpenedCards } from './OrdersFilterOpenedCards/OrdersFilterOpenedCards';
 import { OrdersFilterCardsContainer } from '../OrdersFilterCardsContainer/OrdersFilterCardsContainer';
 import { OrdersFilterOpenedCardsAddButton } from './OrdersFilterOpenedCards/OrdersFilterOpenedCardsAddButton/OrdersFilterOpenedCardsAddButton';
 import { OrdersFilterClosed } from '../OrdersFilterClosed/OrdersFilterClosed';
 import { filtersClosedCards } from '../data';
-
-const StyledReactSortable = styled(ReactSortable)`
-	display: flex;
-	gap: 15px;
-`;
+import { useStyles } from './orders.filter.opened.styles';
 
 interface IOrdersFilterOpenedProps {
 	open: boolean;
@@ -37,12 +32,15 @@ export const OrdersFilterOpened = ({
 		setCardsSortable([...cardsSortable, newItem]);
 	};
 
+	const { styles } = useStyles();
+
 	return (
 		<>
 			<MediaQuery minWidth={361}>
 				{open ? (
 					<OrdersFilterCardsContainer>
-						<StyledReactSortable
+						<ReactSortable
+							className={styles.sortable}
 							list={cardsSortable}
 							setList={setCardsSortable}
 							animation={150}
@@ -54,7 +52,7 @@ export const OrdersFilterOpened = ({
 									cardItem={card.cardItem}
 								/>
 							))}
-						</StyledReactSortable>
+						</ReactSortable>
 						<OrdersFilterOpenedCardsAddButton onClick={createFilter} />
 					</OrdersFilterCardsContainer>
 				) : (

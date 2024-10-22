@@ -4,6 +4,7 @@ import React from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
 import { TimeWidgets8 } from '../../TimeWidgets8/TimeWidgets8';
+import styles from './TimeRangeWidgetSM.module.scss';
 
 interface ITimeRangeWidgetSMProps {
 	fullDate: { date: string, time: string };
@@ -15,11 +16,7 @@ export const TimeRangeWidgetSM = ({
 	children,
 }: ITimeRangeWidgetSMProps): React.Node => (
 	<MediaQuery maxWidth={967}>
-		<Flex
-			vertical
-			gap={20}
-			style={{ border: '1px solid black', padding: '10px' }}
-		>
+		<Flex vertical gap={20} className={styles.container}>
 			{children}
 			<TimeWidgets8 fullDate={fullDate} />
 		</Flex>

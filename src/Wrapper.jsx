@@ -2,31 +2,34 @@
 // @flow
 
 import React from 'react';
+import { ConfigProvider, theme } from 'antd';
 import { Reset } from 'styled-reset';
-import { ConfigProvider } from 'antd';
 import { ThemeProvider, ThemeContext } from './context/theme/ThemeContext';
-import { LightTheme, DarkTheme, GlobalStyle } from './global.styles';
+import { GlobalStyle } from './global.styles';
 
 interface IWrapperProps {
 	children: React.Node;
 }
 
 const Wrapper = ({ children }: IWrapperProps): React.Node => (
-	<>
-		<ThemeProvider>
-			<ThemeContext.Consumer>
-				{({ currentTheme }) => (
-					<ConfigProvider
-						theme={currentTheme === 'light' ? LightTheme : DarkTheme}
-					>
-						<GlobalStyle />
-						{children}
-					</ConfigProvider>
-				)}
-			</ThemeContext.Consumer>
-		</ThemeProvider>
-		<Reset />
-	</>
+	<ThemeProvider>
+		<ThemeContext.Consumer>
+			{({ currentTheme }) => (
+				<ConfigProvider
+					theme={{
+						algorithm:
+							currentTheme === 'light'
+								? theme.defaultAlgorithm
+								: theme.darkAlgorithm,
+					}}
+				>
+					{children}
+					<GlobalStyle />
+					<Reset />
+				</ConfigProvider>
+			)}
+		</ThemeContext.Consumer>
+	</ThemeProvider>
 );
 
 export default Wrapper;

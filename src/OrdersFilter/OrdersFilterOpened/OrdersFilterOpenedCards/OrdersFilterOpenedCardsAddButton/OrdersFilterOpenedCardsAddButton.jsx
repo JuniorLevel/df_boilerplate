@@ -2,12 +2,9 @@
 
 import React from 'react';
 import { PlusOutlined } from '@ant-design/icons';
-import { Button, Flex } from 'antd';
+import { Button, Flex, Card } from 'antd';
 import MediaQuery from 'react-responsive';
-import {
-	StyledCardsAddButtonMobile,
-	StyledCardsAddButtonDesktop,
-} from './OrdersFilterOpenedCardsAddButton.styles';
+import { useStyles } from '../../orders.filter.opened.styles';
 
 interface IOrdersFilterOpenedCardsAddButtonProps {
 	onClick: () => any;
@@ -15,21 +12,25 @@ interface IOrdersFilterOpenedCardsAddButtonProps {
 
 export const OrdersFilterOpenedCardsAddButton = ({
 	onClick,
-}: IOrdersFilterOpenedCardsAddButtonProps): React$MixedElement => (
-	<>
-		<MediaQuery minWidth={361}>
-			<StyledCardsAddButtonDesktop>
-				<Flex justify="center" align="center">
-					<Button icon={<PlusOutlined />} onClick={onClick} />
-				</Flex>
-			</StyledCardsAddButtonDesktop>
-		</MediaQuery>
-		<MediaQuery maxWidth={360}>
-			<StyledCardsAddButtonMobile>
-				<Flex justify="center" align="center">
-					<Button icon={<PlusOutlined />} onClick={onClick} />
-				</Flex>
-			</StyledCardsAddButtonMobile>
-		</MediaQuery>
-	</>
-);
+}: IOrdersFilterOpenedCardsAddButtonProps): React.Node => {
+	const { styles } = useStyles();
+
+	return (
+		<>
+			<MediaQuery minWidth={361}>
+				<Card className={styles.cardBtnDesktop}>
+					<Flex justify="center" align="center">
+						<Button icon={<PlusOutlined />} onClick={onClick} />
+					</Flex>
+				</Card>
+			</MediaQuery>
+			<MediaQuery maxWidth={360}>
+				<Card className={styles.cardBtnMobile}>
+					<Flex justify="center" align="center">
+						<Button icon={<PlusOutlined />} onClick={onClick} />
+					</Flex>
+				</Card>
+			</MediaQuery>
+		</>
+	);
+};

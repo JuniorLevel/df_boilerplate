@@ -5,8 +5,9 @@ import MediaQuery from 'react-responsive';
 import { Flex, Pagination } from 'antd';
 import { FiltersSearchListItem } from '../FiltersSearchListItem/FiltersSearchListItem';
 import { searchListData } from './data';
+import { useStyles } from '../filters.search.list.styles';
 
-export const FiltersSearchListMobile = (): React$MixedElement => {
+export const FiltersSearchListMobile = (): React.Node => {
 	const [currentPage, setCurrentPage] = useState(1);
 	const totalItems = searchListData.length;
 	const itemsPerPage = 5;
@@ -15,14 +16,11 @@ export const FiltersSearchListMobile = (): React$MixedElement => {
 	const endIndex = startIndex + itemsPerPage;
 	const currentItems = searchListData.slice(startIndex, endIndex);
 
+	const { styles } = useStyles();
+
 	return (
 		<MediaQuery maxWidth={360}>
-			<Flex
-				vertical
-				justify="space-between"
-				gap="large"
-				style={{ padding: 10, overflowX: 'hidden' }}
-			>
+			<Flex vertical className={styles.filtersSearchListMobile}>
 				{currentItems.map((listData) => (
 					<FiltersSearchListItem key={listData.id} listData={listData} />
 				))}

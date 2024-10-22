@@ -1,9 +1,9 @@
 // @flow
 
 import React from 'react';
-import { Button } from 'antd';
+import { Button, Flex } from 'antd';
 import MediaQuery from 'react-responsive';
-import { StyledHomeSidebarNavigationListItem } from '../../Layout.styles';
+import { useStyles } from '../../layout.styles';
 
 interface IHomeSidebarNavigationProps {
 	isCollapsedSidebar?: boolean;
@@ -13,22 +13,20 @@ interface IHomeSidebarNavigationProps {
 export const HomeSidebarNavigation = ({
 	isCollapsedSidebar,
 	buttons,
-}: IHomeSidebarNavigationProps): React$MixedElement => (
-	<nav>
-		<ul>
+}: IHomeSidebarNavigationProps): React.Node => {
+	const { styles } = useStyles();
+
+	return (
+		<nav>
 			{buttons.map((button) => (
-				<StyledHomeSidebarNavigationListItem key={button.id}>
-					<Button
-						type="ghost"
-						style={{ borderRadius: '0px', fontSize: '1.5em' }}
-						onClick={button.onClick}
-					>
+				<Flex className={styles.sidebarNavigation} key={button.id}>
+					<Button type="ghost" onClick={button.onClick}>
 						<MediaQuery minWidth={361}>
 							{!isCollapsedSidebar && <span>{button.title}</span>}
 						</MediaQuery>
 					</Button>
-				</StyledHomeSidebarNavigationListItem>
+				</Flex>
 			))}
-		</ul>
-	</nav>
-);
+		</nav>
+	);
+};

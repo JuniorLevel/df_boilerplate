@@ -1,7 +1,6 @@
 // @flow
 
 import React from 'react';
-import styled from 'styled-components';
 import { SelectPersonRange } from './SelectPersonRange/SelectPersonRange';
 import { TextWidget } from './TextWidget/TextWidget';
 import { TimeWidgets1 } from './TimeWidgets1/TimeWidgets1';
@@ -15,16 +14,10 @@ import { TextTimeRange1 } from './TextTimeRange1/TextTimeRange1';
 import { TextTimeRange2 } from './TextTimeRange2/TextTimeRange2';
 import { TextTimeRange3 } from './TextTimeRange3/TextTimeRange3';
 import { SelectAndPerson } from './SelectAndPerson/SelectAndPerson';
-
-const StyledDiv = styled.div`
-	padding: 10px;
-	> div {
-		margin-bottom: 20px;
-	}
-`;
+import styles from './TimeWidgetsPanel.module.scss';
 
 export const TimeWidgetsPanel = (): React.Node => (
-	<StyledDiv>
+	<div className={styles.panel}>
 		<TimeWidgets1 date="13 августа 1999" />
 		<TimeWidgets2 fullDate={{ date: '13.08.99', time: '20:55:55' }} />
 		<TimeWidgets3 fullDate={{ date: '13.08.99', time: '20:55:55' }} />
@@ -53,5 +46,5 @@ export const TimeWidgetsPanel = (): React.Node => (
 			userRole="Assigned"
 			fio="FIO FIO FIO FIO"
 		/>
-	</StyledDiv>
+	</div>
 );

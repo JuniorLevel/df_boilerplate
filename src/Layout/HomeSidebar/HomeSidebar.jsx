@@ -1,10 +1,10 @@
 // @flow
 
 import React, { useEffect, useRef, useState } from 'react';
-import { ConfigProvider } from 'antd';
+import { Layout } from 'antd';
 import MediaQuery from 'react-responsive';
+import { useStyles } from '../layout.styles';
 import { HomeSidebarNavigation } from './HomeSidebarNavigation/HomeSidebarNavigation';
-import { StyledHomeSidebarDesktop } from '../Layout.styles';
 
 interface IHomeSidebarProps {
 	buttons: any[];
@@ -36,19 +36,21 @@ export const HomeSidebar = ({
 		}
 	}, []);
 
+	const { Sider } = Layout;
+	const { styles } = useStyles();
+
 	return (
-		<ConfigProvider theme={{ token: { colorTextBase: 'white' } }}>
-			<MediaQuery minWidth={361}>
-				<StyledHomeSidebarDesktop
-					width={isCollapsedSidebar ? 65 : 200}
-					ref={sidebarRef}
-				>
-					<HomeSidebarNavigation
-						buttons={buttons}
-						isCollapsedSidebar={isCollapsedSidebar}
-					/>
-				</StyledHomeSidebarDesktop>
-			</MediaQuery>
-		</ConfigProvider>
+		<MediaQuery minWidth={361}>
+			<Sider
+				className={styles.sidebar}
+				width={isCollapsedSidebar ? 65 : 200}
+				ref={sidebarRef}
+			>
+				<HomeSidebarNavigation
+					buttons={buttons}
+					isCollapsedSidebar={isCollapsedSidebar}
+				/>
+			</Sider>
+		</MediaQuery>
 	);
 };

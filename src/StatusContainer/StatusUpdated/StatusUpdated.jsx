@@ -5,11 +5,7 @@ import MoreOutlined from '@ant-design/icons/MoreOutlined';
 import CheckCircleOutlined from '@ant-design/icons/CheckCircleOutlined';
 import CloseCircleOutlined from '@ant-design/icons/CloseCircleOutlined';
 import { Button, Flex, Badge } from 'antd';
-import {
-	StatusUpdatedDiv,
-	StyledButtonCloseCircle,
-	StyledButtonCheckCircle,
-} from '../StatusContainer.styles';
+import { useStyles } from './status.updated.styles';
 
 interface IStatusUpdatedProps {
 	children: React.Node;
@@ -19,49 +15,36 @@ interface IStatusUpdatedProps {
 export const StatusUpdated = ({
 	children,
 	counter,
-}: IStatusUpdatedProps): React$MixedElement => (
-	<StatusUpdatedDiv>
-		<Flex align="center">
-			<div
-				style={{
-					margin: '10px',
-					border: '1px solid black',
-					borderRadius: '50%',
-					padding: '5px',
-					fontSize: '10px',
-				}}
-			>
-				FIO
-			</div>
-			<div>{children}</div>
-		</Flex>
-		<Flex gap={20}>
-			<StyledButtonCloseCircle
-				ghost
-				size="large"
-				icon={<CloseCircleOutlined />}
-			/>
-			<StyledButtonCheckCircle
-				ghost
-				size="large"
-				icon={<CheckCircleOutlined />}
-			/>
-			{counter > 0 && (
-				<Badge
-					count={counter}
-					color="black"
-					style={{ position: 'absolute', top: '9px', right: '-20px' }}
+}: IStatusUpdatedProps): React.Node => {
+	const { styles } = useStyles();
+
+	return (
+		<Flex justify="space-between" align="center" className={styles.updated}>
+			<Flex align="center">
+				<div className={styles.fio}>FIO</div>
+				<div>{children}</div>
+			</Flex>
+			<Flex gap={15}>
+				<Button
+					className={styles.closeBtn}
+					ghost
+					size="large"
+					icon={<CloseCircleOutlined />}
 				/>
-			)}
-			<Button
-				ghost
-				size="large"
-				style={{
-					border: 'none',
-					width: 20,
-				}}
-				icon={<MoreOutlined />}
-			/>
+				<Button
+					className={styles.checkBtn}
+					ghost
+					size="large"
+					icon={<CheckCircleOutlined />}
+				/>
+				{counter > 0 && <Badge count={counter} className={styles.badge} />}
+				<Button
+					ghost
+					size="large"
+					className={styles.moreBtn}
+					icon={<MoreOutlined />}
+				/>
+			</Flex>
 		</Flex>
-	</StatusUpdatedDiv>
-);
+	);
+};

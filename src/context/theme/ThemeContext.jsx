@@ -9,11 +9,15 @@ interface IThemeProvider {
 interface IThemeContext {
 	currentTheme: string;
 	setCurrentTheme: (currentTheme: string) => void;
+	isFooter: boolean;
+	setIsFooter: (isFooter: boolean) => void;
 }
 
 export const ThemeContext: React.Context<IThemeContext> = createContext({
 	currentTheme: 'light',
 	setCurrentTheme: () => {},
+	isFooter: false,
+	setIsFooter: () => {},
 });
 
 export const ThemeProvider = ({ children }: IThemeProvider): React.Node => {
@@ -25,9 +29,11 @@ export const ThemeProvider = ({ children }: IThemeProvider): React.Node => {
 		localStorage.setItem('theme', currentTheme);
 	}, [currentTheme]);
 
+	const [isFooter, setIsFooter] = useState(false);
+
 	const value = useMemo(
-		() => ({ currentTheme, setCurrentTheme }),
-		[currentTheme, setCurrentTheme]
+		() => ({ currentTheme, setCurrentTheme, isFooter, setIsFooter }),
+		[currentTheme, setCurrentTheme, isFooter, setIsFooter]
 	);
 
 	return (

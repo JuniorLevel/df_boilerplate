@@ -10,7 +10,7 @@ import { data } from './data';
 import { OrderListItem } from './OrderListContainer/OrderListItem/OrderListItem';
 import { OrderListPreviewContainer } from './OrderListPreviewContainer/OrderListPreviewContainer';
 
-export const OrderListPreview = (): React$MixedElement => (
+export const OrderListPreview = (): React.Node => (
 	<>
 		<MediaQuery minWidth={361}>
 			<OrderListPreviewContainer height={160}>

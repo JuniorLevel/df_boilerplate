@@ -1,9 +1,11 @@
 /* eslint-disable ft-flow/space-after-type-colon */
-/* eslint-disable ft-flow/generic-spacing */
 /* eslint-disable no-unused-vars */
+/* eslint-disable ft-flow/generic-spacing */
+// @flow
+
 // flow-typed signature: 23d2a3641578673e8eb7c9f8b6bcc3af
 // flow-typed version: 6912183195/lodash_v4.x.x/flow_>=v0.201.x
-// @flow
+
 declare module 'lodash' {
 	declare type Path = $ReadOnlyArray<string | number> | string | number;
 	declare type __CurriedFunction1<A, R, AA: A> = (...r: [AA]) => R;

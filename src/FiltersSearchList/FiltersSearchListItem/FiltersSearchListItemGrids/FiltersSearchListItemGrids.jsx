@@ -2,57 +2,60 @@
 
 import { Row, Col } from 'antd';
 import React from 'react';
-import styled from 'styled-components';
 import { StatusContainer } from '../../../StatusContainer/StatusContainer';
+import { useStyles } from '../../filters.search.list.styles';
 
 interface IFiltersSearchListItemGridsProps {
 	text: string;
 }
 
-const StyledCol = styled(Col)`
-	&:first-child {
-	}
-	&:last-child {
-		flex: 1;
-		max-width: 100%;
-	}
-`;
-
 export const FiltersSearchListItemGrids = ({
 	text,
-}: IFiltersSearchListItemGridsProps): React$MixedElement => (
-	<>
-		<Row gutter={[36, 12]}>
-			<StyledCol xs={24} lg={12}>
-				<StatusContainer>{text}</StatusContainer>
-			</StyledCol>
-			<StyledCol xs={24} lg={12}>
-				<StatusContainer>{text}</StatusContainer>
-			</StyledCol>
-		</Row>
-		<Row gutter={[36, 12]}>
-			<StyledCol xs={24} lg={{ flex: 1 }}>
-				<StatusContainer>{text}</StatusContainer>
-			</StyledCol>
-			<StyledCol xs={24} lg={8}>
-				<StatusContainer>{text}</StatusContainer>
-			</StyledCol>
-		</Row>
-		<Row gutter={[36, 12]}>
-			<StyledCol xs={24} lg={12}>
-				<StatusContainer>{text}</StatusContainer>
-			</StyledCol>
-			<StyledCol xs={24} lg={12}>
-				<StatusContainer>{text}</StatusContainer>
-			</StyledCol>
-		</Row>
-		<Row gutter={[36, 12]}>
-			<StyledCol xs={24} lg={{ flex: 1 }}>
-				<StatusContainer>{text}</StatusContainer>
-			</StyledCol>
-			<StyledCol xs={24} lg={8}>
-				<StatusContainer>{text}</StatusContainer>
-			</StyledCol>
-		</Row>
-	</>
-);
+}: IFiltersSearchListItemGridsProps): React.Node => {
+	const { styles } = useStyles();
+
+	return (
+		<>
+			<Row gutter={[36, 12]}>
+				<Col className={styles.filtersSearchListItemGrids} xs={24} lg={12}>
+					<StatusContainer>{text}</StatusContainer>
+				</Col>
+				<Col className={styles.filtersSearchListItemGrids} xs={24} lg={12}>
+					<StatusContainer>{text}</StatusContainer>
+				</Col>
+			</Row>
+			<Row gutter={[36, 12]}>
+				<Col
+					className={styles.filtersSearchListItemGrids}
+					xs={24}
+					lg={{ flex: 1 }}
+				>
+					<StatusContainer>{text}</StatusContainer>
+				</Col>
+				<Col className={styles.filtersSearchListItemGrids} xs={24} lg={8}>
+					<StatusContainer>{text}</StatusContainer>
+				</Col>
+			</Row>
+			<Row gutter={[36, 12]}>
+				<Col className={styles.filtersSearchListItemGrids} xs={24} lg={12}>
+					<StatusContainer>{text}</StatusContainer>
+				</Col>
+				<Col className={styles.filtersSearchListItemGrids} xs={24} lg={12}>
+					<StatusContainer>{text}</StatusContainer>
+				</Col>
+			</Row>
+			<Row gutter={[36, 12]}>
+				<Col
+					className={styles.filtersSearchListItemGrids}
+					xs={24}
+					lg={{ flex: 1 }}
+				>
+					<StatusContainer>{text}</StatusContainer>
+				</Col>
+				<Col className={styles.filtersSearchListItemGrids} xs={24} lg={8}>
+					<StatusContainer>{text}</StatusContainer>
+				</Col>
+			</Row>
+		</>
+	);
+};

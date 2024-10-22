@@ -1,23 +1,26 @@
 // @flow
 
 import React from 'react';
-import { ConfigProvider } from 'antd';
+import { ConfigProvider, theme } from 'antd';
 import { Reset } from 'styled-reset';
 import { ThemeProvider, ThemeContext } from '../context/theme/ThemeContext';
-import { LightTheme, DarkTheme, GlobalStyle } from '../global.styles';
+import { GlobalStyle } from '../global.styles';
 
 interface IThemeWrapperProps {
 	children: React.Node;
 }
 
-export const ThemeWrapper = ({
-	children,
-}: IThemeWrapperProps): React$MixedElement => (
+export const ThemeWrapper = ({ children }: IThemeWrapperProps): React.Node => (
 	<ThemeProvider>
 		<ThemeContext.Consumer>
 			{({ currentTheme }) => (
 				<ConfigProvider
-					theme={currentTheme === 'light' ? LightTheme : DarkTheme}
+					theme={{
+						algorithm:
+							currentTheme === 'light'
+								? theme.defaultAlgorithm
+								: theme.darkAlgorithm,
+					}}
 				>
 					{children}
 					<GlobalStyle />

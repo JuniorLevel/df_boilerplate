@@ -8,6 +8,7 @@ import { TimeWidgets8MD } from './TimeWidgets8MD/TimeWidgets8MD';
 import { TimeWidgets8SM } from './TimeWidgets8SM/TimeWidgets8SM';
 import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 import { TimeWidgetsCustomClock } from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import styles from './TimeWidgets8.module.scss';
 
 interface ITimeWidgets8Props {
 	fullDate: { date: string, time: string };
@@ -17,19 +18,13 @@ export const TimeWidgets8 = ({ fullDate }: ITimeWidgets8Props): React.Node => (
 	<>
 		<MediaQuery minWidth={1490}>
 			<Flex justify="space-between" align="center">
-				<Flex align="center" gap={50} style={{ padding: '5px' }}>
+				<Flex align="center" gap={50}>
 					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 					<Flex>
 						<TimeWidgetsCustomClock />
 					</Flex>
 				</Flex>
-				<Flex
-					style={{
-						border: '1px solid black',
-						padding: '5px',
-						margin: '0 20px',
-					}}
-				>
+				<Flex className={styles.progress}>
 					<Progress
 						size={{ width: 10, height: 50 }}
 						percent={100}
@@ -37,8 +32,8 @@ export const TimeWidgets8 = ({ fullDate }: ITimeWidgets8Props): React.Node => (
 						showInfo={false}
 					/>
 				</Flex>
-				<Flex align="center" gap={50} style={{ padding: '5px' }}>
-					<Flex gap={10} style={{ order: 2 }}>
+				<Flex align="center" gap={50}>
+					<Flex gap={10} className={styles.dateWithTimeBlock}>
 						<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 					</Flex>
 					<Flex>

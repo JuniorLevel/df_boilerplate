@@ -2,7 +2,7 @@
 
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import { DivImageContainer, Image } from './FourImagesBg.styles';
+import { useStyles } from './fourImagesBg.styles';
 
 interface IFourImagesBgProps {
 	imagesUrls: { id: number, url: string }[];
@@ -12,13 +12,17 @@ interface IFourImagesBgProps {
 export const FourImagesBg = ({
 	children,
 	imagesUrls,
-}: IFourImagesBgProps): React.Node => (
-	<DivImageContainer>
-		<MediaQuery minWidth={361}>
-			{imagesUrls?.map((image) => (
-				<Image key={image.id} src={image.url} alt={`background-${image.id}`} />
-			))}
-		</MediaQuery>
-		{children}
-	</DivImageContainer>
-);
+}: IFourImagesBgProps): React.Node => {
+	const { styles } = useStyles();
+
+	return (
+		<div className={styles.image}>
+			<MediaQuery minWidth={361}>
+				{imagesUrls?.map((image) => (
+					<img key={image.id} src={image.url} alt={`background-${image.id}`} />
+				))}
+			</MediaQuery>
+			{children}
+		</div>
+	);
+};

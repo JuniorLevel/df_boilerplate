@@ -16,7 +16,7 @@ export const FiltersSearchListItem = ({
 }: IFiltersSearchListProps): React.Node => (
 	<>
 		<MediaQuery minWidth={361}>
-			<Flex vertical gap={20}>
+			<Flex vertical gap={16}>
 				{listData && (
 					<>
 						<FiltersSearchListItemGrids text="Ant Design" />

@@ -3,12 +3,8 @@
 import React from 'react';
 import { Flex } from 'antd';
 import MediaQuery from 'react-responsive';
-import styled from 'styled-components';
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
-
-const StyledDivYears = styled.div`
-	background-color: blue;
-`;
+import styles from './TimeWidgets6SmToLg.module.scss';
 
 interface ITimeWidgets6SmToLgProps {
 	fullDate: { date: string, time: string };
@@ -18,43 +14,20 @@ export const TimeWidgets6SmToLg = ({
 	fullDate,
 }: ITimeWidgets6SmToLgProps): React.Node => (
 	<MediaQuery maxWidth={853}>
-		<Flex
-			vertical
-			gap={10}
-			align="center"
-			style={{ border: '1px solid black', marginBottom: '20px' }}
-		>
-			<Flex wrap align="center" style={{ padding: '5px' }}>
+		<Flex vertical gap={10} align="center" className={styles.container}>
+			<Flex wrap align="center">
 				<Flex wrap gap={10} justify="center">
 					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 				</Flex>
 			</Flex>
-			<Flex style={{ padding: '5px', border: '1px solid black' }}>
+			<Flex className={styles.panel}>
 				<Flex gap={10}>
-					<StyledDivYears
-						style={{
-							width: '30px',
-							height: '30px',
-							border: '1px solid black',
-						}}
-					/>
-					<StyledDivYears
-						style={{
-							width: '30px',
-							height: '30px',
-							border: '1px solid black',
-						}}
-					/>
-					<StyledDivYears
-						style={{
-							width: '30px',
-							height: '30px',
-							border: '1px solid black',
-						}}
-					/>
+					<div className={styles.years} />
+					<div className={styles.years} />
+					<div className={styles.years} />
 				</Flex>
 			</Flex>
-			<Flex wrap align="center" style={{ padding: '5px' }}>
+			<Flex wrap align="center">
 				<Flex wrap gap={10} justify="center">
 					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 				</Flex>

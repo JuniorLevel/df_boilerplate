@@ -13,9 +13,7 @@ interface IStatusContainer {
 	children: React.Node;
 }
 
-export const StatusContainer = ({
-	children,
-}: IStatusContainer): React$MixedElement => (
+export const StatusContainer = ({ children }: IStatusContainer): React.Node => (
 	<StatusProvider>
 		<StatusContext.Consumer>
 			{({ status, counter, role }) => (

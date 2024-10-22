@@ -6,6 +6,7 @@ import MediaQuery from 'react-responsive';
 import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import styles from './TimeWidgets2SM.module.scss';
 
 interface ITimeWidgets2SMProps {
 	fullDate: { date: string, time: string };
@@ -22,15 +23,15 @@ export const TimeWidgets2SM = ({
 				wrap
 				align="start"
 				justify="center"
-				style={{ border: '1px solid black' }}
+				className={styles.container}
 				gap={5}
 			>
-				<div style={{ padding: '5px' }}>
+				<div>
 					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 				</div>
-				<Flex style={{ padding: '5px' }}>
+				<Flex>
 					<Flex vertical align="center" gap={10}>
-						<div style={{ border: '1px solid black', padding: '5px' }}>
+						<div className={styles.panel}>
 							{isShowWeeksPanel ? (
 								<TimeWidgetsWeeksAndYearsPanel />
 							) : (

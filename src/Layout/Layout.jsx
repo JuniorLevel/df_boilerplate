@@ -1,10 +1,11 @@
 // @flow
 
-import React from 'react';
-import { Layout as AntLayout } from 'antd';
+import React, { useContext, useEffect } from 'react';
+import { Layout as HomeLayout } from 'antd';
 import { HomeHeader } from './HomeHeader/HomeHeader';
-import { StyledLayout, StyledContent } from './Layout.styles';
 import { HomeSidebar } from './HomeSidebar/HomeSidebar';
+import { useStyles } from './layout.styles';
+import { ThemeContext } from '../context/theme/ThemeContext';
 
 interface ILayoutProps {
 	children: React.Node;
@@ -12,6 +13,7 @@ interface ILayoutProps {
 	title: string;
 	theme?: string;
 	avatar: { title: string };
+	footer?: React.Node;
 }
 
 export const Layout = ({
@@ -20,12 +22,25 @@ export const Layout = ({
 	title,
 	theme,
 	avatar,
-}: ILayoutProps): React$MixedElement => (
-	<StyledLayout>
-		<HomeHeader title={title} theme={theme} avatar={avatar} />
-		<AntLayout>
-			<HomeSidebar buttons={buttons} />
-			<StyledContent>{children}</StyledContent>
-		</AntLayout>
-	</StyledLayout>
-);
+	footer,
+}: ILayoutProps): React.Node => {
+	const { Content, Footer } = HomeLayout;
+	const { styles } = useStyles();
+
+	const { isFooter, setIsFooter } = useContext(ThemeContext);
+
+	useEffect(() => {
+		if (footer) setIsFooter(true);
+	}, [isFooter, footer, setIsFooter]);
+
+	return (
+		<HomeLayout className={styles.layout} theme={theme}>
+			<HomeHeader title={title} theme={theme} avatar={avatar} />
+			<HomeLayout>
+				<HomeSidebar buttons={buttons} />
+				<Content className={styles.content}>{children}</Content>
+			</HomeLayout>
+			{footer && <Footer className={styles.footer}>{footer}</Footer>}
+		</HomeLayout>
+	);
+};

@@ -7,6 +7,7 @@ import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPan
 import { TimeWidgetsDaysPanel } from '../../TimeWidgetsDaysPanel/TimeWidgetsDaysPanel';
 import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import styles from './TimeWidgets2MD.module.scss';
 
 interface ITimeWidgets2MDProps {
 	fullDate: { date: string, time: string };
@@ -19,17 +20,13 @@ export const TimeWidgets2MD = ({
 
 	return (
 		<MediaQuery minWidth={782} maxWidth={864}>
-			<Flex
-				style={{ border: '1px solid black' }}
-				gap={5}
-				justify="space-evenly"
-			>
-				<div style={{ padding: '5px' }}>
+			<Flex className={styles.container} gap={5} justify="space-evenly">
+				<div>
 					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 				</div>
-				<Flex justify="center" align="center" style={{ padding: '5px' }}>
+				<Flex justify="center" align="center">
 					<Flex vertical align="center" gap={10}>
-						<div style={{ border: '1px solid black', padding: '5px' }}>
+						<div className={styles.panel}>
 							{isShowWeeksPanel ? (
 								<TimeWidgetsWeeksAndYearsPanel />
 							) : (

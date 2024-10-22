@@ -1,0 +1,23 @@
+.progress {
+	background-color: blue;
+	border-radius: 50%;
+	border: 1px solid black;
+	svg {
+		circle {
+			stroke-linecap: butt;
+			stroke-width: 90%;
+		}
+	}
+}
+
+// const StyledProgress = styled(Progress)`
+// 	background-color: blue;
+// 	border-radius: 50%;
+// 	border: 1px solid black;
+// 	svg {
+// 		circle {
+// 			stroke-linecap: butt;
+// 			stroke-width: 90%;
+// 		}
+// 	}
+// `;

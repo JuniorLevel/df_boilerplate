@@ -1,0 +1,28 @@
+.container {
+	border: 1px solid black;
+	padding: 5px;
+	.content {
+		border: 1px solid black;
+		position: relative;
+		padding: 20px;
+		.role {
+			position: absolute;
+			top: 0px;
+			left: 5px;
+			font-size: 10px;
+		}
+	}
+	.avatar {
+		border: 1px solid black;
+		padding: 15px;
+		flex: 1 1 320px;
+		.avatarItem {
+			border: 1px solid black;
+			border-radius: 50%;
+			padding: 5px;
+			font-size: 10px;
+			color: black;
+			background-color: white;
+		}
+	}
+}

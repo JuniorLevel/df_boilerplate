@@ -1,0 +1,14 @@
+.container {
+	border: 1px solid black;
+	margin-bottom: 20px;
+	.panel {
+		padding: 5px;
+		border: 1px solid black;
+		.years {
+			width: 30px;
+			height: 30px;
+			border: 1px solid black;
+			background-color: blue;
+		}
+	}
+}

@@ -15,14 +15,7 @@ export const TimeWidgets8MD = ({
 	fullDate,
 }: ITimeWidgets8MDProps): React.Node => (
 	<MediaQuery minWidth={968} maxWidth={1223}>
-		<Flex
-			vertical
-			align="center"
-			gap={10}
-			style={{
-				padding: '5px',
-			}}
-		>
+		<Flex vertical align="center" gap={10}>
 			<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 			<Flex gap={50} align="center">
 				<TimeWidgetsCustomClock />

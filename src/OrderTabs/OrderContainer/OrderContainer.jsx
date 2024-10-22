@@ -1,22 +1,7 @@
 // @flow
 
 import React from 'react';
-import styled from 'styled-components';
-
-const StyledOrderContainer = styled.div`
-	height: calc(100vh - 130px);
-	overflow-x: hidden;
-	padding: 10px;
-	.ant-row {
-		height: 100%;
-	}
-	.ant-steps-item-description {
-		border: 1px solid black;
-
-		padding: 10px;
-		text-align: center;
-	}
-`;
+import { useStyles } from '../order.tabs.styles';
 
 interface IOrderContainerProps {
 	children: React.Node;
@@ -24,6 +9,7 @@ interface IOrderContainerProps {
 
 export const OrderContainer = ({
 	children,
-}: IOrderContainerProps): React$MixedElement => (
-	<StyledOrderContainer>{children}</StyledOrderContainer>
-);
+}: IOrderContainerProps): React.Node => {
+	const { styles } = useStyles();
+	return <div className={styles.orderContainer}>{children}</div>;
+};

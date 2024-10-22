@@ -6,6 +6,7 @@ import { Flex } from 'antd';
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
 import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
+import styles from './TimeWidgetLG.module.scss';
 
 interface ITimeWidgetLGProps {
 	fullDate: { date: string, time: string };
@@ -22,9 +23,9 @@ export const TimeWidgetLG = ({
 			gap={10}
 			align="center"
 			justify="center"
-			style={{ border: '1px solid black', padding: '10px' }}
+			className={styles.container}
 		>
-			<div style={{ width: '100%', alignSelf: 'stretch' }}>{children}</div>
+			<div className={styles.content}>{children}</div>
 			<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
 			<Flex gap={10} align="center">
 				<TimeWidgetsWeeksAndYearsPanel />

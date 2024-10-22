@@ -6,6 +6,7 @@ import MediaQuery from 'react-responsive';
 import { TimeWidgets4SmToLg } from './TimeWidgets4SmToLg/TimeWidgets4SmToLg';
 import { TimeWidgetsWeeksAndYearsPanel } from '../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import styles from './TimeWidgets4.module.scss';
 
 interface ITimeWidgets4Props {
 	fullDate: { date: string, time: string };
@@ -14,12 +15,12 @@ interface ITimeWidgets4Props {
 export const TimeWidgets4 = ({ fullDate }: ITimeWidgets4Props): React.Node => (
 	<>
 		<MediaQuery minWidth={1100}>
-			<Flex style={{ border: '1px solid black' }}>
+			<Flex className={styles.container}>
 				<Flex
 					gap={10}
 					align="center"
 					justify="space-between"
-					style={{ padding: '5px', flex: '0 1 50%' }}
+					className={styles.item}
 				>
 					<Flex gap={10}>
 						<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
@@ -30,7 +31,7 @@ export const TimeWidgets4 = ({ fullDate }: ITimeWidgets4Props): React.Node => (
 					gap={10}
 					align="center"
 					justify="space-between"
-					style={{ padding: '5px', flex: '0 1 50%' }}
+					className={styles.item}
 				>
 					<TimeWidgetsWeeksAndYearsPanel />
 					<Flex gap={10}>

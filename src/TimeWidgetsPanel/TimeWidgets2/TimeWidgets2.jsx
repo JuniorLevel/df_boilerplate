@@ -9,6 +9,7 @@ import { TimeWidgetsCustomClock } from '../TimeWidgetsCustomClock/TimeWidgetsCus
 import { TimeWidgets2SM } from './TimeWidgets2SM/TimeWidgets2SM';
 import { TimeWidgets2MD } from './TimeWidgets2MD/TimeWidgets2MD';
 import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import styles from './TimeWidgets2.module.scss';
 
 interface ITimeWidgets2Props {
 	fullDate: { date: string, time: string };
@@ -19,15 +20,11 @@ export const TimeWidgets2 = ({ fullDate }: ITimeWidgets2Props): React.Node => {
 	return (
 		<>
 			<MediaQuery minWidth={865}>
-				<Flex
-					wrap
-					style={{ border: '1px solid black', padding: '10px' }}
-					gap={5}
-				>
+				<Flex wrap className={styles.container} gap={5}>
 					<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />
-					<Flex align="center" style={{ padding: '5px' }}>
+					<Flex align="center">
 						<Flex wrap align="center" gap={10}>
-							<div style={{ border: '1px solid black', padding: '5px' }}>
+							<div className={styles.panel}>
 								{isShowWeeksPanel ? (
 									<TimeWidgetsWeeksAndYearsPanel />
 								) : (

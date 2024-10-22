@@ -3,6 +3,7 @@
 import React from 'react';
 import { Flex, Avatar, Typography } from 'antd';
 import { useMediaQuery } from 'react-responsive';
+import styles from './SelectAndPerson.module.scss';
 
 interface ISelectAndPersonProps {
 	userRole: string;
@@ -19,53 +20,18 @@ export const SelectAndPerson = ({
 	});
 
 	return (
-		<Flex
-			wrap
-			style={{ border: '1px solid black', padding: '5px' }}
-			align="center"
-			gap={5}
-		>
+		<Flex wrap align="center" gap={5} className={styles.container}>
 			<Flex
+				className={styles.content}
 				style={{
-					border: '1px solid black',
-					position: 'relative',
-					padding: '20px',
 					...(isMobile && { flex: '1 1 150px' }),
 				}}
 			>
 				<Text>{userRole}</Text>
-				<Text
-					style={{
-						position: 'absolute',
-						top: 0,
-						left: 5,
-						fontSize: '10px',
-					}}
-				>
-					role
-				</Text>
+				<Text className={styles.role}>role</Text>
 			</Flex>
-			<Flex
-				style={{
-					border: '1px solid black',
-					padding: '15px',
-					flex: '1 1 320px',
-				}}
-				align="center"
-				gap={10}
-			>
-				<Avatar
-					style={{
-						border: '1px solid black',
-						borderRadius: '50%',
-						padding: '5px',
-						fontSize: '10px',
-						color: 'black',
-						backgroundColor: 'white',
-					}}
-				>
-					FIO
-				</Avatar>
+			<Flex className={styles.avatar} align="center" gap={10}>
+				<Avatar className={styles.avatarItem}>FIO</Avatar>
 				<Text>{fio}</Text>
 			</Flex>
 		</Flex>

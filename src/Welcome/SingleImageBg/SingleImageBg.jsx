@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import { DivImageContainer, Image } from './SingleImageBg.styles';
+import { useStyles } from './singleImageBg.styles';
 
 interface IFourImagesBgProps {
 	imageUrl: string;
@@ -11,11 +11,15 @@ interface IFourImagesBgProps {
 export const SingleImageBg = ({
 	children,
 	imageUrl,
-}: IFourImagesBgProps): React.Node => (
-	<DivImageContainer>
-		<MediaQuery minWidth={361}>
-			<Image src={imageUrl} alt="background" />
-		</MediaQuery>
-		{children}
-	</DivImageContainer>
-);
+}: IFourImagesBgProps): React.Node => {
+	const { styles } = useStyles();
+
+	return (
+		<div className={styles.image}>
+			<MediaQuery minWidth={361}>
+				<img src={imageUrl} alt="background" />
+			</MediaQuery>
+			{children}
+		</div>
+	);
+};

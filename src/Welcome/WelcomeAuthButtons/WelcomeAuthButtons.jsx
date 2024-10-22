@@ -9,7 +9,7 @@ interface IWelcomeAuthButtonsProps {
 export const WelcomeAuthButtons = ({
 	children,
 }: IWelcomeAuthButtonsProps): React.Node => (
-	<Flex wrap gap="large" justify="center" style={{ marginBottom: '20px' }}>
+	<Flex wrap gap="large" justify="center">
 		{children}
 	</Flex>
 );

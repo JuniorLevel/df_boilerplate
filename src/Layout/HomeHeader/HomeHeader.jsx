@@ -1,29 +1,25 @@
 // @flow
 
 import React, { useContext, useEffect } from 'react';
-import { Avatar, Switch, Flex, ConfigProvider, Layout } from 'antd';
+import { Avatar, Switch, Flex, Layout, Space } from 'antd';
 import { MoonOutlined, SunOutlined } from '@ant-design/icons';
 import MediaQuery from 'react-responsive';
-import styled from 'styled-components';
 import { HomeHeaderMobile } from './HomeHeaderMobile/HomeHeaderMobile';
 import { ThemeContext } from '../../context/theme/ThemeContext';
 import { Logo } from './Logo/Logo';
-
-const StyledHeaderDesktop = styled(Layout.Header)`
-	padding: 0 16px;
-`;
+import { useStyles } from '../layout.styles';
 
 interface IHomeHeaderProps {
 	title: string;
 	theme?: string;
-	avatar: any;
+	avatar: { title: string };
 }
 
 export const HomeHeader = ({
 	title,
 	theme,
 	avatar,
-}: IHomeHeaderProps): React$MixedElement => {
+}: IHomeHeaderProps): React.Node => {
 	const { currentTheme, setCurrentTheme } = useContext(ThemeContext);
 
 	useEffect(() => {
@@ -37,28 +33,32 @@ export const HomeHeader = ({
 		setCurrentTheme(changedTheme);
 	};
 
+	const { Header } = Layout;
+	const { styles } = useStyles();
+
 	return (
-		<ConfigProvider theme={{ token: { colorTextBase: 'white' } }}>
+		<>
 			<MediaQuery minWidth={361}>
-				<StyledHeaderDesktop>
+				<Header className={styles.header}>
 					<Flex justify="space-between">
 						<Logo title={title} />
 						<Flex align="center">
-							<Switch
-								checkedChildren={<SunOutlined />}
-								unCheckedChildren={<MoonOutlined />}
-								onChange={onChange}
-								checked={currentTheme === 'dark'}
-								style={{ marginRight: '16px' }}
-							/>
-							<Avatar shape="circle" size="large">
-								{avatar.title}
-							</Avatar>
+							<Space>
+								<Switch
+									checkedChildren={<SunOutlined />}
+									unCheckedChildren={<MoonOutlined />}
+									onChange={onChange}
+									checked={currentTheme === 'dark'}
+								/>
+								<Avatar shape="circle" size="large">
+									{avatar.title}
+								</Avatar>
+							</Space>
 						</Flex>
 					</Flex>
-				</StyledHeaderDesktop>
+				</Header>
 			</MediaQuery>
 			<HomeHeaderMobile title={title} />
-		</ConfigProvider>
+		</>
 	);
 };

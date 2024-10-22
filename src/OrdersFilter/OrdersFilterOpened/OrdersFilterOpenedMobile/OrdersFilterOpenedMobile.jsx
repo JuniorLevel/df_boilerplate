@@ -8,6 +8,7 @@ import { filtersOpenedCards } from '../../data';
 import { OrdersFilterOpenedCards } from '../OrdersFilterOpenedCards/OrdersFilterOpenedCards';
 import { OrdersFilterCardsContainer } from '../../OrdersFilterCardsContainer/OrdersFilterCardsContainer';
 import { OrdersFilterOpenedCardsAddButton } from '../OrdersFilterOpenedCards/OrdersFilterOpenedCardsAddButton/OrdersFilterOpenedCardsAddButton';
+import { useStyles } from '../orders.filter.opened.styles';
 
 interface IOrdersFilterOpenedMobileProps {
 	dialog: boolean;
@@ -15,7 +16,7 @@ interface IOrdersFilterOpenedMobileProps {
 
 export const OrdersFilterOpenedMobile = ({
 	dialog,
-}: IOrdersFilterOpenedMobileProps): React$MixedElement => {
+}: IOrdersFilterOpenedMobileProps): React.Node => {
 	const [cardsSortable, setCardsSortable] = useState(filtersOpenedCards);
 
 	const exampleClick = () => {
@@ -26,15 +27,17 @@ export const OrdersFilterOpenedMobile = ({
 		setCardsSortable([...cardsSortable, newItem]);
 	};
 
+	const { styles } = useStyles();
+
 	return (
 		<MediaQuery maxWidth={360}>
-			<Flex vertical justify="space-between" style={{ height: '100%' }}>
+			<Flex gap={10} vertical>
 				<OrdersFilterCardsContainer>
 					<ReactSortable
 						list={cardsSortable}
 						setList={setCardsSortable}
 						animation={150}
-						style={{ display: 'flex', flexDirection: 'column' }}
+						className={styles.sortableMobile}
 					>
 						{cardsSortable.map((card) => (
 							<OrdersFilterOpenedCards

@@ -1,12 +1,9 @@
 // @flow
 
-import React from 'react';
-import styled from 'styled-components';
+import React, { useContext } from 'react';
 import { FiltersSearchList } from '../FiltersSearchList';
-
-const StyledFiltersSearchContainer = styled.div`
-	height: calc(100vh - 160px);
-`;
+import { useStyles } from '../filters.search.list.styles';
+import { ThemeContext } from '../../context/theme/ThemeContext';
 
 interface IFiltersSearchListContainerProps {
 	children: React.Node;
@@ -14,8 +11,19 @@ interface IFiltersSearchListContainerProps {
 
 export const FiltersSearchListContainer = ({
 	children,
-}: IFiltersSearchListContainerProps): React$MixedElement => (
-	<StyledFiltersSearchContainer>
-		<FiltersSearchList>{children}</FiltersSearchList>
-	</StyledFiltersSearchContainer>
-);
+}: IFiltersSearchListContainerProps): React.Node => {
+	const { styles } = useStyles();
+	const { isFooter } = useContext(ThemeContext);
+
+	return (
+		<div
+			className={
+				isFooter
+					? styles.filtersSearchListContainerWithFooter
+					: styles.filtersSearchListContainer
+			}
+		>
+			<FiltersSearchList>{children}</FiltersSearchList>
+		</div>
+	);
+};

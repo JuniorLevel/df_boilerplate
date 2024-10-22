@@ -1,40 +1,30 @@
 // @flow
 import { Button, Input, Flex, Layout, Typography } from 'antd';
 import React from 'react';
-import styled from 'styled-components';
-
-const layoutStyle = {
-	width: '100%',
-	maxWidth: '300px',
-	padding: '20px 15px',
-};
-
-const ButtonContainer = styled.div`
-	button {
-		margin-bottom: 20px;
-	}
-`;
+import { useStyles } from './welcome.styles';
 
 interface IWelcomeProps {
 	children: React.Node;
 	buttons: any[];
 }
 
+const { Title } = Typography;
+
 export const Welcome = ({ children, buttons }: IWelcomeProps): React.Node => {
-	const { Title } = Typography;
+	const { styles } = useStyles();
 
 	return (
-		<Flex justify="center" align="center" style={{ height: '100vh' }}>
-			<Layout style={layoutStyle}>
-				<Title style={{ textAlign: 'center' }}>Welcome</Title>
-				<Input placeholder="email" style={{ marginBottom: '20px' }} />
-				<ButtonContainer>
+		<Flex className={styles.welcome} justify="center" align="center">
+			<Layout className={styles.layout}>
+				<Title className={styles.title}>Welcome</Title>
+				<Input className={styles.input} placeholder="email" />
+				<div className={styles.buttonContainer}>
 					{buttons.map((button) => (
 						<Button block key={button.id} onClick={button.onClick}>
 							{button.title}
 						</Button>
 					))}
-				</ButtonContainer>
+				</div>
 				{children}
 			</Layout>
 		</Flex>

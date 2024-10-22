@@ -1,18 +1,14 @@
 // @flow
 import React from 'react';
 import { Flex } from 'antd';
+import { useStyles } from '../order.tabs.styles';
 
-export const OrderPreview = (): React$MixedElement => (
-	<Flex
-		justify="center"
-		align="center"
-		style={{
-			width: '100%',
-			height: '100%',
-			border: '1px solid black',
-			fontSize: '2rem',
-		}}
-	>
-		<div>Preview Order Page</div>
-	</Flex>
-);
+export const OrderPreview = (): React.Node => {
+	const { styles } = useStyles();
+
+	return (
+		<Flex justify="center" align="center" className={styles.orderPreview}>
+			<div>Preview Order Page</div>
+		</Flex>
+	);
+};

@@ -1,0 +1,41 @@
+.container {
+	padding: 10px;
+	margin-bottom: 10px;
+	.cardElementActionOnBody {
+		position: absolute;
+		left: 35px;
+		top: 40%;
+		z-index: 10;
+		.moreBtn {
+			width: 20px;
+			border-radius: 0;
+			border-color: black;
+			border: 3px solid black;
+			color: black;
+			svg {
+				font-size: 40px;
+			}
+		}
+	}
+	.cardElement {
+		display: flex;
+		gap: 5px;
+		position: relative;
+		align-items: center;
+		border: 5px solid black;
+		padding: 5px;
+		.moreBtn {
+			width: 20px;
+			border-radius: 0;
+			border-color: black;
+			border: 3px solid black;
+			color: black;
+			svg {
+				font-size: 40px;
+			}
+		}
+	}
+	.title {
+		width: 100%;
+	}
+}

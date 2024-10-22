@@ -6,6 +6,7 @@ import { Flex } from 'antd';
 import { TimeWidgetsCustomClock } from '../../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import { TimeWidgetsWeeksAndYearsPanel } from '../../TimeWidgetsWeeksAndYearsPanel/TimeWidgetsWeeksAndYearsPanel';
 import { TimeWidgetsDateWithTimeBlock } from '../../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import styles from './TimeWidgets8LG.module.scss';
 
 interface ITimeWidgets8LGProps {
 	fullDate: { date: string, time: string };
@@ -24,12 +25,7 @@ export const TimeWidgets8LG = ({
 				<TimeWidgetsCustomClock />
 				<TimeWidgetsCustomClock />
 			</Flex>
-			<Flex
-				style={{
-					border: '1px solid black',
-					padding: '5px',
-				}}
-			>
+			<Flex className={styles.weeksAndYearsPanel}>
 				<TimeWidgetsWeeksAndYearsPanel />
 			</Flex>
 		</Flex>

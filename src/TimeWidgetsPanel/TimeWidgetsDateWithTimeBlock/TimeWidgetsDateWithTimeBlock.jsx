@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Flex, Typography } from 'antd';
+import styles from './TimeWidgetsDateWithTimeBlock.module.scss';
 
 interface ITimeWidgetsDateWithTimeBlockProps {
 	fullDate: { date: string, time: string };
@@ -19,10 +20,7 @@ export const TimeWidgetsDateWithTimeBlock = ({
 					<Text
 						// eslint-disable-next-line react/no-array-index-key
 						key={idx}
-						style={{
-							border: '1px solid black',
-							padding: '10px',
-						}}
+						className={styles.dateBlock}
 					>
 						{item}
 					</Text>
@@ -33,10 +31,7 @@ export const TimeWidgetsDateWithTimeBlock = ({
 					<Text
 						// eslint-disable-next-line react/no-array-index-key
 						key={idx}
-						style={{
-							border: '1px solid black',
-							padding: '10px',
-						}}
+						className={styles.timeBlock}
 					>
 						{item}
 					</Text>

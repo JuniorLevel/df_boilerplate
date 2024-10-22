@@ -1,15 +1,12 @@
 // @flow
 
 import React, { useState } from 'react';
-import { Flex } from 'antd';
+import { Flex, Card } from 'antd';
 import { OrdersFilterOpenedCardItem } from './OrdersFilterOpenedCardItem/OrdersFilterOpenedCardItem';
 import { OrdersFilterCardAddItemButton } from './OrdersFilterCardAddItemButton/OrdersFilterCardAddItemButton';
-import {
-	StyledCardDiv,
-	StyledCardItemDiv,
-} from './OrdersFilterOpenedCards.styles';
 import { StatusContainer } from '../../../StatusContainer/StatusContainer';
 import { OrdersFilterCardAddItemDialogButton } from './OrdersFilterCardAddItemDialogButton/OrdersFilterCardAddItemDialogButton';
+import { useStyles } from '../orders.filter.opened.styles';
 
 interface IOrdersFilterOpenedCardsProps {
 	cardItem: Array<any>;
@@ -31,16 +28,18 @@ export const OrdersFilterOpenedCards = ({
 		setFilterItems([...filterItems, newItem]);
 	};
 
+	const { styles } = useStyles();
+
 	return (
-		<StyledCardDiv>
-			<Flex vertical justify="space-between" style={{ minHeight: '295px' }}>
+		<Card className={styles.card}>
+			<Flex vertical justify="space-between" className={styles.cardContainer}>
 				<div>
 					{filterItems.map((item) => (
-						<StyledCardItemDiv key={item.id}>
+						<div className={styles.cardItem} key={item.id}>
 							<StatusContainer>
 								<OrdersFilterOpenedCardItem key={item.id} item={item} />
 							</StatusContainer>
-						</StyledCardItemDiv>
+						</div>
 					))}
 				</div>
 				{!dialog && <OrdersFilterCardAddItemButton onClick={addFilterItem} />}
@@ -48,6 +47,6 @@ export const OrdersFilterOpenedCards = ({
 					<OrdersFilterCardAddItemDialogButton cardItem={filterItems} />
 				)}
 			</Flex>
-		</StyledCardDiv>
+		</Card>
 	);
 };

@@ -2,6 +2,7 @@
 
 import React, { useContext, useEffect } from 'react';
 import { StatusContext } from '../../../context/StatusContainerContext/StatusContainerContext';
+import { useStyles } from '../../filters.search.list.styles';
 
 interface IFiltersSearchListItemStatus {
 	item: any;
@@ -9,7 +10,7 @@ interface IFiltersSearchListItemStatus {
 
 export const FiltersSearchListItemStatus = ({
 	item,
-}: IFiltersSearchListItemStatus): React$MixedElement => {
+}: IFiltersSearchListItemStatus): React.Node => {
 	const { setStatus, setRole } = useContext(StatusContext);
 
 	useEffect(() => {
@@ -17,14 +18,7 @@ export const FiltersSearchListItemStatus = ({
 		setRole(item.role);
 	}, [item.status, setStatus, item.role, setRole]);
 
-	return (
-		<div
-			style={{
-				padding: '15px',
-				fontSize: '1.2em',
-			}}
-		>
-			{item.text}
-		</div>
-	);
+	const { styles } = useStyles();
+
+	return <div className={styles.filtersSearchListItemStatus}>{item.text}</div>;
 };

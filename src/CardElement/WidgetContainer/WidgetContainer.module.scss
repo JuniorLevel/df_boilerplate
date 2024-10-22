@@ -1,0 +1,57 @@
+.container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin: 10px 0px;
+	padding: 10px;
+	background-color: #c3bfbf;
+	border: 5px solid black;
+	.content {
+		width: 100%;
+	}
+	.panelActionOnBody {
+		position: absolute;
+		right: 10px;
+		top: 40%;
+		z-index: 10;
+		.closeBtn {
+			border: none;
+			color: black;
+			svg {
+				font-size: 40px;
+			}
+		}
+		.moreBtn {
+			width: 20px;
+			border-radius: 0;
+			border-color: black;
+			border: 3px solid black;
+			color: black;
+			svg {
+				font-size: 40px;
+			}
+		}
+	}
+	.panel {
+		display: flex;
+		gap: 5px;
+		.closeBtn {
+			border: none;
+			color: black;
+			svg {
+				font-size: 40px;
+			}
+		}
+		.moreBtn {
+			width: 20px;
+			border-radius: 0;
+			border-color: black;
+			border: 3px solid black;
+			color: black;
+			svg {
+				font-size: 40px;
+			}
+		}
+	}
+}

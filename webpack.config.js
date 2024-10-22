@@ -11,7 +11,26 @@ module.exports = (env) => ({
 			? path.resolve(__dirname, 'src', 'main.jsx')
 			: path.resolve(__dirname, 'src', 'index.js'),
 	module: {
+		strictExportPresence: true,
 		rules: [
+			{
+				test: /\.s[ac]ss$/i,
+				use: [
+					{ loader: 'style-loader' },
+					{ loader: 'css-modules-flow-types-loader' },
+					{
+						loader: 'css-loader',
+						options: {
+							esModule: true,
+							modules: {
+								namedExport: false,
+								localIdentName: '[path][name]__[local]--[hash:base64:5]',
+							},
+						},
+					},
+					{ loader: 'sass-loader' },
+				],
+			},
 			{
 				test: /\.(js|jsx)$/,
 				exclude: /node_modules/,

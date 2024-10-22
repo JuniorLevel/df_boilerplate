@@ -1,14 +1,10 @@
 // @flow
 
 import React from 'react';
-import { Flex, Badge, Popover } from 'antd';
+import { Flex, Badge, Popover, Card } from 'antd';
 import { OrdersFilterOpenedCardItem } from '../../OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterOpenedCardItem/OrdersFilterOpenedCardItem';
-import {
-	StyledCardsDivPopover,
-	StyledCardItemDiv,
-	StyledCardsDiv,
-} from './OrdersFilterClosedCards.styles';
 import { StatusContainer } from '../../../StatusContainer/StatusContainer';
+import { useStyles } from '../orders.filter.closed.styles';
 
 interface IOrdersFilterClosedCardsProps {
 	cardClosed: any;
@@ -16,26 +12,30 @@ interface IOrdersFilterClosedCardsProps {
 
 export const OrdersFilterClosedCards = ({
 	cardClosed,
-}: IOrdersFilterClosedCardsProps): React$MixedElement => (
-	<Popover
-		placement="topRight"
-		content={
-			<StyledCardsDivPopover>
-				{cardClosed.item.map((item) => (
-					<StyledCardItemDiv key={item.id}>
-						<StatusContainer>
-							<OrdersFilterOpenedCardItem key={item.id} item={item} />
-						</StatusContainer>
-					</StyledCardItemDiv>
-				))}
-			</StyledCardsDivPopover>
-		}
-	>
-		<StyledCardsDiv>
-			<Flex gap={10} align="center">
-				<div>{cardClosed.title}</div>
-				<Badge count={cardClosed.item.length} />
-			</Flex>
-		</StyledCardsDiv>
-	</Popover>
-);
+}: IOrdersFilterClosedCardsProps): React.Node => {
+	const { styles } = useStyles();
+
+	return (
+		<Popover
+			placement="top"
+			content={
+				<Card className={styles.popover}>
+					{cardClosed.item.map((item) => (
+						<div className={styles.popoverItem} key={item.id}>
+							<StatusContainer>
+								<OrdersFilterOpenedCardItem key={item.id} item={item} />
+							</StatusContainer>
+						</div>
+					))}
+				</Card>
+			}
+		>
+			<Card className={styles.card}>
+				<Flex gap={10} align="center">
+					<div>{cardClosed.title}</div>
+					<Badge count={cardClosed.item.length} />
+				</Flex>
+			</Card>
+		</Popover>
+	);
+};

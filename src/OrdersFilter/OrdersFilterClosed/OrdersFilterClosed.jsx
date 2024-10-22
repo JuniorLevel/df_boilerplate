@@ -8,6 +8,7 @@ import { OrdersFilterCardsContainer } from '../OrdersFilterCardsContainer/Orders
 import { OrdersFilterClosedCards } from './OrdersFilterClosedCards/OrdersFilterClosedCards';
 import { OrdersFilterOpenedCards } from '../OrdersFilterOpened/OrdersFilterOpenedCards/OrdersFilterOpenedCards';
 import { OrdersFilterContext } from '../../context/OrdersFilterContext/OrdersFilterContext';
+import { useStyles } from './orders.filter.closed.styles';
 
 interface IOrdersFilterClosedProps {
 	open: boolean;
@@ -19,17 +20,19 @@ export const OrdersFilterClosed = ({
 	open,
 	filters,
 	dialog,
-}: IOrdersFilterClosedProps): React$MixedElement => {
+}: IOrdersFilterClosedProps): React.Node => {
 	const { isOpenedCards, setIsOpenedCards } = useContext(OrdersFilterContext);
 
 	useEffect(() => {
 		setIsOpenedCards(open);
 	}, [open, setIsOpenedCards]);
 
+	const { styles } = useStyles();
+
 	return (
 		<MediaQuery minWidth={361}>
 			<OrdersFilterCardsContainer>
-				<Flex gap="small" style={{ position: 'relative' }}>
+				<Flex gap="small" className={styles.cards}>
 					{!isOpenedCards &&
 						filters.map((card) => (
 							<OrdersFilterClosedCards key={card.id} cardClosed={card} />
@@ -47,7 +50,7 @@ export const OrdersFilterClosed = ({
 							icon={<CloseSquareOutlined />}
 							size="small"
 							onClick={() => setIsOpenedCards(!isOpenedCards)}
-							style={{ position: 'absolute', top: 5, right: 5 }}
+							className={styles.closeBtn}
 						/>
 					)}
 					{!isOpenedCards && (
@@ -55,7 +58,7 @@ export const OrdersFilterClosed = ({
 							icon={<ArrowsAltOutlined />}
 							size="small"
 							onClick={() => setIsOpenedCards(!isOpenedCards)}
-							style={{ position: 'absolute', top: 5, right: 5 }}
+							className={styles.arrowsBtn}
 						/>
 					)}
 				</Flex>

@@ -10,6 +10,7 @@ import { TimeWidgetsWeeksAndYearsPanel } from '../TimeWidgetsWeeksAndYearsPanel/
 import { TimeWidgetsCustomClock } from '../TimeWidgetsCustomClock/TimeWidgetsCustomClock';
 import { TextWidget } from '../TextWidget/TextWidget';
 import { TimeWidgetsDateWithTimeBlock } from '../TimeWidgetsDateWithTimeBlock/TimeWidgetsDateWithTimeBlock';
+import styles from './TextTimeRange2.module.scss';
 
 interface ITextTimeRange2Props {
 	text: string;
@@ -22,12 +23,8 @@ export const TextTimeRange2 = ({
 }: ITextTimeRange2Props): React.Node => (
 	<>
 		<MediaQuery minWidth={1300}>
-			<Flex
-				gap={10}
-				align="center"
-				style={{ border: '1px solid black', padding: '10px' }}
-			>
-				<div style={{ flex: '1 0 750px', alignSelf: 'stretch', order: 3 }}>
+			<Flex gap={10} align="center" className={styles.container}>
+				<div className={styles.content}>
 					<TextWidget text={text} />
 				</div>
 				<TimeWidgetsDateWithTimeBlock fullDate={fullDate} />

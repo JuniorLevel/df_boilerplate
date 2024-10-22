@@ -7,8 +7,8 @@ interface ILogoProps {
 	title: string;
 }
 
-export const Logo = ({ title }: ILogoProps): React$MixedElement => (
-	<div style={{ fontSize: '2em' }}>
+export const Logo = ({ title }: ILogoProps): React.Node => (
+	<div>
 		<span>
 			<OpenAIOutlined />
 		</span>

@@ -5,7 +5,6 @@ import { OrderTabs } from './OrderTabs/OrderTabs';
 import { OrderContainer } from './OrderTabs/OrderContainer/OrderContainer';
 import { ThemeWrapper } from './ThemeWrapper/ThemeWrapper';
 import { Layout } from './Layout/Layout';
-import { GlobalStyle } from './global.styles';
 import { Footer } from './Footer/Footer';
 import { OrdersFilterClosed } from './OrdersFilter/OrdersFilterClosed/OrdersFilterClosed';
 import { OrdersFilterProvider } from './context/OrdersFilterContext/OrdersFilterContext';
@@ -39,8 +38,9 @@ import { FourImagesBg } from './Welcome/FourImagesBg/FourImagesBg';
 import { SingleImageBg } from './Welcome/SingleImageBg/SingleImageBg';
 import { Welcome } from './Welcome/Welcome';
 import { OrderListItem } from './OrderListPreview/OrderListContainer/OrderListItem/OrderListItem';
-import { OrdersFilterDesktopDialog } from './OrdersFilter/OrdersFilterDialogs/OrdersFilterDesktopDialog';
-import { OrdersFilterMobileDialog } from './OrdersFilter/OrdersFilterDialogs/OrdersFilterMobileDialog';
+import { OrdersFilterDesktopDialog } from './OrdersFilter/OrdersFilterDialogs/OrdersFilterDesktopDialog/OrdersFilterDesktopDialog';
+import { OrdersFilterMobileDialog } from './OrdersFilter/OrdersFilterDialogs/OrdersFilterMobileDialog/OrdersFilterMobileDialog';
+import { OrderListDiffContainer } from './OrderListPreview/OrderListDiffContainer/OrderListDiffContainer';
 
 export {
 	Layout,
@@ -48,9 +48,9 @@ export {
 	OrderPreview,
 	OrderTabs,
 	OrderContainer,
+	OrderListDiffContainer,
 	OrderListItem,
 	ThemeWrapper,
-	GlobalStyle,
 	Footer,
 	OrdersFilterClosed,
 	OrdersFilterProvider,
